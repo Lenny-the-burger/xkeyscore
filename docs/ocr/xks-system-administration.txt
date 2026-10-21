@@ -1,0 +1,3554 @@
+
+===== xks-system-administration page 1 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+ne Satone 1 pen a Oe Lore; Fae -@ “! 2 . + “ 1101 MONS! ut
+Te orto! (Oot . +) enw . < nye oh) 9.1 Ort 4:
+11046 01 01010 1 OE = 1OT LP Tat oo § PTI P loo =< ;
+- ene) eee DE at) ee OP SEGR TH Sli REL TO USA, AUS, CAN, GBR, NZL to 719 |
+
+===== xks-system-administration page 2 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-system-administration page 3 =====
+Lesson Objectives
+
+“Introduction to XKEYSCORE
+/Purpose and Capabilities
+
+¥/Data Flow
+¥What is a Cluster?
+¥XKEYSCORE Databases
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 3
+
+
+===== xks-system-administration page 4 =====
+Introduction
+
+» XKEYSCORE performs filtering and selection
+to enable analysts to quickly find information
+they need based on what they already know.
+
+» XKEYSCORE also performs SIGDEV
+functions such as target development to allow
+analysts to discover new sources of
+information.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 4
+
+
+===== xks-system-administration page 5 =====
+REL TO USA, AUS, CAN, GBR, NZL
+
+Introduction
+
+» XKEYSCORE processes data at field sites,
+where it is collected, and allows analysts from
+all over the world to query It.
+
+» Ai field sites, the XKEYSCORE software can
+run in clusters of few or many servers, giving it
+the ability to scale in both processing power
+and storage.
+
+» All processing is plugin or fingerprint based,
+which allows new capabilities to be quickly
+deployed to support operational needs.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 5
+
+
+===== xks-system-administration page 6 =====
+NN, GBR, NZL
+
+Purpose and Capabilities
+
+sa XKEYSCORE is a Computer to Computer
+(C2C) exploitation system.
+
+a Itis a fully distributed processing and query
+system.
+
+» XKEYSCORE can run on multiple servers.
+
+» Plugin and fingerprint architecture allows new
+Capabilities to be quickly deployed.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 6
+
+
+===== xks-system-administration page 7 =====
+EL TO USA, AUS, CAN, GBR, NZL
+
+Hardware
+
+» XKEYSCORE Is typically installed with Red Hat
+AS5u8 operating system. The suggested disk set up
+
+IS.
+e Set up separate partitions for / (root), /var,
+/tmp, and /export/data
+» XKEYSCORE clusters can be composed of three
+
+different functionalities, which are:
+
+e One host acts as the web server/user interface, etc...
+
+e Another host normally runs as the real-time processing unit
+e Other host acts as the search or query system.
+
+» Hybrid system can perform multiple roles on one
+server, which enables efficient registration.
+
+e process data_parent
+e 1 query proc
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL i
+
+===== xks-system-administration page 8 =====
+Data Flow (High-level)
+
+ms The backend is where the raw data for
+XKEYSCORE Is processed; that is, we
+receive information from our sources (e.g.
+WEALTHYCLUSTER2), process it, and store
+
+it into a database.
+
+[sessions] —— [processing engine] ——> (database) €<— > (user queries)
+: Database
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 8
+
+
+===== xks-system-administration page 9 =====
+AN, GBR, NZL
+
+Data Flow - XKS Cluster
+
+=» A cluster is comprised of one master server
+and one or more slaves.
+
+s All slaves in a cluster have their own copy of
+configurations (/opt/xkeyscore/config) files via
+the xks rsync push_config cronjob.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL S
+
+
+===== xks-system-administration page 10 =====
+Pate E lov a ae
+
+‘a There are two types of databases on an
+XKEYSCORE system: insert (10) and query
+
+(qO)
+
+NOTE: sotf input proc is now called, sotf dist
+process dataN’s are now called, process data parent
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 10
+
+===== xks-system-administration page 11 =====
+Data Flow - Database
+
+a file input proc and sotf dist take In sessions
+from the front-end and load balances them
+across multiple process data parents.
+
+=» process data parent is responsible for
+processing sessions and extracting metadata
+
+=» xks_meta ingester takes the metadata from
+the process data parent's and writes it to the
+insert database, 10
+
+= register metadata tables takes completed
+insert tables, indexes them, and moves them
+to the query database, qO
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL ll
+
+===== xks-system-administration page 12 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+12
+
+===== xks-system-administration page 13 =====
+Lesson Objectives
+
+¥ Operating System Services
+YHTTPD
+V¥MYSQL
+¥ NFS
+/AUTOFS
+¥ Mount Points
+¥/xks_ data
+
+¥ Directory Structure
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 13
+
+
+===== xks-system-administration page 14 =====
+IBR, NZL
+
+Operating System Services
+
+- XKEYSCORE is typically installed on servers
+running Red Hat 5u8 operating system.
+
+=» I|his section discusses common operating
+system services used during XKEYSCORE
+operation.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 14
+
+
+===== xks-system-administration page 15 =====
+ALE PD
+
+=» Ihe http daemon is needed for the web-based
+GUI, viewing content, and is required on all
+servers.
+
+» |he master server is the web server and the
+Slaves retrieve content through HTTPS.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 15
+
+
+===== xks-system-administration page 16 =====
+- The mysql daemon is a SQL-based database
+
+server for processing, querying, and is needed
+for the XKEYSCORE GUI.
+
+a It is required on all servers for administration,
+processing, and querying metadata In
+databases.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 16
+
+
+===== xks-system-administration page 17 =====
+» Mounting a directory uses the NFS service.
+
+=» NFS allows file systems that physically reside
+on one computer to be shared by other
+computers on the network.
+
+» Ihe machine with the hardware containing the
+directory must allow the hardware to be made
+available to other machines.
+
+=» Required on all computers for clustering.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL l/
+
+
+===== xks-system-administration page 18 =====
+NFS
+
+tba
+
+» /etc/exports
+e /export/data/xkeyscore master(rw) slave(rw)
+e /opt/xkeyscore/config/loadserver *(rw)
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 18
+
+
+===== xks-system-administration page 19 =====
+AUTOFS
+
+=» Computers requiring shared access to the
+/export/data/xkeyscore directory must be told
+where to find the directory.
+
+e This is accomplished via automounting.
+=» [he autofs daemon listens for computers
+
+trying to connect to the directories, or mounts,
+that it is responsible for.
+
+=» [he mounts are dropped after a time out, but
+autofs remounts the drive when drives need
+to be accessed.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 19
+
+
+===== xks-system-administration page 20 =====
+Automounting
+
+» For aclustered XKEYSCORE, automounts
+must be set up on all of the computers in the
+cluster.
+
+» auto.master and auto.dafta files in the /etc
+directory must be edited or created.
+
+» When finished, the mounted directories on the
+remote machines can be accessed.
+
+=» Ihe oper account should nave full read/write
+permissions on all shared drives.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 70
+
+===== xks-system-administration page 21 =====
+Mount Points
+
+» auto.master — designates mount points on the local
+
+computer and the directory to mount on the remote
+server.
+
+e Example:
+» /xks data fetc/auto.data __--timeout=60
+
+=» auto.data — enables all servers to see the
+/export/data/xkeyscore directory on other machines
+
+and locate databases, archived, data, and
+MAILORDER directory.
+
+e Example:
+
+» xks1 -rw,soft,intr,tcp xks1:/export/data/xkeyscore
+» xks2 -rw,softintr,tco xks2:/export/data/xkeyscore
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 71
+
+===== xks-system-administration page 22 =====
+Wirectory Structure i
+
+s /opt/xkeyscore/ — contains all of the
+XKEYSCORE software. Software includes
+the GUI, processing, scripts, and
+configurations.
+
+e bashrc — XKEYSCORE environment variables
+file.
+
+e beacon/ - contains the beacon perl script
+(shm_ beacon.pl) and a link to the beacon
+configuration file (shm_beacon.config).
+
+e bin.shells/ and bin.shells/sysadmin - contains
+miscellaneous bash, python, and C shell scripts.
+
+e build/ - contains libraries and plug-ins.
+e install/ - contains installation scripts.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 2?
+
+
+===== xks-system-administration page 23 =====
+Wirectory Structure i
+
+=» /opt/xkeyscore/config/ — consists of sub-directories
+and each contain configuration files for building and
+running XKEYSCORE.
+e crontab/ - contains the master and slave crontab file.
+
+e dictionaries/ - contains the dictionary files for the filtering,
+selection, T[RAFFICTHIEF, CADENCE, fist tables, and any
+other local dictionaries.
+
+e misc/ - contains miscellaneous per-plug-in configuration
+files, (i.e. sotf_input_proc.xml ).
+
+e plugins/ — contains event handler configuration files for
+each of the plugins (default.xml).
+
+e wwwi - contains web configuration files and xscore.cfg.
+
+e SERVICE/ - contains the config files for all the services
+needed by XKEYSCORE (hitpd, php, mysqid, etc. )
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 23
+
+
+===== xks-system-administration page 24 =====
+Directory Structure EF
+
+s /opt/xkeyscore/wwwi - contains the contents
+of the web front end.
+
+e docs/ - contains documents viewable through the
+XKS GUI.
+
+e html/ - contains web pages and scripts that are
+not on the secure server.
+
+e secured/ - contains web pages and scripts that
+are on the secure server including:
+
+> crons/ - location of cron job scripts
+e src/ - contains source code for the XKS GUI.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 24
+
+
+===== xks-system-administration page 25 =====
+Directory Structure i
+
+s /export/data/xkeyscore/ - is used for both internal
+databases and metadata archive databases, Input,
+output, and archiving of data.
+
+e archives/ - (optional) destination for processed content
+e inputs/ - (optional) used for file based input
+
+e mysql/ - location of the MySQL database consisting of
+admin, insert, and query databases.
+
+e outputs/ - (optional) contain the following sub-directories:
+>» mailorder/ - pickup point
+
+» mailorder_working/ - file creation point before being moved to
+mailorder/
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 25
+
+
+===== xks-system-administration page 26 =====
+Directory Structure i
+
+he
+
+» /Xks_data/ - logical mount point for all other
+XKEYSCORE (including itself)
+/export/data/xkeyscore.
+
+e <hostname?>/ - mount point for the hostname’s
+
+local directory /export/data/xkeyscore (referenced
+by host name).
+
+» All servers must export their /export/data/xkeyscore
+directory and mount this on the /<hostname> directory
+for each hostname of each machine, including itself.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 26
+
+
+===== xks-system-administration page 27 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+27
+
+===== xks-system-administration page 28 =====
+Lesson Objectives
+
+-¥ Accessing the GUI
+
+“Exiting a Session
+
+Main Menu Bar
+
+MyXKS
+
+Admin
+
+“Computer Resources Option
+“Start and Stop Processing
+“Run a Process Manually
+Users
+
+search
+
+Workflow Central
+
+Results
+
+Fingerprints
+
+444
+
+R444
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 28
+
+
+===== xks-system-administration page 29 =====
+=» In the adaress field of a web browser, type
+httos://<master hostname or IP address>.
+
+» PKI s or a UsSerlD and password are required.
+After successfully launching a new session,
+the XKEYSCORE WELCOME window
+
+appears.
+
+e Note: Compatible web browsers for XKEYSCORE
+version 1.5 are:
+
+> Internet Explorer is not supported
+» Firefox/3.0.* and above
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 29
+
+
+===== xks-system-administration page 30 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+we tom Boyes Ay odor a Lrers “search FT wokdow Centra Kaputs 1- Finget prs A Stabedce fay Mas dela
+
+Mavizjaluri Fler By EE
+
+SF) ems
+3S) lest sgaecd bes
+Ful cg :
+1S Lek Summa} Map Bece:
+culapenich XKEYSCORE
+th e sr oh, i
+‘ler P
+‘Ea sddeecies Suggested achievements
+Seeks Crealed Yvon bellow
+‘S, Fub oc 00
+| 5
+i, PTT? Acav ky
+=| My Ageperti
+Ea ore
+=|Me tooork Fosaks
+
+hones
+
+=|Profle
+5S) 4dor
+a | Process re
+= Conde Ressacss
+= Spt Lrazcores
+— tnt HUMAN RIGHTS ACT,
+Fee cnn cee USSID 18 AND USSID 9
+fa DE Regradon AIEEE] quenes require a justiicatan fo
+SJL ensure |inian Rights Act (IFA) USGID 40 and
+= Casscosaticr Claceis: USSI09 cunpianice, Please enter irdurnvalion
+= Beload Lorfc Fis: a6 prompled by the query interace. An audit
+= Hews trail has been established and yall be searched
+er Ip Sucmery Table aa pant of Menealh Hill Gbation's response to any
+Fh Craticore: complaint brought under |1RA and as part of the
+— LSID TO) and URS 9 ponuess
+fo Short
+(lasts Froder Please mote that SENSE TARGETING
+Sl bes APPRIMVAL (STA) is mqumed fu HRS before
+SB) Leer sereurt: Submibling any query which includes tam:
+=] chaares Speciic loa Person oF Company (eg nearne,
+=]Prdaqe: address, wdentity details such a3
+=] seu! Fue Conrnunicahons address, passportfbank
+FV user: Crirc farcalind nainihesr) who ETTTOR fa) is cbefiriesdl a
+— a UK Gritrsh Qeperidend Temibury (BOT) or
+2 Sian Second Paty “parson” or (b] ic located in the
+=| Search incr Ws, or a BOT or Second Party country. STA is
+J Sjereyoes also required tor wildcard pulls that are inewlably
+it be Oni orcas Sa qoing tr netive a Suhsdandial pagination af saic.h
+re kor kaucere panties (@.g wildeariing oma WK rity code) Pull
+ie be te feeae Pena ke legal gudance is available ivan the HRA
+woe User Saree Compliance Officer at Marwith Hall Station.
+
+int Web arcs
+=] 5] Dotns:
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 30
+
+===== xks-system-administration page 31 =====
+Main Menu Options us
+
+» [he main menu bar across the top of the
+window has menus that, when selected, each
+has additional options available in a drop
+down menu form.
+
+cyrone MOMS PX Adin dy Users Search Gf workflow Central | Resuts FF Fingerprints $= teoning ‘Reports (E]statties ‘= taking rap @ Hebe
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 31
+
+
+===== xks-system-administration page 32 =====
+Main Menu Options HBA
+
+| Returns to the main page.
+
+Can edit user settings, disable/enable access to
+databases, edit a search form search setting, and restore
+default settings.
+
+Computer resources, Input Directories, Category Throttle,
+search DBs, and DB Registration settings.
+
+Contains User Accounts, Clearances, Privileges, Send
+Email, Users Online, My Auditees, My Audit Logs, and All
+Audit Logs.
+
+Search
+
+Provides different search query forms, such as email
+addresses, category, full log, and user activity.
+
+Workflow Central
+
+Request , modify, and view standing queries that will
+execute at a specified time or interval.
+
+Results
+
+Can search personal searches by date time, query type,
+query name, output table, and user.
+
+Fingerprints
+
+Fingerprint builder and viewer.
+
+Map
+
+Brings up Google Earth
+
+Help
+
+Help Documentation, XK Forum, Account Maintenance,
+and About XKEYSCORE
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+32
+
+===== xks-system-administration page 33 =====
+Computer Resources
+
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+Allows for process configuration and management.
+
+Input Directories
+
+Contains the configuration for file-based input directories.
+
+Category Throttle
+
+Edit CADENCE quota limits by category and/or fist table.
+
+Search DBs
+
+Configuration for query databases which are queried
+when a search is submitted.
+
+DB Registration
+
+Contains the mapping from insert databases to query
+database.
+
+News
+
+Add, modity, delete mandatory and home page News.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 33
+
+===== xks-system-administration page 34 =====
+Computer Resources
+
+» [he Processing->Computer Resources
+option from the ADMIN menu allows control of
+
+the entire daemon-styled, or continuously
+running, processes for XKEYSCORE.
+
+=» Processes appears in a table following the
+convention:
+
+<PROC HOST><PROGRAM NAME><PROGRAM ARGUMENTS>
+xkeyO7 process_data_parent
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 34
+
+
+===== xks-system-administration page 35 =====
+fl | =
+|
+
+Computer Resources
+
+Computer Resource Window Process Table
+
+TOP SECRET/ /SI! /REL TO USA, 4
+
+#rHone € MyxkKS rs Admin oo Users seach ‘ workflow Central
+
+Navigation Fiter
+(SS) Processing
+=] Computer Resources
+=] Inpu: Directories
+[=|] Category Throttle
+= 5] Databases
+|] Search DBs
+=] DB Registration
+SS) utilities
+=] Casenotation Blacklist
+=] Reload Corfig Files
+=] News
+imo Ip Surnmary Table
+im Crashlogger
+im Startup
+. Query Profiler
+
+ss)
+
+* |
+
+| Help
+
+©) Results | Fingerprints [5] statistics GQmap @ Heb ~
+
+| Computer Resources |
+
+® Help Add Actions = App Launcher is Running
+
+Pree Host
+thekewrO1
+
+theksvrO1
+tleksvrO1
+theksvrO1
+txkevro7
+theksvrO1
+thekevrOd
+theksvrO1
+theksvrO1
+theksvrO1
+theksvrO1
+theksvrO1
+thxekevri
+txkswrOl1
+
+Actions
+
+Progran Mame
+GUid
+
+query proc
+
+check_mailorder_ste php
+
+xks_meta_ingester
+CICKSireamservice sn
+query _dispatch
+file_input_proc
+xks_system_monitor
+sotftodl 24server
+lomeat.sh
+cadence_tasking_proc
+xks_server_stats
+mailorcer_proc
+register_metedata_tables
+
+STOPPING
+
+Program Arqunent:
+
+-nyfdi XYD —pddg IE digraph X5
+
+SPP LAUNCHER STOPPED
+
+-doglevel error
+
+RUNNING
+
+Program Pi 8 Commanded Status
+feof
+
+31013
+31051
+S103
+isi
+
+31104
+13356
+31108
+31124
+31136
+31136
+31140
+s1143
+
+eeseooceeeseess
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+SPP LAUNCHER STOPPED
+
+Stakirs
+
+RUM
+RUM
+RUM
+
+WON'T START UP
+
+WON'T START UP?
+APP LAUNCHER STOPPED
+
+Catone Started
+2012-12-03 16:4449.0
+
+2012-11-27 17:33:57.0
+2012-11-27 17:33:57.0
+2012-11-27 17:3357.0
+2012-11-27 17 5557.0
+2012-12-03 21:0803,0
+2012-41-27 17:33:57.0
+2012-11-27 21:01:13.0
+2012-11-27 17:33:57.0
+2012-11-27 17:33:57.0
+2012-11-27 173557 .0
+2012-11-27 17:33:57.0
+2012-11-27 17:33:57.0
+2042-41-27 17:3257.0
+
+Datetine Stopped
+2012-12-03 16:44:49.0
+
+2012-11-27 1 5247.0
+2012-11-27 17:32:47.0
+2012-11-27 1 5247.0
+2012-11-27 1732470
+201 2-12-03 21:08:07 0
+2012-11-27 17:32:47.0
+2012-11-27 21:01:13.0
+2012-11-27 17:52:47.0
+2012-11-27 17:52:47.0
+2012-11-27 17:32:47 0
+2012-11-27 17:32:47.0
+2012-11-27 17:52:47.0
+204 2-11-27 17:33:50.0
+
+35
+
+===== xks-system-administration page 36 =====
+AUS, CAN, GBR, NZL
+
+Computer Resources
+
+» [he xks_app_launcher process runs on all
+servers from the inittab.
+
+a It tells the computer which program to run by
+looking at its tasking host.
+
+a /opt/xkeyscore/contig/www/xscore.cfg
+
+e |The config Tile specifying the location of the
+tasking database.
+
+» Processes can be stopped, started, edited, or
+
+deleted from the Computer Resources
+window.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 36
+
+===== xks-system-administration page 37 =====
+Computer Resources
+
+s Add a new process — click Add
+
+»s Edit a process — click Stop in the ACTION
+column, then click Edit.
+
+=» Delete process — click Stop in the ACTION
+column, then click Delete.
+
+s Stop the App Launcher — disables the
+xkS_app launcher on every host.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 37
+
+
+===== xks-system-administration page 38 =====
+AN, GBR, NZL
+
+Resources — Color Conventions
+
+» Visual cues in the form of colors are used to
+help identify activities performed by
+XKEYSCORE and serve as status Indicators
+
+for monitoring purposes.
+
+e Red — indicates processes have been stopped
+
+e Green — indicates processes are running
+
+e Yellow — indicates processes are starting
+
+e Orange — indicates processes are being stopped
+e White — indicates processes wont start
+
+s Visual cues are also available in the
+COMMANDED STATUS and STATUS
+columns of the table.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 38
+
+
+===== xks-system-administration page 39 =====
+AN, GBR, NZL |
+
+Resources—Start/Stop Processint
+
+» It may be necessary to stop or start processes
+for troubleshooting or for a graceful server
+restart.
+
+s Individual processes and programs — Click
+
+Stop in the ACTION column. To start it, click
+Run.
+
+=» |o stop all individual programs, select
+ACTIONS->Start/Stop Resources. Enter the
+program name in PROGRAMS field, then click
+OK.
+
+=» Can use ‘xks proc’ actions and commands to
+do the same function
+
+TOP SECR TO USA, AUS, CAN, GBR, NZL 39
+
+
+===== xks-system-administration page 40 =====
+AN, GBR, NZL |
+
+Resources—Start/Stop Processint
+
+s All Processing - select START/STOP
+Resources from the ACTIONS drop-down
+menu, leave the PROGRAMS and ON
+
+HOSTS fields to their defaults, click OK.
+
+s Specifying programs or hosts — select
+
+STOP or START, enter a wildcard expression
+such as * or! in the PROGRAMS or HOSTS
+
+field, and click OK.
+
+e Example: process*
+
+# Alternatively, in a terminal window can run:
+e xKs proc stop process”
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 40)
+
+
+===== xks-system-administration page 41 =====
+AN, GBR, NZL
+
+Runa Process Manually
+
+=» It may be necessary to run a process manually for
+
+troubleshooting purposes. To run a process
+manually:
+
+1. Launch the GUI and log on as oper or admin.
+
+2. Click ADMIN > Processing > Computer Resources
+3. Click Stop in the ACTION column for the process.
+
+4. Open a terminal window and ssh to the host running the
+
+process, as the user oper .
+5. Type ps -ef | grep <process name> to verify
+that the process Is stopped.
+6. Type <program name><program argument>
+
+» Example:
+query proc <program arguments, if any>
+ao LOoglevel Gebnug
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 41
+
+
+===== xks-system-administration page 42 =====
+Users Menu
+
+| qe Home eC Myxks & Admin a
+
+ix
+
+Navigation Filter x| ) (ee
+
+==] User Accounts
+=] Clearances
+= Privileges
+
+=] Send Email
+
+=] Users Ontine
+
+=» [his menu Is only accessible to users with
+system administration privileges.
+
+» An SAcan add/modify user accounts, add
+groups, clearance levels, privileges, and
+email users from this menu.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 4?
+
+
+===== xks-system-administration page 43 =====
+a From the main menu bar, click MyXKS to view
+
+MyXKS
+
+your profile, accesses, privileges, auditors,
+settings, fingerprints, workflows, and recent
+
+results.
+
+a Right click on any search form name to add a
+shortcut for that search form.
+
+«|
+
+Navigation Fitter x | |] |e
+
+<1), Full Log DMI
+\\HTTP Activity
+
+| hh Fingerprints
+=| My WorkFlows
+
+=| My Recent Results
+=] Profile
+
+f f~
+
+Full Log DAI HTTP Activity My Fingerprints My Worktowes
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+by
+fia
+
+Ly Recent Profile
+Results
+
+43
+
+===== xks-system-administration page 44 =====
+search Menu
+
+» From the main menu bar, click SEARCH.
+Menu options display in the vertical pane on
+the left. |s2nn. | Se ante
+
+SS) Anoanyrizer Machine Information
+i Tor Gian Address Surway eo Miechins Information
+i Tor Routers Co. Network IinForrrsticns
+i Tor SoFkveane Downloads: ire Aeterork IinF orrmention
+
+(om Alor tcurn Se
+ie Siinoklassnild
+rm Cuinokbassmik
+
+i Tor User Sure y
+ino Viteb Ainonymizers
+
+Sy Botnet fh Passwords in ROP
+SS) Quentumbat . Reegistiry
+1 SLAM TLIMEOT Table Sy Registry
+SJ ROGVESTITCH Pm User Assict
+iA Pose STITCH CF Ruegichiry Dink ore sticms
+we Pe Sholen Creds im Reuter Survey
+Le | NE fe SCARFACE Mekvebrk Taher stion
+we Active Passive Map fm Web Servers
+(ONE Triage ¥2 fe Windows User Security bdentifier (SIG)
+1 Sommecbion Inhormetion aad vBulletin Sesstons
+OP8 Sok bonchainrsenve sae
+: eo Aechive imo Pas oueond
+im E¥ou Mal Server Logs im Atabmail logs
+— Email Addracces im Ebel logs
+iM Endpoint Attached Media Fe Ennai
+imo Endpoint File Hieshes im Fu Mlfint
+wm Endpoint Related Sessions mm MSS User Ackrwity
+wo Endpoint Stats Endpoint Reenable im Msz Keys and User Activity
+Wm Endpoint Stats Endpoint Related Counts im Opera Mind Headers
+(CL. Extracted Files fm. Parcel Tracking
+Wo Eyou Mail Logs (rm Plane Kncwan Password: 7
+(e Fourth Party Passive Map in vane hue thas persishent evwerceokies
+\, Full Log ON Se 2 Sanne reshs
+i) HTTP Request Cookies (Pe Zamencis and esctractedd File:
+i IE Cookies ire Famensis and full-text
+i Kaspersky PSP a veulletin Ses csomc
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 44
+
+
+===== xks-system-administration page 45 =====
+11H),
+al
+
+j = When choosing a plugin type from the menu
+
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+options, the only data searched Is the data that
+was identified as a hit when the plugin was
+orocessed.
+
+Category DNI
+
+searches dictionary category hits.
+
+Full Log DNI
+
+searches all sessions received by XKEYSCORE.
+
+User Activity
+
+Enables a user to search by a user's activity.
+Example: a user can find a hotmail user’s
+msnWMiailloken
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+45
+
+===== xks-system-administration page 46 =====
+tEL TO USA, AUS, CAN, GBR, NZL
+
+search Menu
+
+» All Searches are conducted on database
+
+tables where the results of the XKEYSCORE
+engine are stored.
+
+» Each row of a database table contains values
+from an individual session that was identified
+as a hit by XKEYSCORE when that plugin or
+microplugin processed the session.
+
+» Each search type query Is related to a plugin
+
+or microplugin, which performs the metadata
+extraction.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 46
+
+===== xks-system-administration page 47 =====
+AUS, CAN, GBR, NZL
+
+Search Menu - Detail
+
+as Search details can be accessed from the
+search status window by clicking Details.
+
+s CURRENT SEARCH DETAILS window
+
+displays and allows the user to watch a query
+run through the appropriate databases.
+
+»s RESULTS link in the main menu bar can be
+used to display a list of all previous search
+results.
+
+=» Queries operate in parallel on each host.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 4/
+
+
+===== xks-system-administration page 48 =====
+1 7 fa bo
+
+search Menu — Details Win
+
+V4 Details Window
+
+me ee ee eee eee, ee ee ee ee ee a 2 ee pe
+
+oe oe Hides F imine Spee Se
+
+l
+[
+!
+1
+
+—] ALin Rose Cet poe ee
+
+—=
+——
+=!1
+—=
+EI
+—_
+—s |
+——— |
+——
+EI
+——— |
+——|
+a
+=
+—=
+—— |
+=!1
+—
+E=I
+=
+—s |
+—_———_
+—— |
+—a
+——— |
+—=
+ae
+=
+|
+—— |
+i=
+—=
+——
+=!1
+_I
+— |
+—— |
+———
+——
+—a
+_——|
+
+OE PS bcs Le a SSL Pe oe 2
+
+STIist Ree ro) Sr Ss ee ee eo Sr loc
+
+bt
+
+Deer ee ee eee oi led
+
+SLIn Rose DE eee eee
+
+Le i il et | Oo. Sa bao l
+
+*
+
+eRe a ell Relies Re ee DO ee ee Dd ee
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 48
+
+
+===== xks-system-administration page 49 =====
+REL TO USA, AUS, CAN, GBR, NZL
+
+Results
+
+» From the main menu bar, click RESULTS to
+
+retrieve the results of previous queries.
+
+» By changing the start and stop dates, queries
+performed between those dates can be
+viewed.
+
+a If the query name Is Known, it can be entered
+in the QUERY_NAME field.
+
+s If the USERID is known, It can be entered.
+
+» When complete, a window displays with the
+matching queries.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 49
+
+===== xks-system-administration page 50 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+50
+
+===== xks-system-administration page 51 =====
+Lesson Objectives
+
+,
+‘
+: - a
+
+'¥ XKEYSCORE Process Data Flow
+¥ Processing Programs
+¥ Query Processes
+
+“ Other Processes
+
+¥ Cronjobs
+“crontab
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 51
+
+
+===== xks-system-administration page 52 =====
+AN, GBR. _ NZL
+
+Back-End Process Data rlOW —
+
+‘sotfinput_handle
+
+| r
+| SOE
+
+| WE
+
+]
+“Syste
+System and other formatl ile_input_proc
+, Scans dirs
+for new files
+3 —
+i Insert Host SS = ull
+
+——— a a ee a ES aS eS a aaa eas lCcOmllcEElClCcEAemDhlUCRUmLmeSl LT Eee cee SOE ee —a |
+
+—=_ = — —ettt—s oe) ee
+
+Query Host QueryDBs
+
+Master Host
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 5?
+
+
+===== xks-system-administration page 53 =====
+Processing Programs
+
+- Processing programs are the main processes that extract metadata from
+| the traffic and then database the information in insert databases.
+
+file input proc | Scans for new input files. (before
+processing moves the file to the .tmp
+directory of the input directory specified)
+
+sotf dist Listens for incoming SOTF sessions
+
+process data parent | Processes all new files discovered by
+file input_proc or sotf_ dist; optionally
+archives content and databases
+metadata. Parent process loads all
+dictionaries and starts up, then forks child
+processes which do the actual
+processing.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 53
+
+
+===== xks-system-administration page 54 =====
+AN, GBR, NZL
+
+Processing — process _ data parent
+
+This process replaces process _dataO through process datax
+
+» Ihe ‘parent’ process starts up and loads all the dictionaries, and then “forks”
+child processes which actually do the processing
+
+» Parent acts similar to the xks_app launcher, managing restarts for the
+children when they die
+
+» When dictionaries are modified, parent reloads them and restarts the children
+» xks proc will show an “X/Y° number next to process data parent
+
+e This is the number of children currently running, over the number that
+should be running (based on the xks.config num_data_processors setting)
+
+e pdp will show up yellow anytime X != Y and green when everything Is
+running normally
+
+e This means when you first (re)start pdp, it will show yellow while it is
+loading the dictionaries, because none of the actual child process _data’s
+are running yet
+
+» xksproc will report extra or missing process dataX with a PID of 0
+
+e Cant tell what PID missing process data is suppose to have, because its
+managed by the parent now
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 54
+
+
+===== xks-system-administration page 55 =====
+Query Processes
+
+a Query processes are processes that search
+
+and submit all necessary tables for the
+analysts queries.
+
+query dispatch
+
+| Submits search Jobs to search databases
+and propagates the status of the search
+and results back to the web server
+
+query_proc
+
+Searches through all the necessary tables
+for the analysts queries.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 55
+
+===== xks-system-administration page 56 =====
+©ther Process
+
+a Other process which is run from the
+Application Launcher.
+
+=» mailorder_proc — polls the
+/export/data/xkeyscore/outputs/mailorder_working
+
+directory by default. Then renames and moves
+
+mailorder files to
+/export/data/xkeyscore/outputs/mailorder.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 56
+
+
+===== xks-system-administration page 57 =====
+EL TO USA, AUS, CAN, GBR, NZL
+
+©ther Process
+
+» xks_meta_ingester — streams metadata over
+socket. [nis process improves database
+performance. Instead of each xscore_ proc
+writing to the database independently, they
+stream their metadata over socket to the
+meta_ingester, which combines It by plugin
+
+and writes to the database.
+
+e Reduces the number of connections to MySQL and
+gives better control over table size.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 5/
+
+
+===== xks-system-administration page 58 =====
+EL TOUSA, AUS, CAN, GBR, NZL
+
+©ther Process
+
+s register_metadata_tables — moves tables
+from processing database of XKEYSCORE
+system to query database.
+
+e Works against the uber_index table
+e uber index->table name, base table name, join table
+
+e Base table — contains common information
+amonat tables (full log xxx xxxxx table)
+
+e Extension table — extends the base table
+
+e Registration process takes place In two phases:
+» Register all base tables
+
+» Register all extension tables that have had Its base table
+registered
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL c8
+
+===== xks-system-administration page 59 =====
+Other Processes Ei
+
+=» Signal_acquisition_loopback — process that
+feeds modified packets back into the system.
+
+e Front-end for packet recursion or any other
+process that feeds modified packets back into the
+system
+
+>» Reinjects back to front-end — xfip
+» Process Is completel independent
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 59
+
+
+===== xks-system-administration page 60 =====
+Other Processes oi
+
+= Mpmr_server — this is the map-reduce server
+for microplugins, which runs the “Reducer”
+portion of GENESIS v5 microplugins.
+
+=» Runs outside the normal processing flow, and
+will not affect the rest of the system.
+
+# It has a telnet port (5850) just like an
+xscore proc.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 60
+
+
+===== xks-system-administration page 61 =====
+Other Processes oi
+
+= correlation_server_0 — in-memory
+map-reduce server for correlation engine.
+
+» Each machine has one correlation server, and
+every process data parent connects to every
+correlation server
+
+e xscore proc — 8GB by default
+e uses port 4321
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 61
+
+
+===== xks-system-administration page 62 =====
+Other Processes EI
+
+» XkS comms_server — a more efficient way to
+communicate with hosts within and outside an
+XKS cluster (not currently implement)
+
+e Automatically handles configuration for talking
+between slaves, master and overlord at site
+
+e Configuration is needed to connect to the “peer”
+on the path towards, other sites
+
+e Comms configuration lives in
+SXSCORE_DIR/config/comms/comms.config
+
+e Supports a “quality of service’ which “fairly”
+distributes available bandwidth to the services that
+are using comms
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 62
+
+
+===== xks-system-administration page 63 =====
+EL TO USA, AUS, CAN, GBR, NZL
+
+Other Processes oi
+
+= XKS comms. server
+
+e Allow and Peer rules have a network parameter
+which the comms systems uses to determine an
+“inside and an ‘outside’ in proxies.
+
+e Comms system will only accept connections from
+address ranges it has been specifically configured
+to allow.
+
+e Every between 2 comms servers connection
+should have:
+
+>» bandwidth rule’ on each side, name doesnt matter but
+both rules should usually have same bandwidth cap
+
+p allow rule on one side with a reciprocal “peer rules on
+the other side
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 63
+
+
+===== xks-system-administration page 64 =====
+Other Processes BL
+
+= XKS comms. server
+
+e Example: If we have a site named “US-123"
+connecting to xks-central over a 1Mbps link,
+
+US-123's config would be:
+
+bandwidth|world] = 1Mbps
+
+peer[O0O] = address=xks-central.corp.nsa.ic.gov, port=2412,
+bandwidth=world, network=external
+
+And xks-central would have:
+
+bandwidth[us123] = {Mbps
+
+allow[00] = address=xkey-master.us123, bandwidth=us123,
+network=internal
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 64
+
+
+===== xks-system-administration page 65 =====
+(SUL Processes
+
+» Other process which is run from the
+Application Launcher.
+
+as GUld — rescans content against fingerprints
+when a user clicks to view the content of a
+session.
+
+» tomcat.sh — web server used to host XKS
+GUI
+
+» sotftod124server — downloads sessions
+
+e Gets called from the GUld process
+e Works with any downloaded traffic that is SOTF
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 65
+
+
+===== xks-system-administration page 66 =====
+CEALeEO Degcoseeel
+
+» Other process which is run from the
+Application Launcher.
+
+=» Xks_server_stats — sends to
+
+xks_ system monitor on Master and generates
+Stats about the server itself.
+
+e CPU usage, memory usage, disk space, disk I/O,
+network traffic, etc.
+
+e Stats are fed to xks_system_ monitor and the
+system monitor does magic with them.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 66
+
+
+===== xks-system-administration page 67 =====
+Statistic Processes
+
+» xks_system_monitor — collects stats
+messages from all over the system (front-end
+and back-end and the server itself) and
+Summarizes them for forwarding. Optionally it
+can database stats locally.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 6/
+
+
+===== xks-system-administration page 68 =====
+Cronjobs
+
+‘a XKEYSCORE uses a number of cron iobs to
+
+perform tasks.
+
+age off new.phpo
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+Ages off metadata and
+content when the disk Is
+near capacity, or when
+thresholds have been met.
+
+xks update dictionaries
+
+Pulls updates from various
+sources.
+
+xks rsync push_config
+
+Copies the
+/opt/xkeyscore/config
+directory to the slaves.
+
+rwc post to pub.py
+
+Once an hour kicks off an
+update request
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 68
+
+===== xks-system-administration page 69 =====
+CRONTAB
+
+‘a Crontab is the program used to install,
+uninstall or list the tables used to drive the
+cron daemon.
+
+» Ihe crontab consists of
+e age off new.php
+e xkS update dictionaries
+e xks rsync push_config
+e rwc_post_to_pub.py
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 69
+
+
+===== xks-system-administration page 70 =====
+CRONTAB
+
+s age off new.php
+e Options:
+» -debug : extra debug statements in the output
+» -info : extra info statements in the output
+» -fask_ db: explicitly state that the machine is a task host
+
+»-web db: explicitly state that the machine is a web host
+» -nosleep : use If you want to run now
+
+e This process ages off tables and archived data
+based on the seitings in the xks.config file and
+the percentage of disk space used.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 70
+
+
+===== xks-system-administration page 71 =====
+CRONTAB
+
+=» xks update_dictionaries
+
+e This process pulls the necessarily files from
+various sources to update the dictionary.
+
+e Configure /opt/xkeyscore/config/xks.config
+
+» #[dictionaries]
+dictionary[O] = type=royale, \
+src=sftp://tssi_ fvey:tssi_ fvey@
+xks-control/nome/ytssi_ fvey/xks_dict_update.tar.gz, \
+dest=update/xks_dict_update.tar.qz, \
+
+action[0]="cd
+$XSCORE_DIR/config/dictionaries/update;S$XSCORE_DIR/config/
+
+dictionaries/update/dup _install.pl > ‘dev/null 2>&1°
+dictionary|/1] = tyoe=cadence
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL ral
+
+
+===== xks-system-administration page 72 =====
+CRONTAB
+
+=» xks rsync push _config
+e |ransfers Master configurations to its slaves.
+
+e Excludes dot files, “httod/logs’,
+loadserver/packages’, “httod/log”
+
+e force: option to xks to force push_ config when not
+on the master
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 72
+
+
+===== xks-system-administration page 73 =====
+EL TO USA, AUS, CAN, GBR, NZL
+
+CRONTAB
+
+=» rwc_post_to_pub.py
+
+e |The automatic starProc process is as follows:
+
+» Hour 1: master asks whoever (say xks-control) for an
+update, gets the rom, installs it, there is much rejoicing.
+The slaves asks the master for the rom at the same time
+the master asks xks-control, but obviously the master
+doesnt have it, so nothing happens.
+
+» Hour 2: everyone asks for an update again, this time the
+master has the rom, the slaves download it and install
+and there is much rejoicing.
+
+» Ihe rom is installed and process data parents are
+restarted as soon as the rpm is downloaded on a given
+machine.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 73
+
+
+===== xks-system-administration page 74 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+74
+
+===== xks-system-administration page 75 =====
+on
+
+WeepDive
+
+bai
+
+¥ What is a DeepDive?
+
+¥ Why DeepDive?
+
+“ What does a DeepDive look like?
+¥ Front-End Processes
+
+/ xFIP
+
+¥ Promoter
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 75
+
+
+===== xks-system-administration page 76 =====
+AN, GBR, NZL
+
+DeepDive XKEYSCORE
+
+» XKEYSCORE packet processing solution
+e XKEYSCORE's software handles all packet processing
+e No upfront filtering prior to XKEYSCORE
+
+e XKEYSCORE ‘promoter tries to promote richest/most
+Interesting traffic
+
+p All Strong Selectors
+>» Full take ASDF (User Activity metadata)
+p Subset of GENESIS signatures
+
+= List managed by XKEYSCORE team in concert with
+collection managers and site engineers
+
+e 20% - 30% of site traffic is fully processed and can be
+found via XKEYSCORE search
+
+» | ypically does not include unknown or uninteresting
+protocols
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 76
+
+
+===== xks-system-administration page 77 =====
+Why DeepDive? —
+
+Access to most relevant DNI data supporting SigDev and
+collection missions. Enables new mission capabilities (e.g.,
+Correlation}
+
+=» session promotion can be synchronized and managed based on
+Genesis signatures, traditional tasking selectors and available
+resources
+
+» Provides better scaling
+
+» Drop unwanted data. Keep the rest and make decisions
+later and more accurately
+
+= Better control of the processing space
+» Instantiate new mission capabilities and dataflows quickly
+>» Troubleshooting and monitoring made easier
+
+=» Need access to raw packets to support new mission (e.g.,
+Cyber, Bulk Crypt)
+
+e sessions can be displayed as Packet Bundles like Wireshark
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL fi
+
+
+===== xks-system-administration page 78 =====
+WeepDive
+
+a» Vhat does a DEEPDIVE look like?
+e XKEYSCORE full-take session processor (Back End)
+e High speed packet ingest: an end-to-end solution
+e Intelligent filtering to vary the proportion of traffic retained
+
+—— eee
+
+DEEPDIVE
+
+va ‘|
+Front End Back End
+
+Packet
+Splatter Promoter @ Defrag
+
+cai Partial Sessians ? Fulf Sessions .
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 78
+
+
+===== xks-system-administration page 79 =====
+AUS, CAN, GBR, NZL
+
+XKEYSCGORE Fronts Eee Processes
+
+Packet Splatter Ingests packets (from files, from the = If it’s a packet stream, it can probably
+network, from a capture card} ina be fed into a DEEPDIVE.
+variety of formats.
+
+xFIp Fast reassembly of TCP/TPv4,
+UDP/IPv4 streams*, and TCP/IPv6
+and UDP/IPV6 streams*.
+
+DEEPDIVE sessionizes everything
+
+METTLESOME Reassembly of streams from less before making a keep/drop decision.
+common protocol stacks.
+
+Promoter Rule-based filtering of reassembled DEEPDIVE intelligently chooses the
+sessions, based on keyword, country most useful traffic for retention.
+code or appid/fingerprint.
+
+Defrag Fully rebuilds sessions** Enough content available te co full
+decoding/document descent at the
+Back End
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 79
+
+
+===== xks-system-administration page 80 =====
+XFIP
+
+» Packet bundles
+e Preserves original packets and packet order
+e Preserves information that Is lost during sessionization
+e Original pcap available in the XKS Viewer
+=» Packet API
+e Microplugins can iterate over raw packets
+
+e Microplugins can use information that Is lost during
+sessionization
+
+p E.g. timestamps, flags, checksums
+=» Packet fingerprints
+e Fired based on observations xFip has made
+» E.g. large sequence gaps, I IL variation
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL BO
+
+
+===== xks-system-administration page 81 =====
+Promoter
+
+» Filters sessions prior to back end processing
+e keywords, regex, country code, appids*
+e SIGDEV: promotion rather than strong selection
+
+a» oet the focus of the back end
+
+e traffic types of interest allow appid chat.*
+O regions of interest allow country code PK
+e legal/policy constraints brock country _code US-US
+
+es oet the width of the access aperture
+e promote 20% of 20 signals?
+e promote 100% of 4 signals?
+
+a oet the length of data retention
+
+e promote 20% and keep for 3 days?
+e promote 30% and keep for 2 days?
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL Rl
+
+
+===== xks-system-administration page 82 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 82
+
+===== xks-system-administration page 83 =====
+xks Script
+
+Y, Usage
+“options
+
+¥ General Commands
+¥ Services
+
+¥ Actions
+
+¥ Options
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 83
+
+
+===== xks-system-administration page 84 =====
+xks Options
+
+=» Usage: xks [options] <command>
+
+e |ry ‘xks help <name=>' to get help on a specific
+service or action
+
+e General commands:
+
+> services - list available services
+> actions - list available actions
+» dependencies [invert] - show service dependencies
+>» help [items] - print help on services or actions
+e Services (specify one or more service names or
+all’):
+» start <services> - start the specified services
+» stoo <services> - stop the specified services
+» restart <services> - restart the specified services
+» status <services> - print the status of the specified services
+» setup <services> - setup/configure/fix the current xks install
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL R4
+
+===== xks-system-administration page 85 =====
+xks Actions
+
+e Actions:
+
+>» accounts report - sends an email containing accounts usage to the
+specified users
+
+» add admin - sets up a local Linux user to administer XKS
+
+» change db password - changes the AKS database user's password and
+updates all references to it
+
+p> cluster - Cluster actions
+
+>» compile genesis -compiles GENESIS signatures
+
+p aisk check - get raid and disk status
+
+y ext4 format - format SXSCORE_DATA DIR partition and convert
+to ext4 filesystem
+
+p» ext4 upgrade - convert to ext4 filesystem while preserving
+
+contents of $XSCORE_DATA _DIR (no formatting)
+
+» fetch - fetch a remote file
+
+» force register - force metadata table registration
+
+> info - show cluster information
+
+p» install slave - install a slave machine in this cluster
+
+>» local tagging - checks and/or loads tagging Tile
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL BS
+
+
+===== xks-system-administration page 86 =====
+xks Actions
+
+e Actions:
+
+>» monitor - view XKS monitoring messages via activema
+
+>» mpmr_register - force mpmr table registration
+
+> mysqls -run a mysql script
+
+> Onall -run a command on all machines in this cluster
+
+» powertower - configure or run a powertower command
+
+> proc - control XKS processes on this cluster
+
+>» query - display query status or submit a query
+
+> query dispatch - command line interface to the XKS
+query_dispatcher(s).
+
+>» rac - access remote admin ports
+
+p» reload dictionaries - force running processes to reload dictionaries
+
+>» rsync - push configs or files to slaves
+
+» search fields - populates user settings with search fields
+
+» show_config - show values from xksconfig for specified keys
+
+p> switch - query or rebalance data switch
+
+> sync accounts - synchronize user accounts (except for
+classifications)
+
+p> tail - view realtime xks logs
+
+p tasking dump - print out the contents of the xkT asking and
+
+xks lasking_ voip databases.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL R6
+
+
+===== xks-system-administration page 87 =====
+xks Actions
+
+e Actions:
+
+p top - display system performance
+
+» update dictionaries - update all XKS dictionaries
+
+> update gui help - update the ‘help’ pull downs in GUI
+
+>» users - display the users currently logged into the GUI
+>» version - show XKS version information
+
+> watchdog - check and (re) start essential AKS processes.
+>» workflow - manually submit a workflow
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL RT
+
+
+===== xks-system-administration page 88 =====
+xks Options
+
+f
+
+e Options:
+» -verbose : print extra information to the screen
+» -debug' =: used for debugging script problems
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 88
+
+
+===== xks-system-administration page 89 =====
+xks — General Commands
+
+e | ype: xks help services
+
+AN, GBR, NZL
+
+> This will list all available services:
+
+first — initialization service that runs before all others
+
+virus scanner — sets up virus scanner, assuming tarballs are
+present.
+
+ftpd — enables ftp on the master if mailorder is enabled
+distcc — sets up distributed compiler service
+Slash_proc — setup optimal /proc parameters
+
+myricom — handles installation and configuration 10Gig
+network cards
+
+home — sets up the home directory for the xks user account
+gcc — check there Is a working compiler on the system
+
+upgrade — updates configuration files when upgrading to a
+new version of xks
+
+bashrc — sets up bash environment variables
+beacon — sets up xks monitoring beacon based on xks.config
+tt — checks connectivity to TRAFFICTHIEF server
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL RS
+
+
+===== xks-system-administration page 90 =====
+AN, GBR, NZL
+
+xks — General Commands
+
+e Type: xks help services
+
+> This will list all available services:
+» sendmail — configures sendmail for use with xks
+= role files — this service installs role-specific files
+=» issue — sets up the DoD mandatory login warnings
+=» royale _with_cheese — setups automatic updates
+s Ntpd — configure ntp based on xks.config
+= link summary — sets up xks link summary GUI
+=» nfsd — sets up xks-specific nfs mounts
+=» server certs — seis up server certificates for SSL applications
+
+=» Openoffice — installs and configures OpenOffice for use in the
+xks GUI
+
+a init_d—sets up the xks init.d services
+
+s resolver — sets up resolver config
+
+=» php — sets up PHP related stuff. Except php.ini
+= httpd — sets up xks-specific httpd configuration
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 90)
+
+
+===== xks-system-administration page 91 =====
+AN, GBR, NZL
+
+xks — General Commands
+
+e Type: xks help services
+
+> This will list all available services:
+
+» www — seis up GUI configuration files
+
+= Voip — sets up voip processing
+
+=» crond — ensures xks can use cron and sets up xks cron jobs
+=» sshd — configures the secure shell service for use with xks
+
+s» license — checks for a valid license file and if one isn't found
+prints a message
+
+s syslog — configures the syslog service for use with xks
+e all xks processes log to /var/log/xks.log
+a dictionaries — checks status of any configured dictionaries
+
+=» Cluster_check — checks network connectivity across the
+cluster
+
+s autofs — start, stop, restart automounts
+
+s loadserver — start, stop, and setup loadserver
+s directories — sets up directories used for xks
+s auditd — no help available
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 91
+
+
+===== xks-system-administration page 92 =====
+AN, GBR, NZL
+
+xks — General Commands
+
+e | ype: xks help services
+> This will list all available services:
+
+= Idap — no help available
+=» mysqld — sets up the mysql server for use with xks
+s disks — checks status of disk partition used by xks
+» databases — maintains database scheme consistency
+= local_tasking — reapplies local tasking if necessary
+» workflows — sets up xks default workflows
+
+s category_throttle — overrides default category throttle settings based
+on overrides specified in xks.config
+
+» enrichment_tomcat -— sets up enrichment tomcat java application
+server
+
+s plugin_setup — populate plugin database tables from xml files, appy
+default plugin config specified in xks.config, apply overrides from
+xks.config, regenerate plugin config files from database
+
+s crdb — no help available
+=» tomcat -— seis up tomcat java application server
+» clickstream — sets up clickstream service
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 9?
+
+
+===== xks-system-administration page 93 =====
+xks — General Commands
+
+AN, GBR, NZL
+
+e Type: xks help services
+
+> This will list all available services:
+
+file_input— sets up directories and database entries needed for file-
+based input
+
+age_off_db — synchronizes the database (xs_task_db.age_ off) with
+xks.config s settings for content and metadata. The values in the
+database will be unconditionally overwritten with those found in
+xks.config
+
+db connectivity — verifies connectivity to critical databases
+pdf — sets up xpdf language packs
+
+ul_age_off — sets the maximum data retention time to a little over an
+hour in UL mode.
+
+mDNSResponder — sets up mDNSResponder for use with SOTF
+Input
+app_launcher-— controls the xks app launcher, which is responsible
+
+for monitoring xks processes and starting/stopping them as
+commanded from the GUI
+
+processes setup -— configures xks processes based on specifications
+in xks.config
+
+commis — sets up the XKS communications system configuration
+andivanrcar OP SESREA YY oh /ERSL-TGOA S44. Al, 2AM GBR AZ A A 93
+
+===== xks-system-administration page 94 =====
+N, GBR, NZL
+
+XKS = General Commands
+
+e |ype: xks help services
+
+> This will list all available services:
+
+=» endace — handles all the installation and configuration for
+Endace Dag packet capture cards
+
+s last — cleanup service that runs after all others
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 94
+
+
+===== xks-system-administration page 95 =====
+xks - Services
+
+e Start
+» xks start mysq|
+
+e stop
+>» xks stop httpd
+
+e restart
+» xks restart nfs
+
+e status
+» xks status autofs
+
+e setup
+» xks setup plugins
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 95
+
+
+===== xks-system-administration page 96 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+xks onall ‘ps —ef | grep xscore | grep —v grep’
+xks force _register [0 perGtli rkeey rll run) $ xks force regis ‘ter
+
+Forced update on uks meta ingester
+
+xks rsync push_config -force
+
+» Usage: xks rsync <options>
+[oush_ contig]joush compiled|push_ slaves|push] <src>
+<dest>
+
+xks update_dictionaries
+
+» Usage: xks update dictionaries
+LSEsiafonalete: <Velalaiiielceciateue) (cperGtlxksvrfl run]$ xks version
+
+xks Vers Olam -
+
+wrOl run] >
+: Tice eiaihas Li: le - Sw
+: UsF— 20
+: LE
+HMES wersion : 1.5.%9-65
+oO Taster © tlilxukswroOl
+npeutk :- file, sott
+ops ri =e =
+
+- man aqed_sr red
+
+TOP SECRET // SI ii REL TO USA, AUS, CAN, GBR, NZL 96
+
+===== xks-system-administration page 97 =====
+ECRET // Sl /i REL TO USA, AUS, CAN, GBR, NZL
+
+xks - Actions
+
+e xks query servers
+
+LoperlitiswkewrOfl runjsS wks query Servers
+
+hIixksewrle: qu
+1 T4= en ]OTe—Te—-os : fEop)
+
+ElxnkesewrOols: ay
+an oS =|OLS—-iLt2e—-oOo5s : flop)
+
+tizkewrQad:qO
+= 3 Oa os @{ULl2—-1e—-as : (lop)
+
+LLxHhKSewroous: qo
+a Se O = =OULAH—Ll2—os : CEorp)
+
+EkilxwkswrllyY: ql
+=> DO =e os 2 DO De —te—os : (lop
+
+Ekilskewrlt: ql
+a ia | Os =~ Ua —-le—-os : (hop)
+
+kilzsakewrt?: gq
+OS oe 1TFsn =O —1Te—-—o05 : (hop)
+
+kLixkesewrilO: qq
+2302 os 2OL2=—12—o05 : Chop)
+
+Eleskewriltl:qO
+w= > Ol ee os =| OU Le—-Lle—-os : (lop)
+
+Elmaksewroile: gq
+avon | os 4n as #{OLlA-LleA-os LT¥i asa: Ue (lop)
+
+Aa-[awaLtCing dispatch, s=sent, n=new, weworking
+Eamestamp shows: earliest submitted but unfinished query
+SuUrrent time: 2012-12-05 16:02:09
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 98 =====
+ECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+xks Example P SECR
+
+e xks proc
+
+[operGtlukevrOl run]$ uke proce
+GUL GUId ap query proc
+cli clickstreamService.sh register metadata tables
+cms check mailorder site.php sed sotttodledserver
+cs00 correlation server 0 signal acquisition base
+ctp cadence tasking proc sal signal acquisition loopback
+enr enrichment-tomcat.sh sd sotf dist
+file file input proc sst strong selector targeting
+tip wailorder proc tom tomcat. sh
+
+tipi server Hos Hxks comme server
+
+process data# Hill  xHxks meta_ilngester
+
+process data_parent Hem Hks_system_monitor
+
+query digpatch HSS HES Server stats
+
+"xks proc full’ to show full listing
+
+tlukeyrtl
+tlekevcl2
+tlekevrUs3
+tlxuksyrll4
+tlxksyrUh5
+ftluxksvrue
+tlekevru?
+tlukesyvrue
+Clukevruy
+tlekeyrlt
+tluksyrll
+tleksvrl2
+tlekevecl3
+tlxksevrld4
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 99 =====
+ECRET // SI i REL TO USA, AUS, CAN, GBR, NZL
+
+xks Example
+
+—_————
+
+e Xks proc full
+
+[oper@tilxkevrOQl rcun)]$ sks proc full
+app launcher status:
+
+id hestname program arguments commanded actual
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 100 =====
+ECRET // SI i REL TO USA, AUS, CAN, GBR, NZL
+
+e xks query
+
+[oper@tlxksyr01 run]$ sks query
+id user type search start Search stop duration status
+
+There are 168 queries in progress
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 101 =====
+Vt PRT Te TOP SECRET #/ SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+xks Example — “a
+
+J
+
+e xks query detail
+
+[oper@tlxkevr0l run) xks query detail 1d=66251045
+
+Juery Summa sy
+Tz2erid:
+Tyre: email addresses
+Searcaing from CO:CO 11/30/22 to 00:00 12/6/12
+Ducation: 00:01:29
+Priority: 4
+Cancel: Nia}
+
+Msx Results: LOUCOO
+Msx Time: 6090
+
+Juery stu
+Nsme: smetevs ¢
+Classitication: $,13/51,N&a NOFOSN, 15, HCS,o/ $1, MUSCULAR, REL USA, NS NOFORN, 51,C,F
+Where: WEERE datetime >= '2012-11-30 00:00:00" AND datetime <= '2012-12-06 00:00:00" AND email = ° ' BND domain = ‘hotmail.com’
+
+Juery Ss Tacs
+
+host database status
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 102 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 102
+
+===== xks-system-administration page 103 =====
+Lesson Objectives
+
+¥ Executables
+/mysals
+¥onall
+¥xks onall
+“xks monitor
+¥sotf stat
+¥xks top
+
+¥ Web Status
+¥ Additional Monitoring
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 103
+
+
+===== xks-system-administration page 104 =====
+Executables
+
+=e] —
+
+= system monitoring can be performed from the
+command line using the following executable
+commands:
+
+e mysqis
+e onall
+
+e XKS Onall
+e sott stat
+e xks top
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 104
+
+
+===== xks-system-administration page 105 =====
+» [he mysdls bash shell script can be used to
+execute MySQL statements from in the
+/opt/xkeyscore/bin.shells/sysadmin/mysqls
+directory. The most commonly used options In
+mysals are:
+
+e status — displays file-based input statistics.
+
+e speed — displays the total file based input
+processing rate (Mbps)
+
+e speed — displays file-based input processing rate
+(Mbps) per input source.
+
+e speedz2 — displays file-based input processing rate
+(Vibps) per xkeyscore processing server.
+
+e count — displays the count of input files in the
+new, working, error, and done states.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 105
+
+
+===== xks-system-administration page 106 =====
+mysals
+
+s mysals status
+
+loperltlxkevrOl runj$ mysqls status
+
+status count (*) sun(filesize) priority
+
+bitrate Mbps
+NULL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 106
+
+
+===== xks-system-administration page 107 =====
+# Sif REL TO USA, AUS, CAN , GBR, NZL
+
+xks onal
+
+Loper@tixkswrot run] ® xks onall j"xkKSsS mysql status"
+uke “Hee mysql status” c "
+
+see eee TE J ark ear Ee Oo
+
+Sstakus mys¢oladad
+
+—
+
+wee FE ]LakswrlS
+
+Status mysqid
+
+a
+
+see TE ]arksewrS
+
+StLabus mysqld
+
+a
+
+seo ECE lakoavroia
+
+Status myosdtd
+
+a
+
+Seer Tl] skewer oS
+
+Statkus mys¢dtd
+
+a
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 108 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+a This script will monitor your front-end
+processes.
+
+s |ype: xks montor or xkKs monitor h to
+receive the help menu
+
+“KEY SCORE—-Menu
+
+Command Name Description
+
+c config Configure this utility
+
+d dataflow all FrontEnd Dataflow Menu
+
+b dataflow be BackEnd Dataflow Menu
+
+m, h menu View this menu
+
+a packet splatter Packet Acquisition [Front End]
+p process data Process Data [Back End]
+
+q quit Quit/Exsit
+
+tC sotf input SOTF Input [Back End] "xkKs top" replacement
+
+£ xfip Sessionization [Front End]
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 108
+
+===== xks-system-administration page 109 =====
+ECRET // S| /i REL TO USA, AUS, CAN, GBR, NZL
+
+xks monitor |
+
+» Iype: xks montor f to receive xfip stats
+
+HKBEYSCORE-Sessg4i0nizration [—~Server Wiew Presa '4"]
+CaS] net at lem Rat] (Mbp 3 Let eli ray & ToRQualitys Ramee (Piet ) mounk (Per) Punk & Fraqmenre &
+6.006 5H. 00 6. 40 Oo. 05 o 6. 00 0.00
+o.oo o.o0 o.oO0 oO.o0a0 o o.oo o.oo
+
+SPMLG, STHGaA]
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-system-administration page 110 =====
+sot. stat
+
+s [he sotf_stat command is used to display the
+SOTF (streaming object transfer format) input
+statistics for an entire cluster.
+
+= Ihe statistics include total number of
+process _data’s running on the cluster,
+session input rate (sessions/sec), total bytes
+
+input (Mbps), and total bytes output to
+process _ data(s) (Mbps).
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 110
+
+===== xks-system-administration page 111 =====
+sot. stat
+
+‘= To execute the sotf_stat script:
+e Log on to the server and open a terminal window.
+
+e |ype soff_ stat because the command is in the
+path
+
+e | ype s to toggle the summary statistics view from
+total statistics to individual host statistics.
+
+e | ype gq to quit the program
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 111
+
+===== xks-system-administration page 112 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+=» [he sotf_stat script lists the hostname,
+number of process datas currently running,
+Mbps, number of sessions, and number of
+
+_ bytes.
+
+|mhxkssvr02
+|mhxkssvr03
+be ae Le ae oe 0) 4 3 | | Db. = Fal 1 04 | Al G my
+
+re ee
+jan, a Sap eure [) &
+Pek at LL ad
+
+Sessions: 1641358767 Bytes: 191432892127 72
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 112
+
+===== xks-system-administration page 113 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+s [he xks top script lists the hostname, Mbps
+sotf rate, number of process_data’s running,
+the % of CPU, and % of IO wait.
+
+hostname sott #procs “pu Lowalts
+mhakssvr0t -).,.00 0 0,53 0.02
+mhxkssveo?2 21.08 7,94
+
+mbrkssv00 13,55 Hl 13.35 7.28
+mhxkssyeo4 14,97 d 14,50 8.63
+hykssve05 14,13 q 17,14 8.01
+TOTAL 63,74 l6 11,68 6,38
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 113
+
+===== xks-system-administration page 114 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+1
+7
+a
+
+[operWmhxkssvr
+Dec 45 LOrei
+st sAUTOMat
+
+r
+r2
+
+Leo |
+zi!
+pu
+a
+ct
+iL!
+
+DM He Ke He Be oo
+iD
+C. ©
+
+ut
+
+i
+aa)
+ct
+iL!
+
+{_)
+4
+LL
+oO @m f
+
+i
+
+ig
+
+(AL tom ac
+
+| Q | Q =.
+
+fio boos Bo so Bo
+1b oO D
+
+wn
+i ct WD
+
+ry
+iD
+EH
+ct
+i
+
+A
+
+in
+wo
+
+(2
+
+repai L failed
+mhxkssvrQ2 register metadata tables[13s77]
+repair failed
+mhxkssvrQ2 register metadata Tables
+repair failed
+mhxkssvr02 register
+repair failed
+mhxkssvr02Z sotf _dist[1398
+mhxkssvr02Z register “netada
+(automatic?) repair failed
+& 18:28:29 mhxkssvr02 registe
+(automatic?) repair failed
+§ 18:28:29 mhxkssvr02 register
+(automatic?) repair failed
+
+ia
+
+cr @
+b
+[
+
+ct
+
+c) |
+=
+
+i
+
+ct
+
+C)
+
+Li)
+
+in |
+ad
+
+wo
+
+Ci
+ct @ ct @
+t
+
+—,
+
+Wy
+_
+ct
+=
+ip 8
+
+3; i
+
+fn ci a8 Cl n8
+inow in
+
+oo
+
+in
+
+Vy
+
+Cc in
+ct
+
+0
+.e Th a8
+
+ee ee ee
+om ¢ ~—] [H- ;
+
+QO
+
+(2 2
+
+in
+om 4
+ie)
+
+C3
+Ll
+CI
+ec 45 18
+1
+1
+
+La
+Om @ ct @
+D
+[
+ct
+
+in
+oo
+i ii | i i]
+
+Cl
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 114
+
+===== xks-system-administration page 115 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL
+
+115
+
+===== xks-system-administration page 116 =====
+Lesson Objectives
+
+ia ——
+1
+= a : hi
+
+¥ Common Troubleshooting techniques
+“Full Disk
+¥Sotf Problems
+¥MySQL
+“Processing Problems
+“Outputs
+“Query Problems
+“Directory Permissions
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 116
+
+
+===== xks-system-administration page 117 =====
+DISK Full
+
+s /var/log/xks.log (xks tail) — Relevant error
+messages can be viewed in this file. This
+directory may fill the disk, some known
+reasons are:
+
+e process data has lost its connection with the
+sotf dist and is continuously trying to reconnect to
+sott dist.
+
+e nfs error may have occurred and a detailed
+message can be found in the file
+/var/log/messages.
+
+e Corrupt tables in the insert database.
+
+e Check to make sure the age_off_new.php cronjob
+aged off old metadata and content.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL ll?
+
+
+===== xks-system-administration page 118 =====
+Disk Full continued...
+
+= /export/data/xkeyscore/inputs
+
+e lf there are too many files in the directory:
+
+p> file input proc may be running improperly or not at all.
+Verify that file. input_ proc is running trom the command
+line type:
+» os —ef | grep file | grep —v grep
+= XKS proc
+>» Ihe file input proc may need to be restarted.
+
+=» No new files in the directory:
+
+e Ihe directory may not be cross-mounted properly,
+if automounting Is used.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 118
+
+
+===== xks-system-administration page 119 =====
+AUS, CAN, GBR, NZL
+
+Disk Full continued...
+
+s /export/data/xkeyscore/mysql/10 or 11 wes
+
+e If /export/data/xkeyscore/mysqi/0 or !7 are filling and
+gO and/or q7 maintains its size,
+register_metadata_tables may not be working
+properly.
+
+» Restart process and watch the databases to see If it Is
+
+transferring files or run the process by hand to
+troubleshoot further.
+
+e |f /export/data/xkeyscore/mysqi/g0 or q7 is filling, the
+age_off_new.php script may be running improperly or
+not at all.
+
+» First run the command: ps -ef | grep age
+
+a If script isn’t running, try running it by hand.
+
+a If script Is running, then stop script and try running it by hand to
+see if there are any errors.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 119
+
+===== xks-system-administration page 120 =====
+SOTF Problems _
+
+» Can an sotf_input_proc run witha file_based
+file_input_proc?
+
+e Yes. Both input types can run on XKEYSCORE given that
+each are independently configured correctly.
+
+=» Can file-based input be disabled so that only
+sotf input is processed?
+
+e If moving from file-based input to sotf_ input, and no
+additional file-based input is expected, the plug-in for file-
+based input, db input file handler, should be disabled.
+
+e From the TERMINAL WINDOW:
+
+>» Stop all the processes : xks stop all
+
+» Change /opt/xkeyscore/config/xks.config to set file _input to no.
+» Setup the config : xks setup plugins, xks setup processes
+
+» Rsync change to slaves : xks rsync push_contig
+
+>» Restart process data’s : xks proc restart pdp
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 120
+
+===== xks-system-administration page 121 =====
+AN, GBR, NZL
+
+SOTF Problems continued..
+
+s Is XAEYSCORE receiving ae
+
+e lo verify whether XKEYSCORE Is receiving input,
+run the sotf_stat command to get the current
+input statistics.
+
+e If NO connection is visible, from the command line:
+
+1. Type telnet localhost 5042
+
+2. Output statistics for the specified sotf dist
+3. Ifrunning, type ps -ef | grep sotf dist
+4. Determine if sotf_dist’s are listening on the
+specified port:
+Type telnet localhost 5040
+
+lf command is refused, the sotf_dist is not listening on the port.
+Continue with step 5.
+
+9. lype netstat -a | grep 5040
+
+lf a connection is established for this port then most
+likely the sotf dist ts listening on this port.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 171
+
+
+===== xks-system-administration page 122 =====
+AN, GBR, NZL
+
+SOTF Problems continued..
+
+= netstat will tell if...
+e sotf_dist is listening for connections
+e If connections have been made to the sotf dist
+
+e If we are ‘backing up’- |.e., if sotf_ dist is running
+but has no process _data’s connected to it, it wont
+be able to send data anywhere, so eventually Its
+network receive queue will get large.
+
+» Ideally, the receive queue should always be 0.
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 122
+
+
+===== xks-system-administration page 123 =====
+AN, GBR, NZL
+
+SOTF Problems continued..
+
+‘a Is the process_data_parent running?
+
+e Ai least one process data must be running and
+synchronized with the sotf_dist for it to receive
+Input.
+
+» If problems continue, run the sotf_dist in a terminal to
+further troubleshoot and identify error messages.
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 123
+
+
+===== xks-system-administration page 124 =====
+MySQL — D124 file troubleshooting
+
+AN, GBR, NZL
+
+s Symptom: A lot of errors or too many
+
+errors display when performing the
+command
+
+‘mysqls status’:
+
+1.
+
+2.
+3. Type myscl xs task db; tO log into MySQL
+
+4.
+
+©) O1
+
+First try, mysqls cleanup, In a terminal
+window.
+Type mysgls status
+
+database and use the xs task db database.
+
+Execute the following command: delete
+com Lae Liles Where Suelews= SrroKn” ;
+
+. Exit out of the MySQL database
+. Type mysqls status
+
+There sherle: rodanaer decanv error files. 124
+
+===== xks-system-administration page 125 =====
+US, CAN, GBR, NZL
+
+Processing Problems
+
+=» The heart of the XKEYSCORE processing
+
+engine is the xscore_ proc with related plugins.
+
+= Input to the xscore_ proc Is either file-based
+and from an file input proc, or streaming trom
+an sotf input proc.
+
+= After processing, the written metadata to the
+insert databases can be sent to a follow on
+system for additional processing.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 125
+
+===== xks-system-administration page 126 =====
+AN, GBR, NZL
+
+Processing Problems continued...
+
+7a How many process_data’s should be
+running on a host?
+
+e From the XKEYSCORE GUI:
+
+» Click ADMIN > Processing > Computer Resources
+
+» Determine how many process _data’s are configured to
+be running on the specified host.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 126
+
+
+===== xks-system-administration page 127 =====
+TOP SECRET // SI // REL TO USA, AUS, CAN, GBR, NZL
+
+=» How many xscore_proc’s are actually
+running on a host?
+
+e Log onto the XKEYSCORE server and open a
+terminal window.
+
+© Type OS Sr | Giese KSieOeS |" C1gSiO yw imleliaverorScl_
+
+[oper Ut stU: Jaf ~@f | eee eecore I ey Saget
+zig Tee i Si ee mel cote coe --tarent --base port $550 --erternal appid compile --db 10 --tentce level -4 --conmand db forse nevt --nai-nen 20 --logleve) ereor
+aul il anh ul ill
+
+Uses] gscore oeoe chili-ll --port -egternal appid compile ~-db 10 --reniee Level -§ --conmand db forse next ~-tar-nen 20 —-loclevel e
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 127
+
+===== xks-system-administration page 128 =====
+AN, GBR, NZL
+
+Processing Problems continued.
+
+=» Xks_app_ launcher is running, but not
+starting processes specified in the
+Computer Resources window?
+
+e This may indicate that the xks_app_ launcher is
+defunct. Use the kill command to kill the
+app launcher and Its related sub-processes:
+» Type pkill -f app_
+
+= Ifa PID Is not being specified, use the pkill command. The -f
+option kills all of the sub-processes.
+
+> Type ps to look for the new xks_app launcher process.
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 128
+
+
+===== xks-system-administration page 129 =====
+AN, GBR, NZL
+
+Processing Problems continued.
+
+e If, after performing the procedures, the
+xks app launcher is still not starting applications:
+
+> In a terminal window, manually run the problem process
+to see if there are any error messages.
+
+» Ihe xks app launcher on any host is dependent on the
+access of the xs_task db.proc resources database
+table on the master. Verify that the specified host can
+access the master’s database and /opt directory.
+
+» On the slave system type mysql xs task db
+—h <masterhostname>
+
+= performs a remote MySQL server login
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 129
+
+
+===== xks-system-administration page 130 =====
+AN, GBR, NZL
+
+Processing Problems continued.
+
+e Ilo test the xscore proc, type:
+telnet <process host> <port number>
+Optional commands to assist trouble shooting are:
+
+e sbr— prints the processing rate for the single
+XSCOre-proc.
+
+e sh— _ displays dictionary hit statistics.
+
+eSS— _ displays statistics on the internal plug-in
+processing rates.
+
+e help — there are many commands and can be
+described in the help menu.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 130
+
+
+===== xks-system-administration page 131 =====
+AN, GBR,
+
+Processing Problems continued.
+
+= Ifthe process data_parent continues to deny
+access through the command port, and input
+still nas not started processing, check the
+input source.
+
+#» Run the process in a terminal window with the
+argument --loglevel debug, to view debug
+messages.
+
+=» [he command port also provides processing
+rates and statistics for troubleshooting
+
+performance Issues, outages, and general
+administration issues.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 131
+
+
+===== xks-system-administration page 132 =====
+34, AUS, CAN, GBR, NZL
+
+Outputs - Mailor oe
+
+s /export/data/xkeyscore/outputs/mailorder
+
+s If there are no new files in the MAILORDER
+directory, MAILORDER may not be working
+properly. Possible causes are that:
+
+e Files are being written to the wrong directory or it
+is not configured properly
+
+e Permissions on the MAILORDER directory will not
+allow MAILORDER to move files
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 132
+
+
+===== xks-system-administration page 133 =====
+Dispatcn
+
+s Query dispatch is the process that submits
+search jobs to search databases and
+propagates the status of the search and the
+results of the search back to the web server.
+
+» After submitting a new query, Search Status
+window displays a summary listing query
+name, date and time submitted, number of
+databases complete, and number of results.
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 133
+
+
+===== xks-system-administration page 134 =====
+Query Problems
+
+a The query never moves to the finished state.
+
+e If a database outage or a comms outage occurs,
+results will not be reported from the single system.
+However, results from all other databases will
+return properly with the query results, but they will
+not appear in this state.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 134
+
+
+===== xks-system-administration page 135 =====
+Query Problems
+
+s Query job status is stuck in
+awaiting disbatch.
+e Ifa status appears stuck in this state, the
+
+query dispatch may not be running on the web
+server. To determine whether It is running:
+
+> Type ps -ef | grep query _
+e If the process is not running, restart it from the
+
+XKEYSCORE GUI or troubleshoot the
+xks app launcher.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 135
+
+
+===== xks-system-administration page 136 =====
+AN, GBR, NZL
+
+Query Problems REL TOUSA, AL
+
+Mba
+
+e Another cause of this scenario is that a query
+database may have hung up the query alspatch
+process. Check the progress of queries on the
+query database hosts by viewing the table
+sdb_query_jobs in the query database, which
+tracks the status of queries:
+
+> Type mysql q0
+
+> Type SELECE SicactUSs, COUlinis (*)) aricoml Selo cCibleicy/ JOls
+where group by status;
+
+e Ihe select statement displays the current state of
+the queries on the query host. If many more
+queries appear in the new state when compared
+to other query databases, begin troubleshooting
+the problem query_proc on the specified query
+database.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 136
+
+
+===== xks-system-administration page 137 =====
+Query Processing —
+
+=» I|he query Is in the sent state, but never
+appears in new.
+
+e After the query_dispatch process disbatches the
+query, the status is moved to sent. A query moves
+to the new state when the query has been placed
+In the query processing queue on the query_ host.
+
+e If a query does not move to the new state ina
+reasonable amount of time, the connectivity of the
+database should be tested.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 137
+
+
+===== xks-system-administration page 138 =====
+SI /# REL TO USA, AUS, CAN, GBR, NZL
+Query Processing 4 dais
+
+e To check the progress of queries on the query
+database hosts, view the table sdb_query_jobs in
+the query database, which tracks the status of
+queries:
+
+> Type mysql qQ
+
+> Type select status,count(*) from sdb query jobs
+where group by status;
+
+e Ihe select statement displays the current state of
+the queries on the query host. If many more
+queries appear in the new state when compared
+to other query databases, begin troubleshooting
+the problem query_proc on the specified query
+database.
+
+TOP SECRET // $I /} REL TO USA, AUS, CAN, GBR, NZL 138
+
+
+===== xks-system-administration page 139 =====
+Query Processing C
+
+=» The query appears in the new state, but
+never finishes.
+
+e query is in the new state, has been received by
+the query host and placed in a queue waiting to be
+processed.
+
+e Queries can become backlogged with a large
+number of queries waiting in the new state,
+though the guery_proc Is processing the queries
+properly. It is hard to predict the time to work off a
+query backlog, but using the following select
+Statement the status of queries for the current day
+can be checked for processing trends.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 139
+
+===== xks-system-administration page 140 =====
+=» Io display the number queries in each state for
+the current day:
+
+e |ype
+select status,
+count (*),datetime submitted, (UNIX TIMESTAMP (now (}))-
+UNIX TIMESTAMP (datetime submitted) )/3600 from
+sdb query jobs where (datetime submitted>(now() - INTERVAL
+"1' DAY)) group by status;
+
+=» To display the number of queries processed per
+hour for the current day:
+
+e Type
+select status, count (*)/24 AS queries per hour from
+sdb query jobs where cancel!="C" and
+(datetime submitted>(now() - INTERVAL '1! DAY)) AS Backlog
+
+group by cancel;
+
+= If processing properly, queries can take hours, if not
+days, to complete based on the backlog and the
+processing trends.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 140
+
+
+===== xks-system-administration page 141 =====
+AN, GBR,
+
+Retrieving Metadata and ( Content
+
+=» Queries complete but there are no results.
+
+e If queries complete, but no results are visible,
+verify that the date range of the query coincides
+with the collection date of the data. If using test
+data, test the query system by putting the start
+date range at a year or two older to assure It Is not
+old test data.
+
+e Verify that query metadata is in the query
+database by checking the contents of the
+/export/data/xkeyscore/mysqiiquery db}/
+directory.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 14]
+
+
+===== xks-system-administration page 142 =====
+AN, GBR,
+
+Retrieving Metadata and ( Content
+
+=» Queries complete and metadata returns,
+but there is no content.
+
+e [he metadata in the XKEYSCORE viewer
+displays the host and directory path of the content
+file. Verify the content file exists using the Is -I
+command. Trace a dataflow issue If the file does
+not exists. If the content file exists, confirm the
+
+httod daemon is started on all slave systems. To
+confirm the httod daemon:
+
+e 1. Type su - oper
+e2. lype xks status httpd
+
+e 3. Ifthe daemon is not on, type xks start
+httpa
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 142
+
+
+===== xks-system-administration page 143 =====
+Query Results
+
+=» |o troubleshoot problems with metadata or
+content from a query, it will be necessary to
+retrieve the actual content, since recreating
+the problem is very difficult. This can be
+accomplished from the XKEYSCORE GUI.
+Click RESULTS and begin a search of the
+
+questionable queries.
+
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 143
+
+
+===== xks-system-administration page 144 =====
+TOP SECRET // SI /i REL TO USA, AUS, CAN, GBR, NZL 144
+

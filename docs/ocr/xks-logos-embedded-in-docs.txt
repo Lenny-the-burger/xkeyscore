@@ -1,0 +1,107 @@
+
+===== xks-logos-embedded-in-docs page 1 =====
+TOP SECRET//COMINT//AREL TO USA, AUS, CAN, GBR, NZL
+
+Booz | Allen | Hamilton
+ADET — E9?
+
+Using XKS to find and search for logos embedded in documents
+
+XKEYSCORE will parse out the logos inside of documents like MS Office and Outlook
+emails. If you’re traffic hasn’t aged of, load it into a session viewer and hopefully you'll
+see where there’s a logo or attachment. See here, this spreadsheet has a logo in it.
+
+DEPOSITS
+Are TLLaL
+cq AFS i =
+1D | man
+CASH
+CASA POL LAT | ee
+=m l
+
+(TS//SI//REL) XKEY SCORE takes that logo and calls it an attachment. Click on
+Attachments to see all of the attachments.
+
+LtlLile,Lilil Le a LPL LI
+
+2009-04-07 06:23:14 yo Espckoregomooog
+
+| Session | Header (2) \U attachments (21) | peta (18) |
+
+ALTO
+
+os
+
+(U//FOUO) In the Attachments window, look for ones with jpg or png.
+
+image Summary _montage.jpeg || unknown _834.plain = document_body.d.tat | unknown @i2.plain LimageF0d ete $589 5é.od bie 0 ste Bl6Fiactmt—_document_body.t.tut
+
+image-badTbbecedcocbs4946fse9 cre D3d0F?.png
+
+new daily reporting 06.04.2009. .als_i.metadata.eml || unknown dé6.plain document_body.o_thtet ||
+YEW DAILY REPORTING 06.04.2009, 141s |) unknown 88?.disposition-notficatian «= unknown 88ihtml | | image-
+
+4l4bc.png
+
+document_body.1_Dtet || image-1d999c6FL i Lcidee0F0Bfad 15576Schl umf = document_body.0_1.tet |) docurment_body.3a39fl bedi beved1 9b94h 52 Lb044ohe tat
+
+new daily reporting 06.04.2009.0xls O.metadataral || 1665040.jpg | unknown 385 html
+
+Derived From: NSA/CSSM 1-52
+Dated: 20070108
+Declassify On: 20340401
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-logos-embedded-in-docs page 2 =====
+TOP SECRET//COMINT//AREL TO USA, AUS, CAN, GBR, NZL
+
+(U//FOUO) Notice the hash of the jpg
+
+Ti imaqge-6354 f6blcedecbhs4 94 etoede7% S103 d0r2.eng
+
+‘uirus scar results
+
+sing IMAGE formatter
+
+a
+WAY’
+(TS//SI//REL) Now you take the 32-character hash (e.g.
+
+6a476b2cedccb34946f5 e9c76103d0f2) and paste that into a Document Metadata search
+under the File/Embedded Image Hash field:
+
+Search: Document Metadata
+
+Query Name: kinkeith_?
+
+Justification:
+
+File/Embedded Image paa7Gh2cedcch34946fe9e7al Osc?
+Hash [fulltext];
+
+(TS//SI//REL) Before you hit submit, you MUST think if the logo could be used by 5-
+EYES protected entities. It should go without saying, but take extra precaution if you
+think it could bring back 5-EYES traffic. What would you do to ensure it’s foreign?
+Maybe AND that with a country?
+
+Filaf=mbadced Imaye 25EhF teG¢eRTs :
+Has [fullkexe}|: le fEbecedcech24¢4bfsa9c%6 IC tdi |
+
+MilcUala Nae: | |
+
+Melaucle velus [fullest]: | |
+
+IF Acdress: | || Pram
+Ik *Cdress: | | To w
+Port: | || Crom
+
+Part: | | To w
+Country: OF ¥ | Fithear +
+
+(TS//SI//REL) Then hit submit and check your results. Your results MAY show you
+actual files that were sent to and from people you’ve never HEARD OF (how cool is
+that?)
+
+Happy hunting.. P|
+
+TOP SECRET//COMINT//AREL TO USA, AUS, CAN, GBR, NZL

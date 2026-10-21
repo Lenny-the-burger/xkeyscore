@@ -1,0 +1,274 @@
+/*
+ * XKEYSCORE GUI styles layered over the stock Ext JS 3 blue theme.
+ * Reference: xks-workflows-2011.pdf slides 7-8, unofficial-xks-user-guide.pdf pp. 2-18.
+ */
+
+/* ---- classification banners (top and bottom of the viewport) ---- */
+.xks-banner {
+    text-align: center;
+    font: bold 10px tahoma, arial, helvetica, sans-serif;
+    line-height: 13px;
+}
+.xks-banner .xks-audit {
+    background: #000;
+    color: #fff;
+}
+.xks-banner .xks-class {
+    background: #ff9900;
+    color: #ffff00;
+}
+
+/* ---- header line under the top banner ---- */
+.xks-header {
+    background: #fff;
+    text-align: center;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+    padding: 2px 0 3px 0;
+}
+.xks-header .xks-product {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+.xks-header a {
+    color: #000;
+    margin-left: 6px;
+}
+
+/* ---- icons (famfamfam silk, ../html/icons/silk) ---- */
+.xks-icon-form      { background-image: url(../../html/icons/silk/application_form.png) !important; }
+.xks-icon-help      { background-image: url(../../html/icons/silk/help.png) !important; }
+.xks-icon-prefs     { background-image: url(../../html/icons/silk/computer.png) !important; }
+.xks-icon-home      { background-image: url(../../html/icons/silk/house.png) !important; }
+.xks-icon-users     { background-image: url(../../html/icons/silk/user.png) !important; }
+.xks-icon-search    { background-image: url(../../html/icons/silk/magnifier.png) !important; }
+.xks-icon-results   { background-image: url(../../html/icons/silk/report.png) !important; }
+.xks-icon-stats     { background-image: url(../../html/icons/silk/calculator.png) !important; }
+.xks-icon-table     { background-image: url(../../html/icons/silk/table.png) !important; }
+.xks-icon-table-go  { background-image: url(../../html/icons/silk/table_go.png) !important; }
+.xks-icon-delete    { background-image: url(../../html/icons/silk/table_delete.png) !important; }
+.xks-pref-note       { margin: 0 0 8px; color: #555; font: italic 11px tahoma, arial, sans-serif; }
+/* results column menu (ResultsMenu.js); icons are the nearest Silk ones to TAO slide 29 */
+.xks-icon-color     { background-image: url(../../html/icons/silk/palette.png) !important; }
+.xks-icon-group     { background-image: url(../../html/icons/silk/group.png) !important; }
+.xks-icon-columns   { background-image: url(../../html/icons/silk/application_view_columns.png) !important; }
+.xks-icon-chart     { background-image: url(../../html/icons/silk/chart_bar.png) !important; }
+.xks-icon-pivot     { background-image: url(../../html/icons/silk/text_columns.png) !important; }
+.xks-icon-autofit   { background-image: url(../../html/icons/silk/arrow_inout.png) !important; }
+.xks-colorby-0 .x-grid3-cell { background: #fde9e9; }
+.xks-colorby-1 .x-grid3-cell { background: #e6f3e0; }
+.xks-colorby-2 .x-grid3-cell { background: #e4ecfa; }
+.xks-colorby-3 .x-grid3-cell { background: #fdf5d8; }
+.xks-colorby-4 .x-grid3-cell { background: #f1e6f8; }
+.xks-colorby-5 .x-grid3-cell { background: #ddf3f3; }
+.xks-colorby-6 .x-grid3-cell { background: #fbe9da; }
+.xks-colorby-7 .x-grid3-cell { background: #ececec; }
+.xks-icon-tag-add   { background-image: url(../../html/icons/silk/tag_blue_add.png) !important; }
+.xks-icon-rename    { background-image: url(../../html/icons/silk/pencil.png) !important; }
+.xks-icon-share     { background-image: url(../../html/icons/silk/group_go.png) !important; }
+.xks-icon-workflow  { background-image: url(../../html/icons/silk/cog_go.png) !important; }
+.xks-icon-split     { background-image: url(../../html/icons/silk/arrow_switch.png) !important; }
+.xks-icon-archive   { background-image: url(../../html/icons/silk/database.png) !important; }
+.xks-icon-filter    { background-image: url(../../html/icons/silk/zoom.png) !important; }
+.xks-icon-cell      { background-image: url(../../html/icons/silk/note.png) !important; }
+.xks-icon-download  { background-image: url(../../html/icons/silk/disk.png) !important; }
+.xks-icon-add       { background-image: url(../../html/icons/silk/add.png) !important; }
+.xks-icon-session   { background-image: url(../../html/icons/silk/email_open.png); }
+
+/* ---- home page ---- */
+.xks-home {
+    font: 12px tahoma, arial, helvetica, sans-serif;
+    padding: 4px 8px;
+}
+.xks-home .xks-welcome {
+    text-align: center;
+    line-height: 15px;
+}
+.xks-home .xks-welcome a { color: #00c; }
+.xks-home .xks-hra {
+    margin: 12px 0 0 0;
+    width: 720px;
+    border: 2px solid #c3d4ea;
+    background: #f1f1f1;
+    padding: 6px 4px 6px 4px;
+    line-height: 15px;
+}
+.xks-home .xks-hra h2 {
+    color: #b00;
+    font: 15px tahoma, arial, helvetica, sans-serif;
+    text-align: center;
+    line-height: 17px;
+    margin-bottom: 3px;
+}
+
+/* ---- search form ---- */
+.xks-search-body {
+    background: #f1f1f1;
+}
+.xks-search-title {
+    font: bold 13px "lucida console", "courier new", monospace;
+    padding: 8px 0 10px 8px;
+}
+.xks-search-sep {
+    border-top: 2px solid #c3d4ea;
+    margin: 4px 0 6px 40px;
+    height: 0;
+    overflow: hidden;
+}
+.xks-search-body .x-form-item-label {
+    font: 12px "lucida console", "courier new", monospace;
+}
+.xks-search-buttons {
+    padding: 8px 0 12px 150px;
+}
+.xks-search-buttons .x-btn {
+    float: left;
+    margin-right: 6px;
+}
+
+/* ---- time spinner (stands in for Ext.ux.form.SpinnerField) ---- */
+.x-form-field-wrap .xks-spinner-trigger {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='21'%3E%3Crect x='.5' y='.5' width='16' height='20' fill='%23e3ecf8' stroke='%23b5b8c8'/%3E%3Cpath d='M5 9l3.5-4 3.5 4z' fill='%2315428b'/%3E%3Cpath d='M5 12l3.5 4 3.5-4z' fill='%2315428b'/%3E%3C/svg%3E");
+    background-position: 0 0 !important;
+}
+
+/* ---- results ---- */
+.xks-link {
+    color: #00c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.xks-state {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 16px;
+}
+.xks-row-running .x-grid3-cell-inner {
+    color: #777;
+}
+.xks-menu-heading {
+    background: #d0def0;
+    color: #15428b;
+    font: bold 11px tahoma, arial, helvetica, sans-serif;
+    padding: 2px 4px;
+    margin: 0 -2px;
+}
+
+/* ---- metadata viewer ---- */
+.xks-raw {
+    font: 11px "courier new", monospace;
+    white-space: pre-wrap;
+    padding: 6px;
+    background: #fff;
+}
+
+/* MultiSearch "Search Forms" label [UG4] */
+.xks-searchforms-label {
+    font: bold 12px "lucida console", "courier new", monospace;
+    text-align: center;
+    width: 90px;
+    float: right;
+    padding-top: 8px;
+}
+.xks-searchforms-label button {
+    font: 12px tahoma, arial, sans-serif;
+    margin-top: 2px;
+}
+
+/* ---- Oct 2009 search page (cne-analysis-in-xks.pdf slides 22-23) ---- */
+.xks-search-page {
+    padding: 14px 20px 20px 30px;
+    background: #fff;
+}
+.xks-search-help {
+    margin-bottom: 14px;
+}
+.xks-search-band {
+    background: #dfe8f6;
+    margin: 0 0 4px 30px;
+    padding: 6px 0 2px 0;
+}
+.xks-search-band .x-form-item-label {
+    margin-left: -30px;
+}
+a.xks-form-link {
+    color: #00c;
+    text-decoration: underline;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-left: 4px;
+}
+
+/* ---- Workflow Central [WF9-20] ---- */
+.xks-wf-body { background: #dfe8f6; }
+.xks-wf-body fieldset legend { font-weight: bold; color: #15428b; }
+.xks-wf-white, .xks-wf-typebox { background: #fff; border: 1px solid #99bbe8; margin-bottom: 4px; }
+.xks-wf-typehelp { padding: 4px 8px; text-align: center; border-left: 1px solid #99bbe8; min-height: 80px;
+                   font: 11px tahoma, arial, sans-serif; }
+.xks-wf-datetime { margin: 4px 0; }
+.xks-wf-datetime .x-panel-body { background: #dfe8f6; }
+.xks-wf-help { margin-top: 4px; }
+.xks-wf-section { margin-bottom: 4px; }
+.xks-wf-section .x-panel-header { padding: 3px 5px; }
+.xks-wf-note { background: #dfe8f6; border: 1px solid #99bbe8; padding: 6px 8px; margin-bottom: 4px;
+               font: 12px tahoma, arial, sans-serif; }
+.xks-wf-remove, .xks-wf-action { cursor: pointer; margin-right: 3px; vertical-align: middle; }
+.xks-wf-alias { color: #66f; margin-right: 2px; }
+.xks-wf-warning { background: #f00; color: #ff0; font-weight: bold; }
+.xks-wf-acttable { border: 1px solid #99bbe8; background: #fff; }
+.xks-wf-acthead { background: #ededed url(../../html/ext-3.4.1/resources/images/default/grid/grid3-hrow.gif) repeat-x; }
+.xks-wf-acthead table { width: 100%; border-collapse: collapse; font: 11px tahoma, arial, sans-serif; }
+.xks-wf-acthead td { padding: 3px 4px; border-right: 1px solid #d0d0d0; }
+.xks-wf-args { border-left: 1px solid #99bbe8; border-right: 1px solid #99bbe8; min-height: 60px; }
+.xks-wf-review .x-panel-body { font: 12px tahoma, arial, sans-serif; }
+.xks-wf-review pre { font: 11px "lucida console", monospace; }
+.xks-wf-rowbody { padding: 4px 10px 8px 30px; font: 11px tahoma, arial, sans-serif; }
+/* [WF19] pending rows are yellow, [WF20] approved rows green */
+.xks-wf-pending .x-grid3-row-table { background: #ffff99; }
+.xks-wf-approved .x-grid3-row-table { background: #90ee90; }
+
+/* ---- C2C Session Viewer [TAO12] [TAO36] [CNE25] ---- */
+.xks-sv .x-window-header-text { display: block; text-align: center; letter-spacing: 1px; }
+/* the viewer's toolbars are mid-blue with gold labels */
+.xks-sv-bar.x-toolbar { background: #6b8fc7 none; border-color: #4a6fa8; }
+.xks-sv-bar .xtb-text, .xks-sv-bar .x-btn-text { color: #f5d76e !important; }
+.xks-sv-bar .xks-sv-val { color: #ffeb99; }
+.xks-sv-dots { color: #334; letter-spacing: 1px; }
+.xks-sv-readahead { background: #8aa8d8; padding: 1px 6px; }
+.xks-sv-header .x-grid3-row td { font-size: 12px; }
+.xks-sv-header .x-grid3-scroller { overflow: hidden !important; }
+.xks-sv-quick .x-panel-body { background: #ffffcc; }
+.xks-sv-quick .x-tree-node-anchor span { font-size: 12px; }
+.xks-sv-x { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M2 2l12 12M14 2L2 14' stroke='%231c3f94' stroke-width='3.5'/%3E%3Cpath d='M9 7l5-5' stroke='%23999' stroke-width='2'/%3E%3C/svg%3E") !important; }  /* XKS logo stand-in */
+.xks-sv-noicon { display: none !important; }
+.xks-sv-oneclick .x-tree-node-anchor span { background: #a00; color: #fff; padding: 0 3px; }
+.xks-sv-ocgroup .x-tree-node-anchor span { color: #15428b; text-decoration: underline; }
+.xks-sv-body { background: #fff; }
+.xks-sv-auto { text-align: center; font: 12px tahoma, arial, sans-serif; padding: 3px; border-bottom: 2px solid #333; }
+.xks-sv-dni { margin: 10px 0 0 12px; border-left: 4px solid #15428b; border-top: 4px solid #e8c9a8; }
+.xks-sv-dni-title { padding: 6px 8px; font: 13px tahoma, arial, sans-serif; color: #15428b; }
+.xks-sv-tri { font-size: 10px; }
+.xks-sv-agility { float: right; }
+.xks-sv-dni table { margin: 0 0 0 6px; background: #eee; border-collapse: collapse; width: 98%;
+                    font: 15px "times new roman", serif; }
+.xks-sv-dni th, .xks-sv-dni td { text-align: left; vertical-align: top; padding: 3px 6px; border-bottom: 1px solid #fff; }
+.xks-sv-dni th { width: 140px; font-weight: normal; }
+.xks-sv-req { background: #e2e2e2; }
+.xks-sv-ascii { font: 13px "courier new", monospace; padding: 6px; white-space: pre-wrap; }
+.xks-sv-nowrap .xks-sv-ascii { white-space: pre; }
+.xks-sv-hit { background: #ff0; }
+.xks-sv-kl { padding: 6px; font: 14px "times new roman", serif; }
+.xks-sv-kl-title { text-align: center; font: bold 12px tahoma, arial, sans-serif; }
+.xks-sv-kl table { border-collapse: collapse; }
+.xks-sv-kl th, .xks-sv-kl td { border: 1px solid #999; padding: 3px 5px; vertical-align: top; min-width: 120px; }
+.xks-sv-kl th { font-weight: normal; text-align: center; }
+.xks-sv-toast { position: absolute; z-index: 20000; background: #ffffcc; border: 1px solid #99bbe8;
+                padding: 6px 12px; font: 12px tahoma, arial, sans-serif; }
+
+/* ---- My Previous / Ongoing Results, My Downloads (cne-analysis-in-xks.pdf slide 16) ---- */
+.xks-qh-act { cursor: pointer; margin-right: 3px; vertical-align: middle; }
+/* "FILTERS:" in bold on a yellow highlight */
+.xks-filters-btn .x-btn-text { background-color: #ffff66 !important; font-weight: bold; }
+.xks-qh-text-body { font: 11px tahoma, arial, sans-serif; padding: 3px 5px; }
+.xks-qh-text-body div { white-space: nowrap; line-height: 16px; }

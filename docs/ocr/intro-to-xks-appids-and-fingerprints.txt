@@ -1,0 +1,1409 @@
+
+===== intro-to-xks-appids-and-fingerprints page 1 =====
+Seto —
+DERIVED FROM: NSA/CSSM 1-52
+
+| TOP SECRETICOMINT//REL TO USA, AUS, CAN, GBR, NZL120201123
+
+
+===== intro-to-xks-appids-and-fingerprints page 2 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Agenda
+
+Overview of Application IDs and
+Fingerprints
+
+Background of the 4 generations of
+App|lDs+Fingerprints
+
+Examples of how they are used for target
+development SIGDEV
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 3 =====
+What is an AppID? dais
+
+An Application ID (AppID) is a meta-data
+tag given to a session to help describe
+what application is being seen in the traffic
+
+Examples:
+
+= mail/webmail/yahoo indicates that the traffic was
+Yahoo Webmail
+
+= chat/msn_messenger indicates the traffic was
+MSN Messenger
+
+= http/get indicates that the traffic was an HI TP
+Get
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 4 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Why even have App|Ds/Fingerprints?
+
+Mba
+
+What's the point of AppIDs/Fingerprints?
+
+For one, they give you a powertul tool for
+the quick analysis of what applications are
+being seen in your traffic.
+
+A simple histogram on ApplD allows you to
+quickly identify all of the applications seen
+for a given result set, without needing to
+view each piece of content
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 5 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Why even have AppIDs/Fingerprints ? |
+
+= Ex: Histogram the applications used during
+Target activity:
+
+Histogram Grid x
+
+Page loft © * = ClearSelection Export
+
+Filter Application (ount
+htt et ae
+Update Sericetyvin doves 4?
+
+UNKNOWN EOE OSA oe teu 25
+
+mallwebmalligawab 11
+
+Hithre sponse 10
+
+Tra webrn alli alr
+
+photo sharingh44s4 photobucketcorm
+
+Hi OSte yeyeye-To trr-urlencoded
+
+Htthre sparse git
+
+Mmialwebrn ailfgrriail
+
+Htthwresponse/sO0 bad requesthtr
+
+hthresponsesnot foundshtr|
+filetranstenweblarchi’e orgidownload/request
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+oo ee FS th mm mm
+
+
+===== intro-to-xks-appids-and-fingerprints page 6 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Why even have App|Ds/Fingerprints?
+
+Mis
+
+secondly, they provide an additional criteria
+that you can use In your query.
+
+= NOTE: It’s important to point out that
+since most AppIDs + Fingerprints are
+tagging technology and/or applications,
+they SHOULD NOT be the sole criteria
+for your queries in X-KEYSCORE!
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 7 =====
+Why even have AppIDs/Fingerprints ¢
+
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+i
+
+= EX: lm looking for targets using mail.ru
+from behind a large Iranian proxy:
+
+IP Address:
+
+Appl
+(+Fingerprints) [fulltext]:
+
+i
+
+Either
+
+| Field Builder
+
+| | Appi {+ Fingerprints)
+
+=
+|) mail’webomeail/mailru
+=
+
+mail Wwebmailmailru/post
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+mail webomail,mailru
+
+— mail webmailtnailruattach ment
+
+
+===== intro-to-xks-appids-and-fingerprints page 8 =====
+Why even have AppIDs/Fingerprints ¢
+
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+i
+
+= EX: lm looking for targets using mail.ru
+from behind a large Iranian proxy:
+
+IP Address:
+
+Appl
+(+Fingerprints) [fulltext]:
+
+iz
+
+Either
+
+| Field Builder
+
+| | Appi {+ Fingerprints)
+
+=
+|) mail’webomeail/mailru
+=
+
+mail Wwebmailmailru/post
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+mail webomail,mailru
+
+— mail webmailtnailruattach ment
+
+
+===== intro-to-xks-appids-and-fingerprints page 9 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Why even have App|Ds/Fingerprints?
+
+= EX: fm looking for Mojaheden Secrets 2
+use in extremist web forums:
+
+Field Builder
+
+| | ADDID (+Fingerprints)
+
+forum/extremisty| v |
+
+Field Builder
+
+: TOCA STs Gar ai ya al | AppID (+ Fingerprints)
+Tor um ext emistaltirdaws Arabic )
+e | | may |
+encryotionmo jahedenz
+
+— encryption Imajshecenc/oncodedreader—st=<CS*S
+
+forum sextremist/athisbahwworkshop
+Torum exit amist/al-ikhlas
+
+forurmextremistal-nukhbah
+
+forum ext emistal-nusrah
+
+encryotion,'mojahedene /hidden
+encryotion,/mojahedenzhiddenz
+encryotion,'mojahedenz key ids
+
+encryotion,mojahedenzsecurefile
+
+forum extremist/at-qimmnan
+forum exit eamist/al-shura
+forum/extemist/aljazeeratalk
+forum extremist/almareth
+forum ext amistamb
+
+forum/extremist/ash tyane
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 10 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+EIOW do App|IDs work?
+
+ApplD's are effectively looking for keywords
+in order to assign the ApplD tag.
+
+Example, lets say that this Is the definition
+for mailAvebmail/yahoo:
+
+appid('mail/webmail/yahoo', 9.0) = 'Host: mail.yahoo';
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 11 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Example
+
+Here is a client side Yahoo session:
+
+GET /login. html HTTP/1.1
+
+Referer: http://us.£359.mail.yahoo.com/ym/ShowLetter
+Accept-Language: ar
+
+Accept-Encoding: gzip, deflate
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; S8V1)
+Host: mail.yahoo.com
+
+Connection: Keep-Alive
+Cookie: B=fn50ehd261202 &b=3&s=rp; YMBM=d=&v=1 ;
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 12 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Example
+
+appid(‘mail/webmail/yahoo', 9.0) = 'Host: mail.yahoo',;
+
+GET /login. html HTTP/1.1
+
+Referer: http://us.£359.mail.yahoo.com/ym/ShowLetter
+Accept-Language: ar
+
+Accept-Encoding: gzip, deflate
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; S8VvV1
+Host: mail.yahoo.com
+
+Connection: Keep-Alive
+Cookie: B=fn50ehd261202 &b=3&s=rp; YMBM=d=&v=1 ;
+
+Application: mail/webmail/yahoo
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 13 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+How AppliDs work
+
+What does the number in the AppID mean?
+appid(‘mail/webmail/yahoo’, 9.0)=
+
+Each session can have only one AppID
+
+The goal is for the AppID to be as descriptive as
+possible
+
+Any given session might qualify under multiple
+AppI|Ds definitions, but only the most specific
+ApplD that applies to the session is assigned
+
+= Lowest number wins, so the lower the number,
+the more specific the App|D definition
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 14 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+How do ApplDs work?
+
+Lets say theres another more descriptive
+appid for mail/webmail/yahoo/login:
+
+"Host: mail.yahoo’ and
+
+appid('mail/webmail/yahoo/login, 8.0)
+'/flogin' ;
+
+Ithas a lower number than
+mail/webmail/yahoo, so if it “hits” it will be
+applied
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 15 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Example
+
+appid('mail/webmail/yahoo', 9.0) = 'Host: mail.yahoo';
+appid('mail/webmail/yahoo/login, 8.0) = ‘Host: mail.yahoo' and
+'/flogin';
+
+GET /login. html HTTP/1.1
+
+Referer: http://us.£359.mail.yahoo.com/ym/ShowLetter
+Accept-Language: ar
+
+Accept-Encoding: gzip, deflate
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; S8VvV1
+Host: mail.yahoo.com
+
+Connection: Keep-Alive
+
+Cookie: B=fn50ehd261202 &b=3&s=rp; YMBM=d=&v=1 ;
+
+Application: mail/webmail/yahoo/login
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 16 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+ApplD Structure
+
+Abin
+
+Note that the AppIDs have a directory-like
+Structure:
+
+mail/webmail/yahoo and
+mail/webmail/yahoo/login
+
+lf you wanted to search for all webmail activity
+you could search for mail/webmail/*
+
+lf you wanted to search for all Yahoo mail
+activity you could search for
+mail/webmail/yahoo/*
+
+e{c
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 17 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+How AppliDs work
+
+some session can hit on many AppIDs. ne
+
+For example a single session might hit on:
+appid(http/response’, 9.2)
+appid(mail/webmail’, 3.9)
+appid(mail/webmail/yahoo’, 6.0}
+appid(‘mail/webmail/yahoo/attachment’, 5.0)
+
+Which one will be assigned as the winning
+App|D’?
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 18 =====
+How AppIDs work ne
+
+When you see an AppID how do you know
+what was used to define that App|ID?
+
+Through the XKS ApplD signature page
+available through “go xkeyscore™
+
+Or by simply clicking on the hyperlink
+ApplD from the new GUI!
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 19 =====
+What is a fingerprint? = ne
+
+App|Ds were built to describe applications,
+of which there “should* only be one
+
+application seen per session.
+
+How do we describe other attributes of a
+session that arent necessarily tied to a
+particular application?
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 20 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What is a fingerprint?
+
+One great example is encryption
+
+A particular type of encryption could be
+
+used in Yahoo Email, Gmail Email, SMTP
+Email.
+
+It could be used inside of a Word
+Document being uploaded to a free file
+website.
+
+lt could be used inside of a private
+message sent through Facebook.
+
+Etc.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 21 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What is a fingerprint?
+
+ibis
+
+How can we tag anytime we see that type
+of encryption regardless of the application
+we saw It in?
+
+Answer - Fingerprints
+
+Think of Fingerprints as “attributes” of a
+session.
+
+A session can have as many fingerprints as
+Is needed to best describe It.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 22 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Example
+
+appid('mail/webmail/yahoo', 9.0) = 'Host: mail.yahoo' ;
+appid('mail/yahoo/login, 8.0) = ‘Host: mail.yahoo' and ‘'/login';
+Fingerprint({ ‘mail/arabic'}) = 'mail’ and /langquage[:=] ?ar/;
+
+GET /login. html HTTP/1.1
+
+Referer: http://us.£359.mail.yahoo.com/ym/ShowLetter
+Accept-Language: ar
+
+Accept-Encoding: gzip, deflate
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; S8VvV1
+Host: mail.yahoo.com
+
+Connection: Keep-Alive
+
+Cookie: B=fn50ehd261202 &b=3&s=rp; YMBM=d=s&v=1
+
+Application: mail/webmail/yahoo/login
+Fingerprint: mail/webmail/yahoo/login mail/arabic
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 23 =====
+Appid vs Fingerprint —
+
+f
+
+Each session gets one appid -- lowest level wins. It gets databased in
+the ‘application’ field.
+
+Ail matching fingerprints are stored in the ‘fingerprint’ field.
+
+4oolication Type: ¥
+
+Winning appid
+
+Apolication Into:
+
+Anplication: A Winning appid +
+My fingerprints
+AnpID [Populate with Field Builder]
+(+Fingerprints) [fulltext]: ds [Populate with Tree Field Builder)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 24 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Fingerprint Examples
+
+Ex: E-Mails with encryption
+
+From: “Launchpad OpenPOGP Key Confirmation” <noreslGilaunchpad net> [Save Address] [Block Sender]
+
+(Cc:
+
+Subject: Launchpad: Contin your UpenPOP Key
+Date: Wed, 37 Dec 2000 10:04:16 -0000
+
+Warsion (snuPG vi 4 ASN ins
+
+Applicaton ASoILI (+FIngerarints | -
+
+mallweomnallfouthlaze railwebmail/outblaze has fingerprint encryption/pap encryptian/papmessage
+
+spit'WEZst ypgG7¥dHF UpreQJom| lb? agvvimhbOUrZzy GdDRla8t cF 2JA7 OIL
+
+Sey Crninidé cas +khDazh  ayioe yNiGovy rks sO zS0F Fl usd nvyhs+nclpy
+
+Olyzts liz bP B68 +9JrPvm Bete? eto 2d th oo YAY CIO oMROUB og Tg OQUlglR'vre
+
+BEF whiOnGst0SHiF rar Los TUF pBIMAK gquk? moO dhiin U0 oh eh 1 xo GuVVyo+
+hb bw) YWoEWAC vis uve ux ty +e Sk OtDewdhlod oes Ui) vpn Belton Aap
+LaYsmxqhwhyhzF PP xk huh 2dr rCductiGaerssizZDIIO Vs owe? Bwayw6e Bynr
+GEO YK YsOw yy t2oDTPregsu Eg lewo ye KT Phi gZLMAB uC ImolRALZagE TT g4dh
+VO A+27 ty GDeOhLMyBElns4-4iP 1 rdaeE+ yy? Yard Ploy C4 QwOUPKhwuACo+
+StLAuQHMSSRKB4 aDhld ib CSS kK EW ye? PvuMIBVYo5 JERF OOS x6 95H] ukgeC err
+CieTmOPTIAY  Sal2aaréniOzy xivvzd CABHALF +baF OsIbAEPmRvPodgyowl yHD
+ASEXVHDz/4A4lDyEefaomEgAasUeP som Ard zpbasslLb Gobo yKAKUSSbEN pe KO gT
+aslLWAe CH tsxLegTovdthEkPebxOOnvcethe PEt nyse? Pas + 2ICOOE NDGA,
+dho2brlwoxnybAo Sel ALUSryoxkKetGel az roo vy polCokoACWetGDagke sit
+
+Kv KSNI+Hk xhAya ye vb lo? Cotzeldadbdl4askKhd SOV YK? pDAKERHAL Yl GlawRSc Qa
+eb HaJIR IKK yaa YSAE re afPOF zu Yl CIUD pvr R22 bud Phkos ha +UBH Yt
+WigRs qa sb On BOW yy0oelLEAdES2 Tila OwAO2 Tyre? uz ABPPOT On
+
+=N4acJ
+
+----- END PGP MESSAGE----
+
+Thanks,
+
+
+===== intro-to-xks-appids-and-fingerprints page 25 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Fingerprint Examples
+
+What caused those fingerprints to hit?
+
+Application ApplD (+Fingerorints) v
+
+Look at the definitions (notice any overlap’? ):
+
+fingerprintCencryption/pgp') =
+‘begin pgp message or ‘begint+pgp+message’;
+
+fingerprint(Cencryption/ogp/message )=
+/(?:BEGIN|END) PGP MESSAGE/;
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 26 =====
+Ex: Extremist Forum Private Messages
+
+=| HTTP
+
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Header Information | Content Type: ATTRPYPOST/Form-Data
+
+POST vb/private ghp?do=insertam &pmid= ATR. 1
+
+Accept:
+
+Heterer:
+
+Imaqergit, mage’ x-xbitmap, Image/|peg, image/jpeg, apolication’x-shockwave-flash, application/rid.ms-excel,
+applicatiomynd. ms-powergoint, apolication/msyward, **
+
+htto:altaloya infovo/private. phovdo=newpmeu=S642
+
+Accept-Language: en-gb
+Content-Type: application’ x-weew-form-urleancaded
+
+UA-CPU:
+
+ye
+
+Accept-Encoding: gzip, deflate
+UserAqent: Mozilla’4 0 fcompatibla: MSIE 7.0: Windows NT 5.1: FON
+
+Application
+
+SepID [+P inde prints |
+
+mnailiwebmail vbulletinprivate messageinsen omailwebmailvbulléetin/private_méessage insert has_fingerprint forum/extremistial-faloja
+
+bccreciprents
+tithe
+
+messade
+
+recipients
+
+pee ue
+
+lie 9 Lublae Loss >2009-01-05:5 ailedl 21430 pjoo 08 gM Yl ag) clino dil duty yale ll caluall 4S p25 dal Calg! pall Qui Cah
+ei glgnell (yo cols) pte a at Cools Cie 48 liad) dabesdl 6 Colinc toll 4ai6 8 ghia ge git 24 a gE] ta ll 2] gol Lola 2 eo, ie
+obldall
+
+Latin geetemall NM gagall sles lil! 4 [eile las pyo pl ill sae cols te at las 4a june ot dlls Lallal q sa¢Il (yg Leal iio! y
+4aail, aol fi, doh oil col all ai 8 Mes Aus tiles 28 ole Sed iy Cale] dais agilals oa ee te | yn,
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 27 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+AppiD vs Fingerprint
+
+ApplDs and Fingerprints use the exact same
+language inside of XKS.
+
+You can tell which one it is by the definition:
+
+appid (mail/webmaill/yahoo)
+fingerprint (encryption/pgp)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 28 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+App!|D/Fingerprint Language Evolution
+
+There have been 4 generations of XKS af
+ApplD/Fingerprint languages
+
+18' Generation: Simple Keyword Scanning
+
+24 Generation: Context Aware Keyword
+ocanning
+
+3'¢ Generation: Code based
+App|Ds/Fingerprints
+
+4'" Generation: Code based ApplDs that can
+extract meta-data (also known as Micro
+Plugins)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 29 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+18" Generation App|Ds/Fingerprints
+
+Abie
+
+In the beginning, App!IDs and Fingerprints
+were just Keyword scanning similar to
+CADENCE tasking Ex:
+
+appid(‘mail/webmail/yahoo’, 9.0) =
+‘Host: mail.yahoo’;
+
+appid(‘mail/yahoo/login, 8.0) =
+‘Host: mail.yahoo' and ‘login’;
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 30 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+1s: Generation App|IDs/Fingerprints
+
+15' Generation would also support Regular
+Expression (REGEX's):
+
+fingerprintCencryption/pgp/message )=
+/(?:BEGIN|END) PGP MESSAGE;
+
+(instead of quotes REGEX’s are enclosed by
+forward slashes)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 31 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+18" Generation App|Ds/Fingerprints
+
+As well aS Hex scanning:
+
+appid(database/ms_ sql server(tds)/login', 7.5)=
+\xO6\x83\xf2\xf8\xffixO0O\xO0\xO0\x00\xe0\
+xO3\xO0\xOO\x88\xfAxfxiix36\x04\x00\x00':
+
+(Hex characters are prefaced by \x)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 32 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+2"2'Generation App|Ds/Fingerprints
+
+22 Generation App|IDs/Fingerprints
+
+introduced XKS's context sensitive scanning
+engine.
+
+For example, rather than scanning an entire
+session top to bottom to look for
+facebook.com we can just use the
+dictionary context http host to target the
+scan for the host field only.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 33 =====
+How do App!IDs work? Mis
+ApplD's are effectively looking for keywords
+
+in order to assign the ApplD tag.
+
+Example, this is the definition for Hid
+
+appid(mail/webmail/hid, 6.0 )=
+‘hisloggedin'c or
+http host(hid5.com’) or
+ntml titleCnis);
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 34 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What do ApplD's look like?
+
+olf you look at the raw text of this traffic, one
+of the definitions for the mail/webmail/hid
+will hit:
+
+Session | Header (3) I Meta (Si) | Atkachmenks (2) |
+
+<'DOCTYPE Html FUBLIC "-//W3C//DTD SATML 1.0 Transitional; /EN"™ "Http: / fiw
+<html xmlns="http: / fw. ws.org/1999/ehtml ">
+“head
+
+<title=hisS | Your Friends. Your World.<,/title>
+
+“Weta http-equiv="Content-Type" content="text,/html: charset=utf-a" f>
+
+| Registration is quick and easy!
+
+| Renister |
+TOP SECRET/ICOMINT/REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 35 =====
+Example:
+
+¢Tacehook =
+html title ('Facebook' |
+
+htt p host('.facebook.com');
+
+Note the use of the chain word $facebook in
+the ApplD definition
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 36 =====
+acebook =
+
+htwl title | 'Facebook')
+http host('.facebook.com'} ;
+
+- wl a ee ee | | —
+os Ll, Wwebpe oc=!'Pacebook =
+
+GET /yovilefiew_ sitts. php? siftskip=1 &ust=1 HTTP/1.1
+
+Accept: unage/at, mage/x-xbitmap, unage/jpeg, unage/pypeg, apphcation/x-shockwave-flash
+Accept-
+en-us
+Languace:
+UA-CPU; xeG
+Accept-
+
+Encoding: evipy, deflate
+ea er able: ISIE 7.0; Windows NT 5.1)
+
+apps. facebook.com
+
+Connection: Keep-Alive
+
+Coolkuse: datr=1 2751060871 -O82 d5645S8alted] 52 e8816a79458b9b9503 lb60aeaOttaecd04i4
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 37 =====
+r a |
+
+htral tit aE f' Facebook ')
+
+http hos EI _tacebook. cor! }
+
+r
+
+C4
+
+| /soctal/facehook | 3,0, webproc=
+
+ialeelieiaaliion ro
+
+facebook;
+Host
+plattonnaktacebook.com
+Vihumb.ak.facebook.com
+creative ak facebook.com
+Wwiwtacebook.com
+02959200732. channels2 facebookK.com
+
+All of these hosts
+would match this
+ApplD:
+
+appstacebook.com
+facebook.com
+
+03458989905. channels? facebook.com
+Static. ak facebook.com
+h.static ak facebook.com
+0368 147/000. channels? tacebook.com
+badge tfacebook.com
+
+TOP SECRET/ICOMINT/REL TO USA, AUS, CAN, GE
+
+
+===== intro-to-xks-appids-and-fingerprints page 38 =====
+jkaspersky | 7 =
+
+ipl AO
+ip
+
+ip
+
+ip
+
+ipl
+
+ipl
+
+ip
+
+alecr |
+LS i
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 39 =====
+Can you tell what's going on here?
+
+L/mebmail/netlag -U, webproc='Wetlog')
+htrol - l 'Netloa Cf an I
+
+http host |
+http ~ookie(/
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 40 =====
+me / roc orole
+
+‘mao tctorala '
+
+[ hy IL oOMSsSert fa Ce ani T) ik 1 7 } ri‘ =
+
+hromws 1 ol [ I BE] La iekFE =i er T "
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 41 =====
+If you were to query on any of these
+fingerprints by themselves, would your
+auditor be happy?
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 42 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+WSSID18 Considerations!
+
+Abin
+
+But if you were to query on an Afghan IP
+address that was a valid foreign intel target,
+and then “AND” it with those fingerprints,
+that would be a USSID18 compliant query
+(and your auditor would be happy)
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 43 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+3° Generation App|Ds/Fingerprints
+
+3' Generation App|Ds/Fingerprints ,
+
+Introduced the ability to have code-based
+scanning
+
+= Why is this important? Because scanning
+sessions for keywords, hex values and
+regular expression can only take you so far.
+
+= Using Code-based ApplDs, we can run
+Statistical tests of the data that can help
+determine what type of data it is when
+
+keyword scanning cant give us a result.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 44 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+4' Generation AppIDs/Fingerprints
+
+4th Generation AppIDs/Fingerprints
+
+introduce the ability to extract and database
+meta-data from Appid/Fingerprints
+
+Why ts this important?
+
+With the dynamic nature of DNI applications,
+we need the ability to quickly react and
+deploy solutions to extract new fields of
+meta-data that are important to analysts
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 45 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+4' Generation AppIDs/Fingerprints
+
+Previously, if we identified a new protocol or
+a new field that we wanted to extract meta-
+data, we would need to upgrade a “core”
+
+plug-in and wait until we could upgrade the
+field sites.
+
+With 130 field sites. each on their own
+upgrade schedule, this could take months for
+a simple change to get out in the field
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 46 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+4" Generation AppIDs/Fingerprints
+
+With 4 generation AppIDs, a new protocol,
+meta-data value, can be properly processed
+within an hour of updating the
+App|D/Fingerprint.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 47 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+ain Generation App|Ds/Fingerprit rints
+
+Examples:
+
+('social/facebook/chat/to server', 1.0) =
+[' Tacebook.corm') and
+fhttp post and
+('/fajax/chat/send.php'}
+Cr+
+
+= i
+login email = login x=.*[[a-20-9 4-4.) {30} 840[a-20-9 4-4.) {30}) 7;
+text = /maq text=([*a\n\r]+) /;
+
+It
+= {i
+it [login email) {
+MkSiruser activity t ual"chat", “facebook");
+Wa. Client.add(xks::urldecode (login email[U]}, “Tacebook");
+
+ua. apply);
+
+i
+if [texti {
+xka:ichat body([xka::urldecode[text[U]));
+
+return Crue;
+
+Ihe
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 48 =====
+Hii ns see Ba nT TO US, AUS, CAN, GBR, NZL
+
+-EACatOOK Chat V4 Appid Exa
+
+» Lets take a closer look:
+
+«= First a V4 ApplD needs to be ‘anchored’.
+The anchor is the beginning part of the
+22S
+
+“http” he SC [ |
+
+Shetp post
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 49 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Facebook Chat V4 Appid Example
+
+—-
+
+= DNI Presenter Display:
+
+| Session | Header (3) | Atkachments (2) | Meta 09) |
+
+Forn=t =" SMa o2re fo) Deerioedicersien Mower eniepet [ opeoret
+
+UIS Web Form Display
+
+__a
+Tchr
+Tictr
+
+fictr
+
+msg_id a
+
+chent time 1250642 180342
+
+to a
+
+num tabs 1
+
+pys tme 1250642145719
+
+msg text dont u still recogmze me?
+
+post_form id ecbas2odb 1d0S0457tealbte 9 24tastd
+fh dtsg GMFFSISWRE AS L?ID-laN?cL3sk
+
+post form id source AsyncKequest
+ic]
+
+ited
+[ct]
+
+Form Fields
+
+l
+
+03455f1 6 3d4 38th lec/c5a54 s30ta94 52
+dotcefltac lf286b4d leledbcead? 4 al
+1250642164720
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 50 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Facebook Chat V4 Appid Example —
+
+if
+/
+
+» Lets look at the raw:
+
+Session | Header (3) | Athachmentks (3) | Meta (oh |
+
+oe] POST http: / fin. facebook. com/ajax/chat/send.php HITP/1. 1
+
+Host: wim. facebook. cam
+
+User-&gqent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-U5; ryvil.3.0.15) Gecko /#0090750e2 Fireftox/3.0.15
+Accept: text/html,applicationsxhtnltxml, application /’xml;qge0.9,*/*7qg=0.6
+
+fccept-Langquagqe: en-us,6@n;q=0.5
+
+Accépt-Encoding: geip,deflate
+
+focept—-Charset: LS0-s659-] utf—-ergel. 7, *7qgal. 7
+
+Feep-filive: 300
+
+Proxy-LConnection: keep-alive
+
+A-SWW-BReyv: Lolv2l
+
+Content-Type: application/s—-tm-form-urléencoded; charset=UTF-6&
+
+Referer: http: /onm,. Cacebook. con/editpicture.php?succesgse=l
+
+Content-Length: S66
+
+Cookie: datr=1l24G211999-as4dddaobnlleso4dehordol4s0looobh Pe thbehodbcbetcsenadeda; Ss oven _facebookpoc_1l=164069410¢
+Pragma: no-cache
+
+Cache-Control: no-cache
+
+usy ic tient _time=12506421603424t0f BB on topsslepvs_times1 25064214571 9emsg_text=dont320v
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 51 =====
+A or otc paged TOP rat V4 Ap O USA, AUS, CAN, GBR, NZL
+
+im)
+
+“facebook Chat V4A
+
+, 10
+
+Host: ww. facebook. Col
+
+Tse Mozillass.0 (Windows; U; Windows WT 3.1; en-US; rcy:l.3.u0,13)
+ACCEPT: text/htnl ,application sxhtnlt+enl ,application/emlsqeu.9,* 7" 3qs0.o
+
+7 = =
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 52 =====
+ae wae Dia iSO CINE LTO USA, AUS, CAN, GBR, NZL
+
+= Once the “anchor” hits, the rest of the eae
+executes. In this case, we re looking for
+these two REGEX’s from the “Extractors”
+
+section:
+
+extractors
+
+login email = /login x=
+
+text = /meq text=l[f*e\n
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 53 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, cee
+
+This REGEX hits within the large cookie string
+
+login email = “login x=.*({[a-z0-9 4-4.) {30} #40[a-2z0-9 4-4.) (30)) 7;
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 54 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Facebook Chat V4 Appid Example
+
+big
+
+—  — a%3A2Z%3A%/BS%3A5%3A%2Z2Emal
+1% 22% 3BS%3A26%3A % 22
+M = =yahoo.com%22%3Bs%3A19%3A%22
+remember me_ default%22%3Bb%3A1%3B
+% (D:
+
+A close look
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 55 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Facebook Chat V4 Appid Example
+
+Mis
+
+se dont%20u%20still%20recognize’%
+20me%3F «post form id
+
+The other REGEX:
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 56 =====
+Finally, in the “Main’ section, if those
+REGEX’'s found the data they were looking
+for, they get databased
+
+tain = {{
+(login email} {
+xkeiiuger activity t ual"chat", “facebook");
+ua.Client.add[xks::urldecode([login email[U]);, “1 dF
+ua.ap ply [i
+
+chat _body [ > reas: urldecode(text[U])):
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== intro-to-xks-appids-and-fingerprints page 57 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+ath Generation AppIDs/Fingerprints
+
+Another example:
+
+('filetransfer/web/cehare.net/upload/response', 5.0)=
+('sSHARE!) and 'cshare.net/delete.htmL'
+> ott
+r id
+wit file neme = /The\sfile\scstrong><font’ scolor=\"#3339334,">((°<] {1,300}) \e</;
+wit delete url = /eshare. net) delete. html)? ([0-9]+)-([0-Ga-eza-z] (sah) yy;
+wit upload id = /cfont colors\"#666666\">ca hrefS\"http:h/\/ue. zshare net / [OV] tV4 0044] +) 2;
+wft url = f<font color="#6666664\"><ca href=\"(http:\/\ ft. zshare net) /CA4/ +. DO.) 44) /;
+wit uploader username = f<small>Logged in as: [[*<]+)<\/small>/;
+It
+= {1
+
+if (wit delete url} |
+
+DB[ web file transfer"]["wtt upload id”] = wtt_ upload id[U];
+
+DB[ "web file transfer"]["wft delete") = wtt delete url[U]t"-"“twtt delete url[1];
+
+DE["wek file tranesfer"|["wit site name"] -— "“egehare. net";
+DE["web file transfer"]["transfer type™] = “upload”;
+
+it (wit file name} {
+PA[ “web tile transter")("wit filename”) = wit file name[U];
+
+if (wit url} {
+DBL "web tile transter")["wkt url"] = wtt_url[U];
+f
+if (witluploader username) |
+DEL "web tile transter"](["uploader username’) - wit uploader username(U];
+I
+
+DB.apply |} ;
+| else {
+
+Jogger. debug ("filetranatfer /web/eshare.net/upload/response: Host regexs didn't mateh"| ;
+
+j
+
+Fecurn Crue;
+
+th
+
+
+===== intro-to-xks-appids-and-fingerprints page 58 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+FFU Successful Upload Pages)
+
+a —
+
+f
+
+Welcome to ‘SHARE
+
+With zoHARE you can upload files, mages, videos, audio and flash for free. Somply use the upload form below and start sharmg! You can also use
+coHARE as your personal fle storage: backup your data and protect your files. First Time? Read our FAC)!
+
+® Upload now
+
+@ Loom
+@ Create Free Account
+
+@ Premium
+
+e FAQ
+
+File Uploaded
+
+The fle wok.rm was successhilly uploaded! (16. 4&MB). You're now ready to share tt with unlimited people or keep it az a backup.
+
+Download Link
+
+httow vere. zshare. net dovwnlead/64ses4562 RS 61/
+
+Link for forums: (URL=httovevew.2 share netidownload/6436345621 i085
+Direct Link: httoy Awww. cshare. net/download/64343 45621108561 }
+| Delete Link: httoy Awww 2share. net/delete. html ?h43639456-77 9939935
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 59 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+FFU Successful Upload Pages
+
+= Again look for the anchor to hit in the raw traffic
+
+<title>z SHARE - Free File, Image and Video Hosting< title?
+
+Value="http: / tm. zshare.net,delete, html?
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== intro-to-xks-appids-and-fingerprints page 60 =====
+Class="texctl ">The file <stronges font color="#3555555">u00R. rm </Conte< /strong>
+
+Then database what was extracted
+
+tain = {4
+
+[wit file name} {
+
+[“welb file transter")]["wtt Tilenawe"] = wit file name[U];
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL

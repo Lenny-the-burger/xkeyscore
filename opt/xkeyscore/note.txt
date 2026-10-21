@@ -1,0 +1,3 @@
+"contains all of the XKEYSCORE software. Software includes the GUI, processing, scripts, and configurations."
+
+"	bashrc - XKEYSCORE environment variables file."

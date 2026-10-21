@@ -1,0 +1,362 @@
+
+===== xks-tech-extractor-2010 page 1 =====
+Tech Strings in Documents
+(aka Tech Extractor)
+
+April 2010
+
+
+===== xks-tech-extractor-2010 page 2 =====
+pee a de
+
+ee —— aa
+
+Sear rperee near
+
+Agenda
+
+© Overview and History of Tech Strings in Documents
+° Why is it important?
+e Limitations of capability - advance to fingerprints
+
+e Examples and live demo
+
+
+===== xks-tech-extractor-2010 page 3 =====
+St
+Ah z
+
+Content-based Selection
+
+®° How do you find DNI data if you dont have a strong
+selector like IP or E-mail address?
+
+e What if you only know keywords, part names, phrases
+etc. expected to be used by your target?
+
+
+===== xks-tech-extractor-2010 page 4 =====
+_ r
+
+re
+
+e The "Tech Extractor’ is a way of finding valuable
+intelligence based on keywords in the content of DNI
+sessions but it is a departure from traditional "soft
+selection’ which tends to bring back a lot of junk.
+
+
+===== xks-tech-extractor-2010 page 5 =====
+— What is soft selection?
+
+e Soft selection, aka content based selection, is an
+approach at targeting traffic by looking for keywords
+or phrases rather than specific E-mail accounts
+
+© Content based selection has suffered because of the
+poor design of content based selection engines
+
+
+===== xks-tech-extractor-2010 page 6 =====
+Communication vs. DNI Content
+
+eh Re ee eee ee a ae ee a ee a Pe -- ee
+va
+
+e Selection engines in use today were based on designs built to
+handle TELEX traffic
+
+e ‘TELEX is a highly formatted content rich type of traffic that
+does not resemble raw DNI seen with Internet traffic
+
+e Raw Internet traffic contains HTML, web-pages, raw base-64
+encoded documents etc.
+
+e When analysts think of DNI “content” they are more
+referring to “communication content then raw DNI content.
+
+° Current DNI selection does not allow you to restrict hits to
+the “type” of traffic you want eg. Emails (including Webmail)
+or Documents
+
+
+===== xks-tech-extractor-2010 page 7 =====
+te
+
+° If an analyst tasks a Boolean equation “bomb” and “chemical”
+they likely want to see all communication that mentions
+‘bomb and ‘chemical and not all web pages, news stories,
+blog posts etc. where those two words appear
+
+° What we need is a context-aware scanning engine that knows
+where it is inside of the raw DNI in order to properly apply
+analyst tasking
+
+
+===== xks-tech-extractor-2010 page 8 =====
+~Soft Selection vs. Surgical Selec
+
+tion
+
+e Existing selection techniques are blunt instruments
+
+° XKEYSCORE contextual dictionaries provide an extremely sharp knife
+to make accurate selection decisions
+
+“That’s not a knife.....THAT’s a knife!”
+
+
+===== xks-tech-extractor-2010 page 9 =====
+e The Tech Extractor was X-KEYSCORE's first stab at
+context-aware scanning and it only focuses on three
+contexts:
+
+e E-mail Bodies
+e Chat Bodies
+¢ Document Bodies:
+
+e Microsoft Word, Excel, PowerPoint, Project, Visio
+e Adobe PDF, Postscript
+e Rich Text Format (RTF)
+
+
+===== xks-tech-extractor-2010 page 10 =====
+© The Tech Extractor works by scanning a list of
+keywords (or regular expressions) against those three
+contexts and then tags the results.
+
+e This is not ‘filtering and selection and were not
+forwarding any data home
+
+° XKS is simply tagging sessions with meta-data, much
+like we do with appids+fingerprints
+
+
+===== xks-tech-extractor-2010 page 11 =====
+——
+pote h NR RN RRM RR RR RR ER RAR MOR RR MRR ROR ARR RRR oth MRR RRR RRR lS ee oe
+
+en
+
+—_—
+
+=e,
+
+Tow does the Tech Extractc
+
+ctor wo
+
+e After the meta-data tag is applied, analysts can then
+use that meta-data tag as part of a USSID-18 compliant
+query for traffic
+
+e It’s important to note, just like AppIDs+Fingerprints,
+Tech Extractor tags arent necessarily USSID-18
+compliant by themselves.
+
+e You may need to add a valid foreign IP address, MAC
+address or country code before you query!
+
+
+===== xks-tech-extractor-2010 page 12 =====
+e
+M
+
+vent |
+
+emall |
+
+HTML | Plain Text | Attachment
+
+Subject WNFF-60024-GCC-KHI
+
+From
+To: ee
+
+Ge!
+
+Date: Tue Dee 30 10:57:45 GhIT 2006
+
+Model: 6 qc0
+
+WON: 66024
+ASC: GOC-RKHI
+
+oyMptom: qioe
+
+Comments: no fault found phone is working properly kindly confirm the fault in detail when and in which condition it
+creates problem related to mention symptom
+
+(55h Repair Engineer
+
+
+===== xks-tech-extractor-2010 page 13 =====
+: ——$—__ eee So" a
+——How does the Tech Extractor work?
+
+° Also this is not retrospective.
+
+e After a list is tasked, XKS will scan data collected from
+that point on looking hits.
+
+e Any data previously collected and stored by XKS will
+not be scanned.
+
+
+===== xks-tech-extractor-2010 page 14 =====
+Me NLT earerrarrrr ricer re a ee
+Where does XKS get its list of t
+
+e Analysts provide the XKS team with lists of terms,
+called “Tech Dictionaries’ which can contain multiple
+category names (aka “Tech Names”)
+
+e Only after the XKS team is supplied with those terms
+can the system begin scanning and tagging.
+
+e GUI to allow analysts entry of tech terms almost
+complete
+
+
+===== xks-tech-extractor-2010 page 15 =====
+=—Tech Extractor Tasking Rules
+
+e Currently, all terms need to be classified REL FVEY
+
+° Terms are case insensitive by default, but can be forced to be case
+sensitive
+
+e Terms can hit as a substrings by default
+
+ex: ricin’ will hit in ‘pricing’
+
+e However, terms can be forced to hit as a unique word (either by
+tasking them with a space at the beginning and end or by using a
+regular expression)
+
+
+===== xks-tech-extractor-2010 page 16 =====
+NMR AM ANN NAR RARER OR ORR RAR AR GR GRR AR AR AR CAM At AL LNRM CNR GR GRAB AR MARGE AR RR RRR RR a: --.
+diy ie OUT UU OOCeva
+
+ull Forel 2 n Language Sup! upport a _
+
+‘Supports full foreign language tagging
+and querying
+
+‘Ex look for common Arabic expressions
+
+in E-mails coming from the Pakistan
+tr
+
+a Ache user:
+. UIS Webmail Display ay Windows Live'Mall yo
+
+Mecium risk You may not know this sender Mark as sate/Mark as unsate
+Sent: Thu 1/01/09 12:07 PM
+
+
+===== xks-tech-extractor-2010 page 17 =====
+se
+pote h NR RN RRM RR RR RR ER RAR MOR RR MRR ROR ARR RRR oth MRR RRR RRR lS ee oe
+
+en
+
+Tech Extractor Limitations a
+
+e While terms tasked for the Tech Extractor are applied
+only to Document, E-mail and Chat bodies, that is still
+a lot of traffic!
+
+e If the term is too generic (or short) you're still likely to
+run into a lot of false hits.
+
+e Also, while you can limit your results by adding more
+search criteria (country code, IP address etc), the term
+will be scanning all data looking for hits
+
+
+===== xks-tech-extractor-2010 page 18 =====
+——
+pote h NR RN RRM RR RR RR ER RAR MOR RR MRR ROR ARR RRR oth MRR RRR RRR lS ee oe
+
+en
+
+TEE tea
+SS
+
+Tech Extractor vs. Fingerprints
+
+e Tech Extractor treats E-mail, Chat and Document
+bodies as a single “context”
+
+e The XKS Fingerprint language gives you over 65+
+contexts that can be used together to form powerful
+and specific signatures
+
+e When terms are generic and are returning too many
+poor results through Tech Extractor, then it’s time to
+make the switch to the full fingerprint language
+
+
+===== xks-tech-extractor-2010 page 19 =====
+° One of the most powerful feature of the Tech Extractor
+is that it shows you exactly which term hit in the meta-
+data results:
+
+Event Tyne
+document body
+
+document body
+amail boy
+document body
+
+email bouy
+
+Tech Qictionary = Tech Mame | Tach Value a | Tech Filename
+
+classic ysin HLR CADocuments and Settings\SE EWSD\Desktop\75 APR 10 Daily Break Down.x
+classic qs ICCID C\Documents and Settings\Administrator'Desktop\New Franchisees Status fo
+classic ysin IME!
+
+classic ysin MSI Evo Complaints sheet 75-Apr-7010. xls
+
+classic ysin MSISDK
+
+
+===== xks-tech-extractor-2010 page 20 =====
+Why not Fingerprints ?
+
+e With fingerprints, you only see that the full equation
+(which can be very complex) was satisfied and you
+wont see which specific terms from the equation hit.
+
+
+===== xks-tech-extractor-2010 page 21 =====
+Live Demo
+
+
+===== xks-tech-extractor-2010 page 22 =====
+ee
+
+More information:
+
+e On GCHQ wiki:
+
+http://wiki.gchq/index.php/Tech_dictionaries
+
+
+===== xks-tech-extractor-2010 page 23 =====
+submit tasking
+
+e Please use the Excel Spreadsheet template developed
+by GCHO CP
+
+Microsoft Excel
+Worksheet
+
+e And then E-mail io ochq.gov.uk with the list
+
+e In the near future analysts will be able to enter the
+terms themselves through a web-based GUI
+

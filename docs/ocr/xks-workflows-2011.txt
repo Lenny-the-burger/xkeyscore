@@ -1,0 +1,1028 @@
+
+===== xks-workflows-2011 page 1 =====
+il
+
+if
+
+SECRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+SECRETCOMINTHREL TSO USA, AUS, CAN, GBR, NZL
+
+y
+DERIVED FROM: NSA/CSSM 1-52
+DATED: 20070108
+DEGLASSIFY ON: 20320108
+
+
+===== xks-workflows-2011 page 2 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Whatis a workflow?
+
+= Workflows automate queries.
+a One-time
+= Standing
+
+= Every search type can be a workflow.
+= Same functionality and capability
+
+= Follow on actions
+a Email alert
+a Download actions
+=a Metadata summary
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 3 =====
+Who can submit a workflow? ldap
+
+= Anyone!
+
+= One owner per workflow, but using follow-
+on actions:
+
+= Multiple-users can be notified of results and/or
+sent summary information
+
+a Result table can be automatically shared
+
+» If ownership needs to be changed, a ticket
+can be submitted to the team.
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 4 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+What can | do with a workflow?
+
+= Workflows can be configured to run once
+
+= Workflows can be configured to run daily
+a Every 1, 2, 3, 4, 6, 8, 12 or 24 hours
+
+= You can set an offset to start running at a certain
+hour
+
+= Download results
+
+= Email results and email alerts
+= MAILORDER results
+
+= MySQL report
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 5 =====
+Why do | want a workflow? ldap
+
+= XKEYSCORE has a rolling buffer of data
+= Repetitive queries
+= Sigdev purpose
+a Fingerprint and appid testing
+= Queries take a long time during high times
+
+= Follow on actions
+a Google Earth data
+a Statistics
+=a Customizable — write a script!
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 6 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a worktlow?
+
+= Two main ways
+
+= Based on the results of a recent query
+
+= Simplifies the process & more likely to produce
+the desired result!
+
+= This is done by right-clicking on the result set from
+the desired query and selecting Create Workflow
+from this Search. This populates the Workflow
+Wizard with the same criteria that was used by the
+selected query.
+
+= From scratch using the Workflow Wizard
+= Not recommended — but we'll show you anyway
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 7 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a worktlow ?
+
+= The next ten slides demonstrate how to
+
+step through the workflow wizard from
+scratch
+
+= But if you create the workflow from an
+
+existing query result many of the steps will
+already be correctly populated! — | Rightcick to get the
+
+Result Grid Row Actions
+
+| [2 View Metaats _7|-menu_and choose
+
+| My Recent Results | [ial View Metadata (New Window’ a thi option
+@Help | Actions + view 7 | a Delete Row a his-o
+|
+
+Query Name | Rename Guery rs
+
+1 |
+hum Results Mum DBs Datetime Submited + 9 Query ID
+ia byz rapt rdp india both dir re Share Resutts. . 3006 510851 2011-09-19 17:01:44 jb_ed0b,
+al byz rapt rdp class c OQ Repopulate this Search inca Form 132 49 0f 51 2011-09-19 16:36:0F = jb_e00b9
+al byz rapt rd oc Create VVorktlov trom this Search 93 49 of 31 2011-09-19 16:35:36 jb _el0bo
+all ww bb pin imsi no five eyes (VVWORKFLOW Se Split Both Sides of T-aftic er 9055 S4 of 57 2011-09-1908:55:57 xml_jok_é
+Fl in_ ims = Arctive Results er 7124 12o0f 12 2011-09-18 23:55:19 = xml_job_z
+
+Result Grid Cell Actions
+csr Fillers Query bari Eqpural bey rgb cudpo indica b.."
+
+Ps Filter: Query hame Hot Dqualte ‘boyz rapt rog inedis b..
+
+Show Full Cell ¥alue
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 8 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a workflow?
+
+XKEYSCORE Welcome: switch users
+| - Preferences 9 Help
+
+peeauigation Menu <¢) - Welcome to the New XKEYSCORE Home Page!
+: If you have questions or bug reports please go to XKEYSCORE New GUI Forum
+| a) Explorer -< To use the ald GUI, click here
+rene HUMAN RIGHTS ACT,
+USSID 18 AND USSID 9
+Se om! = ori] ral | (SYSTEM) queries require a justification to ensure Human Rights Act (HRA), USSID 16 and
+
+551D 9 compliance, Please enter information as prompted by the query interface. 4n audit
+ailhas been established and will be searched as part of Menwith Hill Station's response to
+ay complaint brought under HRA and as part of the USSID 18 and USSID 9 process.
+
+ease note that SENSITIVE TARGETING APPROVAL (STA) is required for HRA before submitting
+
+= . i 1 . '
+= vy Query which includes terms specific ta a person or company (eq name, address, identity
+= My Workflows atails such as communications address, passport/bank account number) who EITHER (a) is
+as im 2fined as a Uk, British Dependent Territory (BOT) or Second Party “person” or (6) is located in
+\=j SJ Search i@ UK, or a BOT or Second Party country, ST& is also required for wildcard pulls that are
+= evitably going to retrive a substantial proportion of such enties (e.g. wildcarding on a UE city
+| & Classic ide). Full legal quidance is available from the HRA Compliance Officer at Menwith Hill Station.
+4 |) MuttiSearch
+
+(|) Classic 4-M
+# (_) Classic N-Z
+=} 5) Common
+=| Category DMI
+- |=] Document Metadata
+| =] Email Addresses
+
+| | A Usercscthaty
+| - BLS voir
+|  DWireless
+3 SyResutts
+» [2] My Recent Results
+| EE] My Previous Results
+i EE] My Ongoing Resuts
+FE) ty Downloads
+a Statistics
+Unk Summarizetion
+SS Tagging
+© [EE] Local Tagging
+EEL Tech Extractor Tancine =|
+
+ystem is audited for USSID 19 and Human Right
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 9 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a workflow?
+
+i lw es = — =
+F L t | Workflow Central Request Wizard x |
+IFSt, S a
+| Please select a Search Type.
+Every session collected, indexed by "standard" DNI meta-data 7)
++ to/from IP, port, casenotation, application id, sigad, etc).
+Full Log 1%
+Search Type Help ha |
+a) Cancel 4 Prev PR Next Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 10 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a workflow?
+
+Ww
+
+Workflow Central Request Wizard x) | rl Nn g O r O Nn e
+
+Basic Information .
+
+! , ist be unique per user
+Seas a must have a justification
+ote Tustincationt Testing appid signature | justifi c ati ons
+Additional Justification: bs
+
+Miranda Number:
+
+Datetime: [1 Day ~|start:| 2009-03-04 [3/00:00 4 stop:| 2009-03-05 [3/2359 +)
+
+| Reccurring Search || One Time Search
+
+Basic Features Help ¥)
+
+<i>
+© |
+
+Runs once over
+a set datetime
+range
+
+dF
+Cancel 4 Prev Next Submi
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 11 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+How do | setup a workflow?
+
+Workflow Central Request Wizard
+
+S e | e C Add Search Fields
+S eC a rc To OR Search Fields:
+
+* Use the Multiple Field Search tab (below the input fields).
+* Select all the fields you wish to search.
+
+To OR Search Values:
+* Type 'OR' between each value (no quotes).
+
+Search Values are ANDed by default.
+
+See Search Value Help below for more details or
+Select a for a description of boolean logic go to here.
+field to
+Search Field Search Value Remove
+search U From IP Address OR To IP Address 1.2.34 36
+| Attribute Info |
+From IP Address |
+
+TolP Address
+
+jToPot xl | or every field,
+Single Field Search | Multiple Field Search | | 4U must select
+Search Yalue Help *)|| i@ PLUS key
+cancel 4 Prev Ph Next Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 12 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Group by option
+
+f Workflow Central Request Wizard
+
+“Group b = ita results.
+
+Group Search Fields
+
+Would you like to group any fields?
+Eo Yes |
+
+=Retu
+
+| Group By Type
+Table Unique Values:
+
+=
+
+0 Group By Type Help
+
+9)
+
+Global Unique Values:
+
+Columns to Group By
+
+Datetime:
+Client IP (X-Fowarded-For ):
+
+This option groups gagh
+reetattaisbilebtdtAarl saisre and
+
+ourtesiaincatiis dre seus.
+concatenated.
+
+Username:
+Attribute Info:
+From IP Address:
+To IP Address:
+
+From Port:
+To Port:
+
+ee
+
+Select the fields you
+want to group by.
+
+From Country (IP):
+To Country (IP):
+From City (IP):
+
+To City (IP):
+
+From Latitude (IP): =|
+4 | ii |
+
+Cancel 4 Prev ® Next Submit |
+
+AOOADOWOAADAAdDAAA
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 13 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Select databases
+
+=Choose th
+=Can ug
+
+="Prepot
+
+Workflow Central +]
+
+> SeAaFC abases-youwould like to use
+
+9
+
+ul
+
+|
+
+Tao stat ei (tacestatixs_web_db)
+
+an.alias for ne databases
+
+C.CES.saxs_ We
+ated ftredted fretran existing search
+[7 TEC SSO DEEPDIVE NOFORN (ssoxksddli:xs_web_db}
+MTEC TURTLERACE (turtlerace:xs_web_db}
+DO Timberline s¥ (timberline-svixs_yweb_dp)
+TM TURBULENCE at the TEC (turbotec:xs_web_cb}
+
+[7 TURBULENCE MHS live (TURBOPOUND) (turbopound:xs_web_db) JERR iene en
+necessary
+
+I TURTLEALE MHS live system (turboslens web db)
+
+El Tx!
+
+I XKSYOIP1 NOFORN Oxksvoip-nfq0} . .
+If this is selected,
+
+are only returned i
+content still exists
+
+I XKSYOIP?2 REL (xkswoip-rel:gi}
+
+LC ¥akima Deep Dive Gacknife-dd:xs_web_db)
+
+en's
+
+rth
+at The.
+
+TC Yakima mission system (jacknife:xs_web
+
+Content must exist
+
+Basic Features Help (~]]
+
+on
+
+Cancel 4 Previous P Next
+
+Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-workflows-2011 page 14 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Follow on Actions
+
+i
+Al | OWS y Workflow Central Edit Request Wizard
+‘Follow-on Actions -
+“Allows y sontent) to another
+Would you like to add any follow on actions
+location. — cr
+Yes
+Script Script Arguments Adc
+| . :
+Allows y 5 Email To: |
+Email Alert iv | of |
+Email Alert ROWR: FP Return Only vith Results
+SAIOWS Y | scesenot [share Resuts:_T share Rests with uses ove
+
+An email is sent out once
+your workflow is completed.
+
+setup a MySQL statement
+to alter your results
+
+Download your results to
+another location.
+
+Used to forward VoIP to
+NUCLEON
+
+Cancel 4 Previous  Pext Suabnit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 15 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Email-alert
+
+Workflow Central Edit Request Wizard
+— Follow-on Actions
+Would you like to add any follow on actions
+@ No
+© Yes . ' '
+— | Comma delimited email
+| Script Script Arguments Add
+Ernail Te | <— addresses.
+|| Email Alert | +r i q 9
+Emal Alert ROWR: F Return Only with Rail [his option only sends an
+SOL Report _ Share Results; Po Share Results with users above artibe
+ncwnlaacl Sessions — _ email if you workflow has
+Find and Foward voip resu Its ;
+This will make the results
+appear for all of the listed
+users
+Cancel 4 Previous P Mext Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 16 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+SQL report
+
+ff =
+f Workflow Central Request Wizard x
+Follow-on Actions
+Lawoutd pos like to add any follow on actions
+iF Yes
+| ‘Script Script Arguments Add
+[SOL Report =a “T= ] | CSVorHTML
+| Ernail To: |
+eral Subject: [ mL
+Email Content: | | Pp |
+Email I~ Email Attachment
+Attachment: SS
+ROWR: I Return Only With Results Email metadata that a user
+Filename: |
+can set.
+Mail Order
+Trigraph: 5
+sou: ES I This must be a VALID SQL
+FROM %{OUTPUT_TABLE} r < statement.
+WHERE
+GROUP BY =|
+GZIP: [~ Compress Contents Exam ple :
+- | SELECT casenotation, sigad
+FROM %{OUTPUT TABLE}
+Cancel 4 Prev > Next Subrit | WHERE sigad! ="
+SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, Na. ROUP BY casenotation
+
+
+===== xks-workflows-2011 page 17 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Download Results
+
+Workflow Central Request Wizard
+
+Follow-on Actions
+
+| Would you like to add any follow on actions
+
+C No
+
+@ ves
+
+- Script "Script Arguments . Add |
+eae er
+
+‘Download Sessions | 4
+
+Email To:
+
+Email Subject:
+
+|
+|Email Content:
+
+ROWR: I Return Only With Results
+Filename:
+
+Mail Order
+
+Trigraph: =
+GZIP: I Compress Contents
+
+Send To Agility: I Send To Agility
+
+Cancel 4 Prev
+
+> Next Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-workflows-2011 page 18 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+You're almost done!
+
+| Workflow Central Request Wizard | |
+
+> Workflow Review
+
+i
+
+This query (Find_my_appid) will search the Full Log table in database(s):
+xks-jychan:q0
+
+The query will run CONTINUOUSLY executing every 6 hours beginning at 5:00 EST
+
+The query will execute the following search criteria:
+
+<and >
+<field>From IP Address </field>
+<value>1.2.3.4</value>
+</and>
+
+<and>
+<field>To Port </field>
+<yalue>80</value>
+</and>
+
+<and>
+<field>AppID (+Fingerprints)* </field>
+<value>search/google*</yvalue>
+</and>
+
+i| Workflow Yalues | Workflow XML
+
+4
+
+| |= | Cancel 4 Prev » fleck Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 19 =====
+SECRET/COMINTHREL TOUSA, AUS, CAN, GBR, NZL
+
+Workflow Pending
+
+Fin, UW Fal | a U "aa i "4a be ba | He a
+
+XKET SCORE Welcome: switch users
+
+ae Home “fg ‘Workflow Central “4 Search (jy Results Statistics Tagging - Preferences #4) Help
+
+Se ed
+
+Navigation Menu hi My Workflows
+zl
+
+SS Explorer
+
+=]Home Help Actions ¥
+
+S )veekflow Central Query Tyjo8 Query Mame Last Modified
+=]Request we) fulllog Find_my_enpid 2008-05-05 14:44:(-
+=] My Workflows
+
+3] Search
+
+SS) Gassic
+) | MutiSearch
+jclassic 4-M
+- \Glassic MZ
+S 4) Common
+=| category DM
+= Document Metadata
+= |Emai Addresses
+2) Extracted Files
+=] Ful Log DMI state _
+SS)HTTP Activity .
+~ 2) Prone Number Extractor | pending mcs
+= User Activity a
+4 (Dictionary Hits
+HH () File Transter
+& )MutiSearch
+SIP Addresses
+=|Mec Address
+=2|Username
+HH Metwork Management
+| | Search Vizard
+| & EUsercactivity
+HH Vor
+(Wireless
+
+3 Sy Resutts
+=)hy Recent Results
+=] My Previous Results
+=] My Ongoing Results
+
+“S] My Downloads
+
+3S 4) Statistics
+=|Lirk Summarization
+
+SS) Tagging
+=-|Local Tagginey
+Sl Teck Putrarctiar Tanne
+
+| id a Pagel ofl) #* Fi Page Size: 30
+
+Displaying 1 - 1 of 1
+
+This system is a udited for USSto J 2 ana H Tee) Rights Act compliance
+
+SECRET/iCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-workflows-2011 page 20 =====
+SECRET/COMINTHREL TOUSA, AUS, CAN, GBR, NZL
+
+Workflow Approved
+
+— — —
+
+This system is audited tor USSID 16 and Human Rights Act compliance
+
+XKEYSCORE Welcome: switch users
+e Home ‘Ef Workflow Central A Search [)) Results [i] Statistics [i] Tagging “Wl Preferences @ Help
+
+=
+
+Navigation Menu eH If My Workflows |
+| 3] J Explorar 1m F
+=] Home ad alias Workflow: Find_my_appid [>]. =
+=e Query Type — —
+seat 2 tes <?amlversn="1.0" encoding "WTE-8"?> A eee!
+= ee oo <query_jobs>
+| EE] My Workflows <internal_gui> 1<finternal_qui>
+(Sj Search <datetime created> 1236264295 /datetime created>
+(SS) Classic job
+4) (0) MuttiSearch <xks_userid
+4) ) Classic AM <xks_user_name
++H) Classic NZ <xks_password> 18837b706121a0ca</xks_password>
+Le <search_type> full log</search_type>
+<query_name>Find_my_appid<fquery_name>
+=] Category DMI <query justification> Testing appid signature <fquery_justification>
+=) Cocument Metadata <datetime>
+- 2] Emal Addresses <interval>6< finteryal>
+Extracted Files <offsat>5</foffset>
+=] Ful Log DMI </datetime>
+| ESIHTTE Actity ee > .
+etiehien eae "CO <ant> lop id eard
+Ee|User Activity <field>fm_ip</field>
+G8 [Dictionary Hits <vale> 1.2.3,4</value>
+@ (J Fie Transter | OG <fand>
+3 ]MutiSearch heal <and>
+=| Addresses <field>to_ap< /field>
+=) Mac Address <yalue>BO< fyalue>
+Username : </and= e
+= <and>
+ (_DNetwork Management <field> fingerprint </field>
+[=] Search Wizard <Value>search/google* = fyalue>
+| i (JUser Activity \ <fand>
+cy (9 VolP </where>
+i J ireless ¢ <9foup_by>to_ip</group_by>
+4 Cy Resuts t F Snelson UNS key(to_ip)<findexes>
+|My Revert Reeuls <advanced> eee: |
+[=>] My Previous Resuts <content must exists true<foontent_must_exist>
+2) My Ongoing Resutts <routing>
+=] My Downloads 1 <database>xks-jychan:qd</database>
+| ES) Statistics . Sfrouting> hal
+[=] Link Summarization if =|
+S29 Tagging , Cancel SavefSubmit |
+[=] Local Tagging 7 ql
+
+Id 4 | pageft oft % 2) | 2 i page Size:| 30 Displaying 1 - 1 of 1
+
+nal
+
+ES Tech Pytracter Tannina
+
+This system is audited for USSID 16 amd Human Rights Act corpliamce
+
+SECRET/iCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-workflows-2011 page 21 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Common mistakes
+
+Workflow Central Request Wizard [>
+
+=From IP and To IP
+with the same value.
+
+Add Search Fields
+
+Search Values are ANDed by default.
+To OR Search Fields:
+
+- | Nn th IS vi ew, te rms are * Use the Multiple Field Search tab (below the input fields).
+
+* Select all the fields you wish to search.
+
+AN Ded together. To OR Search Values:
+
+* Type 'OR' between each value (no quotes).
+
+age Multiples ele eee oa ence
+Search Tab.
+
+Search Value Remove |
+From IP Address OR To IP Address 1.23.4 * |
+a
+
+Atrioute Wo
+
+From IP Address =|
+TolP Address
+
+Search ¥alue Help Tad
+
+Cancel 4 Prev P Next Subrnit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 22 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Common mistakes
+
+| Workflow Central Request Wizard
+
+=Using the multiple Add Search Fields
+fi eld search d oes Nl ot Search Values are ANDed by default.
+i i To OR Search Fields:
+b reak th IS Up Into 3 ** Use the Multiple Field Search tab (below the input fields).
+search<->value pairs. TOR Search Values:
+* Type 'OR' between each value (no quotes).
+
+2 E nte r each term See Search Value Help below for more details or
+separately in the for a description of boolean logic go to here,
+
+: : Search Field | Search Value Remove
+singe fieldsearch. | From P Adress 1234 |
+
+To IP Address 5.6.7.8
+
+From Port 60
+
+*
+x
+al =
+
+| Single Field Search | Multiple Field Search
+
+Search ¥alue Help bal |
+
+Cancel 4 Prev Ph Next Submit
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 23 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Common mistakes
+
+| Workflow Central Request Wizard
+
+“This will return ALL “|
+
+rc ;- Add Search Fields
+casenotations.
+Search Values are ANDed by default.
+: To OR Search Fields:
+“a WI | | be d eafeted * Use the Multiple Field Search tab (below the input fields).
+crs * Select all the fields you wish to search,
+by lq but a does To OR Search Yalues:
+
+* Type 'OR' between each value (no quotes).
+
+equal “!b”
+
+=All the defeated
+
+See Search Value Help below for more details or
+for a description of boolean logic go to here.
+
+Search Field Search Value Ramave
+values must be Casenetation - -
+
+Casenotation Ib x
+AN Ded together. Casenctation Ic x
+
+Casenotation id x
+
+Single Field Search Multiple Field Search
+
+Search ¥alue Help ll
+
+Cancel 4 Prev b Next Submit |
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 24 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Common mistakes
+
+Workflow Central Request Wizard 3%) = hi you are selecting
+sealer specific SIGADs, only
+Search Values are ANDed by default. select the sites that
+
+To OR Search Fields:
+
+* Use the Multiple Field Search tab (below the input fields). have data from that
+
+* Select all the fields you wish to search,
+
+To OR Search Yalues: S | GAD F
+
+* Type 'OR' between each value (no quotes).
+
+See Search Value Help below for more details or aQ ueries Wi l| retu rm
+
+for a description of boolean logic go to here.
+
+| Search Field Search Value Remove | fa ste r.
+Casenatetion Ic * & rig Rat &GAB cted
+Casenetation r 2 =Less work for the
+SIG&D AUC-393 : x =
+i . VLE system.
+| a Tn = — |
+L Select the Database{s) to query
+“AUS sites
+=F6 sites
+=hl# sites
+
+I~ Content must exist
+
+Basic Features Help ibd
+Cance
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-workflows-2011 page 25 =====
+SECRET/COMINTWREL TO USA, AUS, CAN, GBR, NZE
+
+Common mistakes
+
+“If you select the
+SQL Report option,
+make sure you pula
+valid SQL statement!
+
+SQL statement filled in:
+
+SELECT casenotation,
+COUTRMIPTY
+
+WHERE casenotation!="
+GROUP BY casenotation
+
+FROM RRS TPUT_ TABLE}
+
+SEGRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Workflow Central Request Wizard
+
+Follow-on Actions
+
+Would you like to add any follow on actions
+
+C No
+
+1@ Yes
+
+Script Script Arguments
+
+| SOL Report ja TPE:
+
+Email To:
+‘Email Subject:
+
+‘Email Content:
+
+Ernail
+Attachment:
+
+“ROWR:
+
+|
+Filename:
+
+| Mail Order
+
+| Trigraph:
+
+GzP;
+
+Cancel 4 Prey
+
+|CSW
+analyst@work, com
+‘My Workflow Results
+‘Bad SQL - empty
+
+[~ Email Attachment
+
+I Return Only With Results
+
+SELECT casenotation, count(*) =
+FROM %{OUTPUT_TABLE}
+WHERE casnenotation! ="
+
+GROUP BY casenotationl =
+
+Add
+
+DP Next Subrit |
+
+
+===== xks-workflows-2011 page 26 =====
+SECRET//COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+\
+-
+4
+~
+|
+a)
+=i
+|
+4
+ol |
+<a
+*
+=:
+-
+a
+es
+-
+=
+
+7
+.
+
+l paae ame hare: wm e = .
+O} 10g) ——
+i:
+
+yd bi
+‘é
+=
+
+’)
+Hoi odor ee tet te a ;
+
+fe OMINT/REL TO USA, AUS, CAN, GBR, NZL

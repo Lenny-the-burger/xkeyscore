@@ -1,0 +1,5 @@
+"
+contains web pages and scripts that
+are on the secure server including:
+	crons/ - location of cron job scripts
+"

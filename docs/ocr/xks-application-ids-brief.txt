@@ -1,0 +1,572 @@
+
+===== xks-application-ids-brief page 1 =====
+Dh LVL.
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+a =- — Ee = a a
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 2 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Basic Syntax
+
+Syntax:
+
+e Very C-like.
+function( ‘name’, level, <optional info> ) = ‘search terms and pattern’;
+Two valid search functions appid and fingerprint:
+
+e appidCUchat/icq, 8.5, wireshark=‘icq’, chatproc= ICQ’) =
+/i“oalicg/c and $icq;
+
+e fingerprint( fingerprint/phone/nokia/generic’, 7.0) =
+user-agent: nokia’ or
+profile: http ://nds.nokia.com/uaprof/n’;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 3 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Naming Conventions
+
+XKS Appid’s are named using a
+pseudo directory convention.
+
+/application_type/sub_type/name
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 4 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Levels
+
+Levels are 1.0 - 9.9 with lower numbers having a higher priority. This
+allows multiple signatures to match a piece of traffic and only the
+most specific appid will be applied. An example might be:
+
+9.9 Yahoo
+9.8 Yahoo/chat
+9.7 Yahoo/chat/incoming
+
+Since the Yahoo/chat/incoming has the lowest level, the traffic will be
+labeled as yahoo/chat/incoming
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 5 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Basic Search Patterns
+
+XKEYSCORE supports Boolean operations and regular
+expressions
+
+Raw text must be encapsulated between single quotes
+
+e ‘search term’
+
+Terms can be combined with Boolean logic
+
+e ‘search term’ and ‘another term’
+
+e ‘search term’ or ‘another term’
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 6 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20297 125
+
+Binary and Regex Patterns
+
+Binary patterns can be represented by putting a \x in front of each binary
+value
+
+© \XfA\XTI\xO0O\x02
+
+Note: Unlike C, no double back slashing required
+
+/regex/
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 7 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+CHAINWORDs
+
+You can assign a pattern to a variable (CHAINWORD) and reuse
+the variable in many patterns.
+
+e $sip = ‘via: sip’ and ‘cseq:' and ‘SIP/2'C;
+Now we can use this variable in future definitions:
+
+e appid('voip/sip,, 7.2 ) = $sip;
+
+© appid(‘voip/sip/invite’, 6.9) = $sip and ‘INVITE’;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 8 =====
+Ip( expr )
+
+toport( expr )
+
+framport( expr )
+
+port( expr }
+
+next_protocol( expr )
+
+protocol (‘text’)
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Built. in functions
+
+Matches against an IP Address looks in to address and
+from address in the session headere
+
+ ipf 10.10.10.1');
+
+Matches against the Destination/To port. Note this
+must be a numeric representation of a port.
+
+e« toport( 1920 };
+
+Matches against the Source/From port. Note this must
+be a numeric representation of a port.
+
+« fromport( 80 );
+
+Matches against the either port. Note this must be a
+numeric representation of a port.
+
+eport( 666/ };
+
+Matches against the integer version of the next
+protocol.
+e next_protocel( 250 );
+
+Will only work for IP next protocol names as
+defined in the IANA next protocol numbers
+document
+
+* protocol tcp’);
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 9 =====
+email address(sel)
+
+mac_address(addr)
+
+smac(addr)
+dmac(addr)
+
+ipCaddr)
+from_ip(addr)
+to_iptaddr)
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20297 125
+
+Built. in functions
+
+permutes just like strong_selector (just like
+DECODEORDAIN
+
+Tasks a mac address
+
+tasks this IP address (either to or from)
+
+tasks this IP address only when it is the originator
+
+tasks this IP address only when it is the destination
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 10 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//20297 702
+
+More built in functions
+
+first(expr)
+
+Ipostexpr)
+
+pos( expr )
+
+between( expr )
+
+‘term’‘c
+
+‘term’‘u
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+Matches against a pattern at the beginning of
+the session
+
+Matches against a pattern at the beginning of
+each line (\n)
+expression occurs at offset X in the session
+
+¢ pos( Hello’) == 5,
+
+« pos(/Good.*Grief/} <= 10
+
+e between(C Hella, ‘World’, 10, 100}
+
+Separation between ‘Hello’ and ‘World’ is
+greater than or equal to 10 bytes and less
+than or equal to 100 bytes
+
+This is the same as using the following regular
+expression:
+
+e /Hello.{10,100}World/
+Does a case sensitive match of the term
+
+Treats the term as UTF-16
+
+
+===== xks-application-ids-brief page 11 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+Predefined Chainwords
+
+There are a number of chainwords predefined for convenience:
+
+e s$tcp e $http delete
+e sudp e Shttp_trace
+e $icmp e ¢http head
+© s$sctp e $http options
+e $rpc e thttp_partial
+e $arp e Svbulletin
+
+e ‘ssl e Smime_type
+e $http_cmd e ¢user_agent
+e shttp
+
+e http get
+
+e http _put
+
+e shttp_post
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 12 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//20297 702
+
+Example
+
+appid( voip/sip/IMS', 6.0, wireshark='sip') =
+(via: SID’ or ‘v: sip’) and ‘cseq:' and {
+
+‘p-access-network-info:' or
+‘p-called-party-id:° or
+‘p-charging-vector:’ or
+‘p-charging-vector-addresses:’ or
+‘p-media-authorization: or
+‘security-verify:' or
+‘security-server: or
+‘security-client:' or
+‘service-route:' or
+‘record-route:' and ‘pcscf' or
+‘record-route:' and ‘scscf' or
+‘contact: and ‘pcscf" or
+‘contact:' and ‘scscf’ or
+‘proxy-authorization:’ and ‘pcscf' or
+‘proxy -authorization:’ and ‘scscf' or
+‘path: and ‘pcscf or
+‘path: and ‘scscf
+
+Ne
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 13 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Example
+
+appid( voip/skinny/keep-alive’, 3.0, wireshark='skinny') =
+
+toport(2000) and
+firstC \x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'}
+
+f
+
+appid( voip/skinny/keep-alive-ack’, 3.0, wireshark='skinny ) =
+
+fromport( 2000) and
+firstC\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'}
+
+f
+
+appid('voip/skinny({port2000)', 9.9, wireshark=‘skinny') =
+port(2000);
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 14 =====
+Example
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+appid(chat/yahoo , 6.0, chatproc='Yahoo') =
+
+(CYCH
+port(5050):
+
+‘cand $yahoo_ chat) or first( YCH
+
+'c)} and not
+
+appid(chat/icq , 8.5, wireshark='icq,, chatproc= ICQ’) =
+/[*olica/c and $icq;
+
+appidCchat/icq’, 9.0, wireshark='icq', chatproc= ICQ’) =
+firstCicg’) and not port(25);
+
+fingerprint(encryption/moujahedeen’, 7.0) =
+‘begin+gimf+asrar+el+moujahedeen' or
+‘begin gimf asrar el moujahedeen’;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 15 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Example
+
+appid(mail/smtp/to_server’, 8.5, direction=$¢from_server,
+wireshark='smtp') =
+
+toport(25) and
+( firstC helo’) or
+firstCehlo') or
+first data’) or
+(IposCTo: ‘c) and Ipos('From:'c)} or
+pos( QUIT c) or
+pos(‘mail from:') or
+pos( rcpt to:') );
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 16 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Example
+
+$gmail = ‘<script>D=(top.jsk&top.js.init) ?function(d){top.js.P(window'c or
+firstCPOST /gmail'c) or
+firstU GET /gmail'c) or
+'SMAIL AT='c or
+/SID=[A-Za-z0-9\-\_|]{87}=;Domain=\.google\.com/c or
+‘'GMAIL_STAT='c or
+AUN Gy 6 OF
+‘$= gmail='c or
+‘ain=\'mail.google.com'c or
+‘<tithe>Gmail'c or
+'GMAIL_RTT='c or
+‘GMAIL_LOGIN='c or
+A\nServer: GFE/'c;
+appid('mail/webmail/gmail, 8.0, webproc='Gmail’) =
+$gmail;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 17 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Append Option
+
+# append the mime_type and HTML title to any of these appids..
+
+PARAMS = append=$mime_type, append2=shttp_ info,
+append3=$doc_title;
+
+Gweb = "web;
+
+appidChttp/proxy_to_server’, 9.1, $web, direction=$proxy_to_server) =
+
+¢webproxy_to_ server;
+
+appidChttp/proxy_to client’, 9.1, $web, direction=$proxy_to_ client) =
+Fwebproxy_to_client;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+===== xks-application-ids-brief page 18 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20297 125
+
+Type Option q
+
+Third parameter is the type; if missing, it takes up to the first slash as
+the type
+
+appidChttp/response’, 9.2, $web) =
+$http and
+not (x-cache’ or ‘x-forward’ or ‘get /' or
+‘post / or ‘get http’ or ‘post http’);
+
+appidChttp/response/ partial’, 9.1, $web) =
+shtto and $http_ partial;
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 19 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//20291123
+Appid utilit
+
+appid options:
+
+--help this help message
+
+--|ijst-all list all the application/fingerprint names and
+levels
+
+--list-appids list all the application names (no fingerprints)
+
+--list-fingerprints list all the application names (no appids)
+
+--list-types list all the application types
+
+--list-levels list all the application levels
+
+--unit-test perform unit tests with data in the heirachy
+‘datadir’, with files matching ‘Tilespec’
+
+--quiet dont print any load messages
+
+--appid_fname arg location of appid.cfg
+
+--input-file arg input file to test
+
+--datadir arg The test data directory. Defaults to
+
+$(XSCORE TEST DATA_DIR)/appids
+
+--filespec arg (=.*\.u124) A regular expression to match against files to
+check
+
+--noexit arg (=0) do not stop on the first error
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 20 =====
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FYEY//202971723
+
+Appid Validation
+
+appid sample.u1l24
+Loading appids
+
+->Loading :
+->Loading
+
+->Loading:
+->Loading :
+: fnome/oper/xkeyscore/config/dictionaries/appid/tdmoip.appid
+
+: fhome/oper/xkeyscore/config/dictionaries/appid/terminal.appid
+
+: fhome/oper/xkeyscore/config/dictionaries/appid/voip.appid
+
+: /name/oper/xkeyscore/config/dictionaries/appid/appoid_definitions.cfa
+
+->Loading
+->Loading
+->Loading
+->Loading :
+
+: /nome/oper/xkeyscore/config/dictionaries/appid/appid_definitions.cfg
+: /name/oper/xkeyscore/config/dictionaries/appid/anonymizerappid
+
+/home/oper/xkeyscore/config/dictionaries/appid/bulletin_ board.appid
+/nome/coper/xkeyscore/config/dictionaries/appid/tao_vpn.appid
+
+Finished loading appids
+Filename: sample.ul24
+
+Appid: encryption/https
+
+Total Size: 19.36Kbits
+Total Time: 0.01secs
+
+Rate: 1.936Mbits/s
+Overall performance:
+
+Total Time: 0.01secs
+
+Total Bits: 0.01936Mbits
+Overall Rate: 1.936Mbits/s
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123
+
+
+===== xks-application-ids-brief page 21 =====
+a re
+
+<Lype> ooolearn </Lyoe>
+<name> ckhatfire </name>
+
+“cateqorys application 1¢
+
+— appidi’chal/ore', 8.5, wiresaark—-‘ire', chelproc—'ITact’)
+<infsrmation>
+'Sriymsg '?
+<application type> chaz
+<level> 38.1 </level> _ _
+appidi’chat/ire', 8.1, wiresnaark="ire', chatproc="1ac')
+<action? apolicetion id .
+_ ~ ret (percil_o; ard ‘user': and
+</inlormallon> _ _.
+. fb rsa('nie< ') er firstitisen ") er
+<selectl> | oe
+firscl'whoais ') ef firszi'isira ') Ge
+B= "<POS=Conick!+ ' ) - Dn Ment
+LePSol "Lee "| ee LieSsli’ jeim °) @e
+KW="<POS=C>isen't+
+. r-rPSsi’aush ") Be rirsti’erwet ") SE
+KW='<POS=CPwhoers!+ .
+_ first {'oing ') or Tirsti'porg '| or
+Kn <POS CrP iL sire! + )
+firsil'orivmsg ‘'} or
+BW='<POS=Grir])|! |
+|. T_rsci'ne ice aulh') or
+can, _ .
+\’ire’ aid ‘privmsg ' and ‘1otice °}
+Biv—'<POS—O>auLh! +
+or ‘error :yo'
+ees eos
+Ns
+KW='<POS=C>oirg' |
+B=" POSS=Cemerg ' +
+KW—'<POS—C>privmsg' +
+Rly="<POS=Ceneihice auth't+
+KW=1rc’&RhW='privymsg' s8W='netice!+
+BW='erroeoz iyo!
+</select>
+<deselect> KW=tap CO1_G'&KW='user' </deselect>
+
+</entry>
+
+Classification: TOP SECRET//COMINT//ORCON//REL TO USA, FVEY//20291123

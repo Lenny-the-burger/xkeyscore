@@ -1,0 +1,507 @@
+
+===== analyzing-mobile-cellular-dni-in-xks page 1 =====
+Derived From: NSA/CS5M 1-452
+Dated: 20070108
+Declassify On: 20291123
+
+DERIVED ERO NSAICSSM 1-52
+
+— ——
+eel
+
+
+===== analyzing-mobile-cellular-dni-in-xks page 2 =====
+TOP SECRET/COMINTREL TO USA, AUS, CAN, GBR, NZL in
+Mobile DN | bain
+
+« Mobile DNI can be described as people
+using their Cell Phone or cellular
+technology to access the Internet and
+E-mail
+
+= There are essentially two “types” of
+collection:
+
+a Collection within the GPRS/3G network (i.e Abis
+link)
+
+a Collection within the public Internet
+(FORNSAT/F6/SSO/FISA/etc)
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 3 =====
+TOP SECRET/COMINTAREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI
+
+= Mobile DNI Collect comes in two main types:
+
+Convergence of DNR & DNI selectors!
+Mostly from F6 collection
+
+Most cases, needs to be near the infrastructure
+
+Looks like regular DN! but with ‘hints’ that the
+source is a cell phone
+
+Collection could be F6, FORNSAT, S80, FISA
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 4 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+HTTP Activity
+
+= HTTP activity comes in two types:
+
+cnn.com Server
+
+_ SS |
+
+Client-to-Server
+“requests”
+
+server-to-Client
+“responses”
+
+User
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 5 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: HTTP Activity —
+
+= HTTP activity comes in two types:
+
+“Hints” of DNR. origins .
+Public (proxy) IP addresses website.com Server
+
+Corvergence of DNR & DN selectors!
+Usually private IP addresses
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 6 =====
+Mobile DNI: Converged collection Mais
+
+= Examples of “converged” collection:
+a GPRS by F6 JUGGERNAUT’s
+a WLL/CDMA by SCREAMIN (OTRS)
+
+« All “converged” collection is put into the
+“Cellular DNI? plug-in of XKS which gives
+you the ability to query for DNI traffic based
+on DNR selectors (IMSI, IMEI, MSISDN,
+
+etc) where applicable
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 7 =====
+TOP SECRET/COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Converged collection
+
+=" DNR & DNI meta-data will be together:
+
+TSER_A ACTIVITY TSER_B COORIE ACTIVE _TSER ACTIVE _USER_IF ACTIV,
+Po serrer te chent PF clbOS9e4e2TLLIF BE - 220- Po 7
+
+@ clb0Se4e<TLLI=
+e 418056101343054<IMSI>
+
+P| seen with machine TD) & Show (2) Values  clbOGede<TLLi> | IS P| rae
+PE yahoo geen with mache LD & Show (2) Values A 2 possible GE - 52:20- po aoe
+po previous IF Po clb0Sedec TLL | ES po jC
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 8 =====
+TOP SECRET/COMINTAREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Converged collection”
+
+= X-KEYSCORE's Cellular DNI plug-in allows
+you to query on the DNR selectors for
+Persona Analysis
+
+33) Classic oh
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+|) EBA and Viiv betedala Query Mame: — disturs?_é
+|) Alert
+| Somxbery Justification:
+EJ ONE Additional Justificetion: ~
+| iE) Cal Loge
+fe) Calegory DI Miranda Number:
+| oan De
+| Be) Sieso Passveords Datetime: | 1Week | Start: [20us06-06 7%) oon |= Stop: |2uue05-12 |) 2aso 3)
+. | E)bocument Metadata
+— 2) Document Tagging Theatres!
+| EE) Email Aderesses
+| EE] Ecracted Files dit Status:
+BE] Full Log Dal ;
+—BSJHTTP Activity Dae
+SS |IRC Cafe Genlocstion KT:
+\Loging and Passwords
+|) Microplugin Metadata TMSI:
+IMET:
+Moc
+
+===== analyzing-mobile-cellular-dni-in-xks page 9 =====
+TOP SECRET/COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Converged collection
+
+= By taking the IMSI we found in MARINA we can identify all
+of the DNI traffic (webmail, web-surfing etc.) that originated
+from that same mobile subscriber
+
+IhresI 4oplication Iria = Application “pplb (+Fingerpeints)
+P| piss ea pr led ut se ih oe Tepe http reapeonse fe [lp
+1 +000 6066) DOpresponseinm! htpresponse ptew
+1 0008 60466 -> Ltpresponsetm| = httpresponse pttw
+Ses Yahoo! Front Page miailiwebmailyahoo omailsvebmailAahow
+a0 Yahoo! From Page malliwebmiailyahos mallwebmallAahos
++ VE mail mailliwebmailyanoae mailwebmailAahoo
+BG ier Y! Blail mailiwebmailyahoo omailwebniail yahoo
+1 4! Bail malliwebrmailyahoo mallwebmailahoo
++1 YE Bail mailiwebmailyahos mailwebmiailvahoo
+rie; VE Mail mailiwebmailyahon omailwebmailfahoo
++305 +! Ilail mailliwebrmailyahoo mailiwebmailAahoo
+1 TE Bail malliwebmailyanions mail webmallAahoo
+1 VE Mail mailiwebmailyahon mail webmailahoo
+1 4! ail mailiwebmailyahoo mailwebmailAahoo
+1 VE Mall Malliwebmailyanon mallwebmallAahoe
+re VE bail mailiwebmailyahoo mail webmailahoo
+P| 1 Y! Bilal maliWwebrminilyahoo nnd) seb nvail yahoo
++ VE all malliwebmallyahons mallwebmallAahoo
+an i YE Blail malliwebmailyahoo mailiwebnmiaileahoo
+FE iss ! Blail maliWwebrmailyahoe nnd deeb nail yahoo
+a0 VE all malliwebrmailyahon mallswebmallAahoo
+¥! Bail mailliwebmailyahoo mailiwebmiailyvahoo
+
+
+===== analyzing-mobile-cellular-dni-in-xks page 10 =====
+TOP SECRET/COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Traditional Collection
+
+= After the DNI traffic exits the
+GPRS/WLL/CDMA Gateway, it will travel
+over the public Internet and can be
+
+collected through ‘traditional’ DNI accesses
+like FORNSAT, F6, SSO, FISA etc.
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 11 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Mobile DNI: Traaitional Collection
+
+= Sometimes its difficult to tell if your target is using
+a cell phone to access his E-mail
+
+= MARINA currently provides little or no “hints”
+
+TS & TISERTD PHONE lSER_A ACTIVITY TISER_R COOKTE ACTIVE_TISER  ACTIVE_ISER_TP ACTIVE
+20030205 1929432 chent to server a. -- iii AF
+SOO90405 1929437, logged ir. (emai) EE 5 2250> AF
+SO090405 1946427 logged ir. (emat) | RS AF
+ZUU3ULU6 1900UKE logged ir. (emat) TE 5 2200> AK
+20030206 1906222 logged ir. (emai) EE 2:00- AF
+S0090406 1906227 dlontie som | AT
+20090506 192654Z, seen with machine ID Srrueuh4sr97<yahooEcookie> Srmeuh4er9?<yahcoBcockie> ME yahoo> AF
+20090806 1926547 seen with machine ID Srmueuh4sr87<vahooEcoskie> SrmeuhddrOT<yahcoBoockie> MM yahoo> AF
+20090206 192654z previous LP P| Yrmeub4sr9‘<yahcoBcocke> MEE yanoo> AE
+20030506 1926547, chentto server pe Srmeuhdsr9?<yahcoBcockie> [MMMM yahoo> AF
+SNOI0S06 1926542, logged ir femal) Po Srmeub4tel 97 <yahcoBcookie> QE yahoo> AF
+20030506 1928052 seen with machine ID Srrueuhdsir97?<vahooEcookie> Srmeuhddr9?<yahcoBcockie> MMMM yahoo> AF
+20090406 1928057, chent to server Po Onmenhdsl9?<yaheoRrockic> FMB sahoo> AF
+20090206 1928052 previous IP P| Srmeuh4sr97?<yahcoBcockie> FE yahoo AF
+20090406 1928057 20> tcceedic (emai) Srmeuh4sir97<yahcoBcockie> [MBE yahoo> AF
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 12 =====
+Mobile DNI: Traditional Collection
+
+TOP SECRET/COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+= X-KEYSCORE “User Activity” provides
+some hints
+
+= Note the fingerprint of
+browser/cellohone/nokia
+
+Search For
+Usermnanve
+
+Wsemame
+
+Lerman
+
+Wecrhanre
+
+Lacrhanre
+
+Lc rnane
+
+LS nan
+
+LSé rane
+
+LS€ nant
+
+LEé€rnane
+
+LES Pane
+
+Seencth "ale
+
+BE i aho°
+
+Pe Avalioo
+Ee yahoo
+
+EE i yanoo
+EE yahoo
+EE yahoo
+EEE yahoo
+EE yahoo
+EE yanoo
+EE yahoo
+EE ano°
+
+Applic ation
+
+mail welbmnail*alrop
+mailwebmailaaho
+mail'webnalliyahoo
+mallet ally alto
+mail erchnn ails alo
+mail arebnnailsyal-o
+mal welanialyalbod
+miailiwe bmn ail*yalto-o
+miailwelnail*yaltod
+mailiwebinnailsyalto-3
+
+mail welnnaileyalyo
+
+Appl (+Fingerprints)
+
+a ae bai vale OM Ser ell one Nokia ce es ei inphone nokia‘generic oo bil
+
+jaa!
+
+Tan hi] MWe rie 1 HTT
+
+“WOT s Tp
+'
+
+i yer - - he ee be! Wf
+D 1
+
+We 1
+mnalwebmallAahesd browsercelplone nokia cellphone wap fingerprintphone nekia/generic mobil
+maliwchmailyahes browacreciploncnokia cellphonciwap fingerprintphone nekiaigencric mobik
+mailiwebmailsyahoo browsersciplone/nokia cellphone wap fingerprintphone nokia/generit mobil
+Mmailwebmalyalhoo browser ella nekia cellphone wap Thigerprintiphone neki gener mobik
+mailiwebmail yahoo browser elon nekia cellphone way Tingerprintphone nekia/generic mobile
+mailwebmail ‘yahoo browser<elphane/nekia cellphonewap Tnigerprint phone nekia/qenerns mobi
+
+mailiwebmail yahoo browser] elhsirone nokia cellphone wap Thigerprintphone nekia/qeneiic mobile
+
+mailwebmail yahoo browser celine nokia cellphone wap fingerprintphonenokia/generic mobile
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 13 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Traditional Collection
+
+= X-KEYSCORE “HTTP Activity” also provides some hints!
+= Note the hostname ot intl.m.yahoo.com and user agent of:
+
+NokiaN72/5.0706.4.0.1 Series60/2.8 Profile/MIDP-2.0
+Configuration/CLDC-1.1
+
+HTTP T pe Host URL sath URL Aros
+get int] tahoe acorn (ine= Senger caYasny? rhyTSstercayarooarsSh4440455
+
+Cookie Broyyser
+
+SPevel gas’ YevelSnecekegyl (38g 5 I 215201725 0708.50. SerieaSQV2.S Profile MIDP-2.0 Configurationw2LbC-1 4
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 14 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Traditional Collection:
+
+The content also provides some “hints”
+
+ID: Seee orig_proc
+Type HTTPGET Sa Printles Feierutly version
+
+DM! Display Rav Data | GMI Formal
+
+Services =
+
+wu)
+GEL ‘prmcreeneertcslazar Yah &tacsKesourccderdetinamesyahoo d=284440435 ATT 1.1
+Host. wll yahoo. corn
+ACCEL heb avascripl, lexVectiascripl, apphcahenk-javascopl, beeVbbrl, apphoaben nd wap xhtrl =
+
+multipertirumed, textinnd wap wil, applcationtind wap. woe, apphcabontind wap wmlscnpte
+applicatonyara, applcaten's-java-archore, testvnd sun.) 2me.anp-desenpter, applcanenend
+applcabontnd oma drm content. appheabon wid wap mmu-ciessage, appheabenvnd wag. ac,
+applcatontmd oma. dd tom, weztyazascrpt, OF
+
+Accept-Charset iso-Ee 59-1, ut-8, wo-1lbeb-ucs-2: gan 6
+
+Accept-Enceding: gop deflate identity, g=0. 9
+Accept-Language en
+
+Ceokie: sp ia
+v1 =
+n=d8irsa3) 1838
+fe ( Gender: male, Birth year: 1964, Postal code: fs
+Yo je=1700
+
+=i4
+
+le=co-US ( Langnagecontent: English }
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 15 =====
+HTTP Activity Examples
+
+The content also provides some “hints”
+
+Host:
+Accept
+
+User-Agent:
+x-Wap-protile:
+
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+inth im yahoo.com
+
+textijavascript, textfecmascrpt, applcahomn-javascnpt, texthtml, application ne wap. shtml =
+mulhparbimzed. textomd.wap.wml, appheahonnd wap.wmilc, applicahonfwmnd wap. wmlscrpte
+applicationjava, application’s-java-arcluve, texthmd. sun. j2me.apo-descnptor, applicationfmd
+applic ationsmnd. oma. din. content, applicaton ind wap.nums-tmessage, applicationsmd wap. sic,
+applic ation imd. oma. dd rml, text/javascript, **
+
+Nokia 72/5,0706.4.0.1 Sertes60/2.8 PrefileMMIDP-2.0 Contgurahon’CLDC-1.1
+“httpviinds 1 nds nolaa conv'uaprofN hy? 21100 som"
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 16 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+Mobile DNI: Traditional Collection
+
+Sometimes there are even more “hints”
+
+2 aeeoryesmremo ames
+2aehsOt lil
+b '
+sl
+p-acdress Po
+X-LMSP-APLT wrap
+#-MSP-MSISDM OSI 9R2 be
+5-MMSP-MSISDN-HEE |39353 730373938325 55632
+
+User-Age Mowlla’S. 0 (2ymkanOSry 2: Tl, SeriesG00S. 1 MolaaEes- 1100.21 110; Profle hMOP-2 0 Contioorar
+like Secke) Safim’'4 13
+
+g-wap-probile: “httpofind: 1] nds nokia cemuapr ot NE6 3-191 00 2en!"
+
+K-Meolua-iusicShop-Versen: 1.0.0
+
+K-Nekis-Mus:cShap-Bearer GPRESG
+
+Reterer hip fnew. fahoo. comaivbp -messengerninessenger ‘cola Drlehl Rd 127Se29515& bare Sher
+K-MSP_AG: DEFAULT AG
+
+x-MSP-APH: weary
+
+-MSP-CALLING-IP- Po
+
+#A-MSE-MSISDN: gS Owes be
+
+E-MSP-MSISDH-HES: SOS S37 SS SeSRs S536 se
+x-MP-MODE-MAME MLep Sry -Tspau
+
+i-MSP-SESSIOM-ID: IO 100 1 be 2320)
+#-MSP-: DEFAULT UG
+H-MSF-WAP-CLIENT-ID: 432707902362
+Vie: SLemneri
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL
+
+===== analyzing-mobile-cellular-dni-in-xks page 17 =====
+TOP SECRETHCOMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+HTTP Activity Examples
+
+IPhone Users! = Browse!
+
+Co okie:
+
+apLapple. mail.go.yahoo.com IPhone Mail {5H 11)
+
+vl
+
+nea Teecjd2adioh
+= Yahoo login i: i )
+p ( Gender: fermale, Birth year: 1277, Postal code:
+
+jb=34|S2/9 ( Industry: Teleconummucations, Job: Network Admuustrator, Spe
+Tia
+
+lg=en-US ( Language/content: English }
+
+int=es { Conntry: United States )
+
+np= |
+
+i
+a
+
+Vahoo com
+
+ZLSILC KB BU TdCUR Blidve ll ineshil Py tyler Pete ea -
+
+aati Ar
+
+sk=D AAC WIe4n844j7
+
+ks-EA Ao] STM¥oCuglWedATmls--—C
+
+d=céwBTIRVNWEFURTROekEwT URMeESEVyOR POFRGCUGRZwPUTES VOM,
+FéeegF DVO S Wn VOEBRdGhWATBERV AVE Ovw--
+
+path
+
+domam
+
+yahoo.com
+
+User-Agent: iFhene Mal (3H11)
+
+TOP SECRETHCOMINT/RELTO USA, AUS, CAN, GBR, NZL

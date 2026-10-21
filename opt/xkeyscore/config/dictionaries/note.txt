@@ -1,0 +1,1 @@
+"contains the dictionary files for the filtering, selection, TRAFFICTHIEF, CADENCE, fist tables, and any other local dictionaries"

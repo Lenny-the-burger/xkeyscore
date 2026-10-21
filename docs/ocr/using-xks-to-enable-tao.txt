@@ -1,0 +1,1661 @@
+
+===== using-xks-to-enable-tao page 1 =====
+Derived From: NSA/GSSM 1-52
+Dated: 20070108
+Declassify On2 20291123
+
+~ DERIVED FROM: NSAICS
+
+
+===== using-xks-to-enable-tao page 2 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Purpose of This Briefing
+
+= To show 82 Analysts how to use XKS to
+enable TAO operations
+
+= The material covers some of the more
+common searches in XKS, and shows you
+how to retrieve valuable SIGINT data that
+53/TAO finds useful to exploit a target
+
+» Its NOT designed to teach you about TAO
+(there are many other briefings for that)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 3 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+«= What TAO needs from analysts
+= TELNET Sessions in XKS
+
+= Identifying Browers
+
+» Web Forum Logins / Passwords
+» Webmail Logins / Passwords
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 4 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+«= What TAO needs from analysts
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 5 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+What does TAQ need?
+
+= Network Information
+a Logins and Passwords
+a Router configuration information
+
+~ Software Information
+= Browser
+= Version Numbers
+a Operating Systems
+
+a NOTE: If target device is under a satellite hop, please
+consult your TAO Liaison on how to proceed.
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 6 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+How Dr Do We Get That?
+
+Network Information
+
+= We target TELNET, FIP, etc for logins and passwords
+
+«» Use a LOGIN and PASSWORD QUERY “70” ports of interest
+(21, 23, 110, 69, etc)
+
+= WEBMAIL logins and passwords
+
+= Use LOGIN and PASSWORD QUERY “70O’ ports of interest
+(80, 3000, 8080) DO NOT use the login/password you find to
+
+log in as your target in Airgap. Ever. Just record them and pass
+to TAO.
+
+= Router configuration information
+
+= Use “Full Log DNI query” FROM port 23 and “From” IP of
+interest
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 7 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+How Dr Do We Get That?
+
+Software Information
+
+= Browsers
+
+«= Use HTTP Activity Query and results are in the
+“browser field
+
+=a Servers
+
+«» Use HTTP Activity: HTTP “Response’ traffic
+contains web server information
+
+a Operating Systems or Version Numbers
+
+« Using FULL LOG DNI we can do “Banner Grabbing”
+on content FROM port 23 and FROM the targets IP
+address
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 8 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+» TELNET Sessions in XKS
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 9 =====
+Help me Understand Telnet
+
+Administrator attempts to reach remote host using Telnet * -
+
+SS
+From Port 3434 “Telnet 20 a To Port 23
+
+To Port 3434 “Welcome to xyz router,
+Apache 2.0 - Please
+enter Login & Password” —
+
+From Port 3434 _———_—__oocCcccce PP To Port 23
+
+“Username: Admin
+Password: Admin
+
+To Port 3434 “Here's your router
+
+configuration information
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 10 =====
+Help me Understand Telnet
+
+Administrator attempts to reach remote host using Telnet *
+
+SS
+From Port 3434 “Telnet 20 5 OO To Port 23
+
+|
+
+To Port 3434 “Welcome to xyz router,
+Apache 2.0 - Please
+enter Login & Password”
+
+Lets make a query
+and target this traffic!
+
+From Port 3434 _———_—__oocCcccce PP To Port 23
+
+“Username: Admin
+Password: Admin
+
+=
+
+To Port 3434 “Here's your router
+
+configuration information
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 11 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Banner Grabbing ~
+
+7
+
+Search: Fulllog
+
+|
+|
+
+Saudi mail server
+
+Justification:
+
+SAodcdtional Justification: ~ |
+
+Miranda KWumber:
+
+Datetime: | 1 YVveek ~| Start: | 2009-07-09 [3 jog;00 = step: | 20094
+
+This is the “lient I
+router's IP eee
+
+_| address for
+_| trying to gain
+| acces imal
+
+Server maybe?) IP 4¢0d0ress!
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 12 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Banner Grabbing
+
+To Port 3434
+
+From Port 23 -
+
+“Welcome to xyz router,
+Apache 2.0 - Please
+| enter Login & Password
+
+Datetime Case Notatian From IP To IP Fram Port To Port Brotoce
+SFOOS-OF-11 18t1le:40 SUB Eo Oo 2 i a Saudi 4rabia) ele = Lebanar) eo 44595 TEP
+
+| Session | Header (3) | Meta (6) |
+
+Formatter: iu eal | Send to; oad Session | Sess Hons | Search Content. Pagel cretmere as
+
+Quick Clicks |< |
+
+Cisco Router and Security Device Manager ([SDM) is installed on this device.
+
+= Find opposite side of sess oj. feature requires the one-time uge of the username "ciseo"™
+
+213 i 2: + with the password "cisco". The default username and password have a privilege level of 15
+212 MM: 44°
+
+= Find traffic on piease ‘change
+the Ciseo [LOS commands.
+
+publicly known ttre eredentials using SDM or the 105 CLI.
+
+username <myuser> privilege 15 secret UO <mypassword>
+
+Z| Find application to Username ciseo
+
+2
+
+terminaltelnet/fram_'
+Replace <myuser> and <mypassuard> with the username an
+
+5 Kind & ae PaSSWIOrA You Want to use.
+ind fingerprin
+
+a Find email address GUIDE tor LouUter or go tao http? Sco.com’ qo’ scr
+
+User Access Verltilcation
+
+Username: ...... 1=p
+|
+Password:
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 13 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Banner Grabbing (another example) ~
+| {= <———— From Port 23
+
+| To Port 3434 “Welcome to xyz router,
+| Apache 2.0 - Please
+enter Login & Password”
+
+| Datetime Case Notation From IP To IP From Port To Port
+2009-07-11 04:22:46 EEA -ooooeceryes 125 QE chins) 200 RR = cuba) 23 2192
+Session || Header (44 | Meta (41 |
+
+| AUTO i Enter text ta s€
+
+Orifete Picts el AUTO FORMATTER: app_id= terminal/telnet/from_server(port23) Viewer= ASciit format
+
+i
+
+w *
+
+s Find opposite = side of sess + Tapezood
+
+Inteqrated Access Pevyice *
+12: a -- : .
+200 ae : a ee ee ee ee |
+
+= Find traffic on Copyright ae0be-2005 Auawert Technology. toa., Ltd.
+
+Location Name:
+200 Phone Wurber:
+i
+
+= Find application User name (<=15 charsi:
+terminalstelnet/tTram_se
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 14 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+| Datetime Case Notation From IP Tao IP From Port To Port
+2009-07-12 23:50:33 eayslitcoesw 61 BG china) 200 i (E cuba) 23 2544
+
+| | Session || Header (3) | Meta (3) |
+
+Ouick Clicks |<< ee ee ee ee "
+
+ff #
+
+Sne-(click Searches ff Weleome to £TE Full Service Access Platform #
+
+a Find opposite side of sess F #
+Hf Press Return to get started #
+200 i, : : # Copyright 2005-2009 , ZTE Co.,Ltd. #
+
+S- Find traffic on if #
+i 4
+
+FH RFR ARR BREA AERP RRR R RRR RRR
+
+Locpin:
+
+oS Find spolication
+~ terminal telnetfram_se
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 15 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Banner Grabbing (another example)
+
+To IP From Port To Port: Protec
+
+210 iE om China} a3 44710 TCR
+
+Datetime Case Notation From IP
+
+2009-07-19 193652 scl veounaets we 2000 RB CE cuba)
+
+| Session \| Heacler (1 | Meta (41 |
+AITO La Enter text ta search
+prormestter| Bd | certo Cownload session <7 [Mader Fullsessian |) cptons «+ |) Seaen Content |
+
+Quick Clicks ry AUTO FORMATTER: aop_id= terminal /telnet/from_server( port?3) Viewer= ASCII formatter, |
+
+i i
+
+7 Copyright(c) 1998-2006 Huawei Technologies Co., Lrd. f11 rights reserved. +*
+
+a "Find opposite side of sess osite side of Sess * Without the owner's prior written consent, *
+~2O0 ee) * no decompiling of reversge-engineering ghall be allowed. ws
+“10. - ac a ee ee ee ee ee es
+
+Ss - Find fingerprint
+> sigdewfhuawel Login authentication
+
+miscfnetworkscantigura
+a Bind traffic on
+
+2m”
+Username :
+0 i Tserneame:
+
+a Find application
+~~ Terminal ‘telnet tram se
+
+USErname:..........-. Te ee
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 16 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Understand Telnet
+
+Administrator attempts to reach remote host using Telnet *
+
+SS
+From Port 3434 “Telnet 20 tC To Port 23
+
+To Port 3434 “Welcome to xyz router,
+
+Apache 2.0 - Please
+
+=
+
+Let's make a query enter Login & Password”
+
+Aagekicinatica —.. = —, =... 7.7 UD) HH
+
+| From Port 3434 _———_—__oocCcccce PP To Port 23
+
+|
+“Username: Admin
+Password: Admin
+
+To Port 3434 “Here's your router
+
+configuration information
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 17 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+-Lelnet LOgIns and Passwords -
+
+y
+
+Search: Logins and Passwords
+Justification: |password
+Additional Justificatian: |
+Miranda Plumber:
+
+Datetime: | 1 Day ~| start: | 2009-07-14 [8 oco:00 | stop: | 2000
+
+This is the ae
+
+router's IP
+
+address for _——
+
+which you're —
+| trying to gain 7D Agenasss From PA
+
+access (mail IP Address:
+
+SAVE MMEYOSt) ports Pd tom
+| Port: 23 To a
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 18 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Telnet t Usernames and PWs ©
+
+| “Username: Admin
+
+| Password: Admin”
+
+Datetime Case Notation Fram IP To IP Fram Port To Po
+2009-07-13 OF 37:47 202 RE ie china) i047 23
+
+| Session | Header (3) | Meta (4) i: Cc TTTTTCC—~SY
+
+Enter text to
+AUTO FORMATTER: app_id= terminal ftelnet/to_server({ port?3) Viewer= ASCII forme
+
+~~
+
+Ouick Clicks
+
+Ss Find traffic on
+
+'
+| Sa Find spplication
+terminal‘telmetfto serv
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 19 =====
+“Alelo me
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Understand Telnet
+
+Administrator attempts to reach remote host using Telnet *
+
+Fn Pot 34396 PP To Port 23
+
+‘Telnet 202
+
+To Port 3434 “Welcome to xyz router,
+Apache 2.0 - Please
+enter Login & Password”
+
+From Port 3434 _———_—__oocCcccce PP To Port 23
+
+“Username: Admin
+
+Lets make a query
+
+Password: Admin
+
+=
+
+and target this traffic! | |
+
+To Port 3434 “Here's your router
+configuration information
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 20 =====
+a nn
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Router Configs
+
+i Search: Fulllog
+
+Query Name:
+
+Justification:
+
+Additianal Justification:
+
+Miranda Mumber:
+
+Datetime:
+
+IP “Address:
+
+IP “address:
+
+Port:
+
+Data Length:
+
+iranian mois telnet traffic
+contigs
+
+Custom “| Start: | 2009-07-12
+
+Stop: | 400-15
+
+From your target's IP
+From Port 23
+
+Fr/ Greater than 500 bytes
+To |
+
+od From »|
+
+>HOO
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 21 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Router
+
+‘i Datetime Case Notation Fram IP From Port # :
+
+2009-07-15 14:32:19 ee l= Iran}
+
+: Session || Header (3) | Meta (5) |
+
+: Quick Clicks i)
+
+Ms interface Etherneco
+SS no ip address
+
+. oe vhutnean “Thanks for the router config”
+
+So Find opposite side of sess |!
+74 wy interface serialo
+
+shutdown
+sa Find fingerprint clock rate 2015232
+
+fingerprint/router/cisco; | na Dair-queue
+I
+
+23
+
+miscfnetworkscontigura
+fingerprint/router/cisco
+a Find traffic_an
+65
+
+Interface Seriall
+no ip address
+Shutdown
+clock rate 2015252
+no fAair-queue
+
+fg ,
+a And application —--MOVE—- fee eee eee ee interface Serial
+terminaltelnetfrom_se > no ip address
+shutdown
+
+Clock Fate 201Se252
+no fair-queue
+
+interface Serial3 Many times will contain
+
+na ip address
+
+shutdown Access Control Lists (ACLs)
+
+Clock rate 20152352
+
+ne Beazcaueus — VERY important pieces of
+; tn unnumbered Fastethernetn Intel. Copy/Paste out full
+
+Bntapsulation ppp
+
+isdn awitch-type preimacy-nets Contig oo8
+
+interface Serialz:15
+ip unnumbered FastEthernetd
+Encapsulation ppp
+
+
+===== using-xks-to-enable-tao page 22 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Agenda
+
+n
+=
+© Identifying Browsers
+_
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 23 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Identifying Web Browsers
+
+= Why?
+
+= TAO can exploit the browsers that lack
+strong security
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 24 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+User Agent (Browser) pulls PREY ase
+
+SL es Se eae mare duis,
+
+This query targets foreign- based targets visiting ae Jihadi
+Search: HTTP Activity || web forums to learn about what browsers they use.
+
+Query Name:  jvveb forum orovwsers
+targets visiting known jihadi
+Justification: web forums
+Additional Justification: od
+
+Miranda Number:
+
+as
+
+Datetime: [Custom | Start: 20090712 [3 00:00 = stop: 200sa7-15 [A 21sse
+
+Foreign ©)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 25 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Visitor profiling -
+
+Te OATTP Type Fr Cou FriiP
+
+yet
+yet
+(et
+yet
+at
+(at
+at
+
+get
+gat
+yet
+get
+yet
+yet
+
+eat
+(at
+
+— let
+
+DJ
+
+$0
+PK
+
+AT
+ID
+
+LB
+
+XX
+PK
+DJ
+PK
+
+PK
+
+DJ
+
+AT
+
+Host
+WH Waal qimiiali.net
+
+Browser
+Mozillard.0 (compatible: MSIE 7.0; Windows NT 6.0: Mozilla/4.0 (compatible: MSIE 6.0; Windows NT 45.1; SW1): SLCC T NET
+
+Nokia2680s-2/1.0 (04.91) Profile, MIDP-2.1 Configuration'CLDC-1.1
+Mozilla4.0 (compatible; MSIE 6.0; Wihtlows NT 5.1; SV; ASKTBS, 4)
+
+Mozilla‘4.0 (compatible: MSIE 7.0; Windows NT 6.0; SLCC T NET CLR 2.0.50727; Media Center PC 5.0; NET CLR 3.0.04506;
+Mozila5.0 (Windows: U: Windows NT 6.0; en-US: pe d.8.0.11) Gecko/?0080602 15 Firefox/3.0.11
+
+Mozilla‘4.0 (compatible; MSIE 6.0; Windows NT 5.15 SV1; Media Center PC 3.0; NET CLR 1.0.3705; FO; Creative AutoUp dat
+Mozilla’4.0 (compatible; MSIE OOOO: O12 OOOTOO O09
+
+Mozilla‘4.0 (compatible; MSIE 6.0; Windows OO 000 @ 2: >: O@ ORO OOpEOOOO G5. @O OIE NT 51:5
+Operao.25 (Windows NT 5.1; U; en}
+
+Mozilkay4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLOCT: NET CLR 2.0.50727; Media Center PC 5.0; NET CLR 3.0,04500;
+Mozilla:4.0 (compatible: MSIE 6.0; Windows NT 5.1; $V1; MET CLR 2.0,50727)
+
+Mozila's.0 (Windows; U; Windows NT 5.1; en-US) AppleWebkKit/525.19 (ARTML, like Gecko) Chrome/1.0.154.36 Safari525,
+Mozilla.0 (Macintosh; Us litel Mac OS ¥ 10_5_ 6; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.2 Safari's
+
+Mozilla:4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) MET CLR 1.1.4322) NET CLR 2.050727: ImageShack Toolbar 4.5,
+Mozilla’4.0 (compatible: MSIE 6.0; Windows @9OO@O@O@: OOO ORS 1900069 (O96 i ist=0; voulle
+
+Mozilla’4.0 (compatible: MIO OOO OOO OOOO Ol! OOO O00 69
+Mozilla‘4.0 (compatible: MSIE 6.0; Win@ OOOO? 01; > 2 OO OR OO 126006 O80 8 i: cudows NT 5.4; SV
+
+Wi foo hia: i: = dh dh dh dh dh ob ae oe ed
+
+This displays the From Country (where target is
+
+POO OSSR TT SOVS TT SY
+16.0002 186B9FB5D}; GIBG: SLCCA;,
+
+located), their IP, the website they visited, AND their 0
+
+190 RS alcinmalnet
+171 wawalgimmahnet
+10 wwwashiyaneory
+1. a owww.algimmahnet
+7 haneiniinfo
+
+WWW alhureya.org
+
+WW W.alfaloja.into
+1 so wwwashiyaneorg
+1: sowew.alqimmahnet
+1 owww.algimmahnet
+707 www.algimmatinet
+0  owawalgimmalnet
+11. ww. haneininfo
+
+WWW. hanelninte
+
+WWW. hanellinto
+
+WiWWalfalojainto
+50
+i |
+
+browser
+mo WAT aren ne
+
+be IEUSZ9K YG) OPS @ ae as wets
+
+--H47E-00158307C8DDi: NET CLR
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 26 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+HTTP Activity to find Browsers)
+
+mv
+' i
+
+HTTP Type Fm Cou Host | Browser =
+et CN mefa.qowir Mozilla‘4.0 (compatible i en 5.1)
+et xx AW. TOC. (FOV Mozilla/4.0 (compatible; Mg He re’s another example where we
+cet IF. MW ETAL OWAT Mean (Compan: my ta rgeted the people visi ti ng *gov. ir
+cet AE AA, TT eo I Mozilla‘4.0 (compatible: Mg .
+(pet PH ed. behdasht.qovir Mozilla/4.0 (compatible; Mg websites
+qpet JP wsa_behcdasht.qow.ir Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FREE; NET CLR 1.1.43?)
+qpet IR. WA AO 2 OV Ir Mozilla/4.0 {compatible MSIE 6.0; Windows NT 5.1: GTBG: NET CLR 3.0.04506 646: NET !
+post hI Lbehdasht.qowir Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV'1)
+(peat IR. WWW.KRNCLLQOWIT Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV) MET CLR 1.0.3705; WET CLR 1.°
+cet PK Chrs na. .qow.ir Mozilla‘4.0 (compatible; MSIE 6.0; Windows NT 5.1: SV) NET CLR 1.1.4322)
+cet AE WWW. INT. ovr Mozilla‘4.0 (compatible MSIE 6.0; Windows NT 5.1; SV; .NET CLR 1.1.4322: NET CLR 2.4
+(pet IR. WWW. RICLLQ OWI Movzilla/4.0 (compatible: MSIE 6.0: Windows NT 5.1; SV) MET CLR 1.1.4322) NET CLR 2.
+(pat CH WAT. S alt, por Ir Movzilla/‘4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV 1) NET CLR 1.141.432) .NET CLR 2.f
+cet IF. WWW. WO INN GV Mozilla/4.0 (compatible MSIE 6.0; Windows NT 5.1; SV1; .MET CLR 1.1.4322) NET CLR 2.
+pet El WW. retal. gov Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV; MET CLR 1.1.4322; NET CLR 2.
+(pet IF. Tran spon.irica.qov.ir Mozilla‘4.0 (compatible, MSIE 6.0; Windows NT 5.1; §W1; .MET CLR 1.171.432; InfoPath.?}
+cet PE WAAAY. I pO Mozilla‘4.0 (compatible; MSIE 6.0; Windows NT 5.1; 8V1; HET CLR 2.0.507 2)
+| (et IF. WATSON EDL O°“. IT Mozilla4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV) NET CLR 2.0.50727; .NET CLR 1
+et IF UW, Ca et OI Movilla/4.0 (compatible; MSIE 6.0: Windows NT 5.1; SV 1) NET CLR ?.0.5072? 7; .NET CLR 1
+| OP Q U IZ: V4.0 jcompatible: MSIE 6.0; Windows NT 5.1: SV: NET CLR 20.5072 7: NET CLE 1
+
+v4.0 jcompatible: MSIE 6.0: Windows NT 5.1: Sv: HET CLR 2.0.50727: NET CLR 3
+Which browser are we see! ng??? a (compatible; MSIE 6.0; Windows NT 5.1; SV; NET CLR ?.0.50727: .NET CLR 3
+tc
+
+get DE WWW. S abt. G0VIr Fla 4.0 (Compatible; MSIE 6.0; Windows NT 5.1; SV1) .NET CLR 2.0.50727; .NET CLR F
+get i} AY, TT OO, Mozilla‘4.0 (compatible MSIE 6.0; Windows NT 5.1; SV1; NET CLR 2.0.507 27; FOR
+
+mat IF WU Pe ae ovilladd ficomnnatihio: MSIE 6 te Wiindowe ATOR: Sd: MET CLR? oa 2 infnDath 34
+: [UP SECHE (COMIN WKEL IU USA, AUS, CAN, GBH, NZL
+
+===== using-xks-to-enable-tao page 27 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+HTTP Activity to find Browsers _
+
+HTTP Type Fm Cou Host vm
+(pet hd neta ow. ir Ha/4.0 (ompatible) MSIE 6.0; Windows NT 5.17)
+
+cet of AY Oe POV Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; NET CLR 1.1.4322)
+(pet IR Ww KhCu qQovir Ha/4.0 (tompatible) MSIE 6.0: Windows NT 5.1; NET CLR 1.7.43522: NET CLR 2 0.507:
+cet AE WAY Te Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; NET CLR 2.050727)
+(pet PH edd behdasht.qovir Ha/4.0 (tompatible) MSIE 6.0: Windows NT 5.7: DigE st)
+cet JP ws. behdasht .ow.ir Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; FREE; .NET CLR 1.171.432)
+(pet IR WWW. WONT Qh Ha’ .0 (tompatible) MSIE -- . a — as
+post hx it. behdasht.qov.ir Mozilla/4.0 (¢ompatible) MSIE The browser is MSIE 6.0° =
+pet IR www. Khicu. qovir a/4.0 (dompatible) MSIE Inte ret Explorer 6 O
+cet PK Chs.mita.qow.ir Mozilla/4.0 (compatible) MSIE tro jeunes, se, an ee a
+(pet AE WWW. na er Ha’. (tompatible) MSIE 6.0: Windows NT 5.7; Sd WET CLR 1.74322: NET CLR 2.
+cet IR. Www. KICun qQowir Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV; NET CLR 11.4322; NET CLR 2.
+(pet H Ww. Sabqovir Ha’. (tompatible) MSIE 6.0: Windows NT 5.7; Sd NET CLR 1.74322: NET CLR 2.
+cet IR. WOW. WW OTN. hor Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV; NET CLR 11.4322; NET CLR 2.
+(pet Ell Ww. efalgovir a’. (tompatible) MSIE 6.0: Windows NT 5.1; Sd NET CLR 1.74322: NET CLR 2.
+cet IR. Trans OnLiric a ow. ir Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV; NET CLR 1.1.4322; InfoPath.2}
+(pet PK WAY hr Ha’. (tompatible) MSIE 6.0: Windows NT 5.7; Sv: NET CLR 2.0.507 27)
+| cet IR. WOW. WW OTN. hor Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV 1) .NET CLR 20.50/27; .WET CLR 1
+| (pet IR WWW. aZavimetqovir Ha’. (ompatible) MSIE 6.0: Windows NT 5.7: Sv: NET CLR 2.0.50727: NET CLR 1
+cet PK WwW. na ow. Ir Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV 1) .NET CLR 20.50/27; .WET CLR 1
+(pet he, WAY hr a/4.0 (tompatible) MSIE 6.0: Windows NT 5.7; Sd: NET CLR 2.050727: NET CLR 3
+cet IR. wivw. shrohacda.qpov.ir Mozilla/4.0 (compatible) MSIE 6.0; Windows NT 5.1; SV; NET CLR 2.0.50/72 7; WET CLR
+(pet DE Ww. Sabqovir Ha/4.0 (tompatible) MSIE 6.0: Windows NT 5.7; Sd NET CLR 2.050727: NET CLR 3
+cet > ompatible) MSIE 6.0; Windows NT 5.17; SV) .NET CLR 2.0.5072 7; FDR}
+| met omnatihia) SIF Boe Dinos NTR dt Sed: HET OLR 2 0 aero: infaPath 31
+
+TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 28 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL |
+
+SHTTP ‘P-Activity to find Browsers |
+
+qet
+(jet
+qat
+qet
+(at
+qet
+(pat
+qet
+(pat
+qet
+gat
+qet
+gat
+qat
+(et
+qpat
+(jet
+(at
+(jet
+qpat
+(jet
+qet
+(jet
+gat
+
+mat
+
+Fi Gou HITPT Host
+KR
+
+mine.mim.qov.ir
+
+WWW. IIT. OVI
+
+WW. Ita. govir
+WOmMen. MM .gov.r
+
+WWW. QaZVin.gaviir
+www2.refah.qowir
+WWW. ICM Over
+WWI. IM IT.goVur
+WWW IN OC OMIT
+
+WWW. Sabt.qovur
+
+Int Mi. OV. ir
+
+www. behdasht.qow.ir
+WiWW.IN eta. Gov.
+WWW. eta. gov.
+
+WWW. Salt qovir
+
+Mining strat eqy Min gov.Ir
+WWW. ca.qovir
+WWW. eta. (OMIT
+
+WWW. Ifa) VAI
+WWW. IN OG OMIT
+
+Nip o-K.gov.ir
+
+WWW. tabrizcommerce.dgovil
+Sele ction.behdasht. qoviir
+
+lawoffice.mohme.gov.ir
+
+wear hn neo
+
+Browser =
+
+Mo zilla/4.0 (compatible; NaverBotl -O: http://help.naver. com/customer_ webtxt 02 isp)
+
+Mozilla/4.0 (compatible: NaverBot/1. 0; https Hhelp.naver, comidelete _main. asp)
+
+Mozilla/4.0 (compatible;)
+
+Mozilla.
+
+Mozilla /5.0 (compatible; Googlebot/2.1; +hitp:www.qoogle .combot.html
+
+Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Exabot-Thumbmnails)
+
+Mozilla/5.0 (compatible; MU t2bot1.2.5) bitte Www majestic 12.couk bot.php?+}
+
+Mozilla5.0 (compatible; monitis.com - free monttornng senace; htte./imonitis.com)
+
+Mozilla /5.0 (compatible; YodaoBot'.0; http. wawynidad.comhelpwebmaster/spiders }
+
+Mozilla,5.0 (en-us) AppleWebRKit'$25,13 (KHTML, like Gecko, Google Wireless Transcoder) Version3.1 Satari25,13
+Mozilla/5.0 (Macintosh: U: Intel Mac OS X 10_4_ 441: en) AppleWebHit'525. 13 (KHTML, like Gecko} Version/3.1.2 Safari/525.2
+Movilla/5.0 (Macintosh; U; Intel Mac OS % 10.5 45: fr-tr) AppleWebKit/525, 18.1 (KHTML, like Gecko) Verspons. 1.2 Safari/525
+Mozilla/5.0 (Macintosh: U: Intel Mac OS X 10_5_7:it-it) AppleWebKit‘530.18 (KHTML, like Gecko) Version.4.0.1 Safari/530. 1:
+Mozilla/5.0 (Macintosh, U; Intel Mac OS X; zh-cn} AppleWebKit/52 3.15.1 (KHTML, like Gecko) Version/3.0.4 Safari$23,15
+moana macmost " PPC mae OS X 1 Fj refox, C h rome a nd Safa ri es
+Mozilla/5.0 (Symbian0S/9.2; U; Series60/3, . . —— Kit,
+Mozilla5.0 (Symbian0s,9.25 US Serées60/3.1NokiaNS5 86B6/31.0.015; Profile MIDP-2.0 Configuration CLOC- 1.1) ApplewWebt
+Mozilla /5.0 Windows; U; Windows NT 45.9; ar; 421.9.0.171) Gecko/?009060 415 Firefox/3.0.11
+Mozilla/5.0 (Windows: U: Windows NT 5.1 art rt1.9.0.9} Gecko/20090408 41 Firefox!3.0.9
+Mozilla/5.0 (Windows; U; Windows NT 4.1; de; ned.2.1.13) Gecko/2008031) Firefox/2.0.0.13 .NET CLR 3.4.30729)
+Mozilla/5.0 (Windows: U: Windows NT 5.1: en-GB: n1.9.0.11) Gacko/2009960215 Firefox/3.0.11
+
+Mozilla/5.0 (Windows: U: Windows NT 5.1; en-US) AppleWebHit/525.19 (KATML, like Gecko) Chrome/1.0.154.53 Safari‘525.
+Mozilla/5.0 Windows: U: Windows NT 5.1: en-US) AppleWelKit/528.9 (KHTML, like Gecko) Chrome/?.0.156.1 Safari/522.8
+
+Mozilla/5.0 (Windows: U: Windows NT5.1: en-US) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17
+
+hlowillall i Awa: Pl Wines ATS fd: oon PES AinnlalAahe dt Ath a THUR ob$keo Gackal Chrama SY fh AS Fd Safari a
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 29 =====
+~_
+F
+
+=-—Uibo
+
+vey PILE LINas oF
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+fOWSETS
+
+R44
+
+Aros ep
+iRAPP/1.5.0 NokiaN96-1/1.20; Series60.3.2
+2.0 Nokiabes0/5.0372 1 Profile, MIDP-2.0 Contiguration‘CLDC- 1.1)
+
+Mozilla’4.0 (compatible; MSIE 5.0; Series
+
+Mozilla/4.0 (compatible; MSIE 5.0; Seriest0)2.0 Nokia9s00'4.53
+D1. Nokia’? 104.100 Profle. MIDP-2.0 Contiquration/CLDC- 1.0)
+
+OS; Nokia N70/5.0698.3.0.1
+OS; Nokia N70/5.0793.3.0.1
+
+OS; Nokia N70/5.0706,4.0,1
+OS; Nokia N7O/5.07 97.3.0.
+
+OS: Nokia N70/5.07:
+
+Mozilla’4.0 (compatible: MSIE 5.0: Series&
+Mozilla’4.0 (compatible; MSIE 6.0; Symbiar
+Mozilla’4.0 (compatible; MSIE 6.0; Symbrar
+Mozila’4.0 (compatiiie; MSIE 6.0; symbia
+Mozilla/4.0 (compatible: MSIE 6.0: Symbiat
+Mozilla’4.0 (compatible; MSIE 6.0: Symbta
+Mozilla’s.0 (SymbianOS/9.2; U; SerjesG0/3,
+Mozilla’s.0 (SymbianOS /9.2; U; SerjesGo0/3,
+Mozilla/5.0 (Symbian0S/9.2: Ur Series60/3
+Mozilla’s.0 (Symbiands/9.2: Ut Series6o:3.
+Mozilla’S.0 (SymbianOs/9.2; U; SeriesGa/2,
+Mozilla’>.0 (SymbianOs/9,2; Us SeriesG0/3,
+Mozilla’s.0 (SymbianOS/9.2: Us Series6O'3
+Mozilla’s.0 (Symbiandos 9.2: Ut Serieseay3
+Mozilla’s.0 (SymbianOS/9.2; U; SerjesG0/3,
+Mozilla’s,.0 (SymbianOS/9.2; U; SerjesG0)3,
+Mozillats.O0 (SymbianOSla. 2 UW Sereshor3.4
+Mozilla/5.0 (Symbian0S,9.2: Ut Series60:3,
+Mozilla’S.0 (SymbianOs/9.2; Us SerniesGi/4,
+
+Bap Oe Fae ee PE A be Pe Cee Oe
+
+| NokiaS 7 0005.11: Profile: MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebkKitvd 13 (KHTML,
+Nokia6 110Navgqatdr 3.52; Profile. MIDP-2.0 Contiguration/CLDOC- 1.1) AppleWebRKit/4 13 (AR TMIL, IKE GECKO) Salarais
+
+| Nokiaé 1200/5.41 1;
+
+— — — =|, san Ascending
+1 Confiquration/CLDC-1.1
+
+tl san Descending
+
+Profile. MIDP-2.0 Contiquration/CLDC- 1.1) ay Filters
+
+| a
+
+If you have thousands of
+
+E' Group a,
+
+a
+
+iy Histogram
+
+results, try to “Group By”
+140.11 LO ‘dedupe resulls
+
+Nokia5 ? 003.27; Profile MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebRKit/413 (KHTML,
+
+Nokia5/O00'3.63.1; Profile: MDP-2.0 Configuration/CLDC-1.1 } AppleWebHit/413 (KHTMI
+Nokias 7 0004.21: Prpotle: MIDP-2.0 Configuration/CLDC-1.1 } AppleWebRKit‘413 (KHTML,
+
+|: | Pivot Data
+
+- | Histogram Grid
+
+Tih ShowHide...
+
+PA AutoFit Colurnn Width
+
+Nokia6 120c/3.05; F
+Nokiaé 120¢/4.21;
+
+offle MIDP-2.0 Configuration /CLDC-1.1 } AppleWebHitt4 13 (KHTML, like Gecko) Safanm413
+
+ofile MID B KHTML, like Gecko) Safari/413
+Watch for Mobile B KHTML, like Gecko) Safari/4 13
+browsers!
+
+Nokia6é 1206.01;
+Nokiaé 1270c 6.51;
+
+BAKHIML, like Gecko) Safam4is
+HKATML, like Gecko) Safanm413
+
+MoakiaEst-Ww100. 3400; Protle/MIDP-2.0 ContiqurationfGLDC- 1.1 ) ApplevWebkittd 3 CRATML, like Gecko) Safaris 3
+
+NokiaE5 1-1/200.34156; Profile MIDP-2.0 ConfiqurationCLOC- 1.1) ApplevWebRit/413 (KHTML, like Gecko) Safari/413
+NokiaE5 1-1/300.34556: Profile MIDP-2.0 Contiguration/CLBOC- 1.1) AppleWebRit/413 (KHTML, like Gecko) Safari/41F
+
+4. ie 801 TAO ee ee es ALAS Ro ao OSL eal Pe ee Fe ee a ee ee |
+
+Bi-f...0F CM 2/0 oe
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 30 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+|
+= Web Forum Logins / Passwords
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 31 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Web Forum Logins/PW
+
+Search: Logins and Passwords
+
+foreign jihadi web forwn wserg'
+Justification: jlogins passwords
+
+Query Name:
+
+Additional Justification: sal |
+
+Miranda Number:
+
+Stop: | 200%07-15 [3 | 23:5
+
+Datetime: 2 Days v Start: | 2009-07-13
+
+Ld
+o
+CI
+=
+
+<|>
+
+Domain “moaqawmh.cam or "alshauraa cam or “alhur
+
+IP Address: From ha
+IP «address: Ta v
+Port: From
+Port: To
+
+Foreign ©)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 32 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+r oe
+fi Datetime Case Notation From IP To IR
+2000-07-15 11:27:11 IRS10214 2) i = United States) 9253 go
+
+Session || Header (3) | Meta (11) I Attachments (19) |
+
+Quick Clicks «| AUTO FORMATTER: app_id= mailf/webmailsyvbulletin Viewer= DNI_PRESENTER formatter. Into=
+| 8M Session La
+| 3 8i¢ attachments ¥ Display Information: HTTP-POST;/Form-Data [o> Se
+; 3? unknown
+| 3? text UIS Web Form Display
+| 2 embedded based
+> .
+| * embedded_base6 Taare
+| ? embedded _based
+| ? embedded _baseé °
+| ? embedded based securitytolen eseebef2 dO3 bb 57836903 296499 edacGla44 2b
+| ? embedded _baseé = url errr mashiny anrenure forornnsereeister- —
+| 2 embedded based 1
+: ? embedded _base6 1gIke
+| % embedded bases password md4
+| ? embedded bases passwordeonfirm md5
+| 2? embedded_base6 dav Q
+
+> }
+
+7 embedded based month ()
+: ? embedded bases
+
+2? embedded based ye
+
+? embedded based Us eMame
+
+? embedded bases— password
+| ? embedded_bases passwordconfirm
+| ? embedded_baseo :
+a rene erro 0.011
+
+3.— Find oonosite side of se emailconfuwin RE 6).2h00.com
+0: IE ;::. imagestamp AB82qy
+207 imagehash b976e8497b5 daccd3.a49 ad29699 5Sel
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== using-xks-to-enable-tao page 33 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Webmail Logins / Passwords
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 34 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Webmail Logins — Why?
+
+= Masquerade as user and read mail
+= Useful, but secondary to....
+
+» Potentially use Login/PW to get full access
+to web server itself
+
+= Port 80 is useful, but....
+
+= Port 3000 has XDaemon traffic (woo hoo! Let's
+take a look}
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 35 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+“Web Mail Logins XKEYSCORE
+
+| f= Search: Logins and Passwords
+
+Tranian based webmail servers
+
+Justification: in iran.
+Targeting foreign-based |
+(non-5EYES) Iranian -
+government webmail aa
+USers me: |] VYvreek | Start: 2009-07-08 | O03 Webmail Ports
+
+User Name
+
+Di sSorounasee
+
+Domain: 9 |*qoy.ir
+
+IP Address: From |
+IP Address: To
+Port: Fram ~~
+| Port: {20 or 3000 or 8080 To
+Users in and IR or BRoor YE or COor SA or KiWoor 24
+out of Iran Sevan vl ito wi
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 36 =====
+(= X-KEYSCORE C2C Session Viewer
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Jatetime Case Notatian From IP To IP From Port To Port Protocol L
+
+2009-07-13 11:54:00 AES. 193 RR vn suinea) 217 EE cra so423 0 TCR
+
+Session | Header (3) Meta (6) |
+
+ALTO + | Enter text ta search
+
+Juick Clicks rm AUTO FORMATTER: app_id= http /proxy_to_ server/fsquid  prosy Viewer= DNI_PRESEMNTER formatter, Info=
+
+¥ Display Information: HTTP-GET Los Send to Aaility Res
+
+oO Find opposite side of sess
+
+So423 GET /load_users.php HTTP/1.0
+
+193.
+217 SE ec Accept: nnage/at, mage/x-xbitnap, macge/jpez, umage/pypeg, apphcation/x-sho ckwave-flash,
+3 Find traffic on ap plication/vnd.ms-powerpomt, application/vnd.ms-excel, application/msword, */"
+eal?
+
+os Referei http://wvisa.inta.cov.ia/logo top user. php
+
+3) Find application
+httoyoroxy to server/s
+
+Accept-Language: fa
+
+Accept-Encoding: gzip, deflate
+
+3) Find proxy hash User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1, SV1)
+c0as6 fa Host: wvisa.mfa.gov.1
+
+= Find ~-forwarded-for IP
+193
+
+Cookie: azhans naimne=---
+
+azhans user
+
+azhans semat—user
+usger—THR
+User c—- --
+
+place=deleted
+
+fanwl=deleted
+__utma=23813 5644.2300981863224871400.1239874722.1243255420.1107685748.4
+
+__utmz=23813 5644.1107685748.4.4. utmess=fardanews. com|utme en=(referval)|utmemd=re
+ferrallutmect='fa/pages/lnks php
+
+Via: 1.1 centremounamternet-cache. com:3128 (squid/2.6.85TABLE16)
+
+X-Forwarded-For: 3 i
+
+
+===== using-xks-to-enable-tao page 37 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Webmail | Logins.
+
+» More webmail examples...
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 38 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+-Chinese ViVislelaarsil users
+
+Search: Logins and Passwords
+
+chinese webmail logins
+
+Justification:
+
+S&dditiaonal Justification: Na
+
+Miranda Humber:
+
+stop: £0O09-07-15
+
+Datetime: Custom | Start; | s009-OF¥-le ms 21-00
+
+<>
+
+IP “«ddress: From ~~
+
+IP Address: To ~~
+
+Fort: From Pd
+
+Port: [80 or 2000 Tao
+Country: hy ~ | From a
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 39 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XDaemon | Logins webmail)
+
+_ Datetime Case Notation From IP From Port § To Port
+
+| Quick Clicks «| |
+
+JKE
+
+P009-07-11 10:08:42 _ STs sey tes peace 6 i= China) 1445 3000
+
+Session i Header (3) | Meta (6) | Attachments (1) |
+
+ieee AUTO Pea | Send to: Downlced! Session / Mode: Full Sessile n ‘Optans ? | Search Content: (aQementenerety
+
+AUTO FORMATTER: = apo “id= htt most/ s-wwve-form-urlencoded Viewer= DNI PRESENTER formatter. Info
+
+hd Session
+= 4 Attachments
+3 7 unknown
+327 text
+
+? unknown 621.5-ww ID: sess ong proc Document type: HITP-FPOST/Form-Data
+
+Display ~ Raw Data | SEBE
+
+= Find SE DOLE side of sess
+
+G1, 16445 ->
+200 He
+
+SJ Find traffic on
+200 ae
+iz
+
+3S Bind application
+
+> Gocument Information: File Expand all
+
+Ww Contents (1) 4 >) Expand all
+
+File name ile size Attachments
+
+=) html
+
+Display I
+
+q a
+
+Ormation: HTTE [> Sendtos
+
+http po sts —wyiy wyform -
+
+Password a
+
+Form Fields Logon Autofirma
+
+User
+
+Password
+
+Logon $Autofinma
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 40 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+a a =
+Th |
+
+Search: Logins and Passwords
+
+Query Name:
+
+chinese webmaiaL logins
+
+Justification:
+
+Seoditionasal IUSstiticatian: uot
+
+Miranda MNurmber:
+
+“OOY-O¥-1L2
+
+<
+WW
+u
+Gd
+NM
+cl
+Fi
+<>
+
+Datetime: Cystam Stop: OL
+
+¥1] 26 com
+
+IP Address: Fram ~|
+
+IP Address: Toa ~|
+
+Port: Fram ~|
+
+Port: To ~|
+Country: CH ~ | Prom ~|
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 41 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+VWebmall Logins PWs
+
+Datetime Case Notation Fram IP To IPF From Port To Por
+2009-07-15 OF: 53:19 sree 10.34.35,.45 (@ Private Address) 61 RR ae chins 2745 a0
+
+Session | Heacder (34 | Meta (a) | Attachments (14 |
+
+AUTO vy Enter text ta search
+
+| Quick Clicks re] AUTO FORMATTER: app_id= mail/webmail/coremail viewer= DNL PRESENTER formatter. Info=
+:
+Nd Session
+| 3.4 attachments > Document Information: File Expar
+f £
+3? unknown
+| 3% toxt ¥ Contents (1) Ba} Gl Expar
+| ? unknown_295 ww" File name File type File size Attachment
+| akg One-Click Searches =) html HTTP-POST/Form-Data 136 0
+a Find opposite side of sess
+10.34.35,.45:2745 -» ¥ Display Information: HTTR-POST/Form-Data [os Ser
+
+3) Find traffic on UIS Web Form Display
+|
+
+10.34.35,.45 :
+Fornn Fields
+
+3S) Find apolication
+
+| . .
+mails ebm ailcore mail domam  126.com
+
+Find email address language 0
+
+a bCookie
+serie BR 3126. com
+
+enter.x jC] iA v4
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 42 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Datetime Case Notation From IP To [IP Fram Port To Port
+:
+2009-07-13 OF :27:18 regen qess 2 I (i rited ¢rab emirates) 79 | tran) 32227 so
+| Session || Header (3 || Meta [ aE Attachments (1 ) |
+AUTO | Enter text ta search
+
+Ouick Clicks rm AUTO FORMATTER: apo_id= mail/webmail/ vbulletin Viewer= ONI_PRESENTER formatter, Info=
+
+4 Session
+SA Attachments
+Sb? unknown
+Ss)? text
+| | ? Unknow 402.—ew' > Document Information: File Expanc
+MIE 4 One-Click Searches
+¥ Contents (1 4} Expanc
+: =a Find opposite side of sess ull sa)
+| 92 ER 22227 File name File type File size Attachments
+79 iS. 3 =) html HTTP-POST/Form-Data 158 0
+a Bind traffic on
+Fg + Display Information: HTTP-POST/Form-Dats [e> Sen:
+: 82
+3 Find anplieation UIS Web Form Display
+
+: mail webmallvbulletin
+
+Form Fields
+
+OPO Coll User
+i task login
+| return L2hvb WUuaHRtbA=
+Idfabb339f73 6fbfas 2843 ee ebf36b52 1
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 43 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Identifyi ng. verve rs q FY “a
+
+= Web Servers run particular software
+= E.g. Apache, Microsoft IIS, Unix, et...
+= TAO has exploits for particular ones
+
+| TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 44 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+-XKS > query to find server info |
+
+«= This targets Jihad ep foru ms for hen
+server information
+
+Search: HTTP Activity
+
+jihad web forms
+Justification:
+
+Additional Justificatian: hd
+
+Miranda Number:
+
+4|>
+
+Stop: | #U09-L¥-
+
+Datetime: | 3 Days “| Start: | 2009-07-12 |=] 00:00
+
+Host: § |*mogawmbh.com or *al-shouraa.com or *alAur) mi
+
+i
+
+Country:
+
+US AND ISB AND N48 SND INS Sahib Lau
+
+ne pS ne msm
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 45 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XKS > query to rind server info
+
+| Search: HTTP Activity
+
+dr mois weh servers
+
+Justitication:
+
+This is the network to
+which I'm trying to gain
+Additional Justification: access (IR MOIS).
+
+Miranda Number:
+
+Datetime: Custom ~ Start: 2009-07-12 ¥ al 21:00 || =
+
+IP Address: regex. 87\.247\. 16[0-9) [0-255] From ~
+
+Country: 9 1US AND IG AND ICA ANDUINZ AND LAU ¥ |Te
+
+, Foreign ©
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 46 =====
+Results tor server query q
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+= In the HTTP Activity results, you see the
+servers listed
+
+| Sever Type = | eT
+Apache ?.2.717 (Une)! PHP 4.4? with Suhosin-Patch moc ssh2.2.11 OpensSL't.o
+
+Apachess.2.11 (Unk) PHP SS.2.6 with Suhosin-Patch mod ssh2.2.11 OpenssLa.9
+Apache/s.2.171 (Unb! PHP /S.2.8
+
+Apaches. 11 (Unis) PHP SS.2.9 with Suhosin-Patch mod ssbl2.2.11 OpensSsbLii.9
+Apache 2.2.11 (Unb) PHP sS.2.9
+
+Apaches s.2.717 (ins) DAV! 2 mod ssh?.2.11 OpenSSL Si mock autoindex cc
+Apache 2.2.2 (Unb)
+
+Apaches]. .3 (Cents)
+
+Apache/?.2.3 (Debian) DAW? mod perl?.0.7 Perks 3.8
+
+Biss ss Hk a OP =
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== using-xks-to-enable-tao page 47 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Many times when we task TAO we have
+back/forth conversations about how to
+exploit the target. These slides should help
+you find the things that TAO needs from S2
+Analysts. It's difficult to cover all of the
+examples of how XKS can help, but this is
+a good start..
+
+Good luck.
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL

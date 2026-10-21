@@ -1,0 +1,811 @@
+
+===== xks-intro page 1 =====
+a
+
+f
+
+2
+
+TOP SECRET/ /COMINT/ /REL TO USA, AUS, CAN, GBR, NZL
+
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GBR, NZL
+
+al
+
+—
+
+DERIVED FROM: NSA/CSSM 1-52
+DATED: 20070108
+DEGLASSIFY ON; 20320108
+
+
+===== xks-intro page 2 =====
+>.
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL ©
+
+What is XKEYSCORE?
+
+DNI Exploitation System/Analytic Framework
+
+Performs strong (e.g. email) and soft (content) selection
+Provides real-time target activity (tipping)
+
+“Rolling Buffer” of ~3 days of ALL unfiltered data seen by
+XKEYSCORE:
+
+e Stores full-take data at the collection site - indexed by meta-data
+e Provides a series of viewers for common data types
+
+Federated Query system —- one query scans all sites
+
+e Performing full-take allows analysts to find targets that were
+previously unknown by mining the meta-data
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-intro page 3 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL ©
+
+Metnodology
+
+e Small, focused team
+
+e Work closely with the analysts
+
+« Evolutionary development cycle (deploy early, deploy often)
+e React to mission requirements
+
+e Support staff integrated with developers
+
+e Sometimes a delicate balance of mission and research
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 4 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL ~
+
+System Details
+
+e Massive distributed Linux cluster
+e Over 500 servers distributed around the world
+
+e System can scale linearly — simply add a new
+server to the cluster
+
+e Federated Query Mechanism
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-intro page 5 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Query Hierarcn
+
+) User Queries
+Po ever
+
+XKEYSCORE web Server
+
+F6 HOS
+
+for \eo FORNSAT site SSO site
+
+F6 Site 1} | F6 Site 2
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 6 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, , NZL
+
+a Se IS Xe KEYSCORE?
+
+Approximately 150 sites
+
+Over /OO servers
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN. GBR, NZL
+
+
+===== xks-intro page 7 =====
+a
+
+TOP SECRET/ /COMINT/ /REL TO USA, AUS, CAN, GBR, NZL
+
+= a.
+
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 8 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+General Capabilit
+
+—_
+
+Processing Speed
+
+TURMOIL/TURBULENCE
+
+XKEYSCORE
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 9 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Why do snallow
+
+e Can look at more data
+
+e XKEYSCORE can also be configured to
+go shallow if the data rate is too high
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 10 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Why go deep 7
+
+e Strong Selection itself give us only a very
+limited capability
+
+e A large amount of time spent on the web is
+performing actions that are anonymous
+
+e We can use this traffic to detect anomalies
+which can lead us to intelligence by itself, or
+strong selectors for traditional tasking
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 11 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+What XKS does with the Sessions
+
+Plug-ins extract and index metadata into
+tables
+
+[sessions] ——~ IPFOSESSING engine] —= (database) <——> (user queries)
+Database
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 12 =====
+(ort G0) 1008 TORS SECRET//COMINT, /{/RELTC
+
+1001 Non 100) pata 108 Lon ta
+
+ped Fr Oy - 10501 Ent OS t |
+no Ped i @ | Hc S SG om nnd
+a oy rool” re |_ DB ot Oth ‘
+
+at
+bod
+
+i
+
+Plug-in DESCRIPTION
+
+E-mail Addresses Indexes every E-mail address seen in a session by
+both username and domain
+
+Extracted Files Indexes every file seen in a session by both
+filename and extension
+Full Log Indexes every DNI session collected. Data is
+
+indexed by the standard N-tupple (IP, Port,
+Casenotation etc. }
+
+HTTP Parser Indexes the client-side HTTP traffic (examples to
+follow)
+
+Phone Number Indexes every phone number seen in a session (e.g.
+address book entries or signature block)
+
+User Activity Indexes the Webmail and Chat activity to include
+
+username, buddylist, machine specific cookies etc.
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 13 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL ©
+
+What Can Be Stored?
+
+e Anything you wish to extract
+e Choose your metadata
+
+e Customizable storage times
+
+e Ex: HI TP Parser
+
+search?hl=en&éq=1slamabad&émetae HTTP/1.0
+Accept: image/giTt, Image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-
+application/msword, application/x-shockwave-flash, */*
+
+erTerer: p://www.google. com. p
+= = 1) = AL CLL CL = F
+ser-Aqent: Me a/4_0 (compatible; .U; Windows
+
+HOST: www. gooqlé.com.p
+
+Cookie: PREFH=|D=6/o1bDUe
+Via: 1.0 proxy
+X-Forwarded-For:
+
+=
+al AL
+
+M=1168503483 :|M=1168503483 :S=KKzZb3 kPcw4wNxGt
+
+-8080 (squid/2.5.STABLE13
+
+Connection: keep-alive
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 14 =====
+a
+
+TOP SECRET/ /COMINT/ /REL TO USA, AUS, CAN, GBR, NZL
+
+= a.
+
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 15 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZE
+
+Finding Targets
+
+e How ao I find a strong-selector for a known
+target?
+
+e How do I find a cell of terrorists that has no
+connection to known strong-selectors?
+
+e Answer: Look for anomalous events
+
+e E.g. Someone whose language is out of place for the
+region they are in
+
+e Someone who is using encryption
+e Someone searching the web for suspicious stuff
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-intro page 16 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Cie (dt Siew Insert Frimst T= & Tons Minoo Len
+> ¢e aol bea ££ Cle @ BR vy HOE 1
+yl [fifa | [Times raw Rovner =| lin HB); vi =(E]= =f ai
+
+Encryption 5
+
+agmpe!l gaged) eddl 2 um
+evSmd! #¢l ag sd okey Stel oo vax
+mad oe Aa)
+
+aa 2 SG 3
+e Show eC all 1- * gall pulls Feral He i OF ds oan EK
+
+=
+
+documents fr} — .
+e Show me all || | =
+
+Help
+
+2st ae ol Gl ft pag) Ga et
+debs J sched God! a! ab Subd! gto pel a ys
+7 2g seas! jlo amyajll Gag ia ag
+e Once again —|- gi ede osoe edt gs 831 St pay dG Scab ged Fadl Oe
+269719018 oo adds Sued Pde gg Has Sl oo Cad! Gg
+7 ets! Od Aue & eb ga
+forwarding tf, eee
+eligi dl @ ogg wo
+al 4 era cogs sgh Gl Js wo aol ol faa apd
+
+- al eau lo 25a Hell ot ag Haga) del alu WE Ede! T-
+. : set eh St sal al!
+
+e Can perfo rmM |. Sheed! & pots oa (IS0DU0)! + 2¢l app ACS Bgl OI am
+
+ee eee oo
+
+QUeETY, then sr epg! SJE ge pg SI Se ps 38 fuged! 7
+
+| Page Lt | Dhaai joc | ticet | ot jie | | |
+
+from site as required
+
+Ga | Fre] 4
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 17 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Technology Detection
+
+e Show me all the VPN startups in
+country X, and give me the data so I
+can decrypt and discover the users
+
+e These events are easily browsable in
+XKEYSCORE
+
+e No strong-selector
+
+e XKEYSCORE extracts and stores authoring
+information for many major document types —- can
+perform a retrospective survey to trace the
+document origin since metadata is typically kept for
+up to 30 days
+
+e No other system performs this on raw unselected
+bulk traffic, data volumes prohibit forwarding
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 18 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL ©
+
+Persona Session Collection
+
+e Traditionally triggered by a strong-selector
+event, but it doesn’t have to be this way
+
+e Reverse PSC - from anomalous event back to
+a strong selector. You cannot perform this
+kind of analysis when the data has first been
+strong selected.
+
+e Tie in with Marina -— allow PSC collection after
+the event
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 19 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Language Trackinc
+
+e My target speaks German but is in
+Pakistan -— how can I find him?
+
+e XKEYSCORE’s HTTP Activity plugin extracts
+and stores all HTML language tags which
+can then be searched
+
+e Not possible in any other system but
+XKEYSCORE, nor could it be -
+
+e volumes are too great to forward
+e No strong-selector
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 20 =====
+e My target uses Gh
+locations - can I iy
+determine his erm
+web-searches - ¢
+SUSPICIOUS?
+
+© XKEYSCORE extra eiari= ites areca tana een aes
+including all web-based searches Rich can be
+retrospectively queried
+
+e No strong-selector
+e Data volume too high to forward
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-intro page 21 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+HNocumet a __ an
+
+2. General | Description User Defined Internet Statistics |
+
+Fle Elf eit rset Forinar
+
+Pi = Mi = |(4|| B
+
+Po dad |Defauit ha
+
+| om 6
+
+Nas
+nur:
+anc
+
+Ld
+
+Wo
+
+‘|
+
+Tvpe:
+Lacation:
+
+Size!
+
+Created:
+Modified:
+Digitally: signe
+Last printed:
+Taal editing §
+Revision num
+
+I pphe use!
+
+Template:
+
+Gl ? we
+2 gms 199
+
+al ate | gly
+gal a
+
+MS Word docume §
+
+x
+
+General Description User Cefined | Internet | statistics
+
+Title oo J) Oo dl soll ayy
+SUD jack
+Keyirvords
+Comments re
+fia
+| IK Cancel Help Reset
+
+evOed! cul osl asad! aol gagl ga ua eegl coe
+al Sopot e [TSO ete agar ig! eel Dl) ae
+
+oes Tl ig ad
+
+ag Sg lh a gp Sh cg te J ote | pial Fd dl 2
+
+lFace Lil
+
+| Default
+
+lioo, Lcmsec | sro dee ||
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 22 =====
+c ARLE 7
+
+i I
+
+sla stauthor i
+
+Shitle>Eiographical Da
+“language>Arabiccla
+
+— Scolinent=
+
+“METADATA EOC cs
+<Language >Arabics
+<{Dataltem= <Proce
+<Processmg> “Narn
+
+SMETADATA RO
+
+“fdocument_ metadata>
+
+<ixks meta>
+
+Note: ill the blocks in English & Type
+
+- Submit!) Jectronically via e-mail
+
+jgxSNvyulblgbunlg dygoll cali pplisiaulsdsalSMl Syloiuail ‘Tio
+
+Iragq-kut-dor almoal mean
+
+Iraqi
+
+Arab
+
+Muslim
+
+male
+
+single
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 23 =====
+|_|
+ES Mil Exod - doiol Civil Defer
+| Ble Edt “ee [neers Forma: Dock Bat= “Sinden, Hep clase
+
+[Git ee SY |S elo | EK A Gl | co = 2.
+
+ca | > it +
+
+He | =
+
+a | R | r [0 TF a |
+
+PROACTIVE
+
+ye a Wee
+el gsr lw Weg the
+
+ade Wael,
+
+F= Ida igh JA ae
+r Per) Iijeala
+
+a
+Lomuniculions, Inc. -- -
+
+3 fO2N Cfaseout Decument
+al
+5 [Site lluarriativn afcloaliS jaa it
+ki Sig Marre Cily: -_ lm deat le lett Engi! Marries fF
+i Function (PS, PIO, POL wi wee Wow Lavipmant shippmant Date;
+A GP Cine! Hpac Fqulpment Belleneed Tato:
+9 /Shie Pro-Commlssloned Date: ea cg at CLR: 5
+
+tC) S h O VW 10 |Site Comrnisauned Dales me? eae Gali al Pow Siips Used: 4
+11 Mylo ot CAT 3 Ubsal: S00 Meters bad lew Cunmbairien ; Harding Sae@
+12
+13 (PC. Delivuiablud Equiprei ™
+
+CO a ta 1 fee 2 WS racial [Serial Number - age oer |
+
+145) NetModem: |
+1h | eg Vegi t
+
+qF] Ps 4d Cinewal - Po
+
+10
+S O I C 1 Edlne) med Ssvitih Setal Meribe
+
+=O
+Fl
+ue
+TA
+
+zt
+
+26) UNL agetede ot
+© NOV is) ms rere: —_
+
+alia juda
+
+ZU) Feed [orn Assennbly POL
+wl
+‘a OC =U ScUED ET - qe tle t¥ Wuipe bea peti Pe Seed ee Teulapliune Auriben
+=1 ei dis [fied
+Pa
+- C =F
+ICU
+25
+a “FR Gave cment Corrnished Fraulpment Rordeantivua©rnd Serlal Humber
+Ino Lad Suxconla dy 5 WGoetua a
+me p |
+4
+i 4 Dell Model lype * Serial Humber Monitor lypes Serial Nurmber|
+O O ‘f ude Litusdand Ione Yd dade tools cutlale sicko
+42
+4A
+Oy 44
+
+Mia [hb Lustamer cocape .”
+
+e Multiple aictlonanes targeted at spect
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 24 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+e Show me all the exploitable machines in
+country X
+
+e Fingerprints from TAO are loaded into
+XKEYSCORE'’s application/fingerprintID
+engine
+
+e Data is tagged and databased
+
+e No strong-selector
+
+e Complex boolean tasking and regular
+expressions required
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 25 =====
+a
+
+TOP SECRET/ /COMINT/ /REL TO USA, AUS, CAN, GBR, NZL
+
+= a.
+
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 26 =====
+TOP SECRET/ /COMINT/ /REL TO USA, AUS, CAN, GBR, NZL
+
+ee
+
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 27 =====
+Customer: CounterTerrorism (CT)
+
+Provides near real-time tips to TRAFFICTHIEF server in operations in
+coordination with coalition forces in Iraq 24 hours a day
+
+Currently producing hundreds of confirmed alerts per day on over
+3000 user accounts
+
+Afternoon of MMMM 2004 - coalition detained individuals below:
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 28 =====
+—= = =
+
+ARCHIVES [tO
+
+Canim unicahons (E020) and
+ee. Whralees Taam (356211)
+
+TSS 1] Breakitirowgh: Previowsly ‘Winfindable’ Internet Cafes in
+Iraq Can Mow Be Located
+
+ESE Tete A Brot Ua io Cave oe yo fa ay ryt ii” fae oe
+
+OCR ae Dee SH 2 a ocdog
+
+Pies Par eee andr SESE nS PV BNSoE AP Soo SOT one St heeedore
+wT burr tiles leg Leet) aaron heck dine dds eh a8 eter eg Lae
+SU de be J ps. oe ees cele sed at digs webs duu et is
+beads Tees ee eed eae iy ee ede eres"
+
+TSS fa tae, TOCA pa se cd Ube Ler ceris's al be Taste. ces ‘lier 2 ek
+dae and t ane his larebor wo be aces ate fares in dred oo ovinbes cP Pie 2 ther
+Tha CPrngh wr ans meas, PR Aer ae ached fee th re pa P= safe we
+os a et ee a DD
+
+Chay Fe AI, es ae onthe vps 1
+
+PP batin ae a ISSR carer sce tne prt ED sneered
+We ane ad lee Magog ses cud sl cweshe cbs we alc.
+
+Wee vere by oe ‘ lfas, eels gest upetalie Gee sss uf 4 F
+Brecher San Tale | accik Pune Seek eb. pee tessse saat ah ins
+
+deem ees 72 les baad chon ty leona i> - An cc, nore pre, 2 bat bret
+
+Maes! Te ochre be wgec tie Spr mg, bove
+Tine be CCBA an woke saci
+ree ar S-BP TS REE ere]
+Pl. ssl hed bee Sa REC ty Ee rt
+beeen ie Weer.
+
+yes | | |
+Beth tieectk ab dbe aes fie dis oeb ut
+Pol, Cia dine des | eo ST
+BB Tacs and nn care 0. arr as
+
+Set) Toe adler e se Cup l te baer is. or
+
+heave 2AAn Tee Pha AAS pie
+The aspen seta app il
+
+l
+
+FOCOGACK EA = SCOTaoar- oN tf
+
+May 2006, WealthyCluster2 and X-KEYSCORE
+installed at
+
+«Connected to Moonshine
+
+eEnabled processing of wireless collection
+«Enabled near-real-time tipping
+
+«Enabled full-take SIGDEV
+
+Un-locatable cafés were geolocated:
+
+EEE “4 Gotamine”
+
+¢Four Other Cafés Being Developed
+
+Acquired important targets:
+*NSA/Georgia Tips With Precise Locations
+
+2JSOC Tools In New [nnn
+
+«Reacquired PE ost When Zarkanet Went Down
+
+Terrorists were captured:
+
+*Members of the [inn
+«Members of th ii
+
+_T//REL TO USA, AUS, CAN, GBR, NZL
+
+===== xks-intro page 29 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL a mN
+Innovation bi
+
+e High Speed Selection
+
+e Toolbar
+
+e Integration with Marina
+e GPRS, WLAN integration
+e SSO CRDB
+
+e Workflows
+
+e Multi-level Dictionaries
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-intro page 30 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Future
+
+e High speeds yet again (algorithmic and Cell
+Processor (R4))
+
+e Better presentation
+
+e Entity Extraction
+
+e VoIP
+
+e More networking protocols
+
+e Additional metadata
+
+e Expand on google-earth capability
+e EXIF tags
+e Integration of all CES-AppProcs
+
+e Easier to install/maintain/upgrade
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+

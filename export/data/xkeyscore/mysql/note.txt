@@ -1,0 +1,1 @@
+"location of the MySQL database consisting of admin, insert, and query databases"

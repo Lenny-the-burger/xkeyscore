@@ -1,0 +1,3 @@
+"contains the beacon perl script (shm_beacon.pl) and a link to the beacon configuration file (shm_beacon.config)."
+
+It is refrred to as having a "link" to the beacon configuration file, not the actual file itself. This may mean a symlihnk. (xks-system-adminisrtation.pdf)

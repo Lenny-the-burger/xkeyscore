@@ -1,0 +1,5 @@
+"
+(optional) contain the following sub-directories:
+	mailorder/ - pickup point
+	mailorder_working/ - file creation point before being moved to mailorder/
+"

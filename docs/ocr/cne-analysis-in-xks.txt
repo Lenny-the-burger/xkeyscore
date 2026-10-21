@@ -1,0 +1,1500 @@
+
+===== cne-analysis-in-xks page 1 =====
+CNE Analysis in
+XKEYSCORE
+
+15 October 2009
+xkeyscore@nsa.ic.gov
+
+GR © 1s .ic.gov)
+
+DATED: 200701
+T ECRET//COMINT/ /RELTO USA, AUS, CAN, GBR, NZL DECLASSIFY GN: 20320108
+
+===== cne-analysis-in-xks page 2 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+These slides are classified
+TS//SI//REL FVEY in their entirety
+
+data indicated as more highly controlled has been filtered out.
+
+— —— ihe ee
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 3 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Tao is a collector
+« analogous to field site
+
+Various formats based on collection
+“equipment”
+
+e OLYMPUS vs UNITEDRAKE :: WC vs TU...
+
+SRI plus content produces “sessions”
+
+« dnt payload format
+
+Significant overlap with passive, especially in
+terms of collected files
+
+e office, pdf, ...
+
+Much unique opportunity
+
+« Config files, registry, network information,...
+
+Beginning to feed standard analytic tools
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 4 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, N2e
+
+tdi
+
+e PINWALE (storage/legacy)
+
+e TUNINGFORK (aggregate data views
+and tasking/legacy)
+
+e XKEYSCORE (discovery + )
+
+e TURBOCHASER/MARINA (profiles
+[machine and user], future tasking)
+
+e JOLLYROGER/TREASUREMAP (networks)
+
+e TURBINE/PRESSUREWAVE/MAD
+(future)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 5 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, N2e
+
+¢e US-3101B, C, D, E, F, L, M
+¢ UNITEDRAKE
+
+e TUCKER
+e OLYMPUS
+¢ EXPANDINGPULLY (formatting issues}
+e UNIX (very little, poorly formatted)
+
+e NotFISA, Not EC]
+
+¢ Data retention from 29 January (many
+projects not available until 15 May)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 6 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 7 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+. =
+Bagot eget 4
+
+Selecting all tables generated between '2009-9-22 00:00:00" and '2009-9-23 00:00:00’
+Pulling hit data from xks-central.corp.nsa.ic.gov
+
+30 distinct users found 13998 results in 60 separate searches
+
+QUERY RESULTS (ad-hoc):
+
+userxxx email addresses 22/10421 Iran NPS Domains userxxx_080849300125362786718 1
+1652856 document_metadata 11/1053 f652856_0 652856 _0631781001253611176_1
+useryyy tech 2/2 Iran Tech Search useryyy_0303242001253646149_1
+
+Distribution of Searches by type:
+email_ addresses: 7
+
+extracted files: 32
+
+Tulllog: 5
+
+document_metadata: 6
+phone_number: 1
+
+tech: 4
+
+registry: 5
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 8 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+XKEYSCORE Searches
+(live demo)
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 9 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN,
+
+GBR, N2l
+
+XK Seawche Fullilog - Moma hrefox
+
+Gle Edt Wiew Higkory  fiockms
+
+the Took Hep
+
+@ > -c¢ x
+
+fay PiU httesetistes-nentral.coe.nisa.c.a- 34a SKE YSCOREL
+
+[2 most sted [—lematt Bookmats of ceonout: kl) LS vecha Un sanoe: Mt sesecentral $8 porePane © HEvSC..
+
+E SSronaik: Bi
+
+BR Banca. | eh Consteqe 2. | MX Sear...
+
+i | te ekLcan
+
+| He HSi¢¢charg. | | | TLRIKGRORE | Je Ria: cess | Sat
+
+RKEWS CORE
+
+We cme crvernnil
+
+Stesing Me acco A ek Foun Gren.
+
+° Often Used Fiélds#° =" "2
+
+Sjice Tinie
+
+e Application Sale
+¢ dnt_payload/file,=-
+¢ Limit to XKS-CNEb0x
+performing a CNE-sp
+
+2] closing, tt
+=) Tals cory OM!
+F=)\sccurent welactsta
+bie Erevan
+=i ol? Wet
+
+e¢ Input Source (Project
+° dnt _payload/dirwalk;~
+
+NAME Series wits
+
+S540
+
+Casenoteban
+
+Session ID (I)
+Assocated Session [fullest]
+Alrirk Miambers
+
+data Lengtr
+
+f session Lergt
+
+Frozocol
+
+“Whe
+
+ecific search
+
+Tassing ID
+
+e Very similar to “GNE” search” |
+
+=| 3TF
+=) Fada Logs
+= jar
+
+= )55L Perea
+
+==) atr Soinge i Licey
+
+=| Jean ACIKIS
+
+Top seca
+
+Exteria Metadata
+
+Fields [fullest]
+
+chit pen load) fauditirfar
+int payload force ser
+dint_pary load Paptursdcreds
+chit_payload/toariiog
+Onit_pavioad Sata trareni:
+dint _payliadirwel:
+
+dint joo lowd aed pery iad
+Oint_payloadareet
+drit_payload frror
+
+Aint _perlewd tin
+drit_peyloadi fle dtedist
+Onl_pav load peor
+
+Ont _payloadfeenlogdata
+Cint_pavloadfetdaues
+
+it
+
+Cheutscuros
+
+ “Populace wilh =eld 2
+
+i
+
+
+===== cne-analysis-in-xks page 10 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XK Results - Mozilla Firefox
+
+i Ele Edi Wee Hiebors Boolumacks Toole Hale
+
+QQ - CU eed hte stitetes- contra corp.reasic. gored eEVSCORE; iT? «| (I: cooals PP
+
+|B Most widted [| SmartBookmarcs gM ISgrout:Ri | | YeehaURNMepper Ai FeS-Centra SF DonsPags -x-KEYS<...
+$i #4914 (chan...
+
+|) TUNER ORE:
+
+4 SEARCHIS4... | ti DonsOage- 2... | Sg XK Reeu...£3) | Mig 8 Login
+
+SRE TSCORE Ye BligITee Log Ouk
+
+ehHome Ae ocdnn dy Users Ol) Search $lvvorktlow Central fy Resuds [[§) Statistics $= Tangng f= Tasking Biy decourt Si MK Forum Mf Help ~
+
+“fe FAGAN Fek Score = ‘iene = FILTERS: i? ~
+= remere au — actions Stel auers Type hum Rests NumOBs  Dateti
+Ey Reaue Logs Tao Wares Survey FO octlg CMORMFLORY “KLIG iinighed fuil_log i2 tor 2008
+el
+
+[=] SS. Poreer
+[SS Tech Stings in Gocurn
+[3 User Actives .
+- Lan Query Te wt [x
+2 Web File Tranetet WHERE datelime S= “2009-10-12 0:00:00 AMG debeline ¢= "3009-10-39 0:00:00 AND f soplcabon = ‘drt _perdoad|windesssurvey! 9 ONO) f Am_leountry 1="U5' AND fm!
+[ES] Web Prowy
+[Wireshark
+(Dictionary Hits
+@ _OFie Trereter
+
+[es PS Mullieanch -
+4 (Network Meneqeinent | F
+
+@ SUseractry
+
+(9 ¥olP
+
+3 (Cirle
+
+Sy ow ket oe Geert ial
+
+= Request
+= Al Workflows
+21 Pending Workflows
+ES My ‘Wortley
+
+SS Recule | es) |
+
+a he [
+: ee eo ee . H 4 | Page| 1 lot | a | | a= Page Sime =n | Depaying 1-1 of 7
+
+| Attpsyfskscenbeal corp nasi. ass 443 /2E EF oC ORE iresuics! a Ufresuilts/icem SubmE.darsnansPre sie | skesocenkhal corp. mei gavin $42 a a
+
+
+===== cne-analysis-in-xks page 11 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XE Metaviswer: 1 - falling (tao-wirelesc) -Mazila belo
+
+Tie Edik View Viiskore = Doekmoiks Tonks lep
+
+<a Cc xX & [fe seps:ttsts-comea COTE. MSC WOvie Ase SKE oy [[ea] | sang Pp
+
+LB) Mest Viited | Stert2oubnarks gP eon: ad |") veeha URN Mepoor TC eeS-central M8 Dore Sage - ¥-KEVSC..
+|) Signo: RI & SRARCHIGHT. | Eb DorsPagr-#- 0 gl ak Mieka... (ES) | Sat SE Log Sheattichang. | | O TaMGeoae | Pe OB Reais | Si bitpe:) 10h) Rg se Seach Bul | -
+
+RKECYSCORC Veleloome Log Gur
+fepHone AA Buses Alsen Et Moectiw Cetra po) atesuts [i] seetstes it taggng fs teeing Brey sccourt MRK Forum i nape
+-Kavigqating Mera jee [ Histogrann Input Source |=
+. Uveh -
+Bevin Piey | cea-Seedtion
+Ee Welt es feeb. - -
+Aya Hickogiar of: laput Sauce elick Barts Fler
+AL) Dictionary is
+yD Oo Fils Tracsetar a
+Hj Muttisarch 64]
+[Cy etuvork Manse ment
+A Urerdciuiy 4
+HL Yar 3
+vues
+=) Spevirettioa: Cerra o
+FE] Pequen ce ae evel a
+Eq Al varitioes a e co ae
+a i
+E] Al Perera Manedthows rf oy e
+[2] rey von stiowes
+=) RESULE :
+RR | A= full bay Qau-weiectess) |
+aie sihniecnialinintal Hop Aulus? Regubss views FILTERS: Mi
+fey Schad 1
+Sr Sricir a Apoal (4 Fingererindz] | [ppd Source 7+ Seeman -IUGy TetkneID  Jersoca | Che
+*
+ganar ahi agli eclesecm ue Fx atiieis4 a 5 FUL RIR. aUg {=
+Ee hay Pearce: | Sor Sacencing —
+FS Al Derwrdancs dit pavivadiwiteleeesuryey WAXTIDEL173 alk Soreceewt Wo sbabet (
+fal Fecet Rezuts dit payleadwirelesssimu Poxaciods4 a: HD 3 ae {
+PS Al Prevove Fesuls it ard all ral a Sr et FRSA M634 “y Fibeas & MITE t
+(Al Avebieed Presale dt payload wireles ee nie POSACIGG el SO0FNAGaO t
+; ge Coo By
+FS Al Oogeing hesuts dit paydoadawirelesssuruey FOXACHIGGS4 LOUREbAgl d
+en dot _pavioqlwirelcoooumuge FORAGHIGGE i Croup By * enoanaseo 1
+4 Signe! foc.isnion = =
+Sure —— dit pavloadwirelesssumuay SHADOVMOUEST 35 lhl Histogram b Lvoperecy (
+= alivt payloodavircle assur: ALTA ST as RA f
+sho laggng ; E] Piece Data b
+Ell ere Tagcine duit pala adwirslesesunyay FOWACIDGGSS a te
+Tech Car r dit palo adlivirelcoceru PIXACIDES EA — $003 leeeId i.
+FE] Teel Cetrach: Hint payloodlwitela coeur uy a
+STening a TH Sreentide... L?
+owen aja Fege| fad: | bP) |) ge Beye cire:| 77) qdexnebiews per page) PS auorkCduan at Dipbyiig | - 13 of15
+‘| l ol caved _Whd7OC TGR AOA
+
+
+===== cne-analysis-in-xks page 12 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL0
+
+XxE Metamewer 1 - bul bog (tao-wirele-s<) - Mogilla Fireho
+
+Pie Eqgt ‘Views Hirsory Goskmerks Tocs help
+e ie ~ othr [P2ic W nttose srstee-ceritreh ccrpansaue.qny se aGREFSCCRE)
+
+[ 1 ==)-4 1S a LJ 1 1 1 ec
+Fy Mus vedl =] Sear l Cay hay egies ui Jul | Mendig LR par ee Setea bral Ser DisPeye - HKEY SC...
+
+ SEsACHUGH.| $6 ConsFeoe-ie...| Ni ae Meta. fe | Bat oe Looin be 4gid(ebane...| |) TUMIRGPORE
+
+XKEYSCORE Wielconie
+
+Log Cut
+se done j& Somin ee Leers OA Searcn ‘ie Piektoey Contes [oj Resuts [il Steistke ?STecging i= Taskrg Bley account SKK Roum @tHep +
+
+-Ravegetion Sie [ail lhskoaprnere Irpuk Soe
+
+al +
+
+= ‘ al eesti
+
+SS] ereshak
+4 cormen Histedran of [pvt Saaree eclick Barwa Ales
+(+b) | DGhofier's Hibs
+(+l is] tile Ireieter &
+
+HT) uber e|
+4) Bebsort seineaement
+
+HF] bee ceil +]
+a vor “1 ; .
+rales
+BS Moiktiey canter
+=] Reyes a aif “i valle
+SJ an weete Pel a ce ott a ae
+=] al Fencing yer itiows che of “Pe
+SS] My Wane cies
+Hoa) tesuts: : =
+=] Wy Recent Jesuits 1- full log (tao-mireless) Fingerprint Hebel fe
+Sly Previous Resutis Help &chons > Reports ‘vow Fil TIRRR: lili - |
+=| ly Archived Reouks | a
+hi Cnnricme Pecsus al] Store (i= | Honights Liss mame & Query JOLLYROGLR sonetime DeteineEnd Cbssnicetion
+_ |} |z | zi CHE S-10- 1? V6 2005-10-12 MS TOP SECRET =
+=] Wy Dowrdoseds | =
+r| = | ' == 4 4 ay o rt
+7 al Gowicade 2 | & Cle i Query TLNDGERRK MOP 1012 11s238 | APO 2 10H TOP SECRETIC
+=] Al Recent Results } | i CHE ~ TWAAILAF PTA ARR ce TOP SORE
+=] All Frewou: Results i | # CHE WAAR AAG Ree TP SORE TAC
+=] Al Arotived Reauite 5 1 & CHE ace W218? AMZ 1TH || TOP SECRETIC
+=] All Gnguing Recut: Pan al 1 1 CHE 200SADA2 THs ROT | TOD SECMETNC
+AS salelke ’ , oad Li S00S-1hads 17a? | RST | TOP SECRETIN
+7 Figral Sergiedion —
+; : | a CH PIS ARAF AI4 FRIAS TOP SECRETIN
+S| link Simimerizstior —
+a c 3 + a nA oA iL
+B24 Tacging i | | 13 CHE 2006-112 TRA ROD TTS 1 TOP SECRET
+SS] Local Tagehie a © l 14 CHE P00 TTS ea ROT SS TOP SECRET
+SS) mesh Bvtreetor 44) Bl ] 15 CHE TU ALAZ Te ee TOP SORTA
+SB SaTocing a] I k
+=5] Vom Teckra Hage = T jod  Begetire FU) (Max alos per page! Lisplesing 1 -tot12
+
+(0 SMe Aonourt
+
+|| |
+
+af
+
+sawed Fits GG 401
+
+
+===== cne-analysis-in-xks page 13 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+File Edi: view Fishory Boohnarss Togs Helo
+i,
+
+| hittps:|/xhs-cne corp.nssic.gew B44 cU SEES SOORE lav ouks!popOub seouk.sp page litle—Sessom terete Url PERE YS COR ESSE. oemetauiewer tee mebacabe eye Sess onde IP ce yy
+
+USS10 78 ard bo
+
+X=KETSCURE CLC Session Wiewer [from archive]
+
+Datetme Case Sotetion From [P To IF From Port To Port) Probeco! Lerigth
+2009-09-90 02:04:51 oF SPOSEC ASR 40DTO 793
+
+| Sesshon | Header (3) Meta [13
+
+peorvstler Big al |: . 2 I : cl sale : fours? fo Sete) | Erie bet do search a
+
+Quick Clicks a PaYLOa0 M1 7
+(MK session Nt sess format AUTO ceatent xml FORMATTER [AUTO
+ER @ One-Clox Seareies|
+Sl Find application
+drt_payload/error ~ .
+ay Using 2 M1. farmnatter
+I} Bind opposite side of sess
+i il->
+20 <paylosd:Faylosd smlns:paylosd="“urn: payloadidnar"™>
+
+<payvlosc:DatalTyoe>Errorc</ payload: bataType>
+<peylosd: Henespace urn: payload: dnut<(/paylosd:Nane=psce>
+“payload: Versione1,0, Tes pay LoacdkiVeceien>
+“payload: Tine Incto>
+“payload: Target Tines2009-09-2 6T1L0:52: 3747 paylosd: TsegettT
+“payload: TargetTine toned fger24, 50</ payload: Targer Time foneorfsers
+apay loach: LoGalTimecHTs2009-09-Z2 6TOS:3 5: 52+008004/ pay load: Local TimeGceT>
+“/ payloads TineInta>
+“payloaad:Errcor type="plucin"™ vyalue="SSss62593" procedure ID="-2 142178250"
+“<payload:Degeription:0R Error: Plugin Not Founds/payload:bescripction>
+wp aload:i Vera ior
+(payload: Najor version="1"/>
+(payload: timer werston= "4/5
+payload: 5uile wersiton-"1"/ 5
+“payload: ADL VEreion= "55595" >
+</ pagload: Verges lon>
+{payloads Data>-t/ pay Lo ac 1 lata
+4/pagdload:Error>
+4/pagload: Payload>
+
+ime>
+
+
+===== cne-analysis-in-xks page 14 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XE Session Wiewer -fozilla Firefou
+
+Ble Ede Views «= Hetory «Bookmads Tools Hep
+
+ii btkas:[sks-cre.corpunea dic. gor d4 45 kREVSC ORE lepouts!poceukl epouk jsproage Title=Session wie mer trawl 2 Fe REvSCORE Ss 2F tre laviewer sa Pm tadaleted PviewSession cote iy
+
+THis syctenn lS quditecfor US510 18 Sod Bu on RiORGS sot oomollanod
+
+X-KEWSCORE C20 Geesion Witwer [eon archive)
+
+Catetime Case hotabion From [P To IF Fram Paort) To Port) Pratece! Length
+2009-09-30 U2:06:32 JAS POC TLAAAD TC 2Eb36
+
+Session | Hera is) etal)
+
+Quick Clicks («| AUTO FORKMATTER: 2op id= dnt_payload/direalk Viewer- DHT_PAYLOAD formatter. Info= =
+Mi Session DIRECTORY WALK
+ce 4 Uine-Clieck Searches il
+
+@pon all | clese all
+
+> Find application
+
+ene Ie lists @ Co\Qocuments and Settings yaviolat_edshy Documents\My Skyoe Pictures
+> Find opposite side of sass — Tange Skypesong
+ue i+ Pyarchitect skyoe.ong
+. --[ Beach Ekype.png
+~-[ [Behind Ssrpe png
+~-| [Business Skyoe.ang
+
+i-[ Calle Sweetheart.png
+1 [Gall ‘hn png
+
+[Carnival Skype png
+--[ \Chie Ekyoe.ng on
+-| [Christmas Skype.png
+i [College Skype.pag
+= [ ]oecert Skype.ang
+i--[ “|Dresigner okype.png
+~-[ [revi Sky pe.png
+~-| [ory Skype.png
+
+| [oI Skype.prg
+--[ Earbud Skype.pna
+- [Empire Skype png
+i--| Fes Shype.png
+
+
+===== cne-analysis-in-xks page 15 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+2K Session Viewer - Ptozlle Firelo
+
+Ale Edit Wem History = Bookmarks = Tock: = Help
+
+Lal bigs; she-tne cor parse. cgay 044MEY SCORE layoutsipoodutLayout ispipege Dtle—Session viewerlyomlrl= er skETS CORE SEP Wel metaviewer Teel metadata Weel view Session. doers |_|
+
+*XREYSCORE C20 Session Viewer [from archive)
+
+Datetima Case Notation From IF To [F
+2009-09-30 02:06:32 TR.SPReEYLAAAGTE
+
+From Fort To Pork Protocol Length
+26654
+
+Sasson | Header (3) |) Matai) |
+
+Selected_Header_Fields | Rave Header_(XML) | Full_#KS_Header
+
+iat sess orig.oeader.xml
+
+PORMATTER
+
+Using SML form atber
+
+sced? seciclassificakion="TS" secisecCois"COMINT sec: seclell Gissem="0000L" sec:SCleontrols="S1" secidedassficetan="Ki" release"? 5.1">
+
+<signal versione "4.0" id-"“O6c85 56-01 24-2 507-1 FS5-00L5989F83087" policy "ussidls" >
+csigqnallypesDarectocy Welk-/signall yps>
+abegins2009-09-29TL 7: LO: iTz</begin=
+«profile proces sedBy —"SEAGULLFARG">
+<indax >
+=magT ype sITH</msgType=
+shad >Re < fbsd >
+country title= "Tran” 3 TAN jicondey
+“/index >
+cceseNot cide="Fonwerd"2 IE. SPOCYLAAATTC</caselot>
+</orofle>
+echaracteniste id="UecbOOfS-2 124-2 Sd 7-1 PS5-O0L SBOP a SIe y=
+cdatalength unite “octeks">2S636-<.'datalerngih >
+<fila></fila>
+e/icharacteristic
+ac signal >
+~pracessingEvent id="O6c06e866-0124¢-3b11-1rMd-O0L9BSPoS0EF" >
+“=proceasingTyperce lection =/proacessing Type.
+processing lat >cal Lectian “processing Cal>
+sprowiders
+<o0vernane = SHAD DWQUESTES-ycorem ame =
+opddg> e+ pddg>
+csigadsWs<3 LOLC<ssigad>
+<foravider>
+Sservice name="fonsarcing’ +
+
+cparamogter name= "Target = 00000001 0001 3296 /paramahers
+
+=parsmeter name="SEGGULLFARO UUIO'+06caS5f6-0124d-25d 7-LE55-00LSR$ Pos0E )</psrameter =
+cparameter name="TransechioniO' > OO 0000000013286. 5552. 2952 170209. spouter-2-2.0.fne1_ 2019091 0 Leups/parameters
+
+“parameter reme="pracessor*>3EAGULLFARO<,'p aremeler=
+<parameter name="SesqullFero Process Time" »2I009-09-29T17: LO: 002+/peramester>
+<parameter nama"Signal_ Type'=birecnory Welk-/parameter>
+
+noe on me wa 7
+
+
+===== cne-analysis-in-xks page 16 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+2K Pesulks - Mozilla Foefox
+
+Ble Edt ew History Bookmads Took Help
+
+@Gn- CGC A ff me) bhtog: hieks-contral, COM. rsa goed SKE SCORES it died [fel-[s20qe ‘=
+
+25) Most Visted |] Smart Bookmarks gk] JSiqrout:R1 |] veehs U2K Mapper Mi 2MS-Certrel BY ConsPace -Y4EY80...
+
+4S) Bigneut: Rl Be SRORSHLGHT Quer | Bi DerePege- KEYS | Mg xk eesults = | Bh e4a1dfchangeths | | | TUNIGEoRK “ip hetps:fin Fc 0.FErd | Age Se Resulcs -
+XEEWSCORE welcome Log Out
+yt Home Pe Snir: A Users Gy Search “i vverkflow Terral fol) Results 5] Statistics $= Tagging $= Tasking ity Account Mi we forun Hep
+i
+S)SS. Panzer Help Schone view *
+2B) Too Btinga in Do
+ZJuser Actioty Query Tax! Actions Salle Guery Type burn DES: Deletine Suki
+=n ° WHERE dalelina == "2009.08.13 DO0O0 AND dabatine ae lr | S| Wrished = axiracted_tes tort 2009-10-13 1401
+fe) eh Fike Pri iste
+=] eb Proey
+=) ereshare = =
+4 Cjcemman heer Te wk a
+3] Dictinery bits WHERE datetine >= 2005-29-13 OO00-00' AND catetine t= 2009-10-13 23:55:00 AND ( extextension = pot) AND Cinout_source = "DARKHLMETZ6 } AKD { epobcadon = dr
+3 PJ Fle Trarster WHERE datetime = 2009-79-13 OO0000 AND catetine <= "2009-10-15 23:59:20 AND (axt_estereion = pot) AND Cinsut_source — "DAA HELMETIE | AND ¢ epoication = dri
+q oOMuls } wer AK Ricboretmeseci: jrbasse-_ 0 Mazolln FireFox
+40) Bebeork Menegement WHEE SP JEN gh Sa Gee ur le ct
+: = ue bol 7 CO RK iti hikes viteks-pentral_corp.res.i¢. gobs FEY SORE) io IIcl- angie -
+a
+4
+ag iredees EL 8) Mect ested (9) suait Bocemarks Qi ieinsti mt | "| ‘ooh UWnnMoppo: Sit ses cones] Se Gores % KEVSC...
++ . Tigrar Fl Shad. HIST Carer Phonsfage- 2k | Ait 3 Pirtasaras.. 451° Chang: te THAT ECRE ti nui 3 rviits
+Oe Certrs aby a Ck “he hima fb
+Request
+ES] A vor eto
+2] 0 Penedinegy Yor ctlorars IKEVECORE IME COE boo Ct
+| Why Wow fice $y Heme fy ftrin Bo veers ty Seancs Biv bea Central (|) Feculls | shoe i= Taoerey = STascing = Wy fereunt uy sktFerum Wl deh: +
+“ow tment -Hennigation Bens 2 | bore n
+y Race uke ar 7 =
+EA] My Previous Resuts BESS Orree Phage vate * Mopars = visay +
+. 23 teva SangsinOo — 7 7 1
+E]) ey archived Resuks Flues acrity al Sr a | fevedine. Cetehine Fred Henlghts Pots: Aircon: Feizon 0 Fle Type tIMF Tee | i
+r |
+f=] bly Crngqainey Freud ~ ; 1/6 | Oh FU ZIM UERZE CHE ag WLULAT A. 111 raw vile =!
+Lar — x
+EE] My Corerioads Pye rie Transter s | | = 200 ORAS PON--POREESE che Sg Fades Coniniandsant iaet
+EE] A Gavyerinaats Elivch Preeeyy 4; | =] aT Te eee A EE CHE ge File Parveen gt pad
+EE] A Rtseore Peauths Eo vreshork 4/ Fj E # 206C 08-00 POOO-MORMESE epee File Saxon japt rapt
+FE] Al Previous Resuitis Shc anon Pan a =] FORO DOE | BO ORSE CHE Slhellzs ppt re
+5] Ml Archived Resulle fe ( DD elo ery Hs Pan (S) AURORE NSIS | 2ONO-MORERER chp hg Text Editor sappt ppt
+EE] Ongoing Resuts [Fie Transfer TI = NH AOI FO-B4ORMERSE CHE UME Tgrt ia |
+1S) Statistics aa i LJMstSeeren al Sf 20RD OR EEA | BOOM OK NEDD 4 i
+ae . ae =| - i -K-i CHE UEIGC pest past
+30] Signe Acquistion Ge Naka boaerezeia tl , , : “es
+4 te 5 92 FLIRT FR -0ETROE FUE ee oS CSL Preeentadieanipe rat dint tile
+
+
+===== cne-analysis-in-xks page 17 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+‘Active/Passive Converged Analysis
+
+BP PICCOVEWCHE Ero UI estos and ital Evorached Boce phos HrcPood
+Ele Edit Som Hietor bookmarks Jools Hop
+
+e - a a im Pel Iku: |ekse cordon segue EHSL FEY SCORE, Te . = ss | Guuge
+
+[aot] Peak Wie [| tert Boukiowrks GA Signal: a |] veel UR Mops Neh xiczacerrd PER Croatia gpe - X-UETSO...
+
+fe | Ae seeseHiiGht gees fi) ) Bi eee ye-steees fi) | A ot eee aiewer:... (| Sb easieiiaie tlie fo | | | imerore fe) | SB titpeciven fein tied a) || Age ee Beedls
+
+| | igus BA
+
+eal | =|
+
+a er Witkeorne Lod Cure
+ae Hoe Pat fe dna ae Leer at ns eo | ST ore pe ee [S] Stetectice — Tap By i Trt PU OS recy A LL 7x SR Fru: ill Aes =
+
+ca
+
+Fewioation Menu =| | fran_CP_ Cestorns_ anc Plall_ stra.
+, = ~~
+» EEES. Parcar (| Hen fisted) Kemoeto = view = FILTERS: flr
+1 ER Teoh Gtringe in oe
+Fuser acihity | |_| Highlights Dolctimee: inp Soiree Demet Tippact Encrvple: Corrupboo erence Estonian  Lorgucaec Aur or Loot Audhor
++ =e an . ! Chr ge 2G TU Oe URS LU DEW | Pe hice hao Wis as RU agp boys le En Pale fea Die aa Bakes! A.B asisjp uaa =
+iL Speen File Wrest refett i CHE ge BD tee Die eo Hes Ee LUTCUSASTiG4a office hao mH ne lian don clave TERA! P vate inal’ [KE are hdd
+: Ge) eveti Prine | a ea eto | LU PEW AE | Ome aord ree neo HAP op Inno RA Erbe binetbes Lie oes) Kaeo) Aeon Uae
+PS J ChE es 2e 1 120d LUTCUSASTRO1 Office iaiord ne ine Ta top rive CSA Private indies Dok ara aoai0
+@ CO Grnmar. | ae Seb 10 AF DT ie le Tce hora rb ra 30 dT. oe doc ara Tas eT TELL FEMnari
+
+& Dirdiqnry [ibs
+1 Pie Trans tei |
+BS eebearc “im 2068-1012 14S office hic ral nee ino JT. derc. the ara Tas Rima
+Mf 9) Hetewore Momagoment
+(0 (2 Uso eobviby |
+Wi Fave! | "hae 2G 10d Obie S39 OTe aaa abu nru th ies chee tena tlhoc ala nan Cavin IpsLe el
+Sf Mansiens }
+SJ) vartiow Cortes
+FE] request i ge 20 TU) Usb OTS ao ne neo SO) Apel ea ett Lita) ara Lop aS
+FE] ha or enio eve
+Fe] al Perea Yvoretiows
+
+ere in “age Fis Aad ioe PP a oll rate rit AP Tr RCs ED rasca
+eo oer |
+(S| be Pg ost Rec - .
+ely Prerwi sae Peso illes e fT DE LOD Sb TCs ao ee nea Bae alaoe Choe we Te Tia Mira ol Tira!
+kite Archived Reks
+My Tievuais
+= "a eran ; " Oe DAO 2order2 offlocteord me ne Bnoanslos thor ara tas rival
+* Deion
+=] Al Downloecels
+om Recon Resi See teks Tie aS De Ti iff ieee rer nln Danlolec.elin: thoc Hl ee | Ry PAu
+Ey oles Boonen Sem SEE TO PE Ee ae HT ce aoa ies ioe Tals be chod ahoe apa PYLRIFUD Lo: PLES TO
+EA Arokived Hooute © me
+Eu Lmao linens “ge Bie Ata fad ial lana aint hina Piascnbieleiiy slic iia Tass iimidliaidacail idmali
+=) attics
+anal “cqubell
+= = un " om ae Jeb 10 dF Peso Tce hao ni ria Baearaloc aloe Absa Tas tial!
+FE] liek Sumtiterizaton
+Sy Tegan
+EE) Lonel Teguaray pe DOE 128s office word io no ara faa Mortazavi Mortazayil
+— EN ees Par] ie i ad a Pf eT oer =i aos Bia a ml a ee oe SS ee ee ee ee be
+= Tinh iy 4
+=] ap! Trek oy | ia Baye Tula b bi ig Praga Sloe. Ue eee a Cte dehig |. Pour lid
+BS Mty fsecwce ,
+
+ri | | i Biaial US PSEZEUUIZ SS EEE oT
+
+===== cne-analysis-in-xks page 18 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+‘Numbers/Loain etc
+
+SRR Mictovicwer: dastecn_2009L0L3 55 Piozila Fircfox
+
+Gils Cdif Mier | liskors dcokmearss Tools Lela
+
+—s
+
+— - | Thee = ey ra | Rtkps: fnecks-central comp .msa.ic qow: 0440 HECV STORE) cP - =e | fazcqle y's)
+
+(2) Post viclbad — | Smart Bookmarks eA isignout Bl |!) vyeehs UPN Mapoer Sie veS-Central S25) ConrPaqe - 4-KEYSC...
+
+|] Sitios Pd (= | Bb SEARCHLIGHT Suer..[oi) | $+ SerePaue - S-KEYS... | 55|
+
+=
+
+Ef MK MeLaviewer:... Ea he f45d4 foliage lle ..
+
+es) | | |) TUNINSFOsE: 5) |) Sy dtp Me fPiouial foo) | Aig hE Reel: fa] | -
+
+ZARETSCORE Volos elt UL
+qer Hone ges cmn wy Users OL search “Eat vycrkflcvy, Central [\) Results Sialleios 2= Tagging t= Taking Mwy sccoumn Ma xe Forum @ Help +
+
+Hewigation “enu [et] | listo gram: Domain til lisbogram ic |* | ;
+esr mI
+[EB] feht Pieeseer lear Seleclion |
+
+[| Tech Gtrings in Deo
+2] Veer Aclivly
+eva aan 4
+[SL] evirk Fars Deane
+FE] eels Prossy
+a] Yeah ark 7oo 4
+FS omic
+WW (| istinniary Hits
+
+listogram of: Doman (Click Dario Fitert
+
+20
+
+Po
+
+LI Soy Aieca ans:
+P| hy Pecent She sults
+[Se] hy Preise: Reels
+|My Archived ests
+[EB] My Cngang Pres
+[EE] My Diowenbose s
+f=] eM Crusade:
+[==] Al Fecent Recults
+[Sl] A reeiciis Piet
+|] A cc tied) Result:
+fe] SS ai uy Pees:
+SS) Sataiiecs
+LO gee Wesquecrtiar
+FE] Lirk Sum narizaticn
+SS) Taya
+[==] Lota Tagging
+[SL] och etroartoar
+
+=] writ C29
+
+2063 10 10 O5,515:49
+2063 10 1 Ooo
+2063 10 10 O5.515;49
+2093 10 1 OSioi19
+2068 1b 12 60:25:00
+2008 10 12 06:23:00
+2068 10 14 O0530155
+2068 10 11 O0F0i55
+2006S. 10-4041 O82 50:55
+2063 10 11 O05F0155
+2006S. 10-01 O02 50:55
+2068 1b d4 00530150
+2009-10-91 O08: 50:50
+2068 10 14 00534155
+
+CHE ge
+LHL “2
+LHL
+LHL “ae
+ee
+
+ee
+
+Lat
+
+CHE
+LHL
+Chr =
+LHL “se
+CH
+LHL
+
+CHr 2
+
+Deu oes Le el
+LmMLMeE@gecue.com
+Pa ee Poa |
+IME Nhe lemon
+tollererles peelari
+Inwind.n
+
+eer OL st
+tpl
+ar
+
+Panes eee bel nT ad
+
+tm Pe
+
+eer Lt
+Srp
+
+pl deaal
+
+STAB ceive vornladhe to hala Po 2d
+20-10 Genlor ¢omtacte In ills tor 2h
+STA0 ceive eunblache to bala Por 2d
+20-10 eenlor comtacte It balls tor aw
+S000 cutee poloen
+
+2010 Gwlee rolex
+
+191008 EN LA PAZ, BAJA CALIFORIIL
+191008 Ell MEXICALL BAJA CALIFCR
+107009 Ell MEXICALL BAJA CALIFOR
+191008 EM LA PAZ, BAJA CALIFORIIL
+101009 EN LA PAZ, BAJA CALIFORYL
+407008 EN CHUBAD JUAREZ, CHIHUAH
+104005 El CWIDAD JUAREZ, CHIHUAH
+191008 EN LA PAZ, BAJA CALIFORIIL
+
+FI i i i i 1 1
+
+Bile Teens fer f°
+fel |] Miter at et _ _ Pr am ait oye Pa)
+
+~ go" ae a oe oe ger ee? ant? wee a
+AD Hetwwork Management wD oh oe art ani on ore me ae?
+WW) (2p acraketverty a om i oe aw oe ee ane oe
+17] ‘clP
+Bel [1 Vir ethers: ~
+
+SS] york toy Cernirsl Pivot: [tt) | dasteon_ Pst sh
+Arvest (Casenotation _
+= ; liege Bchons + Meyerts — wews> HILIERG: lib} - [E |- foo-
+PS] AI ton beflicoe = : =
+ear Selection 2
+(SS) ANd Pen ding turk, eyes: = wl —inad User hair Did tites Thott s koliomain ‘s-lyqect han ae
++E - Wx.RF* M610) “eh “ = = .
+EE] My Work "lowe ES) cH sg 2000-10-10 050509 LHe ye ral Lnerined.cn 2344 acnlor comets In ina tor ah Ocoee a orleo.cnShiate Strut ]
+
+ChyeOo a ikea ea Shale ell
+OK 400 mney mal orn. até .etrit
+Chay DO. ica ee Shale ell
+OK 400 0 mh maori .cn kh ate. ctrit
+Falpulighiecoeledie: pela elvky cal
+
+Tulasi Petede neLatbvRar ig inant
+
+alagice D can calieciee pep del See ia che ape
+alaniee Dan alicia deal See ia thea qed
+lagi Taliesin che anagedegos:
+alagice Dan lieing e
+lagi Dali opp docal de ica ck anagedegos:
+alagiee fan ealinsineco pepe deel Sea che anager
+lagi Dali oppo de iia ck _anaqedegos:
+
+alagice Dc caliesiee pepe del See ia che a peeled
+
+404003 CHAD CANS CLAD SD elie’ anmalieie nis Loar alte rhoacscis anc avin:
+
+Pa ae el hg
+
+Theo. 4h_ia mums cur
+
++
+
+St Tas xing
+
+5) eine Tacit 4 i aoa iii ace tints) & BY | qe Wage ire: To Leary THM os pe page) lazplaying 1 - Mbit Bete
+FEM Aout had
+
+F | | 5 | dasteen_ OF 104 O01 SEAICOse 4
+
+icone: vhs contra corp.mscit genet oy
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== cne-analysis-in-xks page 19 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL0
+
+‘(FOGGYBOTTOM)
+
+drvenm |_O- Mozilla Fine fo
+= Edit view History Bookmars Tous Hel
+
+«> the = x ay ye hitkpss|/ses-cante al corpse. ic goed 3 REY SCORE] L? a [IGSI- | Scots
+
+LS) Most Viited =) Smart Bookmarks Al signoutr RL |] YeehaWRN Mapoer Mf xk5-certral 8+ DonsPage -4-KEVSC...
+
+| {| Jeigneet: Fd =) | SEBRCHLUIGHT Que... (63) | $8 DorsPage - 4-KEWS..|o3) | Ty Xk Metaviewer:... Ea) | | 7 TUNINGFORK (3) | Sy bttps:/fio!7id hemi (os) |) Ag ak Seerch: BITPAL. 5s
+
+ZEETS CORE Weloome
+see Home gf Gorin ai Lisere  Seerch ‘EP Morktave Central :| Resute (El Statistics $= Tagcing $= lasing Mwy Account WoxKFoun WP Hap ©
+Rarigation Menu th fl ———— is
+| Beane |
+EHSIMAbSeerch Hao Actions © Raoore® Wiew>* FILTERS: = ih|>
+RE\IP Qddreeses =
+SE )moe access Ceretinne End Hohighs HTTP Type Host URL Pach URL Arges heerch Tern Langue
+i" i Fare BUDS ee EE pratt ogee oH orm login atiengt=1
+am | LST FATE
+EI Pde S00 dd ee ye apel wir tacel ok curr i
+BS Cessic Seb =
+Paste F014 ee HE wii dectober.con f reversicl= sth Sc0dtes
+sleet CHE iret
+= aackeerry Ale BOAT ee ye poet WwW oettobercom f partid=6flettas-ate2
+EE|)cNE Piciied  FU o HE eet ar-artacehook com é
+| Call Logs MAGN = FOND 2a cy ape forum. ko-rora.com fa14
+Se) Category Du Hise | P00 DEY weet forum. kooora.comt i fa1d
+ae nies ; P4s10:44 2009-10-14 2062400 cye get forum.koooracom f t= 19027269
+= | SCO Pal ecrcis
+= Adlke44 2009-10-44 ako KE pet alsonrt
+E jon .
+SJoosucent nictankata 21G44 2008-10-14 2 eye grat aloud
+FP lDecument Tapping Pirie = 200-0 ee EYE et POTN Kooo ra.comM f t= 1900005
+EE)Email Scldraness MAGA 200 TAd ae eye ape Slaliccak Sac ehbeck.con feo! index=o
+E)Extractec Fles Th F008 ie EYE pet AW CO Oe CON. 2 f hi=aréeeunrce=hptq=
+= )Fullog DM edd | 000TH eye pHret loyindacebook corn ; logiry_awtlenmgt=t
+a
+E=)HTT al S— FTA SUDA Ree EE [eest login ee OK ao I Login atte ngot=1
+IKE Parser -
+EI ; Mak | S00 cys grat WA Ogee hl-arsequrcehpg-
+E]\Logine and Passavorics
+E=]Microslugin helactata Aske SOA ies pet wii facebook oom frien! refotin
+ey Gassic hz iid 20-1 ee cy inet WAAL OO Daa f hisses uireeligrd-y=
+E\KEYLosoer Fiske S00 sik eo OE pet static ak ac ebook.com ‘commen! index
+E\)Nehork Logs AGB | F00S-10-14 2000 CHE el Peed boon La | Inge arabicdé sal=s762"
+EE|EDF Wetacats Pisikedd | 200d ke HE apet logindacebook.com ' login attenygt=4
+
+===== cne-analysis-in-xks page 20 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+(FOGGYBOTTOM)
+
+SK Session Speer - Mozilla frefos
+
+=ioix
+
+Fle Ede ew History Bookmarks Took Help
+
+[eel Hitos://xke-central oorp.nsa.ic. coree4GieeEySCORE/layo ats) p¢pOutLeyour, BoFpayST Le Session Veer eal SPM EVECOR EY GPSS F netaviewers 2inatadata wae view Session da%e 7p
+
+This syatemis aldibed Tor WSO 1 and Homien Right Alt oo maianse
+
+*-EKEYSCORE C20 Session Yiewer
+
+Penta ener
+
+Dstehime Case Hotstion From IF To IF Fram Port) To Fort Protocol Length
+eUUY-IU-14 21: Lii44 TRL AL 4 ADT 31515
+[| Session | Header(3) | Mets (1)
+Quick Clicks i) AUTO FORMATTER: spp_id- dnt_payload/ browser Viewer- DNT_PAYLOAD formatter, Info= “|
+Ni Session BROWSER INFO
+s SSE Sere | Tanger Tune: 2009-10-14T22: 18:22
+Find goposite side of sessi
+—— Time Zone Oiset 3.00
+“4 Local Time GMT 2009-10-J4T1 9 12: H00-00
+a Find soglicstion
+drit_oorvload/ browser The UEL visited was:
+
+http:/ wor. althaoreners.net/ necspaper. sspxPtit le a eae a es pogqeid-11
+
+The HITP Post was:
+
+_ EVENTTARGET@<£  EVENTARGUNENT@&  VIRWSTATE die S OnE sOTU2 oDe A dtavh DepPn kt 2 bord PhDs OPhtaP Gres!
+
+Thies systems audited for USSD 12 and Humsn Rights fot comelianoe
+
+| Dene whs-ceotral. corp.oss.ic goviBts GS “ee
+a
+
+TOF SELRET//COMIN REL 10) 054, AUS, CAN, GER, NZL
+
+
+===== cne-analysis-in-xks page 21 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+CNE
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 22 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Search: CAE - Pozille reboot
+
+Ble Edit Wiew History Gookmars Tools belo
+@ * ibe | x tai PT hos: ftts-certral.cona.nea.ic.gawii443hKEvSCORE/ t? * ICI -| cone -
+
+|B) ost visited —) Sent Bookmarks gf JGcrout: Pi |] veehsalPhiitapper Sif kiéS-Centrel BY GorsSace-2-HEVSC.
+
+| (_] t5tanout: Aa co) |) SP ScKROLIGT Gus... 2 | ake ConsPage -a-¢ErS.. 0 | MQ RE Search: ONE © Gj | |) TundNaroak (esl
+
+Gp hepsriiio. fel btm | Me BK Search TRA. oo) | =
+
+KEEY SCORE iWelcore
+S} Hore “& Acmn a Users Q Search $B octktlowe Certral *|y Rests E] Statistics t= Tagging ts lacking sty Soc ount Yt ME Forum 4) Help =
+
+havigatton Menu Ls —
+
+a
+
+ES) MutiSeanch A
+FE) P Sddeeases:
+
+--] Msc Address Fields + AceancedPeslwes > Show Ridden Search Fiec: Clear Sesren Values Peloed Los Search Values
+
+[=] User nen
+SS] Ceesic AM Search: CNE
+
+=] sent |
+-[E]etacsterry Qurytane: Si
+[cue
+
+FS] Cell Lege ——
+Ge] Cabegary ON Justification: Recent Justificakions
+
+Help 7
+
+ES] Cellule Cou
+f=] Cisco Passwords 1
+jons Acditional Justification: [|
+f=] Cocument Wletadeta
+[5] Document Teaaing Miranda Number: |
+ES] Ena Addresacs
+Fe] Extracted Files Datetime: | 1 Ony ~| Start; |200210-14 | ooo |*| stop; wuu9wIs EF jzae = @
+FS] Full Log Del | i I | | |
+P=] HTTP Activity =
+FS] KE Parser
+=] Logins and Password:
+=] Microplugin Ketageta Usemamecreeime: |
+ES) Crsic bhi
+[=] KEwLOSGer
+Fe] Mebesork Licegs
+PA] POF Metadata
+EE] PLBE An IP Adciness: | [To [=] [P Acdress Field Builder]
+| PRP ‘ol Metactsta
+[=] Paszacrt Port: | | Frorn [=|
+f=] Phone Number Extract:
+[]FEGAN Port: | [ft oy
+
+| REQSTRY
+
+Collection Technique: ¥
+
+Address: | [Fron (=) (IP Address Field Builder]
+
+
+===== cne-analysis-in-xks page 23 =====
+NZ
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR,
+
+“a &
+SF Scorch: KEVLOGGEA Modis Feochen A _
+Be sch WES FEDOT Booee'k Tons Bep k
+
+< Cc * it, JS [Httns robs ne .crep nie ie gre sa PY ESE
+
+GB) West ¥isted —— creit Deokrenks GB Gigrout Rt |) reehe URMWepos NE xet-Centel 8 DonsPage-i-kDvoe. .
+
+ier > [i-]eenge Fe)
+
+| Fereginacuts | Sp heoaitio.honl) Sg aa Search... EB |-
+
+jason | fh See. | Eb Dorerags ee. | dag ee Meccano — | fag SE Loin | bh rseittchona>.. | | "| TIMINGS
+
+KRETSCORE Weleoms; Loc fuk
+
+gerhore deine 2k errs A seer “Therein cemen) ju Resuts PS -eeots [el sorsace See ceo Ea ate neue GP Hoot
+Purge ties ie =
+ee | |
+/-_
+‘-E]estus Cre al Es *
+) Ee) Case Pesos
+Sous Ped:= Achences Features + Show Hidcen Seerch Fees Clea Seeich Velles Reloec Last Sesich vines
+
+| Bjtocumert Mote onts
+i Ibaeunert “agging Search: KEYLOGGER
+
+| - BE] Enal Addresses
+) Pe)eetracter Files Query ames |
+| FSF OM
+» = ESJHTTE tte)
+‘RUMP Barser Justification: Recent “ustifigasione
+boar and Pasar
+Elric colicin bed aedstea
+4 ceeac ne Ado torial lashfinatior: |
+| FERS" Luuls
+1 uetecik age Miranda Yamoer: |
+2 EEJPOF Mc teaddes
+:-EPLoran Liatetime: | | Clee =] stert: | 2006-13 | coo 2 Scop: aun feast) gy
+)-BE)FAT Vol? Mebedaes
+) Ee]Pasapert
+2 Poon bunker Extnect
+) SRSca
+:-fEJFeceirv
+-RBJeTe
+i E|Fedus Logs
+jar
+)- [ASSL Perse =
+‘Pe Tech Stings in Gocun:
+\ ber Axinry
+> ELH
+i Blyvea "be Tranerer
+{Bytes roo
+EE) estar
+Soren :
+i geo Ditonany | He Username realir =i |
+| DB S)Ail: Tears
+: ()S) Wok Georch
+ESP Acarecesn
+
+: Pebcet Fa = :
+- =| eh | «a IP addeese: | [Ta fe] a [D0 Address Fick Builder] = 1)
+
+Seesiar IC:
+
+[PAddress: | [Frc =| ait [00 Adciness Fiskt Builder)
+
+
+===== cne-analysis-in-xks page 24 =====
+TOP SECRET//COMINT//REL TO USA,
+
+AUS, CAN, GBR, NZL
+
+ZK Metasheserc keylogger - Mozilla brefou
+
+Fie Est
+
+ga: c= 4 ay ee CC Corp eee Gone HMKEYSOORES aed ; [cl
+
+3) Mest Visited [Smet Bockneks 92 IGgeet Bi |] vetha UR Mopper To kkS-Central BY DonsPage -x-fEVYS2..
+
+Jee Hetors Bocdrrares Tools hep
+
+Googe
+
+|} SEAPCHICHT.. | 44 Gencraco. eK. Tad oiMetadoncs:..| Mg tt Lode | gbsatiathange  ]tuamcrtee Pete Recute | Sh Hitpes fi suo hts) Sgt sot Motawi. I
+
+| (J) aShreat BA
+
+XEEY SCORE “eloore:
+thors a Adnir ByUbers G, Search Nokes fecal FResuts 'oRepets (El Stotistizs Bey Acoort MOXE Forum @ Helo ~
+ft =
+Nasrigailinns Mew a
+| jalan aims ; 2 | keylogger |
+3] Colter Ord He achons = view | FLIERS: “> [==
+S] Cao Peseeceds
+Zou = Derelmne Gud “wl Source Prot Hare rch beanie Senn Proc Gi Time Key Sroses 5
+= pocumert Netadsta 2003-8000 SRERREHACEHS  Gorexe BH 1 ache POOR 3 OP A845 fhe ferlfee [ficte [fete fide fstelite |] befell
+Bi] bcumert Taguines 2003-10-15 °80000 GREBKHACEIE Gasxe 78 a ae SOS OF ae ED Sek BD kT tat
+SJEnal Addresses 2045 B000)  GREBCHACSS = Ciexe it 1 fille MGA ATOR AE flbc IE [ct ifseckspace]
+Ee] Extvactee Files PDSAN1 C000) | ORES Gene hu q nae SISA OF ADG | Pee Se] Dees ee Ones [eel |Z [eed]
+=]Fulleg CHI MOOR AOAS E000) SREB RAACEIE 9 Citiere eo q Boe DOCG OAF ORAS Pesckspece|ictel]
+a fairy 200AN-12 60000 GAERWOHSAGS5 Goes Eran sk 1 aoe SIAM OF 4612 fie Sens LenS [025 [Ds Hees] | DeehyT
+ate Pere SD01013 8.000) GREEMKHACSIS BSCS ee Mien Bere: IER J 552 ABI AIS 3
+S] Logins aced dase erorce
+=] Merapucin tietaskre 2A 60 Redo ESL EME Most Evrel. ERS so2 SOA TOPS Peso
+eyciacaio M2 MNA0-1E S000) GREBKHACS'S  ENCSLEWE Morncert Excel - 30 RA J 52 MOA POSH 3
+SRLS 200340-13-°50000 GREBMMacSIS EMC exe hMicresort Excel- aE SR I 552 MIA OF d5tG | [umPad-HE
+ES] Noberak woge 2040-13 6000) OREERRMACENE = ENS EMe Morcoct Bxanl- Soa he J Pe] OAC OPS
+=] FOF Meledeta M00 10-13 8000) SRERKHACES  EXCSLENE Hieresell Excel SCE REA J gar SIGS OF 45.90 AumPad one
+S]PLEEAh WWII EU GRE RHO EME Meresch bxcel- ace FR Po WILHALE Le
+=a “ene AOVANAS S000] CREREMACSS = EMCSL Ee MMcrcaott Exeol- aca fee J Pr] MOAI POPE | PXuinPad epee
+= ae eyes . _ _ _ . * .
+[J hane Nunber xarace AMGAMAS A | RERREHSSSE | FeS Pel MrrreritFersl. ERE ano SAAS
+| Rood 2002-10-15 °° 60000 GREBRHACSIE EXCEL EVE MioneotExcsl- CE RSA J Se SIG T OFA SS PAL Pae-S008
+Zestats He 20081013 8.000) GREECE  BOCSL ee Miricul Bel. ER J 552 penta Pee oe oe Gs |
+SjAre 2-40-17 #620000 GABENCHADGAS EXORL.EXE Microsofi Excel - 30D -6. 0 552 A093 OFS [ned
+=] actus Loge MMIA4S "G00 0) GREBEKAACES = EXCSLEVE | “hiroec Excel SERRA J 852 pe  cd -s = |: |)
+=]5P 2DS10-12-O000) SRERHeISIS  PSctL eee HMicresert Excel. IE RSA J 552 BOB) OFd5-54 0 PumPad-7]
+mean nt P= AD 10126000) GRERCHACSIE  EMCSLEve MercacttEsenl 2c ee J 662 DOOM OF
+aon: te Pita
+
+Use Acthiy 20031015 "0000 GREBEHACEIS EXCS_ EXE Moroeol Excel. SERBA J S52 SOC OPAS S  PNnPse- TD
+SM ah ZUIRRANATs "UU Rs ASL fe Minoo EGE - loa Pee, J ne! SAULETLE LS Le scclrl7
+pet: Fle Transter SDISA01D 0000) 8 ORIDS INOS CECIL Eo Monee Deel. OE REA J 5OZ SGA OFM | Nenad 1
+Stet: Proeey 20003-6000) GREECE 8 ExCcS_LEXE Morcect Excel- ERS J S52 ABAD OF 45-051
+S)Pirestan 2002-10-13 "°600 00 GREBMRHACSTS ExICS_EWE Mirneot Excel- SC Se J oo SEAMS OF 4S = vePag-1 4
+
+4 Commar SMO D000) ARI CNL er MocselCacel- MERA I ant SCD DOP Pole ebe ty
+
+esl Cotavanery Hibs 200840936000) GRE eamong = Bees, Eve Monet Excel ERS J a2 SA POS (see Psd pe
+
+oe SR TE wey ijah SOEUR 2 _ SN ee
+
+Sy rbseeret
+
+SIP Acdesses So |agye) tlota) BE G2 mage size:) 30) gtooc Toe roe oor peg Dace ing 1 - 20 ot 00
+
+===== cne-analysis-in-xks page 25 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+ff 2K Session fiewer - Mozilla Firebox
+
+Sle Edt ies Hidtcry «Bookmarks Toob Heo
+
+| ey https ithe one. core.nes.ic gow 44a EE TS OO FE ley ous oqo Su swouk jsolpege Ttls=Sesacn lieve Grow lia oK Ey SORE SP tee F net sewer eh metacsb sre sss dono JP ics SC ee oquer verve in ODS TSI LSS 552 ie
+
+This sytem ls aodibad far USS10 12 and Honan Rigas fot compared
+
+X-KEYS(CORE C20 Session ¥Viewer (from archive]
+
+O.steome Case Motston From IF To IF from Fort To Fort Protacel = Length
+2009-10-13 16:15:43 COAMSAeXAREDTC 31155
+
+Session = tesder(3] eta (Ll)
+a
+
+Quick Clicks |=] KEYLOGGER:
+Mg session Cua columns are designated sy procear watepocess iatleorion at
+med One-Click Searches
+Sl And sppliestion Teystreke Legend
+4 creased | QQ.exe 8040 | EXCELENESE20 MdACCISs. EXD15300 MSAcChss.£30
+“ to | Winulow Tithe: | add Miciws Nhe ee ALI Wlicrosolt Access | Microsoft Ac
+
+lcos.10-1297 43.45.2ng | ill e% ler] om) Lett [=A ot!] oti] cet]
+
+‘eh ebl fet] coll sel es] cel hy
+[2009-10-13T7-42-46.981 [IRA HER DS EARS TY 7 | |
+BC09-10-13TF 42560796 [Us )S] [ctrl][>s] | | |
+Ceo JB Use [Jone |] Cees A] Ue |
+Mae S22] Ore 5 [Ces [lees]
+
+(OxeS JHE Ore 5) [Chee3]
+
+ye S JF S[UseS [Ose S]E[ Uses ]T[0xe3]
+NecS AG Oees (Gach. ]lecS] ach]
+O32 TO [re 3 [Oe 3 TT ie)
+2CO9-10-12TT:43:6.921 tees AN [OxeS [Cree S][freei [DE Ose5]
+Mes ]0/OeeS]e[lees] [Ores TELE]
+Ose [BU [hse 3 ][ Chee Jee SIZED hee]
+acs 7D [Secs] AS tee 3] [Oxe5]
+
+Creo [Ose [Pee |) thee = CSL Chee |
+eS TE Oe 3 T[ O65 ][OxeS Ts [eS]
+3d] Oxe3][sa][~]
+
+[2c09- 10-1377 4322.15 [be} ctl’ . | .
+[Window Tithe Changed: | rau Bee] | |
+
+| [Oxce5 TE OseS [Chee [le 5] |
+
+
+===== cne-analysis-in-xks page 26 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+£E Metaviewer: User issestkew (AOREALOW) = “ocilla Fireliox
+Ecik ‘ism Pistory = «Gookmaks Took tHslp
+
+CBE "Gy A Th aie Dicks Central Corp S810 gore Ba ESCO! Tit [I= | congie , 2)
+
+2) Most vieked [Smart Bookmarss fi TSignout: al || weeha URN Maapper SAE eeSocentreal BB ponsPage - x-RETSC...
+
+| ||] aigrout: RL | SEARCHLIGHT Quer. | fh Dorstage-2-FEYS.. a tk Metaview... El | Bh eqns fechas the. | | TUNIERORE | Bs betpesiio. 720 hem | Yat EK Sesuls .
+
+ZEETSCORE Weloom Log Out
+Sp Home Ae Bckrin de Users Cl Search  Wersthos Centra fy Resuhs [) Statistics 2= Tagging i= Task hay Becourt Tsk Forum it Hep ~
+N “4 eh fl : :
+exigntinni tena eS UserAssistkey (WORKFLOW) |
+=) ZI E
+S\ SEL Parser Hap Actions ™ Raaote* View? FILTERS! “'
+Steck Strings inbe
+eee Actte Hove rigy “fale Type ‘um Se hum vs hod
+= AN ‘ HHEr_USERS Se 211 OSD PEAS G-I200 26256-12080 629-1 OOS oars Kien a 2H 20]
+—en Fla Trenster HEY _LSERS 51 51-2 Soe BAGS 308540 995-1 Se ee Asse Sanavariviicn: Gst5T See O00 FES _ERLARY a ao or
+eveb Proxy HEY _USERS 3-15-21 BSS SOE. 120 ASD Sofaare lvicre Ken a 1 20
+= Vaireshiark HEY _USERS XE Session #levect - Moailla Finzi
+3 E)Common HHEV_USERS | Ge Edt View Hstory Boukmaks Tools Hels
+A) J iehonary Hts HEY _USERS :
+4 File Transtar AKEV USERS Hitoshi /sbe-cenbial. corpnss.icgqew: F4¢4/e REY SCORE Jleyouts pop utLavcut. spr page [ides oesson Weer drow Nae KEYS CORES 2 Ps CPanel ne a PG BS
+ca So Mutiseersr - 7 This systamis audiied for USS10 8 and Hutien Figs Sot compliance
+. HEY _LISERS
+Ge) Netnork biensgement SERS x-EEYSCORE C20 Session Yiewer
+=
+4 = Acthettyy HALEY _USERS ! 1
+#(_)Vlireess HEY USERS Qatetme Tease Noteton From IP To IF From Pork Te Park Proto:
+SV S)Verkflw Cantal HHEY USERS PDD9-10-12 -2:36-13  AL.ETZAAIAAADTC
+So] Request H4EY_USERS — =
+= An ontiows ace sere et || Header 12) |) meta (1) |
+
+=] Al Percing Workthowe
+
+Hev_users | MMe) 170 bg | sereiton coWnidse ersten 1 |Weduer snipese (0 Options.) seal content Rap Ise
+
+Sey Worktiows
+a aResut HHEt* USERS Quick Clicks [44] REGISTRY QUERY .
+Shy Recert Resuks HAE r_USERS nee Session apen ad | close 2
+S]My Previous Results HHEY_USERS eis ;
+=] ey dechived Resubs HHEv USERS — = “2 HEEV_USERSS4S-1-5- 21-2362634650-3095404299-LiS04 22205-4532 45oto¢ are Micrasot Windows Current verso
+dnt_paylisd/regquere ;
+Sh Cngaing Reauke HHEY_USERS > EB) RRED_POvrMFP¥BA — tos cscoo oboe
+SJ ey Dewnoads HXEY_USERS : =] KRZR_PG*PHNPahagipghe = clasnannoananNnMOoIOORIIe
+=] Al Downie HEY USERS po EF) MRR_CUACNGU — chtQOO0deOMIOOrcS5esdI24headt
+Sal Recent Results - = | FRZR EAA CSU LMP PONS S-LO55-0000-7rh0-D0000000000S- = chdOMOs 2020 0c eh ideo
+=] al Previous Reaute daieieleelaie +S] RZR_CUAPCY — ohonooooonanOOZOMOmLesrceds
+Sal archived Results CHE USERS eo E] RRZR_EHAPCT!VARGECT PCT = GLODRONIASOOMIOO TRS LIM SOT IGCROL
+Fa Sngaing Riewubs HXEr LISERS a Z PRER_E Har rs" P POOvAQEIP aM rede Nalifezke. Hees Aire pull = OLR SA Site Eero
+
+
+===== cne-analysis-in-xks page 27 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+—>an2a——=
+
+
+===== cne-analysis-in-xks page 28 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZ
+
+Parsing Tailored Viewing
+e Browser Info yes
+e Collected Files standard XKS view
+e Directory Walks yes
+e Drive Listings xml
+e Ipconfig xml
+e Keylogger yes
+e Process Lists xm!
+e Registry yes
+
+e System Survey (partial) xml
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 29 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZ2b —
+
+* arpcache e networkmapping
+* arpconfiguration ¢ netstat
+
+¢ auditinformation e networkstatistics
+e® capturedcredentialsdata e systime
+
+« connectionlog (unavailable)  «¢ routing
+
+¢ datatransmission e routingconfiguration
+* email e sleepysheriff
+
+e error e smackcrafty
+
+e exchangedata e storedfile
+
+e fb e systemsurvey
+
+e filefilterlist e systemversion
+
+e localeinformation e transportlist
+
+e modulelist e unidentifiedfile
+e machineinformation e wirelesssurvey
+* netmap
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 30 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+XE Pictavicwer: pn in docs ~ Mozilla Firchox
+
+Boodenierks
+
+Be Edge ee History Tank
+
+Hels
+Ine ¥ Cc b eae Je) ete: jhets-central.corp.nsa.tc.qowia43(0E YSCORE| “yo [ICA] coogi ee
+
+(ats) Piest itsised Smart Boo-marks od Gigrioue: Rt FE Yeehs LEH Mapper Mal HES-Centreal th Dore Page - ®-EVSE. ..
+
+| | "| sSigpaut: RL # SEARCH IGHT Geer... | th Dorspage KEYS. | 3g XK Metaview... th #9314 (change che ... | | {] TUNIS Fork | Se hepstiio Fuhr | Fig ei Results
+ZKRETSCORE ‘elcome Log Cut
+ee Hama ge seins Users OL Seer Bf vasrkfiew Centesl Oo] Ruts [Ej ctekitice $=Taggng t= Tasking Mwy aeecurt So eheeun Hap =
+44 =
+havigabon alae . | | vpn in docs |
+SOL Porser Hep Actions * Regorts+ ' = EE [ii - “=
+= Tech Strings in Go : : : :
+Fuser actvty Rigniaht: | ID a | Dstetime Dstetime Enc Ewert Type Tech Dichoma Tecotk Tech Value Tech Fieneme ARR ICAtCN
+Swan ae BMG AGAT ASS | Se -S aeSS eiil_ otk classic vpn ue Ciaeil Ay obra Alanis =|
+Sve Fle Transtar oe it FeO Wr BS 2009-18-13 W111 emiail_ bcerky chasse "pn uy Pie Fit te tad a ee
+Spevew prowy CHE “ee 1540 OSA? 66386 | FMP Ge tech_Dotly tlassle en WHT dnt payioacticint pm
+Sestak CHE “ae 155 POSE OEE 2 dD tech_borty classic vpn Wy dnt_paytoacicint pir,
+8) commen CHE “ee 156 OSAP OHRID | FIO? Ge teeh_Dorty tlassle vpn Uy Init Licint pi
+@ (J Bictionary Hits CHE “ee GE 15) BOA? O68 2 6 tech _borhy claeeic vpn pptp clit_parytoadlicint_ pn
+File: Trarest "
+hate a CHE “agp 155 POS EES 2IMO-12 ID tech_bocly classic wn OW clint aclicint. pi
+Le] el a
+= Co ork ansqetant CHE 4s 15% POG AGA? O68 2009-15-12 O08 Lecls_leotky chesic TEM wi Civ peaydhot fell pay
+4 (J Usertietvity CHE “ep ti 166 SOAP OEE M2 SD tech_bochy eheeic en Wy clint acl iclnt
+Sever CHE “ge (i) 161 OA AE OES | I a  bech_botly checic vpn wy dit payhoacl clip ay
+SP Wreees CHE eo 1b? SOG? O6296:54 SIM oe bech_l>orly chissic vpn ppl chit_ parghosel ici pay
+ES verkFlavy Central CHE tie (i 15 MONDO? OER TP ieee teach_borly classic wo Wye did payvkoalicbt pa
+FE) Request CHE ge 1040 HO AOA 663856 | 2 dO bech_boly cheesic ven wt dit_payhoacl eld _p ay
+EE] Al Wortows -@ 174 OOS AOA 99595 | A Te oemirreeat_lend olaasit non HETHLOSSOCIOC = dint payioacltile
+CHE “= rks J ip i
+=| Al Pending Yor blows :
+=" - i” CHE BE PORAOATWT2T O STae dcientt_leoaly cheeic "pu LiF Hitlew Foehber (ing dil payhoactile
+* or i-7
+ey ts CHE eh AS BSAA? be SM d-1S Dicheeh tech _lorby classic "pn WyHI dnd parydoaclicint pin,
+=) My Recert Resuks CHE “a 2 ONS? 09S FOP OO esail_hotty classic wo oun dnt_payhoacl tile
+iy Previous Results CHE ge GE 225 PSA G4 MS ed tbech_lvorty classic vpn uy clivt_paytoacticint_ pi
+Ej) My Srchived Rasuts CHE “ee 26 MAIDA OGOT | ee teeh_[eehy Glaze Py vei ‘liv atlielivt fi
+ES) My Gngong Resuts 1) NE Seo 227 PROSE GTS 2001-1 Re tech _Iotiy classic TO OW clt_payhoadl cit pir,
+
+
+===== cne-analysis-in-xks page 31 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+e Expanded data coverage
+« UK, AUS, (NZL possibly)
+« Validator/FOX contact/survey flows??
+« ECI data??
+e Better TUCKER processing (both in TAO and XKS)
+e Extended plug in coverage
+e Network information (neighbor/gateway IPs etc)
+e Machine Information (host name etc)
+e Process files not found in passive
+e Registry files
+¢ Thumbs.db
+« Browser history/bookmarks
+
+e Apply to Media Explotation
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== cne-analysis-in-xks page 32 =====
+TOP SECRET/ /COMINT/ /RELTO USA, AUS, CAN, GER, NZL
+
+Questions?
+
+TOP SECRET/ /COMINT//RELTO USA, AUS, CAN, GBR, NZL
+
+
+===== cne-analysis-in-xks page 33 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, N2E0
+
+e Page
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL

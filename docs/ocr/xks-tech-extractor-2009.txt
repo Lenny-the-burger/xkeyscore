@@ -1,0 +1,278 @@
+
+===== xks-tech-extractor-2009 page 1 =====
+Derived From: NSA/CSSM 1-52
+Dated: 20070108 |
+Declassify On: 20291123 J
+
+eS — se
+
+DERIVED FRONT NSACSSM 1-52
+
+| TOP SECRETI/COMINT/REL TO USA, AUS, CAN, GBR, NZL120291123
+
+
+===== xks-tech-extractor-2009 page 2 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What is the Tech. Extractor?
+
+The “Tech Extractor" is a way of finding
+valuable intelligence based on keywords In
+the content of DNI sessions but it is a
+departure from traditional ‘soft selection”
+which tends to bring back a lot of junk.
+
+
+===== xks-tech-extractor-2009 page 3 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What is soft selection ?
+
+Abie
+
+Soft selection, aka content based selection,
+is an approach at targeting traffic by looking
+for keywords or phrases rather than specific
+E-mail accounts
+
+Content based selection has suffered
+because of the poor design of content
+based selection engines
+
+
+===== xks-tech-extractor-2009 page 4 =====
+Existing selection techniques are blunt instruments
+
+XKEYSCORE contextual dictionaries provide an
+extremely sharp Knife to make accurate selection
+decisions
+
+“That's not a knife.....THAT’s a knife!”
+
+
+===== xks-tech-extractor-2009 page 5 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Communication vs DNI Content
+
+Mb
+
+selection engines in use today were based on
+designs built to handle TELEX traffic
+
+» TELEX is a highly formatted content rich type of
+traffic that does not resemble raw DNI seen with
+
+Internet traffic
+
+Raw Internet traffic contains HTML, web-pages,
+raw base-64 encoded documents etc.
+
+When analysts think of DNI “content” they are
+more referring to “communication content” then
+
+raw DNI content.
+
+
+===== xks-tech-extractor-2009 page 6 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Communication vs DNI Content
+
+Mba
+
+If an analyst tasks a Boolean equation “bomb”
+and “chemical” they likely want to see all
+communication that mentions ‘bomb’ and
+‘chemical and not all web pages, news stories,
+blog posts etc. where those two words appear
+
+What we need Is a context-aware scanning
+engine that knows where it is inside of the raw
+DNI in order to properly apply analyst tasking
+
+
+===== xks-tech-extractor-2009 page 7 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+What is the Tech Extractor
+
+Abin
+
+The Tech Extractor was X-KEYSCORE's
+first stab at context-aware scanning and it
+only focuses on three contexts:
+
+=» E-mail Bodies
+
+=a Chat Bodies
+
+= Document Bodies:
+« Microsoft Word, Excel, PowerPoint, Project, Visio
+«» Adobe PDF, Postscript
+« Rich Text Format (RTF)
+
+
+===== xks-tech-extractor-2009 page 8 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+How does the Tech Extractor work?
+
+Mba
+
+The Tech Extractor works by scanning a list
+of keywords against those three contexts
+and then tagging the results.
+
+It's important to note that this is not ‘filtering
+and selection and were not forwarding any
+data home
+
+XKS Is simply tagging sessions with
+meta-data, much like we do with
+appids+fingerprints
+
+
+===== xks-tech-extractor-2009 page 9 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+How does the Tech Extractor work?
+
+Mis
+
+After the meta-data tag is applied, analysts
+can then use that meta-data tag as part of a
+USS/ID-18 compliant query for traffic
+
+= Its important to note, just like
+ApplDs+Fingerprints, Tech Extractor tags
+arent necessarily USSID-18 compliant by
+themselves. You may need to add a valid
+foreign IP address, MAC address or country
+code before you query!
+
+
+===== xks-tech-extractor-2009 page 10 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Where does XKS get its list of terms?
+
+Analysts provide the XKS team with lists of
+
+terms, called “Tech Dictionaries” which can
+
+contain multiple category names (aka “Tech
+Names”
+
+Only after the XKS team is supplied with
+those terms can the system begin scanning
+and tagging.
+
+
+===== xks-tech-extractor-2009 page 11 =====
+TOP SECRET/ICOMINTHRELTOUSA, AUS, CAN, GBR, NéZL
+
+in
+
+COWEMicaa is
+
+Al fe ny) | [> (cea
+Ae em \ + [23 |: ee
+MIG
+#008-01-01 2008-01-01 _. Ranchor
+l O4:ss:on o4:ss:o, wireless uh ee Line
+KHI.doc
+MH TE
+S008-04-01 2008-04-04 Ranchor
+Z o4:55:00 o4:55:0, 2atellite DY¥E Line
+KHI.doc
+NIB
+FO08-01-01 2008-01-01 Ranchor
+a 4:55:00 o4:55:04 mac | OUAC0EDOISSE Line
+FH] doc
+
+| This document would have been nearly
+
+| impossible to find without the context aware
+tasking. The terms ‘wimax’ and ‘dvb’ are too
+generic for CADENCE style tasking and the
+MAC address hit on an anchorless regular
+expression, impossible with current
+
+corporate scanning engines
+— | | | |
+
+Attachments a
+
+—— I
+
+=a |
+
+Ms
+
+Top SECRET/COMINTHREL TO USA, AUS, CAN, GBR, NZL
+
+?
+-
+
+Fe
+
+
+===== xks-tech-extractor-2009 page 12 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Subject. NEFF-00024-GCC-KHI
+
+From: ee
+To rr
+t Date: Tue Dec 30 10:57:46 (sh 7 2006
+—_—,
+
+HTML | Plain Text
+
+ven | a
+emall. |
+
+CHT] City WON: 66024
+| CS [— As8c:Gcc-KHI
+
+Model: 6 qc0
+
+oyMptom: qioe
+
+Comments: no fault found phone is working properly kindly confirm the fault in detail when and in which condition it
+creates problem related to mention symptom
+
+(55h Repair Engineer
+
+
+===== xks-tech-extractor-2009 page 13 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Full Foreign Language Support
+
+“Supports full foreign language tagging
+and querying
+
+*-Ex look for common Arabic expressions
+in E-mails coming from the Pakistan
+
+tribal regions:
+
+Active wger:
+
+ UIS Webmail Display ae Windows Live'Mall yr tn
+
+From inn Eo exnal com)
+
+Mecum risk You may not know thus sender Mark as sate|Mark as unsate
+sent: Thu TOL09 12:07 PM
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== xks-tech-extractor-2009 page 14 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Live Demo
+

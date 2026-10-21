@@ -1,0 +1,1022 @@
+
+===== xks-application-ids page 1 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+7 Ava meeen
+
+= ia | i J
+
+Eee en ——— Te ee een Oy a
+oo?) (COM orien) — —— cae ene ena yO. 1 Torait iG" et
+PERO As on oie — 1eT poet aes “TOp cere AY WT to ees bl Ge te eee
+Tote OO i ITT. Bate OTTO py aes liadwa mitt
+
+
+===== xks-application-ids page 2 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+‘Basic Syntax
+
+¢ Syntax is similar to C:
+
+function(‘name', level, <optional info> ) = 'search terms and
+patterns’;
+
+¢ Two main functions -- appid and fingerprint:
+
+appid('chat/icq', 8.5, wireshark='icq', chatproc='ICQ') =
+/[~o]icg/c and $icq;
+
+fingerprint(‘fingerprint/phone/nokia/generic') =
+
+‘user-agent: nokia’ or
+‘profile: http://nds.nokia.com/uaprof/n';
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 3 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+» Naming Conventions
+
+Appids are named using a pseudo directory
+convention:
+
+/application type/sub type/name
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 4 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Levels are 1.0 - 9.9 with lower numbers meaning higher priority.
+
+This allows multiple signatures to match a piece of traffic, but
+only the most specific appid will be applied. For example:
+
+appid('chat', 9.9) = ...
+
+appid('chat/yahoo', 9.8) = ...
+appid('chat/yahoo/incoming', 9.7 = ...
+
+If a session matches all three signatures, the appid will be
+‘chat/yahoo/incoming' since that has the best priority.
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+===== xks-application-ids page 5 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+- Application Type
+
+E -
+Pik
+
+Third parameter is the application type; if missing, we use
+the appid name up to the first slash as the type
+
+appid(‘http/response’, 9.2, 'web’) =...
+
+appid(‘chat/yahoo/incoming’, 9.1) =...
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 6 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Basic Search Patterns
+
+XKEYSCORE supports Boolean operations and regular
+expressions
+
+Raw text must be encapsulated between single quotes
+
+e ‘search term'
+
+Terms can be combined with Boolean logic
+
+« 'search term' and 'another term' and not 'defeat term'
+
+¢ ‘search term' or 'another term'
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 7 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+appid('voip/sip/IMS', 6.0, wireshark='sip') =
+
+(‘via: sip’ or 'v: sip') and 'cseq:' and (
+‘p-access-network-info:' or
+'p-called-party-id:' or
+'p-charging-vector:' or
+'o-charging-vector-addresses:' or
+'o-media-authorization:' or
+‘security-verify:' or
+‘oproxy-authorization:' and 'scscf' or
+‘path:' and 'pcscf' or
+‘path:' and 'scscf'
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 8 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+- Binary and Regex Patterns
+
+Binary patterns can be represented by putting a \x in front of
+each value:
+
+\XxTfh\xff\x00\x02'
+Or use the hex function:
+hex ('ff:ff:00:02')
+Use slashes to enclose regular expressions:
+
+/[*a-zA-Z0-9]BTE/
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 9 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+» Case sensitivit
+
+E -
+Pik
+
+Keywords and regular expressions are NOT case sensitive
+by default.
+
+Append a 'c’ to request case-sensitive evaluation:
+
+‘keyword'c
+/regex/c
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 10 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+‘Keyword Length
+
+Keywords must be at least 3 characters or they will never
+hit. This minimum is increased to 4 at some sites for
+performance reasons.
+
+Regular expressions must include a fixed "anchor" meeting
+the minimum keyword length.
+
+Bad: /[A-Z]{3}-[0-9]{3,5}/
+OK: /ABC-[0-9]{3,5 }/
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 11 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+oOpid vs Fingerprint
+
+———_—_———- =
+
+_—— =
+
+Each session gets one appid -- lowest level wins. It gets
+databased in the ‘application’ field.
+
+All matching fingerprints are stored in the ‘fingerprint’
+field. Level is ignored and can be omitted from
+fingerprint definitions.
+
+Application Tyoe™: ~ Winning appid
+4qplicatian Infa*: : :
+" V4 Winning appid +
+Aoolication: a | : :
+all fingerprints
+AppID (+Fingerorints)” [fulltext]: ~ [Field Builder)
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 12 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Example
+
+appid('mail/yahoo', 9.0) = 'Host: mail.yahoo';
+appid('mail/yahoo/login, 8.0) = ‘Host: mail.yahoo' and '/login';
+
+fingerprint('mail/arabic') = 'mail' and /language[:=] ?ar/;
+fingerprint('mail/yahoo/ymbm') = ‘Host: mail.yahoo' and 'YMBM='c;
+
+GET /login. html HTTP/1.1
+
+Referer: http://us.f359.mail. yahoo. com/ym/ShowLetter
+Accept-Language: ar
+
+Accept-Encoding: gzip, deflate
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+Host: mail. yahoo.com
+
+Connection: Keep-Alive
+Cookie: B=fn50ehd261202&b=3&s=rp; YMBM=d=&v=1;
+
+Application: mail/yahoo/login
+Fingerprint: mail/yahoo/login mail/arabic mail/yahoo/ymbm
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+===== xks-application-ids page 13 =====
+Pag ee LoL o] Lay
+
+PR Ca:04 2008-18-02 i)
+
+Mar 2007 | bowl aul
+
+1,199 LS) Lecol tawak ite oiaee Taywab
+
+rape Goals fy gic a pe
+
+ted ail
+
+#4# Begin ASRAR El Mojahedeen v2.0 Encrypted Message ##?#
+
+fRgTzTVATRAN2E1Zjg1 OWOyNWRjMmE22ZTdINzzmZDhlODUxzWZhMDO1M]j YwhjVizZGUO
+2C6YwhjdkMmJmNTA4ZDY2yjkOMGU2NGNNjg§MzNjZTc6MThj¥2 Y1ZmMY6EMTgzZDIkYjhjiMTEeE
+xOGYz2Yje1 ZDdiIMDAxNTQzZmVINDVIY2YyMGJjYyjU2Z0Dkyy¥jdmyY jFjYjAzMWwM6zDQ20WFIMzg
+ANThHHM211MjcSODkK2ZGCNhOGRmNWImNjVIZjOOM/MxNDM4AMDIyO Tg1MmRjiMGJINGNKYTN
+kKYTO4M2MxZjRIN2F IN SMjE1NGEMTASZDO4ANWRmyY2MyOTUz22Z jZIMjg3NjQ106GQ4MTA3N
+TU2N2zZkN2zjy¥zU2¥2¥yMjFIODAWN2VEM2USMTZINDY2MmM2ZzT¥ Iyjoeyzlo0GQ20DUxNW
+VKMj2MWYVINDAYOGIOMTHKMTdhANTY'1 ¥2ixMDbgyOGZiM2lw2wzj MDgwM2U4MzNiINDg1O0D
+UxiTesd0De1 MTY2M2I0NjUSZjBhzjvVhNjkOOTINNGExoOThmy Wy! NmFizjlyNmMwZz0A3MDMO
+NjJkZDhhMml4zmRhyjesNmzZiINDFKODkyYjBhyYj¥3MOO10C¥IMj dh¥(mUw2TlyNolx¥mOy2zDlz
+ZjliMZ2E8ZCOS5NmNhZDOx0TMANTIOMjc3MzBlIOWEwZWE1INjk3 yj ox Y2VINTO1OWULnoilVvD
+ULITEuUBDJ qneOGMRHesi®PTnzjo2yqbmkK bFkIPjwMhe/sFURFAOW?48S+i+PokOREoSXhdP+ yo
+I
+
+Gul3ajuyTvrlEOxGx20sSfNSSskiRXXH1DaTnb? OyufesramMios
+e6EO0SRUIdU6YVupzOhhgd4Dof
+
+SBbFR30vg0S+pUxD¥ qmEOriRatfy id tub OMh+dyn7ZqOspNdmRUmkjEpFqFO3sPHS/1Cinjqo
+e1Gsf8+rn52XE2qiWdnU+4 XjWoillisVNAjvensL+s2TG1lHbgocmpQoxyOBOsxXPcRvit2JekV3a7
+kT XyONZkKSYH+DVaawyP xXt+-ym+wGOXNTqPHILU1JIWAZgle@NKicSXPDMtCtebSczRj6GSlXvis
+Eny7t06xPdSBGiosM+3QuUkKZHLEmJiAvgvB6RiKXi3whBgk6zMHOLfotVJcxSumWVemRtgCj2zs5
+PW6lzzFCGUB4SK4PxT62ZCOBZkWD8V¥MyNffrisTG4XVUesgxd SNdSxMLowepyfZwkKNK+EfK iP
+==71 ow29A9NSULIXBX62LhOy/1iqhZFNR/AIONSE}wKogg¥mkxDiuGaQitTurpxBgatlg
+
++## End ASRAR El Mojahedeen v2.0 Encrypted Message ###
+
+bbe bet
+
+olell Lua!
+
+‘Los ll ofl
+
+labo bo
+
+labseodh bos
+
+Vgqizall Rwalaoll
+
+gical ayaa
+
+COS pod ell
+
+Slt] olla
+
+ssh od
+
+Lalo f slat fled
+
+SAS oll olaboll
+
+| Hidden Fields |
+
+Displaying 1 items |
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 14 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+¢ Appids and fingerprints are distridbuted across the
+XKEYSCORE network every hour
+
+¢ Changes will take effect within 2 hours of check-in
+¢ Current definitions are available on the website:
+
+http://xkeyscore.rl1.r.nsa/documents/appid.htm|
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 15 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+AO serge a01 ITD: ar norma
+BFA on oidite ee tie on "aE fe
+
+[oot Oo) Toot ae . intr 10
+
+
+===== xks-application-ids page 16 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Append Option
+
+a —
+
+fi
+
+You can append derived metadata fields onto the end of an
+appid:
+
+appid('p2p/kazaa', 7.7, append='mime_type') =
+lpos('x-kazaa') and not $http;
+
+This will result in an appid like 'p2p/kazaa/image/jpeg'.
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 17 =====
+ip( expr )
+
+toport( expr )
+
+fromport( expr )
+
+port( expr )
+
+next_protocol( expr )
+
+protocol (‘text’)
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Built in functions
+
+Matches against an IP Address looks in to address and
+from address in the session headere
+
+* jp(’10.10.10.1' );
+
+Matches against the Destination/To port. Note this
+must be a numeric representation of a port.
+
+* toport( 1920 );
+
+Matches against the Source/From port. Note this must
+be a numeric representation of a port.
+
+* fromport( 80 ):
+
+Matches against the either port. Note this must be a
+numeric representation of a port.
+
+*port( 6667 );
+
+Matches against the integer version of the next
+protocol.
+* next_protocol( 250 );
+
+Will only work for IP next protocol names as
+defined in the IANA next protocol numbers
+document
+
+* protocol(‘tcp’);
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 18 =====
+=
+
+F
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+- Built. in functions
+
+email address(sel) permutes just like strong selector (just like
+DECODEORDAIN
+
+mac_address(addr) Tasks a mac address
+
+smac(addr)
+
+dmac(addr)
+
+ip(addr) tasks this IP address (either to or from)
+
+from_ip(addr) tasks this IP address only when it is the originator
+
+to_ip(addr) tasks this IP address only when it is the destination
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+===== xks-application-ids page 19 =====
+More built in functions
+
+first(expr)
+
+lpos(expr)
+
+pos( expr )
+
+between( expr )
+
+‘term’c
+
+‘term’ u
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Matches against a pattern at the beginning of
+the session
+
+Matches against a pattern at the beginning of
+each line (\n)
+
+expression occurs at offset X in the session
+© pos(‘Hello’) == 5,
+* pos(/Good.*Grief/) <= 10
+« between(‘Hello’, ‘World’, 10, 100)
+
+Separation between ‘Hello’ and ‘World’ is
+greater than or equal to 10 bytes and less than
+or equal to 100 bytes
+
+This is the same as using the following regular
+expression:
+
+« /Hello.{ 10,100 }World/
+
+Does a case sensitive match of the term
+
+Treats the term as UTF-16
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 20 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+appid(‘voip/skinny(port2000)', 9.9, wireshark='skinny') =
+port(2000);
+
+appid(‘voip/skinny/keep-alive'’, 3.0, wireshark='skinny') =
+
+toport(2000) and
+first('\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'):
+
+appid(‘voip/skinny/keep-alive-ack', 3.0, wireshark='skinny') =
+
+fromport(2000) and
+first(‘\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00');
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 21 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+appid('mail/smtp/to server’, 8.5, direction=$from_ server,
+wireshark='smtp') =
+
+toport(25) and
+( firstC helo’) or
+firstCehlo') or
+first(‘data') or
+(lpos(‘To: 'c) and |pos(‘From:'c)) or
+pos(‘QUIT'c) or
+pos(‘mail from:') or
+pos(‘rcpt to:’) );
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 22 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+_ CHAINWORDs
+
+—
+
+Fo
+
+You can assign a pattern to a variable (CHAINWORD) and reuse the
+Variable in many patterns.
+
+$sip = ‘via: sip' and 'cseq:' and 'SIP/2'c;
+Now we can use this variable in future definitions:
+appid(‘voip/sip', 7.2 ) = $sip;
+
+appid(‘voip/sip/invite'’, 6.9) = $sip and 'INVITE';
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 23 =====
+_——
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+- Predefined Chainwords
+
+There are a number of chainwords predefined for convenience:
+
+° $tcp
+
+- gudp
+
+* $sicmp
+
+* $sctp
+
+° $rpc
+
+° $arp
+
+e ssl
+
+¢ $http cmd
+¢ $http
+
+¢ $http get
+© $http put
+¢ $http post
+
+¢ $http delete
+¢ $http trace
+
+¢ $http head
+
+¢ $http options
+¢ $http partial
+¢ $vbulletin
+
+* $mime type
+¢ $user agent
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 24 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+_——
+
+$icq = 'ICQ'c and $http and not (port(80) or $html body or
+$http cmd);
+
+appid('chat/icq', 8.5, wireshark='icq', chatproc='ICQ') =
+/[~olicq/c and $icq;
+
+appid(‘chat/icq’, 9.0, wireshark='icq', chatproc='ICQ') =
+first(‘icq') and not port(25);
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 25 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Context sensitivit
+
+Expressions are evaluated only with a certain context
+instead of across the session as a whole.
+
+html title(Yahoo! Mail’ or ‘Yahoo! Address Book’)
+
+... only hits if those keywords are seen within the
+title of a web page
+
+http host(‘maps.google.com’)
+... only hits within the "Host:" HTTP header
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 26 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Context sensitivit
+
+Why use context-sensitive scanning?
+
+¢ More intuitive - you can say what you mean
+
+¢ More accurate - if 'maps.google.com' is mentioned ina
+blog post, you don't want to try processing itasa
+Google Maps session
+
+¢ Better performance for XKEYSCORE
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 27 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+_context sensitivit
+
+Sample contexts:
+
+html title
+url
+
+http host
+http referer
+http cookie
+http server
+user agent
+web search
+to cc
+
+from cc
+
+F alle
+|
+
+ename
+
+hle_ext
+
+doc title
+doc subject
+doc author
+doc org
+
+doc hash
+doc body
+
+email body
+chat body
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 28 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+appid(‘finance/currency conversion/generic', 8.0) =
+html title(‘currency' and ('exchange' or 'conver')) or
+http server(‘currency' or 'x-rates.com’);
+
+appid(‘finance/currency_conversion/xe', 8.0) =
+
+http host('xe.com') or
+html title(/* XE -/c or 'XE.com'c);
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 29 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+appid options:
+
+--help this help message
+
+--|ist-all list all the application/fingerprint names and
+levels
+
+--list-appids list all the application names (no fingerprints)
+
+--list-fingerprints list all the application names (no appids)
+
+--list-types list all the application types
+
+--ljst-levels list all the application levels
+
+--unit-test perform unit tests with data in the heirachy
+‘'datadir', with files matching 'filespec'
+
+--quiet don't print any load messages
+
+--appid fname arg location of appid.cfg
+
+--input-file arg Input file to test
+
+--datadir arg The test data directory. Defaults to
+
+$(XSCORE TEST DATA DIR)/appids
+
+--filespec arg (=.*\.u124) A regular expression to match against files to
+check
+
+--noexit arg (=0) do not stop on the first error
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 30 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Appid Validation
+
+appid sample.ul24
+Loading appids
+
+->Loading :
+->Loading
+->Loading
+->Loading
+->Loading
+->Loading
+->Loading
+->Loading :
+
+: /home/oper/xkeyscore/config/dictionaries/appid/appid_definitions.cfg
+: /home/oper/xkeyscore/config/dictionaries/appid/anonymizer.appid
+
+: /home/oper/xkeyscore/config/dictionaries/appid/bulletin_board.appid
+: /home/oper/xkeyscore/config/dictionaries/appid/tao vpn.appid
+
+: /home/oper/xkeyscore/config/dictionaries/appid/tdmoip.appid
+
+: /home/oper/xkeyscore/config/dictionaries/appid/terminal.appid
+
+: /home/oper/xkeyscore/config/dictionaries/appid/voip.appid
+
+: /home/oper/xkeyscore/config/dictionaries/appid/appid_definitions.cfg
+
+Finished loading appids
+Filename: sample.u124
+
+Appid: encryption/https
+
+Total Size: 19.36Kbits
+Total Time: 0.01secs
+
+Rate: 1.936Mbits/s
+Overall performance:
+Total Time: 0.01secs
+
+Total Bits: 0.01936Mbits
+Overall Rate: 1.936Mbits/s
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 31 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+AO serge a01 ITD: ar norma
+BFA on oidite ee tie on "aE fe
+
+[oot Oo) Toot ae . intr 10
+
+
+===== xks-application-ids page 32 =====
+em elelSSel Rise
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Keywords and regular expressions don't work for
+everything
+
+¢ Looking down columns tn packet data
+
+¢ Checksums
+¢ Decoding (urlencoding, base64, gzip, etc.)
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+===== xks-application-ids page 33 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+» Code-based appids
+
+—
+
+Fo
+
+Basic idea:
+
+1. Preliminary ‘trigger’ using standard keywords
+and regular expressions
+
+2. Secondary test using a snippet of C++ code
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 34 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Code-based appids
+
+Example -- verifying a length field:
+
+appid( 'netmanagement/ospf', 2, wireshark='ospf') =
+protocol ('ospf')
+eG teeta
+
+if (size() < 4)
+return false;
+
+const uint8_t *data = begin();
+
+return (data[3]==size());
+
+‘7
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 35 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+» Code-based appids
+
+E -
+Pik
+
+Example -- packet data:
+
+fingerprint(‘vpn/xxp_example') =
+‘Next Protocol 250'
+: c++ {f{
+packet_t pkt;
+int count = Q;
+while ((pkt = get_packet()) && count < 20) {
+++count;
+if (pkt.size < 16)
+return false;
+
+if (pkt.data[4] ‘!= Oxcc ||
+pkt.data[5] != 0x45 ||
+pkt.data[1i5] != 0x72)
+return false;
+
+}
+
+return (count > 0);
+
+}};
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 36 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+« Context-sensitive code
+
+Example -- code-based check on certain extracted
+files:
+
+fingerprint('crazy/office') =
+
+extracted file('doc' or 'xls' or 'ppt' : c++ {f{
+return xks::filename().find("crazy") != std::string: :npos;
+3h);
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 37 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Simplified regex-based metadata extraction
+
+Fingerprint ('maps/google/example') =
+http _host('.google.') and url('/maps?' )
+: C++
+extractors : {{
+ka = /Keep-Alive: (\d+)/;
+accept[] = /Accept-([%:]+): ([—\w-]+)/;
+
+}}
+Main : {{
+
+if(ka && ka[O] == "300") {
+
+for(size_ t 1 = 0; i < accept.size(); ++1)
+if(accept[i][9] == "Encoding" && accept[i][1] == "gzip")
+return true;
+
+}
+
+return false;
+hh;
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+===== xks-application-ids page 38 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Support for flex-based pattern matching
+
+fingerprint (‘maps/google/firefox') =
+http_host(‘'.google.') and url('/maps?' )
+
+: Ct+
+
+flex : {{
+USER_AGENT_CHAR [‘4\n\r]
+%%
+
+"User-Agent: "“{USER_AGENT_CHAR}+ {
+std::string agent(yytext );
+if(agent.find("Firefox") != std::string: :npos)
+return true;
+
+‘3;
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 39 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+The next step: giving code-based appids (limited)
+access to the XKS core
+
+¢ Accessing top-level session metadata
+¢ Throwing common events
+
+¢ Contributing metadata for databasing
+
+The goal: higher level of agility with lower
+learning curve
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 40 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+L-
+—
+
+Fo
+
+Example: accessing session metadata
+
+fingerprint('maps/google/server1i') =
+http _host('.google.') and url('/maps?' )
+
+: C++
+main : {{
+
+return (SESSION["to_ip"] == %123.45.67.1");
+hh;
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 41 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+‘Microplugins
+
+Example: throwing a document metadata event
+
+fingerprint('maps/google/contrived') =
+http _host('.google.') and url('/maps?' )
+
+- C++
+main : {f{
+xks::doc_meta_t dm;
+dm.filename = "google.txt";
+dm.author = "Google, Inc.";
+xks::document_metadata(dm);
+th;
+
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+
+===== xks-application-ids page 42 =====
+TOP SECRET//COMINT//REL TO USA, FVEY
+
+Example: contributing metadata to HTTP Activity
+
+fingerprint ('maps/google/search') =
+http_host('.google.') and url('/maps?' )
+: Ctt+
+extractors : {f{
+q = /[&?]q=([*&]+)7;
+tI
+main : {€
+if(q) {
+DB["http_parser"]["search_terms"] = xks::urldecode(q[0]);
+
+DB.apply();
+return true;
+
+}
+Ht;
+
+TOP SECRET//COMINT//REL TO USA, FVEY

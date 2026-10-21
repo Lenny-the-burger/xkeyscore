@@ -1,0 +1,606 @@
+
+===== phone-number-extractor page 1 =====
+Derived From: NSA/CSSM 1-52
+Dated: 20070108 |
+Declassify On: 20291123 J
+
+eS — —
+
+DERIVED FRONT NSACSSM 1-52
+
+| TOP SECRETI/COMINT/REL TO USA, AUS, CAN, GBR, NZL120291123
+
+
+===== phone-number-extractor page 2 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Where are Phone Numbers seen in DNI?
+
+Phone Numbers are located in MANY parts
+of DNI traffic
+
+= Contact Us” parts of web pages
+
+= signature Lines
+
+=» Address Books
+
+= ‘Leaked’ as METADATA in Mobile HTTP traffic
+
+= Collected as converged data from
+GPRS/CDMA/WLL traffic
+
+= Collected in signaling of VOIP traffic
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 3 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers In “Content
+
+ee)
+
+Looking inside the body of content, the
+Phone Number Extractor Looks for:
+
+= Telephony-related terms in the body of traffic and
+parses out any digits after that
+
+=» Ex: “Tel:”’ or “Mobile” or “Fax or *
+
+= Note that all punctuation is removed.
+= 1.6. (92) 928.555-555 becomes 92928555555
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 4 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers on Websites
+
+Many times phone numbers are in the body
+of a website
+
+a Contact-Us”
+
+a Craigslist-like websites listing items for sale
+
+= Forums, etc...
+
+Traffic can be TO or FROM Port 80
+
+(client) “Reply: Contact Me @ 00-91-123456” — (Server) (_—\
+ea POST to the Web server —
+
+—_—_ UL
+To Port 3434 From Port 80
+
+(client) “For more information, contact....”. (server)
+HTTP Response
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 5 =====
+When a phone number ts in the “body of traffic,
+like a signature block or a “contact us” line on a
+webpage, it doesn't have to be normalized.
+
+XKS will extract the number exactly how it
+appears (minus punctuation and leading O's)
+which can create problems.
+
+Look what happens to the ‘0’ happen here:
+
+Best Regards,
+
+mobile
+telephone
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== phone-number-extractor page 6 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers on Websites
+
+f
+
+Query Name:
+
+Justification:
+
+Additianal Justificatian:
+
+Miranda Mumber:
+
+Datetime:
+
+Prone Mumber:
+
+Fort:
+
+Port:
+
+Country:
+
+Country:
+
+Search: Phone Number Extractor
+
+IRGC
+
+Iranian Phone numbers for IRGC
+
+Recent Justifical
+
+a
+
+Start:
+
+2000-10403 |
+
+3 00:00 S Stop
+
+80 From ~
+
+To |
+
+“| From ~»
+IR. ~ | To [M*
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 7 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers on Websites
+
+ff
+f
+
+Phone Number Highlights Wumber Type Fri Counter Fim Port To Country To Port
+| Results | pe a) telephone US 80 IR A179
+
+EPTef Text (0 Seat
+
+TL Can
+
+Laptop PII
+
+PIT MMX- Ram 196-Hard 30GB-CDRom gljlo g a3 & Ke dv gb gljla
+jole siuuw Windows XPIBM 210000
+
+AVE
+
+Dell 500 «Lijyl ily lé jly ss Lo wos
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 8 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in SIG Blocks
+
+signature lines are SELECTOR-RICH
+environments (Emails, phones, names,
+titles, etc.. }
+
+=a Many SIG blocks have extraneous
+characters/numbers
+
+= XKS ignores dashes, parenthesis, etc..
+= XKS only parses out the numbers after
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 9 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+hone Numbers in SIG Blocks _
+
+| Search: Phone Number Extractor
+
+QueryName:
+
+possible Lebanese hizb
+Justification: |Procurement front company Recent Justificatio
+
+Query |, Justification: I~
+
+Miranda Number:
+
+Datetime: |3Days | Start: 2009-10-03 00:00 B Stop.
+
+Prane Num
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 10 =====
+Phone Numbers in SIG Blocks
+
+_
+
+| Results _| ce) 1640 a Ye TaN US an LB 2
+
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+state | ID) = | Phone Number Highlights Number Tyoe Fm Gountr Fr Port To Country 1
+
+lotation From IP To IPF
+
+poocomoccg «= 209 MMA = united states) os SE = Lebanon) gO 28678 TEP
+
+From Port To Port Proteacal
+
+hts (12) || Meta (11) |
+
+lw
+
+Enter tet to search
+
+educt from the price, CO be SupMmitte YY CONTrAcCtLor Taking Inte Consideration any apo
+related to works already executed + submit separately offer for marble to be supplied by 4
+selt
+
+fe IT would like tp change the ceramic tiles for the two other bathrooms. What is th
+
+m2 I need to buy and haw much you will deduct from the price? Under assessment by contrac]
+into consideration anyfabortive works related to works already executed.
+ig Master Bedroom bathroom, I would like to make it bigger and to cahnge the Locatiy
+
+of the Toilet Seat + have doubel sinks.
+As at this stage all fjend-user’s requests are clear, we kindly ask you to give the releval
+
+Maximum within a coupye of days.
+Thanks and Best regards
+
+Development Manager '
+
+You can view our new projects on
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== phone-number-extractor page 11 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+ehone Numbers in HTTP GETs
+
+«= HTTP GET Requests contain many
+
+“leaked” phone numbers from the providers
+
+= GPRS activity commonly seen with DNR
+selectors
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 12 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP GETs™ a KEYS
+
+laa A]
+
+Search: Phone Number Extractor
+
+Query Name: IRVVEB
+
+| Iranian web browsing from mob
+| Justification: phone Recent Justif
+
+Additional Justification: v |
+
+Miranda Number:
+
+Datetine: |$Days +v| Start: 2009-10-03 9 o0;00 =
+
+—!
+
+Pp mame Pure
+
+Part: From ~~
+Port: (80 To
+Country: IR ~ |From v
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 13 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP GETs)
+
+_
+
+f
+
+| PROne Muri er Highlights = Number Type Fi Gounte FrPart To Country To Port
+ee telephone IR 57375 «US 80 |
+toalamkh ae a =] Dr ey 112 on |
+iw Enter text to search
+
+UTO FORMATTER: app id= unknown/port80/http www Viewer= ASCII format
+
+2.¢2.l Profile/MIQP-2.0 Configuration/CLDC-1. 1
+
+accept-applicatign: x-wap-application: wml. ua, x-wap-application: mms. ua
+Content-Length: |
+
+cielewiel: : ICP
+K-Nokia-BEARER: GPRS
+
+X-Nokia-GATEWAY ID: NWG/4.1/Build113
+
+H-nokla.wla.accept.original: application/xhtmlt+xml,text/html, application/ wnd. wa
+Connection: cloge
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 14 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP POSTs-
+
+—
+‘1
+—— ——_e|
+
+Many times a phone number is submitted tn
+an HTTP “POST” session
+
+= If a person fills in a form or replies to an email,
+the information in the body will be collected
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 15 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP POSTS
+
+f— Fields * ‘Advanced Features * | Show Hidden Search Fields Clear Search values Reload Last Search Values
+
+| Search: Phone Number Extractor
+
+| Query Name: Iranbrowsing
+
+| web browsing from poss irge
+
+| Justification: Recent Justitications
+Additional Justification: ¥|
+
+Miranda Number:
+
+Datetime: [2 Weeks ¥) Start: 2009-09-24[9§ 00:00 S Stop: 21
+
+Part: From ~~
+Port: (80 To
+Country: IR ~ |From v
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 16 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP POSTs
+
+—
+
+| Phone Nurnber Highlights umber Type 9 Fm Countr FrmPort To Country To Port
+
+a Ye mobile IF: 3511 US a C
+
+Fram IP To IP From Port) Toa Port Protocol Length
+209 RR (5 United States) 3511 0 TCP 13476
+
+AEA TT TT TT TT a
+
+Sn
+
+Enter Text to SeBarch
+
+POST fmall/ ?uL=Z2eLtk=3 6737 lLb1ldb cab=ensqs0ni Sgjyfuecle zpeqoubnboméview=upéact=sdajsid=plrevt7
+Host: mall. qoogle. com |
+User-Agent: Mozilla/S.0 (Windows|:; U; Windows MM 3.1; en-us; rv:1.9.1.3) Gecko/20090824 Firet
+Accept : text/html, application/xhtmltxml, application/ aml; qq. 9, */*;q=0.6
+Accept—-Language: fa
+
+Accept-Encoding: gzip, deflate |
+
+Acme pt-Charset: rso-6859-1, utf—-alq=0.7,*;q=0.7
+Keep-Alive: 300 |
+
+Connection: keep-alive
+
+Content-Type: application/ x-wiw—-Torm—-urlencoded; charge
+Referer: http: //mail. google. com/maill/ 7uL=2éeview=]esénam
+Mookie: S=gmail=D8-U bhSvIxMengpSvouna: gmproxy=a5n xd74qe Wl
+Pragma: no-cache
+
+Cache-Control: no-cache |
+
+mMRYU. en, éan=!Hindyysba
+a oynMA;: GX=DQAAAHOAAABCK4I VRE
+
+gecHébcc=ssubject=Ret3 ase
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== phone-number-extractor page 17 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone Numbers in HTTP POSTs |
+
+Phone Hunger o Aighlighnts Number Type Fim Countr Fr Port ToCountry To Part =
+
+PY [ mobile IR 5511 US a0 C
+
+r
+| r
+
+session | Header @) | Meta (19) || Attachments on
+
+Quick Clicks
+
+NW Session
+
+= 3 Attachments
+: WITS Scan results
+=| | web
+
+— 5) @) atm - TML formatter
+
+| 9 Blininown-sancwme-forms ” \ 99 (EE
+
+Li foe ooo
+——  omkrewr Thanks Dear Hubert,
+3? text
+
+? document_body.ermail_o.txt
+ER @ One-Click Searches
+S|) Find opposite side of session
+
+me Coukd pls. Grve my Contact or Skpye to Him to Call me urgently:
+209, : B80
+ees) sae = =—Ci(itsti‘<ié‘wr
+
+Sj Find traffic on |
+
+0 (i __—— = — |
+
+PY ExT
+
+UnkEnownA_1Se2,
+
+I teyed to call from Here, But is very Difficult to Call UK from Here.
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 18 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Mobile DNI
+
+Mobile DNI Collect comes in two main types:
+
+Convergence of DNR & DNI selectors! Internet
+
+Mostly from F6 collection
+
+Most cases, needs to be “near the infrastructure
+
+Looks like regular DNI but with “hints” that the
+source Is a cell phone
+
+Collection could be F6, FORNSAT, SSO, FISA
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+===== phone-number-extractor page 19 =====
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Mobile DNI: HTTP Activity ©
+
+= HTTP activity comes in two types:
+
+“Hints” of DNR origins .
+Public (proxy) IP addresses website.com Server
+
+|
+
+Convergence of DNR & DNI selectors!
+Usually private IP addresses
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+
+===== phone-number-extractor page 20 =====
+USER A
+
+TOP SECRET/COMINTHREL TO US4, AUS, CAN, GBR, NZL
+
+Phone.Numbers From Converged Collection
+
+ACTIVE USER
+
+ACTIVE USER.
+
+le
+
+Proone Wumber:
+
+| Datetime
+
+SHS 10-05 T1256
+JO9-10-05 11s
+FS -10-09 VAS
+
+16:07
+TST i
+
+JUMS-10-05 T1617
+SHS -10-05 VT Bre
+SiS -10-05 VP ee
+PHS -10-05 T1911
+
+Drastetine Ene
+20-10-05 P1254
+
+2008-10-05 TPPIT3545
+J (S-10-05 DP13:11
+2005-10-05 TATOO F
+SOS 10S DT S18
+2 OS-10-05 T1617
+08-10-05 PTE
+*OS-10-05 TP1828
+2 S-10-05 DTA
+
+Prore Mumber
+
+Number Tye
+Imsi
+ims
+ims
+IMs
+Imsti
+ims
+Imsi
+Imsi
+
+msl
+
+Country Goce
+pk
+
+pK
+pk
+DK
+AL
+pK
+
+TOP SECRET/ICOMINT//REL TO USA, AUS, CAN, GBR, NZL
+
+Sea
+
+Mobilink
+Mobilink
+Mob link
+Mobilink
+Mobilink
+Mobilink
+Mobilink
+Mab ilink
+Mob ilink

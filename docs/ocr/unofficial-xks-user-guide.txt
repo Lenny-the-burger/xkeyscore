@@ -1,0 +1,1530 @@
+
+===== unofficial-xks-user-guide page 1 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+The Unofficial XKEYSCORE User Guide
+
+E92 — ADET
+Consultant, Booz Allen Hamilton
+
+The Unofficial XKEYSCORE User Guide... 2.22... cece ceececceececeee cee cee cee cece ceeseseeeseneeeseeeees
+Creating Queries 22.2... ccc cec cee ceecec cee cen ceceee ce cesses cee cessaecee cea eaeee ces sesseeseeseseeeaeeseeesaeeseneeeees
+C]assic QUETICS..00. 2... ceeeeeeee con cee cee enscnecenceeseenne sen cencee ceswaeaenceneeececneeneaseecenceesceseanenseeeees
+Mulltisearcht 20... ee cecce cee ceececcee ce cecuee cee cesuae cee ceseaeaee cea ceacees seaeae cee seeeaeeseeseaceeseeseeeaees
+Classic Searches (A-Z) 20.2.0... cccccceeeceecee cece cencenceeeceeceeenscneceeseeceeeuscenceneesceeeaeanseneees
+Creating a WorkFlowW................2:ccccceceececeec cee ences ce eee cee cee ces seeeeeceesenseeseeaeeeeseetetesseeteeeees I
+Searching - Tips and Tricks ........ 222.2... 21-ceeceecec eee cee cee ces sessee cee ce sensesceeseesensenseseeeseeseetesenes DA
+Which Query Is best for Me’? 02... ..-.cecescececccee cee censes cee ce cesses cee cee sentaneaeceeseeseesstsssareeees DO
+
+Oo ON Mh hoe
+
+Derived From: NSA/CSSM 1-52
+Dated: 20070108
+Declassify On: 20320108
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 2 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Creating Queries
+
+Clicking on Search at the top of the screen will bring up a list of searches in the
+Navigation Menu:
+
+oe Horie: P-4 Users ‘Eg workflow cKO Search F]y Pesuilks Shatiskics fi
+
+Navigation Ctent— ]
+=|] Search
+Classic
+
+=) S)Mutigsearch
+IP Addresses
+Mac Address
+Username
+
+SS) Classic 4M
+ASF and Villy Metaclata
+Alert
+BlackBerry
+CNE
+[=] Call Logs Miranda ty
+Category DMI
+Cellular Dhl
+Cisco Passwords
+Document Metactata
+Document Tagging
+Email Addresses
+
+Help
+
+Fields * Advanced Features * St
+
+Search: Full Log
+
+Ouery
+Iustit
+
+Sdditianal Justit
+
+De
+
+Chent IP (-Fowarde
+
+Extracted Files Use
+=| Full Log OM
+_ Actrib ut
+HTTP Activ
+Geclocation
+Logins and Passwords IF wht
+[Classic hz
+~ TP dr
+
+The Search screen has cascading menus of different Searches: Classic, Common,
+Dictionary Hits, File Transfer, Multisearch, Network Management, User Activity, VoIP,
+and Wireless.
+
+Classic Queries:
+Within the Classic Menu there are three folders: MultiSearch, Classic A-M, and Classic
+N-Z.
+
+Multisearch:
+Expand the Multisearch folder by clicking on the plus sign:
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 3 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Nawigation *tenu
+
+=) 5] Search
+
+[ )Classic M-z
+
+Multisearch IP Address:
+
+Navigation Menu
+
+=) 4] Search
+SS] Classic
+=) Si) MutiSearch
+_<« IP Addresses
+hac Address
+Username
+
+es PP i lewete io hd
+
+The Multisearch IP Address query allows you to search on an IP address into seven
+different searches. Think of it as a federated query using an IP address. The Multisearch
+
+IP Address query searches on:
+
+Full Log
+Web Proxy
+
+User Activity
+
+Phone Number Extractor
+Email Addresses
+Extracted Files
+
+HTTP Activity
+
+Refer to some of the individual searches below for more information about specific
+
+queries
+
+Creating a MultiSearch IP Address Query:
+When you have filled in your query name, justified it, entered an IP address, selected
+your search engines and sites the last thing is to submit the query. If you select “Merge
+Results”, then all of your individual queries will be merged into one consolidated result.
+
+“Why would I want to merge my results?”
+If you wanted to see all of the activity together to get a “big picture’ look at the IP
+
+address, regardless of the activity or application that is on the IP. The New GUI's results
+screens allow you to filter your results easily which may make viewing your results more
+intuitive. See “Viewing Your Results” in this Guide.
+
+“What would I want to NOT merge my results?”
+Viewing the results individually allows you to focus on a particular activity or result (e.g.
+Documents or email addresses).
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 4 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Multisearch MAC Address:
+
+The Multisearch MAC Address query is exactly the same as the IP address query
+except it only allows you to search on a MAC address. Follow the same instructions as
+the Multisearch IP Address query above but replace the IP address with your MAC
+
+address(es).
+
+Fields + Show Hidden Search Fields Clear Search values Peload Last Search Values
+
+Multiple Search: Mac Address
+
+Query Mame:
+
+Justification:
+
+Additional
+Justification:
+
+Miranda Number:
+
+Datetime: | 1 Day “
+
+Start:
+
+2009-01-22 [3
+
+OO;00
+
+<<“ Sddress:
+
+| >
+
+Content Must Exist: L1
+
+May Results for 4
+Single OB:
+
+Search
+Forms
+
+Lees isis]
+
+Save inmy Favorites No
+
+Load Fram my
+Favorites
+
+User Activity
+
+Phone Number Extractor
+Email Addresses
+Extracted Files
+
+HTTP Activity
+Full Log
+Web Proxy
+
+Multisearch MAC
+Address looks just
+like the Multisearch
+IP Address query
+except you must now
+search on a MAC
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+
+===== unofficial-xks-user-guide page 5 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Multisearch Username:
+
+As you may have guessed, the Multisearch Username query is exactly the same as the
+
+IP Address Query and the MAC Address except it only allows you to search on a target’ s
+Username. Follow the same instructions as the Multisearch IP Address query above but
+
+replace the IP address with your Username(s).
+
+Fields * Show Hidden Searca eld Clea Search values Reload Last Seerch valies
+
+Multiple Search: Username
+
+Query Name: jab Iher:
+
+Justifization: jc tagetin afganistas
+
+4dditional =
+Wistifizatiors
+
+Mirarca Numer:
+
+Ciatetime:
+
+(without the “@” symbol)
+
+Joeman: jalouphec
+
+Haman: '3100.>0M
+
+cusor start: |200e-a122|—=)  oooc | Type in the username and domain
+
+Coantaat Wuist Exist:
+
+Mae Resclls fur d
+
+Singls OB: ~
+Search [| User Activity
+Forms i] Emall Addresses
+Full Log
+
+Logins and Passwords
+
+Save in my Favorites [Ko ¥
+
+Loac From my =
+Favorites
+
+lv¥| fxks-central.corp.nga.ic.qoy:qd)
+
+“What is a Username?”
+
+A “Username” in XKEYSCORE queries is the portion before the “@” symbol in an
+email address.
+
+For example:
+Abujihad@ hotmail.com: Username = abujihad
+Domain = yahoo.com
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 6 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Classic Searches (A-Z)
+
+There are 32 different searches between the A-M and N-Z searches. This guide will cover
+some of the most common searches. You will notice that most of the fields of the
+searches are the same and each individual query will be unique because based on its
+query name. For example, the Extracted Files search has fields that are only applicable
+to file attachments (e.g., file names, file extensions) and the Email Addresses query has
+fields for email addresses (e.¢g., username and domains). All of the Classic queries will
+have common fields like Ports, IP addresses, Countries, SIGADS, and CaseNotations that
+you can use to
+
+Tidds * oAdvoneocFostires = Show Fidcen ScarchAeds Coo Scorch Yelocs [tdocd Las: Secrch “duc
+
+Search: bimail addresses
+
+SUErY Hate: fF
+
+JUstificaT on: | |
+
+Here are two Classic queries:
+Email Addresses and
+Phone Number Extractor.
+
+Adcitia- al Justiicac on: ¥
+
+Miran a Murber: | |
+
+Catetimc: [4 hasnt ~| Stam: [2002-22-24 3 COCO |S stop: 200o
+
+Fmail J=ernaTe:
+
+|
+mm OLiairi |
+Sub 2 ch! |
+The fields between IP Address: | || Fron
+Addresses are the plug- nt | : = =
+a a Foti | Cc “|
+ins unique to each query.
+Cn witry:
+The Email Address query is catered
+eerie to querying on email addresses
+Ted ot Advanced [escurts = Sicwlidczen leach acs Clear Seerch The Phone Number Query has
+Beart: Priore Alroteer Fx) cacti phone number fields
+‘J 4ery e712: | «6=6§$sdsgXH
+-Jetificat 04: |
+
+4d ciric nal ~ eritireat nat ¥
+
+Mirra tank; |
+
+“ont 7 stot: [200-1226 = [9400 |S) stra: [BCcs-c1-23
+
+Pancras f. imbke-
+
+HiimnP ar Ty pit
+
+Caweey ocd
+
+|
+
+|
+
+|
+
+aroa | |
+
+IH SAdress! | | Fre ist
+IP Adios: | | | “uM |
+4orT: | | me |
+aT aa | | on ~|
+Moirils.: a
+Scant: ~ IT> ~ |
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 7 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Email Addresses Query:
+
+One of the most common queries is (you guessed it) an Email Address Query searching
+for an email address. To create a query for a specific email address, you have to fill in the
+name of the query, justify it and set a date range then you simply fill in the email
+address(es) you want to search on and submit.
+
+That would look something like this...
+
+Fields * AdvancedFeatures * Shc Hidder Search Fields Clear Search Valles Reload Last Search Vales
+
+Search: Email Addresses
+
+Query Wame: jabajihac
+
+Justficatior:  jcttargetinn africa
+
+Additonal Justficatior: i
+
+Miraida Number:
+
+Natetime: Thinnth oo |} Start: (2008-12-24 3 00:00 *] ‘
+
+7
+
+Emeil Usarname:  jabuyihac
+
+@Dcmair: yahoo.com
+
+NOTE: You DO NOT have to know an email address to use the Email Address Query.
+You can also search on an IP address*, domain name**, country, port, casenotation,
+protocol, SIGAD, MAC address, PID and more. If you search on something other-than an
+
+email address (e.g., an IP address), your results will be all of the email addresses seen on
+those IPs.
+
+* The IP must be hosted OUTSIDE 5-eyes countries
+** The Domain MUST be foreign owned. Check WHOIS and NSLOOKUP for more info on your domain before-hand
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 8 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Extracted Files Query:
+
+1. To find a specific file (i.¢., if you already know the file name): For example, if you
+
+noticed a file name in your target’s inbox and you never actually got the file attachment.
+This is VERY common for webmail collection because the attachment is often not put
+
+into PINW ALE with the email.
+
+Sielcs * Advancec Features + Soci Hdden Search Fieds Clear Sserch Values
+
+Sedretn Exlracled Files
+MLery Wame:
+Juszitication:
+
+4ddicional J-scification:
+
+Miranda fumbsr:
+
+Detetme:
+
+Extractec Filaname:
+Cxtension:
+
+File Tee (MIME Typos:
+Iz Obfuscated!yas/nat:
+
+bfuscated Peal File Extension:
+
+Pile Mia mae Puedes
+
+Reloed Lest Seerch Values
+ct esearce
+lranian bkuce flees
+Custom “| Start: 2008-01-24 | 00:00 |=
+
+nec eonndatrye 343.6 qf
+
+Stop | 2009-(
+
+2. To search for all files or specific file types on a particular area or on a network. (E.g.,
+
+IP address). This is a GREAT query if you have a foreign mail server and want to see
+what files are collected on that IP address.
+
+Selds * Odvaccad Fescures F Sq Hidd=7 Search Aele
+
+Scarch! Extracted Files
+
+Cuery fame
+
+LUSotit=tion
+
+Additicnal 7ushtizetion
+
+Mraada \unce-
+
+Detezi
+
+Excrached F lenanme
+
+lear Fearca Wales = Peloec ach Seerr7 Valles
+
+\ctFi oscerch
+
+Iraciar ‘uke fils
+
+File Type °MIRE Tre)
+
+Tz Obfuszeted(yes/-o)}
+Obfuecat=d Real Fie Extension
+Fils Size o1 Dick
+
+Jats Fie Created
+
+Fie Last 4ccess
+
+File Lest Modifisd
+
+If you leave the Extracted Filenames
+field blank, you are wildcarding the
+search to look for ALL files names
+
+The IP Address of the mail server
+you found using NSLookup in
+Foxtrail or your non-attrib Airgap
+
+account goes in the “IP Address”
+field
+
+ie Uber 4d ———
+
+IP Ard -es
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 9 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Logins and Passwords
+
+1. If you already know the login and/or password.
+
+Fields + Advacced Featuras + Sas Hidden Searca Fields Clear Search Values Feloac Last Search “alues
+
+Search: |ogies arn! Passwords
+
+Qery ame: (LuginsteA han P |
+
+JLstification : LAfgk anistan network mai sarverpeseword
+
+If you know the logins or passwords,
+query on them as long as they are unique
+Miranda hurrber: | and will comply with USSID-18.
+
+Additioncl I-stificazion:
+
+Tatetime: U1 Manth | start: |200612-24 79) (O00 7S) stan [2009-01-23 777
+
+_
+Lsorhame:  jedtrin
+sword: [cc
+
+Du tditl:
+IF SdLress: | | Fron
+I’ sderces: | | lo 80
+Pirl: | | Frou
+Pot: | | Tao
+
+“Where would I find passwords to use in this query?”
+Passwords can be found in TUNINGFORK (e.g., FogeyBottom), passed in the content of
+emails or text messages, or from previous XKEYSCORE queries.
+
+2. Trying to discover logins and passwords on a network? NOTE: Logins and
+passwords are valuable tools to enable Tailored Access Operations (TAQ).
+
+“What tools would I use to get the network information like a Mail Server, or Name
+server?”
+
+NS Lookups tools on NSA net such as FOXTRAIL and Open Source tools such as
+robtex.com, centralops.net, and network-tools.com are a GREAT START. They provide
+you with IP addresses for domains. You can then query on the foreign-hosted IP
+addresses.
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 10 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Fie: © Adare. Feclures * Sli Hidden 5
+
+Search: Logins and Passwords
+
+Miiery Mame:
+
+JuUSstticetian:
+
+4dditinnal dist finztinn:
+
+Miranda Number:
+
+Dstecime:
+
+cer Mame:
+Passvcrd:
+
+Domain:
+
+IF wdd-ess:
+
+TE Add-easc:
+
+carl Fells Clea Searcli value:  Peluad bash Searels values
+
+Loqginstirécqaanle
+
+AT Whanistan network méil server aasswords
+
+Ww
+
+TMcmh |~| Start: [2008-12-24 |f3) ooo |2| stop: [soca-o123 || [2350 4) @
+
+“~
+
+If you are trying to FIND logins and passwords
+and you know the IP address for the network,
+then search on the IP!!
+
+Your results will be.... LOGINS and
+PASSWORDS!
+
+Phone Number Extractor
+
+The Phone Number Extractor query looks through the content of an email for phone
+numbers. This is very similar to a PINWALE DoPhone query except the traffic that
+XKEYSCORE finds may be survey (i.e., unselected, non-tasked data) and might not be
+in PINWALE. XKEYSCORE may be your only hope at finding an email address for a
+target where you only have their phone number as lead information.
+
+1. Already have a pho
+
+ne number? If all you have to start with as lead information is
+
+a phone number, you may find it useful to query on that phone number and see if
+anyone sent an email with that number in the signature line.
+
+Fields + Advanced Features * ‘Show Hidden Search Fields Clear Search values Peload Lask Search Values
+
+Search: Phone Number Extractor
+
+Query Name: Afghan
+
+Justification; Afghanistan phone nurnber cttarged
+
+Additional Justification: ™
+
+Miranda Number:
+
+Date
+
+Phone Sumber: pe
+
+Number Type:
+
+Country Code:
+
+Area:
+IP Address: From ™
+IP Address: Ta ™
+
+time: |1Month | Start: |2008-12-24/7§) |oo:00 |“! ston:
+
+w
+
+10
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 11 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+2. Looking for any phone numbers on a network? Quite often you know the mail
+
+server IP address and could use some telephone numbers to task?
+
+Fels © Advancad Feabures © ShoawHiddenSeerch Fialds Clear Search Values Plaload Lact Search values
+
+Search: Phone Number Extractor
+
+Jiery Wame:
+
+JAstif cation:
+4 ili tal Jasuifcaliun:
+
+Miranda Number:
+
+Liatetime:
+
+Phone Munber:
+Number Type:
+Counley Cude:
+
+ted:
+
+[P Address:
+
+[FP Address:
+
+ca
+
+Atghat
+
+Aighanisian phone number cttaryet
+
+[Month |¥| Scar: 2008-12-24 (79) joo | stop: |2zo0g0Lzs [) j2zs59 | @
+
+iad
+
+fId Fihiar
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Il
+
+===== unofficial-xks-user-guide page 12 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+3. Looking for a phone number without the country code (non-normalized)? It’s
+
+possible a target will pass their phone number without the country code (e.g. a
+signature line with “Tel: 5354658”). In that case, XKEYSCORE will not find the
+number with the country code so you must create a query that looks for fewer
+digits but still complies with USSID-18. This is not a 100% solution* but
+ANDing your query with a country or IP address would certainly be more
+compliant. See example below:
+
+Number Typet
+
+The number you enter here isn’t
+normalized because you expect to see
+it in traffic without the country code.
+
+scuntry Code:
+—_ To make this USSID-18 Compliant
+you must AND this with something
+NP Boe Re From i like a country or IP address.
+ID Address: To
+Purl: Frum This example shows traffic in/out of
+Port: lo Pa Pakistan
+eee an
+Councry: — |P< ) ( |v |Ether ¥
+—
+Or
+Phone Number:
+Number Type: This example shows traffic
+aewpcean Gers in/out of a particular
+network/IP Address
+Area:
+as
+IP Address: |elu ) (| | Either
+OO
+IP Address: To ™
+
+“Tf you ask XKEYSCORE to give you all Pakistani traffic, it’s doing an NKB lookup on all Pakistani
+registered IP addresses. Geolocation of IP addresses is not 100% accurate at this time. Unofficial estimates
+say asking for all of Country X's traffic will find between 50-60% of the actual traffic. (That's more than
+
+0%, though, right?)
+
+12
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+
+===== unofficial-xks-user-guide page 13 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+ATTP Parser
+
+The HTTP Parser query looks for web activity (remember, HTTP = web) on a particular
+link. This query is useful for several reasons. Firstly, if you know a particular website and
+want to see if a foreign target visits it (e.g. an extremist web forum URL, or
+maps.google.com). Secondly, this query enables you to query on a network IP(s),
+casenotation, or country and see what websites we don’t know about (survey-type query).
+
+Here are two examples
+
+1. If you know the particular website the target visits. For this example, I’m looking
+
+for everyone in Sweden that visits a particular extremist web forum.
+
+Search: HTTP Activity
+
+Query Name: |HTTP_in_sweden
+
+Justification:  |SwedishExtrermist website visitors
+
+Additional Justification:
+
+Miranda Number:
+
+Datetime: lvweek +] Start:
+
+HTTP Type:
+
+2009-01-20 |
+
+<a Host: ftal-hisbah.com »)
+
+Scroll down to enter a country code (Sweden is ;
+
+aunty: oe __>
+
+Tountry:
+
+The website URL (aka “host) is
+entered in with a wildcard to
+account for “www” and “mail”
+other hosts.
+
+To comply with USSID-18 you
+must AND that with some
+other information like an IP or
+country
+
+pi a
+
+13
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+
+===== unofficial-xks-user-guide page 14 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+2. If you don’t know the website but you know the network information (IP). For
+this example, I’m querying on a network IP block to see all of the websites the
+target visits.
+
+Search: IITTP Activity
+
+Que-y Hame:  |¥échUsclrenians
+
+Justificetion; = websites Fur ranian University
+
+Additional Justificetion: ¥
+
+Miradida hLmber:
+
+Detscime: oc:00 “ step: 2009-01-27 [5
+
+HTTP Type:
+
+Hast;
+
+WEL Path:
+
+WRL Aros:
+
+The website URLs (hosts) are
+left blank to wildcard those
+*Lanclege™; ~ fields.
+
+SeanchTerrs: | |
+
+Character Encsadine
+
+caatert Stat: | |
+
+Curilenil Slop: | |
+
+Siaatert ital:
+
+Refo-er
+
+“ Fo cwarcec For: | |
+
+To comply with USSID-18 you AND that with some other information like an IP or
+country
+
+IP Address: [ell Either ¥ >
+IP Address: —, w
+Port: From ™
+Port: To
+
+Results from an HTTP Parser query
+
+This shows what the results from a query look like for an HTTP Parser query:
+Peas Sots 7 2apots 7 vied +
+
+“Ie DateireE-d HT? Tyce bee LFL ~~ Search Pets
+0-04-27 ed 2s post f-qaming.cor isistat php
+
+By) 4
+
+4 fa ) Z 2009-01-27 TAS: [ret ri Alfstat.phy
+3 fa By J MOOT kd A ddd gost EIN OInMTy.cOM MER pAAKa’s
+J fal BY 4 MON-0-2P RSE po Mania f'stat.php
+5 ia By 5 MeO-0-27 2 PA post mANCy-COUMTY.Con MER Ap aKa'S
+5 a Bi i AO -041-27 Te O-2PeP post manbaanra Afstatyahy
+T fal By t 2H 27 Ae Ad post manibaeru Alstatphy
+& fal Bg i JOT Pe 2? response
+
+Ey 4
+
+Example 1 above shows a person was Visiting www.f-gaming.com/s/stat.php
+Host = f-gaming.com
+URL Path = /s/stat/php
+
+14
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 15 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Document Metadata
+
+Document Metadata query allows you to search on document authors, organization,
+encryption*, and many other things about a document. This is extremely helpful if you
+have found a file attachment from a target (e.g. Brick-and-mortar targets, person, or
+Organization) and you want to see all of the other files they have sent. With the
+Document Metadata query you don’t have to know the email address of the person
+sending the document, you just have to know the document’s properties.
+
+“Most Microsoft Office allows uses to encrypt files by clicking Tools -> Options -> Security and password
+protecting the files. The Document Metadata query looks for that type of encryption. It doesn’t look for
+PGP or other 3™ party encryption.
+
+“How do I find a document’s properties?”
+The easiest way to see this is to open a MS Office document and click on File ->
+
+Properties. To find the document properties for a file you target sent, the easiest way 1s to
+view the file in Agility and click on Properties.
+
+Finding your target’s file properties
+
+If you can view the target’s document in Agility, click on the Properties tab to show the
+target’s Organization and/or Author. If the fields are unique or random enough you can
+query on the term itself. If the Organization or Author aren’t enough to comply with
+USSID-18, then you must AND that query with supporting information (IP or Country).
+
+15
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 16 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Displaying MS Word document in Agility:
+
+sat Mil [ erie | tie [de | ate | tpeil | TUF SLLRLE UU eis EMI =, oe O12) 7S Se4
+
+Ih T1 [Fi Mm mn al Tal: [Fu id Fiera Ty: Fu is]
+
+1) ee SGU AM a GL a Pea SL Lett JEST DILL ii been che
+
+. EVP AT SEE LS PM | oederie ce Teg one: > earn TE:
+[RTL dott 8 | 1 besten
+
+SSW ATE 25 Chins es te Dre applied rates
+
+opps 2a:
+
+ee ee et bei |
+
+fi ation octetstrear bas
+
+Company
+
+HiddanSslideCount (1
+Line ‘Seunt 4)
+LinksUpTaCate | =.bH
+Marna Br
+
+MI Clip Count wh
+Note punt 4
+ParagraphCount i
+Presentatian Target
+
+ScaleCrop | =.4z
+SlideCount fs
+
+ae Author | >
+
+[\
+
+TP papeboecaLirt ite
+ominne nts
+
+DeteCre ated STE a00E Bolz dy A Author =
+FecuribLevel aye
+
+deeenords Last Author =
+Lastauthor
+
+LastPrintedt
+
+To create a query in XKEYSCORE from this information:
+
+Search: Document Metadata
+
+Query Yame:  foregndocuments
+
+Justification:  Awedisa CT Terqat
+
+Adcitinanal Justification: =
+
+Mirenda Numer:
+
+Dals Lire: Tvveek | Stark: |2009-01-29/(79) joo oc |) Slug; |20c9-01-
+
+Document Type:
+
+Facrypted?:
+
+Corupted?:
+
+Filename:
+
+Extension:
+
+“S4bject’:
+
+* Creation Time”:
+
+*Last Modified Tire*:
+
+*Laigue Ia*
+
+Autoor; jGoGa
+
+Last Autror:
+
+16
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 17 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+View of document properties of PDFs in Agility:
+
+4 Agility - MetaFrame Prosantation Server Cliant
+PA aaility Viewer - NewQuery 2ROTLO19121T28ago
+
+Fiz Ed: Tock Feb
+S| Mad | Weh | [his | cha | otter | Sparel | TOP SECRET, COMINT-6CL RAGTIME! /NOFORRS 20251 125
+4 Tn
+25 TO? 2007 929:21 2h rapport UN tar mist rau ka od slan 52 | applica crept
+1 Pegeait (t85
+1 reget 18E
+1 iL siqeaql wie
+1 ireggeugt tea
+1 regent tee
+1 iL eu Leh
+1 irsgeugt wae
+Digcla, ongnal | Faer| SHTF heads Gorm | 222 | Tider | | fokeeclo: || Searaéac | icnaykad |_| cal] |
+a|
+— PDF Properties
+hind Date NIG. HIT
+read von e-s Deal: a
+Tit: [Mivnanfl Band HR Senet epee NTT AR A
+Cheater [FEeripd? A Version © 2 Author - a
+Ferree [ania Treble Fw trast)
+L juthor a oe
+To create a query in XKEYSCORE using this information:
+Search: Document Metadata
+Muery Name: flurmeeyrduccurriesribs
+Justification: Swedish CT Target
+Additional Justification: |
+Miranda Number: | |
+Datetime: [1wWeek || Start: 200001-20f%) [o000|S) Stop: (2003-01-27
+ peament Type: jpor _
+shcrypted?:
+Corrupted ?:
+Fieridirie:
+Cutension:
+*SLbjact*:
+*Creaation Tma*:
+* ast Mnodified T ma*: Author = P|
+*Un que ID* fran
+————
+Author: ; »)
+a
+17
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 18 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Creating a WorkFlow
+
+Workflows are periodic queries you can set up that run at specified times. They are great
+for sustained targets because they query the database for you (e.g. every mght) and you
+can easily view the recently collected traffic without having to create a new query each
+day. They are also very helpful if you are performing target discovery on a network and
+haven’t seen much traffic yet on a selector. A workflow for an email address can bridge
+the gap between when you discover the selector (and you task it to UTT/Cadence) and
+when it actually makes it to the appropriate dictionaries).
+
+It’s important to understand that a normal (ad hoc) query is submitted when you hit
+Submit. Workflows, on the other hand, are created then submitted to the XKEYSCORE
+team for review. The XKEYSCORE team does not review it for USSID-18 compliance
+
+(that’s up to you); they only review it to ensure your query won’t strain the system with
+too complex a query.
+
+The first step in creatine a Workflow is click on Workflow Central:
+
+AKETSCORE
+
+or Harrie a, Lisefs ‘Ge workflow Central earch § |) Results Shatistics i Preferences @ Help
+Navigation Menu | Histo: Query Type ES
+
+= S)Resutts Clear Selection
+
+Then click on Request on the left to start the Workflow Request Wizard, and then click
+Next.
+
+18
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 19 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Workflow Central Request Wizard
+
+Welcome to the « REYSCORE Workflow Request Wizard,
+Tots wie cl will cuide you Uorough the process ofr seling a Wer kon.
+
+A Wor<f ow is an standing query trat ill auccute eta specifies time or incerva .
+In adadliticn, a -worklow cacv aéecute fol own actlons ance the quary hee
+nonplered. Fo lawenn éctione ace scripts ar perforin: certain tasks curb as
+sencing email or cracting a summary of the results throuch cpecitied SL
+queries.
+
+Lion comcletion o- tris wizacd the workflow wil be subrritted for epprovel,
+
+a
+
+Caresl “| Fre ( @ Meck  Sibrrik
+
+——_
+
+Next, select the search type you want to create from the pull-down menu. For this, I’m
+
+selecting an Extracted Files query. These queries are essentially the Classic A-M and N-
+
+Z# queries you have seen in the Classic Search screens. The only difference is an
+
+Extracted Files workflow will start looking for extracted files in the future and an ad hoc
+
+Extracted Files query will search in past/previous collection.
+
+Workflow Lentral Request Wizard
+
+Please select a Search Type.
+
+| ~
+Alert
+AS= [D2 Gata
+
+ElazkBerry az
+
+||
+
+Cal Logs
+fategory (ONT)
+CFL SR WI
+Ciscc Passwords =
+CHE
+
+Lincurrent Metadata
+
+Erral Adiracses
+
+HTT? Activity
+IRC Cote Goolocaton ae
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+19
+
+===== unofficial-xks-user-guide page 20 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Next, fill in the name of your query (“AfghanFiles”), the auditor-compliant justification,
+and how often you want the query to run. I recommend offsetting the time from the
+
+default of midnight (2400) by a few hours (before of after). For this, I’m selecting 0400.
+Then hit NEXT.
+
+‘Workflow Central Request Wizard Fa
+
+—EBasic Dilurmialiun
+
+Ouery lame:
+
+Aqhantilzs
+
+Wuery Justmicetion: Ll tangat n zichansten J
+
+Sdd dona Zusthicatorr: : a | v |
+bein att. Pua uilijr:
+Pui Swery eq w Huts - Starting at
+
+| Reccurring Search | 90 Tine Search
+
+Basic Features Help ||
+
+Card 7 orev A Next Soon: |
+
+In the Add Search Fields window, you will select the search criteria that you want to
+search on. In this example, I’m looking for specific file attachment (DOC or PDF or XLS
+or PPT) on a specific Afghanistan IP address.
+
+You must hit the green “+” symbol to enter the search criteria.
+
+20
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 21 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Workflow Central Request Wizard
+
+—fidd Search Fields
+
+Search Field Search “alue Remove
+E:tersion 200 or PCF or XLS or PPT } 4
+
+FromiP Adcress OR To IP Acdress 207 4
+
+Latetime be oe
+
+| Single Ficld Scarch | Multiple Ficld Scarch |
+
+Search falue Help +
+
+Carel @ Bey Mest  Sobinil
+
+Click Next
+
+Single Field Search only searches in one field (e.g. File Extensions)
+
+Multiple Field Search allows you to search on several fields (e.g., To [P AND Fram [P)
+
+— Add Search Fields
+
+Search Field 5S
+Extension
+FromlF Address OR To lP Sddress
+
+File Last Modified |
+ero Ae SS a scunnmmnaueuenene son Bi-
+TolP Address
+
+From Part
+
+To Port
+
+|
+| Single Field Search | Multiple Field Search |
+
+Search Yalue Help
+
+Next, you will select the sites where you want your query to run. Scroll down in this
+window to use the convenient “Select All” or “Uncheck All” buttons.
+
+NOTE: If your selector is NOFORN, you must DESELECT sites that are 2"*/3"°
+party.
+
+21
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 22 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+[|] xks voip 1 (sksvo
+[|] xks voip 2 (zksvo
+
+ipl:qd}
+p20}
+
+[ |] Content must exist
+
+[_] Texas (rrivwal.tez. f.nsaizs_ ~veb_db)
+C1 TIMBERLINE (timberline:xs_web_db}
+
+[] Yakima mission system (j¢¢kayscorezayrs f.nsaixs web dbl
+
+| MI chek al |
+| [7] Jncheck All |
+Basic Fealures Help [+
+ial
+i) ( fill | +
+Cancel “@ Prey » Next subril
+ee
+
+Click Next
+
+Follow-on Actions tell XKEYSCORE to do things after it runs your query. For example,
+it can email you with the results, or it can send them to Agility, or any combination of the
+two. For this example, I want XKEYSCORE to email me telling me I have results and I
+
+want it to download my results to Agility. Make sure you select Send to Agility if you
+
+want the same.
+
+Worktow Central Request Wizard
+
+ES
+
+— Fallow-on fictions
+
+Would you like to add any Follow on actions
+
+nD
+Oss
+=r pl Scripl Aawur wetibss Pt Be
+
+Wer .L
+
+| Teo dian) Sessiniit ¥ | | bE | )
+Cral To | ee B
+
+eet |
+
+Fi il Snakes |: “Thi have res dsl
+Emal Lonczenz: fo check 4giicy hw mat
+Pay Rs L]return Orb With Resu ts
+Alenamic:
+hai Sncer
+Thgreph:
+I9zIP! [oun press Conder.
+
+Sel Ta glily = fel Send Ta Scility >
+i
+
+7 ™
+
+Cancel @ Prev
+
+\, f Nest Uf
+
+Click the Green Add symbol, and then click next when finished.
+
+On the next screen, enter any comments you wish (optional) and click Next
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+22
+
+===== unofficial-xks-user-guide page 23 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Lastly, click SUBMIT. Your query isn’t active yet. The XKEYSCORE team will review
+it and you will have to check back later and turn the query ON or OFF as you wish.
+
+Navigation Menu {| | My Workflows |
+SS Vvorkfove Central
+: Heb octicns
+) |Request
+EE] ey work ows | Suey Type _ Suery Maine | Last Mod fied “Siete = eoiene
+
+1
+
+ll
+
+fl El Bl fl
+
+Eli
+
+23
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 24 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Searching - Tips and Tricks
+
+The Official XKEYSCORE Frequently Asked Questions page is located here:
+http://xkeyscore.rl.r.nsa/redmine/wiki/xkeyscore/FAQ. Here are some other tips/tricks
+that may be useful
+
+1. Underscores in usernames:
+
+If your selector has an underscore in it, you must precede the underscore with a backslash. For
+example: abu_jihad would become searched as abu\_jihad. If you leave the underscore in the
+query without the backslash, you are wildcarding a single character (see below).
+
+To search on: abu_jihad @hotmail.com:
+Bad query: Abu_jihad
+Good query: Abu\_jihad
+
+If you search on “abu_jihad” (without the backslash), you could bring back “abu jihad”,
+“abuTyjihad”, “abuSjihad”, “abu-jihad”, etc... because you are wildcarding that character and
+therefore you would be pulling on an entirely different selector.
+
+2. To search on a range of IP addresses:
+
+IP Address Range:
+202.82.86.224 - 202.82.56.244
+
+Becomes this XKEYSCORE Query (entered in the IP Address as To, From, or Either):
+regex: 202\.82\.86\.22[4-9] OR regex:202\.82\.86\.23[0-9] OR regex:202\.82\.86\.24[0-4]
+
+3. Boolean Search Descriptions (Wildcards, ANDs, ORs, etc):
+
+OPERATOR DESCRIPTION USAGE
+I Not Equal Comparison beginning of word (1.e. '}oe and !sam)
+
+Logical OR (Search for multiple
+
+or values) between words (i.e. osama or laden)
+
+and Logical AND (Search for between words (ie. “osama* and *“laden*) takes
+combination value matches) precedence over ORs
+
+* Multiple Character Wildcard anywhere in word (i.e. *osam*bin* laden)
+
+_ Single Character Wildcard anywhere in word (i.e. _sam__bin_laden)
+Greater Than Comparison beginning of word (1.e. >OQ0080 and <00111)
+Less Than Comparison beginning of word (1.e. >O0080)
+
+regex: REGEX Expression (i.e. to retrieve only numbers: regex: [0-9]*)
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+
+===== unofficial-xks-user-guide page 25 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Which Query is best for me?
+
+Quite often the most difficult part of using XKEYSCORE is deciding which query to use
+at which time. Here’s a rough guide to help you decide.
+
+Do you have an IP Address and want to learn more about that network
+
+Which XKEYSCORE Query is Best for Me?
+
+| [ WAVE. we |
+
+<7
+
+|
+
+for 8
+
+Mail/Web Server
+fed. from a NS lookug)
+
+and need
+
+_—— To KNOW
+me i
+a
+ANS i ae
+
+a
+
+—— alll
+
+Which emeil adcresses Sa enieea beset crt
+sre sean Gn the neswaore Phare nuinbers (e.g. in sig ines)
+
+i - ™
+Which websites acople
+on the nefork visit
+
+Have we collected any
+files ar attachments
+oo the DPymetyrark ?
+
+on Cha mebwore?
+
+(se ant Passwords:
+
+| ‘ ié.9. Gooole Cath, web Forums)
+. /
+| |
+Wou'll Use yee Tl LSe vau'll use wou | use |
+| | | | you'll Use
+
+The LOGINS /245SWoORDS | |
+que-y and search on the IP
+
+‘a fi ™
+The EMAIL 4008 ESS ayer Tre PHONE SLUMBER onthe | [ EXTRACTED FILES query “1
+“| thint: Seerch or sys admin cr E HTTP ACTIVITY =)
+
+and search on the IF query anc search on the IF HW search, ore Ube IP
+
+Valuacla porte like 21, 23, 25) and pull on the [2
+
+25
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 26 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Do you have an Email Address or Foreign Domain
+And want to learn more about it?
+
+‘Which XKEYSCORE Query is Best for Me? |
+
+| I RAVE... ces |
+
+a/an
+
+Domain (foreign)
+
+and need to know
+
+[ae IP addresses 2) Which sites ta Are we collecting |
+
+Email Address =|
+
+target connects ta
+
+the user? the user or domain?
+you'll use
+
+The EMAIL ADDRESS query
+and search on the email (in username)
+and domain (in domain)
+
+26
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+===== unofficial-xks-user-guide page 27 =====
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+Do you have a phone number for your target and want to learn their
+email address?
+
+Which XKEYSCORE Query is Best for Me?
+
+a/an
+
+A Phoané Number
+
+and need to know
+
+[ The target's email address |
+
+thén wise
+
+The PHONE NUMBER EXTRACTOR query
+dmd search on the PHONE NUMBER(S).
+
+TOP SECRET//COMINT//REL TO USA, AUS, CAN, GBR, NZL//20320108
+
+2f

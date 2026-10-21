@@ -1,0 +1,3 @@
+logical mount point for all other XKEYSCORE (including itself) /export/data/xkeyscore.
+	<hostname>/ - mount point for the hostname's local directory/export/data/xkeyscore (referenced by host name).
+		All servers must export their /export/data/xkeyscore directory and mount this on the /<hostname> directory for each hostname of each machine, including itself.

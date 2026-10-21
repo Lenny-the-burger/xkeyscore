@@ -1,0 +1,325 @@
+
+===== xks-cipher-detection-and-you page 1 =====
+‘(| TOP SECRET/COMINT/REL TO USA, FVEY »
+
+Mathematics Research Group
+
+21 August 2008
+
+NU OP SECRET/ICOMINT//REL TO USA, FVEY WW
+
+
+===== xks-cipher-detection-and-you page 2 =====
+UNCLASSIFIED
+
+The Protocol Stack
+
+Application Layer (HTTP, FTP, etc.)
+
+Transport Layer (1 CP, UDP)
+
+Network Layer (IPv4, IPv6)
+
+Data Link Layer (PPP)
+
+<2
+<7
+<A
+a
+
+ra
+
+Physical Layer (Copper, Fiber)
+
+UNCLASSIFIED
+
+
+===== xks-cipher-detection-and-you page 3 =====
+TOP SECRET//COMINT/IREL TO USA, FVEY
+
+Data Sources
+
+° FORNSAT (downlink)
+® Overhead (uplink)
+
+© Special Source
+
+e Tailored Access
+
+e F6
+
+© FISA (limited)
+
+° 3rd party
+
+TOP SECRET/COMINT/IREL TO USA, FVEY
+
+
+===== xks-cipher-detection-and-you page 4 =====
+SECRE T//COMINT//AREL TO USA, FVEY
+
+Front-end Processing
+
+* a = rm”, - f
+cite ain | —" a
+aie ad “St hs eer q 1 1 » 1 1 1 | ‘,
+Se Demodulate | _ y Demultiplex | _ y
+_ Fie oe re
+zs “al = i ‘
+
+/~ WEALTHYCLUSTER?/
+
+TURMOT,
+
+©ECRE T//COMINT/REL TO USA, FVEY
+
+
+===== xks-cipher-detection-and-you page 5 =====
+SECRE T/COMINT//REL TO USA, FVEY
+
+What does
+
+® Selection of tasked CADENCE/UTT terms.
+® Send hits to PINWALE/PRESSURE WAVE.
+
+O Tipping to TRAFFIC THIEF.
+
+O Fingerprinting.
+e SIGINT development using two rolling butters:
+
+® Mctadata
+® Content (data)
+
+©ECRE T//COMINT/REL TO USA, FVEY
+
+
+===== xks-cipher-detection-and-you page 6 =====
+TOP SECRET//COMINT/IREL TO USA, FVEY
+
+Retrospective Searching
+
+Metadata Content
+Buffer Butter
+
+~30 days ~'] days
+
+Searchable Retrievable
+
+* All data are stored, not MySQL Archived
+just hits. database on disk
+
+* Qucries are distributed
+
+to entire network of sites.
+
+OP SECRET/COMINT//REL TO USA, FVEY
+
+
+===== xks-cipher-detection-and-you page 7 =====
+Fingerprinting
+
+° Pattern matching against the data.
+e Session is marked, but not sent to PINWALE.
+
+@ Fingerprint stored as metadata.
+
+e Have to search for it.
+
+© Rich set of patterns
+e Strings have a minimum of three* anchors (fixed bytes).
+[Exception: Two bytes at the beginning ofa session]
+® Regular expressions allowed (require nonoptional string of
+three* bytes within regex)
+
+e Context-dependent terms.
+
+«KS reserves the right to increase this to tour,
+
+
+===== xks-cipher-detection-and-you page 8 =====
+Examples
+
+e fingerprint ('encryption/helixstronghold',
+7.0) = 'helix stronghold encrypted file';
+
+e fingerprint ('encryption/wharfrat', 3.0) =
+'\xd6\x56\x34\xb7\x80\x05\xfe\x8b'c and
+'\xat\x52\x72\x60\xdd\xfe\x72\xc2'c and
+(port (443) or port(80))>;>
+
+e fingerprint ('encryption/the algorithm',
+3.0)=
+
+/-XYZ-.{0,30}mp[eg]/;
+
+
+===== xks-cipher-detection-and-you page 9 =====
+syntax Features
+
+® Case Sensitivity
+fingerprint ('certificate/digital id') =
+'"-BEGIN CERTIFICATE-'c;
+
+¢ Full Boolcan logic
+® Grouping with parentheses
+e Operators: and, or, not
+® Variables
+Sudp = protocol ('udp');
+
+fingerprint ('vpn/openvpn/x509/wera') =
+Sudp and 'openvpn wera'c;
+
+
+===== xks-cipher-detection-and-you page 10 =====
+Available Functions
+°* port
+
+e first
+
+° hex
+fingerprint ('encryption/kryptel') =
+hex ('E8E2454300040004635C4EE9A2F9D111A
+
+489E498F/0COB43404F4BFA50F2Z2D111A4898E6
+30458E285');
+
+° pos
+
+fingerprint ('encryption/cipherpad') =
+pos ('CPAD1'c) < 4000;
+
+
+===== xks-cipher-detection-and-you page 11 =====
+Distance (similar to pos, but for distance between tokens)
+Lpos
+
+Spop_basic = lpos('+OK 'c) or '\nQUIT';
+
+First
+
+appid(‘mail/smtp/...) = first(‘ehlo') and ... ;
+
+Last (similar to first)
+
+Follows (one token after another)
+
+Between (one token between two others)
+
+Order
+
+
+===== xks-cipher-detection-and-you page 12 =====
+Other Features
+
+° Fingerprint definitions updated hourly throughout the entire
+
+enterprise.
+
+® Workflows
+
+¢ Submit through user interface.
+® Standing queries that run like cron jobs.
+
+e Limited follow-on processing.
+
+e User interface for fingerprint submission (coming soon),
+
+e Currently done by XKS personnel.
+
+
+===== xks-cipher-detection-and-you page 13 =====
+Plug-Ins
+
+® Full power of C++ for when pattern matching does not
+
+suffice.
+° Usually limited to certain file types
+¢ Huge JPEG volume trom web surfing
+° Current steg/encryption plugins that fingerprint sessions:
+¢ PHOSPHORESSENCE library of steg detectors
+¢ SHELLLOCK steg detection
+
+e SEDENA indigenous encryption software
+
+¢ Drawback: Must wait for site upgrade to deploy.
+
+
+===== xks-cipher-detection-and-you page 14 =====
+Trade-oft
+
+° Fingerprints easily deployed, but limited to pattern
+
+matching.
+° Plug-ins slow to deploy, but allow for complex testing.
+° New compromise:
+
+© Snippets of C++ code in fingerprint
+
+O Deployed hourly like fingerprint with most of the flexibility ota
+full plug-in.
+° Very complicated tests probably still need to be plug-ins.
+
+@ Currently stood up at only a tew sites.
+
+
+===== xks-cipher-detection-and-you page 15 =====
+Example
+
+fingerprint ('encryption/archive/rar')
+'\x52\x61\x72\x21\xla\x07\x00'c¢
+c++ {{
+const uints t *ptr =
+find first("\x52\x61\x72\x21\xla\x07\x00") ;
+if (ptr == NULL)
+return false;
+if (end()-ptr < 64)
+return false;
+
+if ({ptr[23]&0x04) != 0x04)
+return false;
+if ({ptr[10]&0x80) !'= 0x8sQ)
+
+return false;
+return true;
+
+bh;
+
+
+===== xks-cipher-detection-and-you page 16 =====
+Advanced Feature
+
+® Follow-on check with anchorless regexes:
+
+sdhep check = regex {{
+AT\x01\x02] [\xO01- ]\x06.*c\x82sc
+
+bh;
+
+appid('netmanagement/dhcp/client to server',
+
+3.0) =
+from port(68) and to port(67)
+$dhep check;
+
+t ; i Lf % ge a , ‘Sn rk
+ee ee ee ee ee ee, ee ee a Uo Stoest” Sec Se ay a
+
+
+===== xks-cipher-detection-and-you page 17 =====
+Releasability Issues
+
+® Nearly all XKS personnel have PICARESQUE!
+° Those that don't have PRIVAC.
+
+¢ XKS distribution comes in two flavors
+® Ist & 2nd party
+° 3rd party
+¢ No NOFORN capabilities permitted.
+
+e Special dispensation from RE for some capabilities to
+SMOKYSINK.
+
+° Can keep PICARESQUE code running on R1's rednet if
+
+absolutely necessary.
+
